@@ -231,7 +231,8 @@ function startLearn(lessonId){
   learnCtx = {
     lessonId,
     fishIds: lesson.fish.slice(),
-    idx: 0
+    idx: 0,
+    seen: new Set()
   };
   renderLearnCard();
   show('learnMode');
@@ -279,22 +280,27 @@ function renderLearnCard(){
   });
   $('#learnFun').textContent = `Fun fact: ${fish.funFact}`;
 
-  // stats
-  state.fishStats[fishId].seen += 1;
-  save();
-
-  // small XP for learning cards
-  addXP(3, 'Learn');
+  // stats & XP — only award once per card per session
+  if(!learnCtx.seen.has(fishId)){
+    learnCtx.seen.add(fishId);
+    state.fishStats[fishId].seen += 1;
+    addXP(3, 'Learn');
+    save();
+  }
 }
 
 function nextLearn(){
   if(!learnCtx) return;
-  learnCtx.idx = clamp(learnCtx.idx+1, 0, learnCtx.fishIds.length-1);
+  const newIdx = clamp(learnCtx.idx+1, 0, learnCtx.fishIds.length-1);
+  if(newIdx === learnCtx.idx) return; // already at end
+  learnCtx.idx = newIdx;
   renderLearnCard();
 }
 function prevLearn(){
   if(!learnCtx) return;
-  learnCtx.idx = clamp(learnCtx.idx-1, 0, learnCtx.fishIds.length-1);
+  const newIdx = clamp(learnCtx.idx-1, 0, learnCtx.fishIds.length-1);
+  if(newIdx === learnCtx.idx) return; // already at start
+  learnCtx.idx = newIdx;
   renderLearnCard();
 }
 
