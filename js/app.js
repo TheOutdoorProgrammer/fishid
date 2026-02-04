@@ -288,6 +288,13 @@ function renderLearnCard(){
     addXP(3, 'Learn');
     save();
   }
+
+  // show/hide nav buttons based on position
+  const atStart = learnCtx.idx === 0;
+  const atEnd = learnCtx.idx === learnCtx.fishIds.length - 1;
+  $('#btnPrevCard').style.display = atStart ? 'none' : '';
+  $('#btnNextCard').style.display = atEnd ? 'none' : '';
+  $('#btnStartQuiz').style.display = atEnd ? '' : 'none';
 }
 
 function nextLearn(){
