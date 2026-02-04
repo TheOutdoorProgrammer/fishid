@@ -250,6 +250,7 @@ const FISH = {
   },
   rainbow_trout: {
     id: 'rainbow_trout', name: 'Rainbow Trout', scientific: 'Oncorhynchus mykiss',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/500px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg',
     features: [
       'Streamlined body',
       'Pink-red stripe along lateral line',
@@ -266,6 +267,7 @@ const FISH = {
   },
   brown_trout: {
     id: 'brown_trout', name: 'Brown Trout', scientific: 'Salmo trutta',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg',
     features: [
       'Golden-brown to olive body',
       'Black spots and red/orange spots with pale halos',
@@ -281,6 +283,7 @@ const FISH = {
   },
   freshwater_drum: {
     id: 'freshwater_drum', name: 'Freshwater Drum', scientific: 'Aplodinotus grunniens',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg/500px-Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg',
     features: [
       'Deep, humped body shape',
       'Silver-gray coloring',
@@ -297,6 +300,7 @@ const FISH = {
   },
   sauger: {
     id: 'sauger', name: 'Sauger', scientific: 'Sander canadensis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Saugernctc.jpg/500px-Saugernctc.jpg',
     features: [
       'Similar to walleye but smaller and darker',
       'Distinct dark spots/blotches on dorsal fin',

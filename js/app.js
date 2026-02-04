@@ -1,5 +1,12 @@
 // FishID - vanilla SPA
 
+// ===== Fish Image Helper =====
+function getFishImage(fishId, maxWidth = 500) {
+  const fish = FISH[fishId];
+  if (!fish || !fish.image) return `<div style="min-height:180px;display:grid;place-items:center;color:var(--muted)">🐟 No image</div>`;
+  return `<img src="${fish.image}" alt="${fish.name}" class="fish-photo" style="max-width:${maxWidth}px" loading="lazy" />`;
+}
+
 // ===== Utilities =====
 const $ = (sel, el=document) => el.querySelector(sel);
 const $$ = (sel, el=document) => Array.from(el.querySelectorAll(sel));
@@ -248,7 +255,7 @@ function renderLearnCard(){
   $('#learnTitle').textContent = `Learn • ${learnCtx.idx+1}/${learnCtx.fishIds.length}`;
   $('#learnBar').style.width = `${Math.round(((learnCtx.idx+1)/learnCtx.fishIds.length)*100)}%`;
 
-  $('#learnFishSvg').innerHTML = getFishSVG(fishId, 300);
+  $('#learnFishSvg').innerHTML = getFishImage(fishId, 400);
   $('#learnFishName').textContent = fish.name;
   $('#learnSci').textContent = fish.scientific;
 
@@ -474,7 +481,7 @@ function renderIdentify(q){
     <div class="options" id="qOpts"></div>
     <div class="small" style="margin-top:8px;color:var(--muted)">Hint: focus on body shape, markings, and fin placement.</div>
   `;
-  $('#qSvg').innerHTML = getFishSVG(q.fishId, 300);
+  $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -498,7 +505,7 @@ function renderOptionsQ(q, {showSvg=false}={}){
     <div class="options" id="qOpts"></div>
     <div class="small" style="margin-top:8px">Fish: <span style="font-style:italic">${fish.scientific}</span></div>
   `;
-  if(showSvg) $('#qSvg').innerHTML = getFishSVG(q.fishId, 300);
+  if(showSvg) $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -521,7 +528,7 @@ function renderTrueFalse(q){
     <div style="height:10px"></div>
     <div class="options" id="qOpts"></div>
   `;
-  $('#qSvg').innerHTML = getFishSVG(q.fishId, 300);
+  $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -627,8 +634,8 @@ function renderSpot(q){
   `;
   // Map option order to A/B
   const [a,b] = q.options;
-  $('#aSvg').innerHTML = getFishSVG(a.id, 240);
-  $('#bSvg').innerHTML = getFishSVG(b.id, 240);
+  $('#aSvg').innerHTML = getFishImage(a.id, 240);
+  $('#bSvg').innerHTML = getFishImage(b.id, 240);
 
   const opts = $('#qOpts');
   q.options.forEach((o, idx)=>{
