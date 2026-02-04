@@ -1,10 +1,11 @@
 // FishID - vanilla SPA
 
 // ===== Fish Image Helper =====
-function getFishImage(fishId, maxWidth = 500) {
+function getFishImage(fishId, maxWidth = 500, useQuizImage = false) {
   const fish = FISH[fishId];
   if (!fish || !fish.image) return `<div style="min-height:180px;display:grid;place-items:center;color:var(--muted)">🐟 No image</div>`;
-  return `<img src="${fish.image}" alt="${fish.name}" class="fish-photo" style="max-width:${maxWidth}px" loading="lazy" />`;
+  const src = (useQuizImage && fish.quizImage) ? fish.quizImage : fish.image;
+  return `<img src="${src}" alt="${fish.name}" class="fish-photo" style="max-width:${maxWidth}px" loading="lazy" />`;
 }
 
 // ===== Utilities =====
@@ -408,9 +409,11 @@ function qFeature(pool){
 }
 
 function qTrueFalse(pool){
-  const tf = TRUE_FALSE[Math.floor(Math.random()*TRUE_FALSE.length)];
-  // bias to pool fish sometimes
-  const use = Math.random() < 0.6 ? (TRUE_FALSE.find(x=>pool.includes(x.fishId)) || tf) : tf;
+  // only use T/F questions about fish in the current lesson pool
+  const poolTF = TRUE_FALSE.filter(x => pool.includes(x.fishId));
+  const use = poolTF.length
+    ? poolTF[Math.floor(Math.random()*poolTF.length)]
+    : TRUE_FALSE[Math.floor(Math.random()*TRUE_FALSE.length)];
   return {
     type:'tf',
     prompt:'True or False',
@@ -437,9 +440,12 @@ function qMatch(pool){
 }
 
 function qSpotDifference(pool){
-  // choose from similar pairs; if none in pool, use random similar
-  const candidates = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) || pool.includes(p.fish2));
-  const pair = (candidates.length?candidates:SIMILAR_PAIRS)[Math.floor(Math.random()*(candidates.length?candidates:SIMILAR_PAIRS).length)];
+  // only use pairs where BOTH fish are in the current lesson pool
+  const candidates = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) && pool.includes(p.fish2));
+  // fallback: at least one fish in pool
+  const fallback = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) || pool.includes(p.fish2));
+  const source = candidates.length ? candidates : fallback.length ? fallback : SIMILAR_PAIRS;
+  const pair = source[Math.floor(Math.random()*source.length)];
   const askWhich = Math.random()<0.5 ? pair.fish1 : pair.fish2;
   const options = shuffle([pair.fish1, pair.fish2]).map(id=>({id, label:FISH[id].name}));
   return {
@@ -487,7 +493,7 @@ function renderIdentify(q){
     <div class="options" id="qOpts"></div>
     <div class="small" style="margin-top:8px;color:var(--muted)">Hint: focus on body shape, markings, and fin placement.</div>
   `;
-  $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
+  $('#qSvg').innerHTML = getFishImage(q.fishId, 400, true);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -511,7 +517,7 @@ function renderOptionsQ(q, {showSvg=false}={}){
     <div class="options" id="qOpts"></div>
     <div class="small" style="margin-top:8px">Fish: <span style="font-style:italic">${fish.scientific}</span></div>
   `;
-  if(showSvg) $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
+  if(showSvg) $('#qSvg').innerHTML = getFishImage(q.fishId, 400, true);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -534,7 +540,7 @@ function renderTrueFalse(q){
     <div style="height:10px"></div>
     <div class="options" id="qOpts"></div>
   `;
-  $('#qSvg').innerHTML = getFishImage(q.fishId, 400);
+  $('#qSvg').innerHTML = getFishImage(q.fishId, 400, true);
   const opts = $('#qOpts');
   q.options.forEach(o=>{
     const b = document.createElement('button');
@@ -640,8 +646,8 @@ function renderSpot(q){
   `;
   // Map option order to A/B
   const [a,b] = q.options;
-  $('#aSvg').innerHTML = getFishImage(a.id, 240);
-  $('#bSvg').innerHTML = getFishImage(b.id, 240);
+  $('#aSvg').innerHTML = getFishImage(a.id, 240, true);
+  $('#bSvg').innerHTML = getFishImage(b.id, 240, true);
 
   const opts = $('#qOpts');
   q.options.forEach((o, idx)=>{
