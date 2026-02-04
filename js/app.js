@@ -940,7 +940,7 @@ function hud(){
   $('#hudXP').textContent = state.xp;
   $('#hudStreak').textContent = state.streak;
   const cd = regenCountdown();
-  $('#hudRegen').textContent = cd ? `+1 in ${cd}` : '';
+  $('#hudRegen').textContent = cd ? `+1 ${cd}` : '';
   $('#btnSound').textContent = state.settings.sound ? '🔊' : '🔇';
   $('#btnSkipUnlock').textContent = state.settings.allowSkipUnlock ? '🔓' : '🔒';
   $('#pHearts') && ($('#pHearts').textContent = `${state.hearts}/${state.heartsMax}`);
