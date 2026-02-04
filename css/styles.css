@@ -84,7 +84,8 @@ body{
   width:100%;
   max-width: var(--maxw);
   padding:14px;
-  overflow:hidden;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
   position:relative;
 }
 
@@ -94,6 +95,8 @@ body{
   display:none;
   flex-direction:column;
   gap:12px;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
 }
 .screen.active{display:flex}
 

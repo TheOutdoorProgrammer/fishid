@@ -2,6 +2,7 @@
 const FISH = {
   walleye: {
     id: 'walleye', name: 'Walleye', scientific: 'Sander vitreus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Walleye_%28Sander_vitreus%29_%281%29.jpg/500px-Walleye_%28Sander_vitreus%29_%281%29.jpg',
     features: [
       'Large, glassy, reflective eyes (adapted for low light)',
       'Olive-gold body with dark saddle markings',
@@ -17,6 +18,7 @@ const FISH = {
   },
   yellow_perch: {
     id: 'yellow_perch', name: 'Yellow Perch', scientific: 'Perca flavescens',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg/500px-Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg',
     features: [
       'Bright golden-yellow body',
       '6-8 dark vertical bars on sides',
@@ -32,6 +34,7 @@ const FISH = {
   },
   smallmouth_bass: {
     id: 'smallmouth_bass', name: 'Smallmouth Bass', scientific: 'Micropterus dolomieu',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Smallmouth_Bass_%2849561724026%29.jpg/500px-Smallmouth_Bass_%2849561724026%29.jpg',
     features: [
       'Bronze to brown body color',
       'Vertical dark bars (may fade)',
@@ -47,6 +50,7 @@ const FISH = {
   },
   largemouth_bass: {
     id: 'largemouth_bass', name: 'Largemouth Bass', scientific: 'Micropterus salmoides',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg',
     features: [
       'Green to olive body with lighter belly',
       'Dark lateral stripe (horizontal band)',
@@ -62,6 +66,7 @@ const FISH = {
   },
   channel_catfish: {
     id: 'channel_catfish', name: 'Channel Catfish', scientific: 'Ictalurus punctatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg/500px-Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg',
     features: [
       'Blue-gray to olive body',
       'Scattered dark spots (especially when young)',
@@ -78,6 +83,7 @@ const FISH = {
   },
   bluegill: {
     id: 'bluegill', name: 'Bluegill', scientific: 'Lepomis macrochirus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bluegill_%28cropped%29.jpg/500px-Bluegill_%28cropped%29.jpg',
     features: [
       'Deep, compressed (tall) body shape',
       'Dark blue-black ear flap (opercular flap)',
@@ -94,6 +100,7 @@ const FISH = {
   },
   black_crappie: {
     id: 'black_crappie', name: 'Black Crappie', scientific: 'Pomoxis nigromaculatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Black_crappie.jpg/500px-Black_crappie.jpg',
     features: [
       'Deep, compressed body (similar to bluegill)',
       'Silvery-green with irregular dark speckles/spots',
@@ -109,6 +116,7 @@ const FISH = {
   },
   white_crappie: {
     id: 'white_crappie', name: 'White Crappie', scientific: 'Pomoxis annularis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/White_Crappie.jpg/500px-White_Crappie.jpg',
     features: [
       'Deep, compressed body',
       'Silvery-green with dark VERTICAL bars',
@@ -124,6 +132,7 @@ const FISH = {
   },
   northern_pike: {
     id: 'northern_pike', name: 'Northern Pike', scientific: 'Esox lucius',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/500px-Esox_lucius_ZOO_1.jpg',
     features: [
       'Long, torpedo-shaped body',
       'Dark green with light bean-shaped spots',
@@ -140,6 +149,7 @@ const FISH = {
   },
   muskellunge: {
     id: 'muskellunge', name: 'Muskellunge', scientific: 'Esox masquinongy',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Esox_masquinongyeditcrop.jpg/500px-Esox_masquinongyeditcrop.jpg',
     features: [
       'Very long, torpedo-shaped body (larger than pike)',
       'Light body with dark bars or spots',
@@ -156,6 +166,7 @@ const FISH = {
   },
   steelhead: {
     id: 'steelhead', name: 'Steelhead Trout', scientific: 'Oncorhynchus mykiss',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg/500px-Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg',
     features: [
       'Streamlined, torpedo-shaped body',
       'Chrome/silver sides (lake-run phase)',
@@ -172,6 +183,7 @@ const FISH = {
   },
   saugeye: {
     id: 'saugeye', name: 'Saugeye', scientific: 'Sander vitreus × S. canadensis',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg/500px-Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg',
     features: [
       'Olive-gold body (similar to walleye)',
       'Dark blotches/saddle marks on back',
@@ -188,6 +200,7 @@ const FISH = {
   },
   white_bass: {
     id: 'white_bass', name: 'White Bass', scientific: 'Morone chrysops',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/White_Bass_%28Morone_chrysops%29.jpg/500px-White_Bass_%28Morone_chrysops%29.jpg',
     features: [
       'Silver body with dark horizontal stripes',
       'Deep, laterally compressed body',
@@ -203,6 +216,7 @@ const FISH = {
   },
   common_carp: {
     id: 'common_carp', name: 'Common Carp', scientific: 'Cyprinus carpio',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cyprinus_carpio_2008_G1_%28cropped%29.jpg/500px-Cyprinus_carpio_2008_G1_%28cropped%29.jpg',
     features: [
       'Large, thick body with big scales',
       'Golden-bronze to olive color',
@@ -219,6 +233,7 @@ const FISH = {
   },
   flathead_catfish: {
     id: 'flathead_catfish', name: 'Flathead Catfish', scientific: 'Pylodictis olivaris',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pylodictis_olivaris.jpg/500px-Pylodictis_olivaris.jpg',
     features: [
       'Flat, wide head (distinctive!)',
       'Mottled brown and yellow coloring',
