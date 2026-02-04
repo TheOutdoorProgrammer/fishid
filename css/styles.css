@@ -245,18 +245,89 @@ body{
 .opt.correct{background: rgba(41,197,107,.20); border-color: rgba(41,197,107,.45)}
 .opt.wrong{background: rgba(224,75,75,.20); border-color: rgba(224,75,75,.45)}
 
+/* General toast — top of screen, below topbar */
 .toast{
-  position:absolute;
-  left:14px;right:14px;bottom:88px;
-  background: rgba(10,20,28,.85);
+  position:fixed;
+  top: calc(70px + env(safe-area-inset-top, 0px));
+  left:50%;
+  transform: translateX(-50%) translateY(-120%);
+  width: calc(100% - 28px);
+  max-width: var(--maxw);
+  background: rgba(10,20,28,.92);
   border:1px solid rgba(255,255,255,.12);
-  border-radius: 18px;
-  padding: 12px;
-  display:none;
-  box-shadow: var(--shadow);
+  border-radius: 16px;
+  padding: 10px 14px;
+  display:block;
+  opacity:0;
+  pointer-events:none;
+  box-shadow: 0 8px 32px rgba(0,0,0,.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index:1000;
+  font-weight:700;
+  font-size:14px;
+  text-align:center;
+  transition: none;
 }
-.toast.show{display:block;animation: pop .18s ease}
-@keyframes pop{from{transform:translateY(8px);opacity:0}to{transform:translateY(0);opacity:1}}
+.toast.show{
+  pointer-events:auto;
+  opacity:1;
+  transform: translateX(-50%) translateY(0);
+  animation: toastSlideIn .28s cubic-bezier(.175,.885,.32,1.275);
+}
+.toast.hiding{
+  opacity:0;
+  transform: translateX(-50%) translateY(-40%);
+  transition: opacity .2s ease, transform .2s ease;
+}
+@keyframes toastSlideIn{
+  from{transform:translateX(-50%) translateY(-120%);opacity:0}
+  to{transform:translateX(-50%) translateY(0);opacity:1}
+}
+
+/* XP floating text — rises from the XP pill */
+.xp-float{
+  position:fixed;
+  z-index:1001;
+  pointer-events:none;
+  font-weight:900;
+  font-size:18px;
+  color:var(--gold);
+  text-shadow: 0 0 12px rgba(242,192,76,.6), 0 2px 6px rgba(0,0,0,.5);
+  white-space:nowrap;
+  animation: xpRise .9s cubic-bezier(.25,.46,.45,.94) forwards;
+}
+@keyframes xpRise{
+  0%{opacity:1;transform:translateY(0) scale(1)}
+  50%{opacity:1;transform:translateY(-28px) scale(1.15)}
+  100%{opacity:0;transform:translateY(-52px) scale(.9)}
+}
+
+/* XP pill pulse glow */
+.pill.xp-pulse{
+  animation: pillPulse .5s ease;
+  box-shadow: 0 0 16px rgba(242,192,76,.5), 0 0 32px rgba(242,192,76,.25);
+  border-color: rgba(242,192,76,.5);
+  background: rgba(242,192,76,.18);
+}
+@keyframes pillPulse{
+  0%{box-shadow: 0 0 0 rgba(242,192,76,0);transform:scale(1)}
+  40%{box-shadow: 0 0 20px rgba(242,192,76,.6), 0 0 40px rgba(242,192,76,.3);transform:scale(1.12)}
+  100%{box-shadow: 0 0 16px rgba(242,192,76,.5), 0 0 32px rgba(242,192,76,.25);transform:scale(1)}
+}
+
+/* XP sparkle burst (tiny particles) */
+@keyframes sparkle{
+  0%{opacity:1;transform:translate(0,0) scale(1)}
+  100%{opacity:0;transform:translate(var(--sx),var(--sy)) scale(0)}
+}
+.xp-sparkle{
+  position:fixed;z-index:1002;pointer-events:none;
+  width:5px;height:5px;border-radius:50%;
+  background:var(--gold);
+  box-shadow:0 0 4px var(--gold);
+  animation: sparkle .5s ease-out forwards;
+}
 
 /* Match mode */
 .matchGrid{display:grid;grid-template-columns:1fr;gap:10px}

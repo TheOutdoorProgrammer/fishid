@@ -144,7 +144,7 @@ function addXP(amount, reason=''){
   save();
   markPractice();
   hud();
-  toast(`+${amount} XP ${reason ? '• ' + reason : ''}`);
+  xpPop(amount, reason);
 }
 function todayXP(){ return state.dailyXP[todayStr()] || 0; }
 
@@ -174,10 +174,52 @@ function show(screen){
 
 function toast(msg){
   const t = $('#toast');
-  t.textContent = msg;
+  t.innerHTML = msg;
+  t.classList.remove('show','hiding');
+  // force reflow to restart animation
+  void t.offsetWidth;
   t.classList.add('show');
   clearTimeout(toast._t);
-  toast._t = setTimeout(()=>t.classList.remove('show'), 1600);
+  clearTimeout(toast._t2);
+  toast._t = setTimeout(()=>{
+    t.classList.add('hiding');
+    toast._t2 = setTimeout(()=>t.classList.remove('show','hiding'), 220);
+  }, 1400);
+}
+
+function xpPop(amount, reason){
+  // 1. Pulse the XP pill
+  const pill = $('#xpPill');
+  if(!pill) return;
+  pill.classList.remove('xp-pulse');
+  void pill.offsetWidth;
+  pill.classList.add('xp-pulse');
+  setTimeout(()=> pill.classList.remove('xp-pulse'), 600);
+
+  // 2. Float "+XP" text from the pill
+  const rect = pill.getBoundingClientRect();
+  const floater = document.createElement('div');
+  floater.className = 'xp-float';
+  floater.textContent = `+${amount} XP`;
+  floater.style.left = `${rect.left + rect.width/2}px`;
+  floater.style.top = `${rect.bottom + 4}px`;
+  floater.style.transform = 'translateX(-50%)';
+  document.body.appendChild(floater);
+  floater.addEventListener('animationend', ()=> floater.remove());
+
+  // 3. Sparkle burst
+  for(let i=0; i<6; i++){
+    const s = document.createElement('div');
+    s.className = 'xp-sparkle';
+    const angle = (Math.PI*2/6)*i + Math.random()*.5;
+    const dist = 18 + Math.random()*14;
+    s.style.setProperty('--sx', `${Math.cos(angle)*dist}px`);
+    s.style.setProperty('--sy', `${Math.sin(angle)*dist}px`);
+    s.style.left = `${rect.left + rect.width/2}px`;
+    s.style.top = `${rect.top + rect.height/2}px`;
+    document.body.appendChild(s);
+    s.addEventListener('animationend', ()=> s.remove());
+  }
 }
 
 // ===== Lessons & Learn mode =====
@@ -883,15 +925,10 @@ function renderProfile(){
       </div>
     `;
     el.addEventListener('click', ()=>{
-      // show mini modal via toast-style long card
-      const t = $('#toast');
-      t.innerHTML = `<div style="font-weight:900">${f.name} <span class="small" style="font-weight:700;font-style:italic">(${f.scientific})</span></div>
+      toast(`<div style="font-weight:900">${f.name} <span class="small" style="font-weight:700;font-style:italic">(${f.scientific})</span></div>
       <div class="small" style="margin-top:6px"><b>Key:</b> ${f.keyFeature}</div>
       <div class="small" style="margin-top:4px"><b>Habitat:</b> ${f.habitat}</div>
-      <div class="small" style="margin-top:4px"><b>Fun fact:</b> ${f.funFact}</div>`;
-      t.classList.add('show');
-      clearTimeout(toast._t);
-      toast._t = setTimeout(()=>t.classList.remove('show'), 2600);
+      <div class="small" style="margin-top:4px"><b>Fun fact:</b> ${f.funFact}</div>`);
     });
     lib.appendChild(el);
   });
