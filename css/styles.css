@@ -35,8 +35,9 @@ body{
   flex-direction:column;
 }
 .topbar{
-  height:64px;
+  min-height:64px;
   padding:10px 14px;
+  padding-top: max(10px, env(safe-area-inset-top, 10px));
   display:flex;
   align-items:center;
   justify-content:space-between;
@@ -44,6 +45,7 @@ body{
   background: linear-gradient(180deg, rgba(16,43,58,.95), rgba(16,43,58,.6));
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255,255,255,.08);
+  flex-shrink:0;
 }
 .brand{
   display:flex;
@@ -86,17 +88,15 @@ body{
   padding:14px;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
-  position:relative;
 }
 
 .screen{
-  position:absolute;
-  inset:14px;
   display:none;
   flex-direction:column;
   gap:12px;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
+  padding-bottom:20px;
 }
 .screen.active{display:flex}
 
@@ -282,8 +282,9 @@ body{
 
 /* Bottom nav */
 .nav{
-  height:74px;
-  padding:10px 14px 12px;
+  min-height:74px;
+  padding:10px 14px calc(12px + env(safe-area-inset-bottom, 0px));
+  flex-shrink:0;
   display:flex;
   justify-content:center;
   background: linear-gradient(180deg, rgba(11,31,45,0), rgba(11,31,45,.9) 35%, rgba(11,31,45,.95));
