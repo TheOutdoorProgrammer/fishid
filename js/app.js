@@ -673,7 +673,7 @@ function renderSpot(q){
   q.options.forEach((o, idx)=>{
     const btn = document.createElement('button');
     btn.className = 'opt';
-    btn.textContent = `${idx===0?'A':'B'} — ${o.label}`;
+    btn.textContent = `Fish ${idx===0?'A':'B'}`;
     btn.addEventListener('click', ()=> answer(o.id, q.correct, {fishId:q.correct}));
     opts.appendChild(btn);
   });

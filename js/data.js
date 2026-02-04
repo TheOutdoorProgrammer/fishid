@@ -263,6 +263,24 @@ const FISH = {
     funFact: 'Flathead catfish are solitary ambush predators that prefer to eat live fish. Unlike channel cats, they rarely eat stinky bait. They can live over 20 years!',
     colors: { primary: '#7A6830', secondary: '#9A8848', belly: '#C8B870', fin: '#685828' }
   },
+  blue_catfish: {
+    id: 'blue_catfish', name: 'Blue Catfish', scientific: 'Ictalurus furcatus',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Blue_catfish.jpg/500px-Blue_catfish.jpg',
+    quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ictalurus_furcatus.jpg/500px-Ictalurus_furcatus.jpg',
+    features: [
+      'Slate blue to grayish-blue body',
+      'NO dark spots (unlike channel catfish)',
+      'Deeply forked tail',
+      'Straight-edged anal fin (30-36 rays)',
+      'Humped back profile',
+      'Can grow very large (50+ pounds)'
+    ],
+    keyFeature: 'Blue-gray body with no spots, straight anal fin edge, deeply forked tail',
+    habitat: 'Large rivers, reservoirs, Lake Erie tributaries; prefers deep channels with current',
+    size: '25-40 inches typical, can exceed 100 pounds',
+    funFact: 'Blue catfish are the largest catfish species in North America and can live over 25 years. They were originally stocked in Ohio rivers and have spread to Lake Erie tributaries!',
+    colors: { primary: '#4A6080', secondary: '#5A7090', belly: '#C8D0D8', fin: '#3A5070' }
+  },
   rainbow_trout: {
     id: 'rainbow_trout', name: 'Rainbow Trout', scientific: 'Oncorhynchus mykiss',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/500px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg',
@@ -350,7 +368,7 @@ const LESSONS = [
   },
   {
     id: 3, title: 'Catfish', icon: '🐡', description: 'Channel & Flathead',
-    fish: ['channel_catfish', 'flathead_catfish'],
+    fish: ['channel_catfish', 'flathead_catfish', 'blue_catfish'],
     unlocked: false
   },
   {
@@ -382,6 +400,8 @@ const SIMILAR_PAIRS = [
   { fish1: 'black_crappie', fish2: 'white_crappie', hint: 'Random spots vs. vertical bars!' },
   { fish1: 'northern_pike', fish2: 'muskellunge', hint: 'Light spots on dark (pike) vs. dark marks on light (muskie)!' },
   { fish1: 'channel_catfish', fish2: 'flathead_catfish', hint: 'Forked tail vs. square tail, and check the head shape!' },
+  { fish1: 'channel_catfish', fish2: 'blue_catfish', hint: 'Channel cats have dark spots, blue cats don\'t! Also check the anal fin edge.' },
+  { fish1: 'blue_catfish', fish2: 'flathead_catfish', hint: 'Blue cats are blue-gray with forked tails; flatheads are mottled brown with square tails!' },
   { fish1: 'steelhead', fish2: 'rainbow_trout', hint: 'Both are the same species! Steelhead are chrome silver from the lake.' },
   { fish1: 'walleye', fish2: 'saugeye', hint: 'Saugeye have spotted dorsal fins and darker blotches.' }
 ];
@@ -396,6 +416,8 @@ const TRUE_FALSE = [
   { statement: 'White crappie have 5-6 dorsal spines, fewer than black crappie.', answer: true, fishId: 'white_crappie' },
   { statement: 'Channel catfish have a forked tail.', answer: true, fishId: 'channel_catfish' },
   { statement: 'Flathead catfish have a deeply forked tail.', answer: false, fishId: 'flathead_catfish' },
+  { statement: 'Blue catfish have dark spots like channel catfish.', answer: false, fishId: 'blue_catfish' },
+  { statement: 'Blue catfish have a straight-edged anal fin with 30-36 rays.', answer: true, fishId: 'blue_catfish' },
   { statement: 'Northern pike have light spots on a dark body.', answer: true, fishId: 'northern_pike' },
   { statement: 'Muskellunge have light spots on a dark body like pike.', answer: false, fishId: 'muskellunge' },
   { statement: 'Bluegill have a distinctive dark ear flap.', answer: true, fishId: 'bluegill' },
@@ -428,6 +450,7 @@ const FEATURE_OPTIONS = {
   white_bass: { correct: 'Silver body with thin dark horizontal stripes', wrong: ['Golden body with dark vertical bars', 'Green body with light spots', 'Bronze body with red eye'] },
   common_carp: { correct: 'Large golden-bronze body with big scales and barbels', wrong: ['Blue-gray body with forked tail', 'Elongated body with duck-bill snout', 'Silver body with dark spots'] },
   flathead_catfish: { correct: 'Flat wide head, mottled colors, square tail', wrong: ['Narrow head with forked tail and spots', 'Silver body with humped back', 'Green body with light spots'] },
+  blue_catfish: { correct: 'Blue-gray body, no spots, straight anal fin edge', wrong: ['Dark spots on silvery body', 'Flat wide head with mottled colors', 'Yellowish body with rounded tail'] },
   rainbow_trout: { correct: 'Pink-red lateral stripe with spots everywhere', wrong: ['Chrome silver with no visible stripe', 'Golden body with dark vertical bars', 'Mottled brown with flat head'] },
   brown_trout: { correct: 'Golden-brown body with red/orange spots (often with pale halos)', wrong: ['Prominent pink-red stripe with spots everywhere', 'Forked tail with whisker barbels', 'Dark ear flap with orange breast'] },
   freshwater_drum: { correct: 'Silver deep body with humped back and rounded tail', wrong: ['Elongated body with duck-bill snout', 'Golden body with vertical bars', 'Bronze body with red eye'] },
