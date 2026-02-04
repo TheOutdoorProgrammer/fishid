@@ -373,20 +373,29 @@ function startQuiz({lessonId=null, mode='lesson', count=8}={}){
 function buildQuizQuestions(pool, count){
   const qs = [];
   const poolSet = pool.slice();
+  const used = { fish: new Set(), tf: new Set(), pairs: new Set() };
   const types = ['identify','feature','tf','match','spot'];
   for(let i=0;i<count;i++){
     const t = types[i % types.length];
-    if(t==='identify') qs.push(qIdentify(poolSet));
-    else if(t==='feature') qs.push(qFeature(poolSet));
-    else if(t==='tf') qs.push(qTrueFalse(poolSet));
-    else if(t==='match') qs.push(qMatch(poolSet));
-    else qs.push(qSpotDifference(poolSet));
+    if(t==='identify') qs.push(qIdentify(poolSet, used));
+    else if(t==='feature') qs.push(qFeature(poolSet, used));
+    else if(t==='tf') qs.push(qTrueFalse(poolSet, used));
+    else if(t==='match') qs.push(qMatch(poolSet, used));
+    else qs.push(qSpotDifference(poolSet, used));
   }
   return shuffle(qs);
 }
 
-function qIdentify(pool){
-  const answerId = pool[Math.floor(Math.random()*pool.length)];
+function pickUnused(pool, usedSet){
+  const fresh = pool.filter(id => !usedSet.has(id));
+  if(fresh.length) return fresh[Math.floor(Math.random()*fresh.length)];
+  // all used, reset and pick random
+  return pool[Math.floor(Math.random()*pool.length)];
+}
+
+function qIdentify(pool, used){
+  const answerId = pickUnused(pool, used.fish);
+  used.fish.add(answerId);
   const choices = new Set([answerId]);
   const all = Object.keys(FISH);
   while(choices.size < 4){
@@ -402,8 +411,9 @@ function qIdentify(pool){
   };
 }
 
-function qFeature(pool){
-  const fishId = pool[Math.floor(Math.random()*pool.length)];
+function qFeature(pool, used){
+  const fishId = pickUnused(pool, used.fish);
+  used.fish.add(fishId);
   const fo = FEATURE_OPTIONS[fishId];
   const options = shuffle([fo.correct, ...fo.wrong]).map(x=>({label:x, value:x}));
   return {
@@ -415,12 +425,13 @@ function qFeature(pool){
   };
 }
 
-function qTrueFalse(pool){
-  // only use T/F questions about fish in the current lesson pool
-  const poolTF = TRUE_FALSE.filter(x => pool.includes(x.fishId));
-  const use = poolTF.length
-    ? poolTF[Math.floor(Math.random()*poolTF.length)]
-    : TRUE_FALSE[Math.floor(Math.random()*TRUE_FALSE.length)];
+function qTrueFalse(pool, used){
+  // only use T/F questions about fish in the current lesson pool, avoid repeats
+  const poolTF = TRUE_FALSE.filter(x => pool.includes(x.fishId) && !used.tf.has(x.statement));
+  const fallbackTF = TRUE_FALSE.filter(x => pool.includes(x.fishId));
+  const source = poolTF.length ? poolTF : fallbackTF.length ? fallbackTF : TRUE_FALSE;
+  const use = source[Math.floor(Math.random()*source.length)];
+  used.tf.add(use.statement);
   return {
     type:'tf',
     prompt:'True or False',
@@ -431,7 +442,7 @@ function qTrueFalse(pool){
   };
 }
 
-function qMatch(pool){
+function qMatch(pool, used){
   // 3 pairs: fish name -> keyFeature (tap-to-match)
   const ids = shuffle(pool).slice(0, Math.min(3, pool.length));
   const left = ids.map(id=>({id, label:FISH[id].name}));
@@ -446,13 +457,15 @@ function qMatch(pool){
   };
 }
 
-function qSpotDifference(pool){
-  // only use pairs where BOTH fish are in the current lesson pool
-  const candidates = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) && pool.includes(p.fish2));
-  // fallback: at least one fish in pool
-  const fallback = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) || pool.includes(p.fish2));
-  const source = candidates.length ? candidates : fallback.length ? fallback : SIMILAR_PAIRS;
+function qSpotDifference(pool, used){
+  // only use pairs where BOTH fish are in the current lesson pool, avoid repeats
+  const pairKey = p => p.fish1 + ':' + p.fish2;
+  const candidates = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) && pool.includes(p.fish2) && !used.pairs.has(pairKey(p)));
+  const fallback = SIMILAR_PAIRS.filter(p=>(pool.includes(p.fish1) || pool.includes(p.fish2)) && !used.pairs.has(pairKey(p)));
+  const lastResort = SIMILAR_PAIRS.filter(p=>pool.includes(p.fish1) || pool.includes(p.fish2));
+  const source = candidates.length ? candidates : fallback.length ? fallback : lastResort.length ? lastResort : SIMILAR_PAIRS;
   const pair = source[Math.floor(Math.random()*source.length)];
+  used.pairs.add(pairKey(pair));
   const askWhich = Math.random()<0.5 ? pair.fish1 : pair.fish2;
   const options = shuffle([pair.fish1, pair.fish2]).map(id=>({id, label:FISH[id].name}));
   return {
@@ -921,7 +934,10 @@ function bind(){
 
   $('#btnStartQuiz').addEventListener('click', ()=>{
     if(!learnCtx) return;
-    startQuiz({lessonId: learnCtx.lessonId, mode:'lesson', count:8});
+    // scale question count to lesson size to avoid repeats
+    const lessonSize = learnCtx.fishIds.length;
+    const qCount = Math.min(8, Math.max(4, lessonSize * 2));
+    startQuiz({lessonId: learnCtx.lessonId, mode:'lesson', count:qCount});
   });
 
   // quiz buttons
