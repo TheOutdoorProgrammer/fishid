@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#1a5276" />
+  <title>FishID • Ohio & Lake Erie Fish</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">🐟</div>
+        <div>
+          <h1>FishID</h1>
+          <p class="sub">Ohio & Lake Erie</p>
+        </div>
+      </div>
+      <div class="hud">
+        <div class="pill" title="Hearts">
+          <span class="icon">❤️</span>
+          <span id="hudHearts">5</span>
+          <small id="hudRegen"></small>
+        </div>
+        <div class="pill" title="XP">
+          <span class="icon">⚡</span>
+          <span id="hudXP">0</span>
+        </div>
+        <div class="pill" title="Streak">
+          <span class="icon">🔥</span>
+          <span id="hudStreak">0</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="viewport">
+
+        <!-- HOME -->
+        <section id="screenHome" class="screen active">
+          <div class="card pad">
+            <div class="titleRow">
+              <div>
+                <h2 class="h2">Learn fish like a pro</h2>
+                <p class="p">Quick, game-like lessons for identifying Ohio & Lake Erie species.</p>
+              </div>
+              <button class="btn ghost" id="btnSound" title="Toggle sound">🔊</button>
+            </div>
+            <hr class="sep" />
+            <div class="mascot">
+              <div class="fish">🐠</div>
+              <div class="bubble">
+                <div style="font-weight:900">Meet Finley!</div>
+                <div class="small" id="mascotLine">Tap a lesson to start. Pro tip: always check the tail and mouth!</div>
+              </div>
+            </div>
+            <div style="height:10px"></div>
+            <div class="btnRow">
+              <button class="btn gold" id="btnGoLearn">Start Learning</button>
+              <button class="btn primary" id="btnQuickReview">Quick Review (5)</button>
+            </div>
+          </div>
+
+          <div class="card pad">
+            <div class="titleRow">
+              <h2 class="h2">Overall progress</h2>
+              <div class="small" id="overallPct">0%</div>
+            </div>
+            <div class="progressBar" style="margin-top:10px"><div id="overallBar"></div></div>
+            <div style="height:10px"></div>
+            <div class="kpi">
+              <div class="k"><div class="label">Lessons completed</div><div class="value" id="kLessons">0</div></div>
+              <div class="k"><div class="label">Best streak</div><div class="value" id="kBestStreak">0</div></div>
+              <div class="k"><div class="label">Total XP</div><div class="value" id="kTotalXP">0</div></div>
+            </div>
+          </div>
+
+          <div class="card pad">
+            <div class="titleRow">
+              <h2 class="h2">Today’s goal</h2>
+              <div class="small" id="goalLine">0 / 50 XP</div>
+            </div>
+            <div class="progressBar" style="margin-top:10px"><div id="goalBar"></div></div>
+            <p class="p" style="margin-top:10px">Earn XP by learning cards and finishing quizzes. Keep your streak alive by practicing once per day.</p>
+          </div>
+        </section>
+
+        <!-- LEARN (LESSON LIST) -->
+        <section id="screenLearn" class="screen">
+          <div class="card pad">
+            <div class="titleRow">
+              <div>
+                <h2 class="h2">Lessons</h2>
+                <p class="p">Complete them in order to unlock the next.</p>
+              </div>
+              <button class="btn ghost" id="btnSkipUnlock" title="Allow skip unlock (toggle)">🔓</button>
+            </div>
+          </div>
+          <div id="lessonList" class="grid"></div>
+        </section>
+
+        <!-- LEARN MODE -->
+        <section id="screenLearnMode" class="screen">
+          <div class="stage">
+            <div class="stageTop">
+              <div>
+                <div class="tag" id="learnLessonTag">Lesson</div>
+                <div style="font-weight:900" id="learnTitle">Learn</div>
+              </div>
+              <div class="meter">
+                <div class="progressBar"><div id="learnBar"></div></div>
+              </div>
+              <button class="btn ghost" id="btnExitLearn">✕</button>
+            </div>
+
+            <div class="card fishCard">
+              <div class="fishHero" id="learnFishSvg"></div>
+              <div class="fishInfo">
+                <div class="fishName">
+                  <h3 id="learnFishName">Fish</h3>
+                  <div class="sci" id="learnSci">Scientific</div>
+                </div>
+                <div class="callouts" id="learnCallouts"></div>
+                <div class="small" id="learnHabitat"></div>
+                <ul class="list" id="learnFeatures"></ul>
+                <div class="small" id="learnFun"></div>
+              </div>
+            </div>
+
+            <div class="btnRow">
+              <button class="btn" id="btnPrevCard">◀</button>
+              <button class="btn primary" id="btnNextCard">Next</button>
+              <button class="btn gold" id="btnStartQuiz">Quiz</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- QUIZ MODE -->
+        <section id="screenQuiz" class="screen">
+          <div class="stage">
+            <div class="stageTop">
+              <div>
+                <div class="tag" id="quizLessonTag">Quiz</div>
+                <div style="font-weight:900" id="quizTitle">Question</div>
+              </div>
+              <div class="meter">
+                <div class="progressBar"><div id="quizBar"></div></div>
+              </div>
+              <button class="btn ghost" id="btnExitQuiz">✕</button>
+            </div>
+
+            <div class="card pad" id="quizCard"></div>
+
+            <div class="btnRow">
+              <button class="btn" id="btnQuizBack">Back</button>
+              <button class="btn primary" id="btnQuizContinue">Continue</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- REVIEW -->
+        <section id="screenReview" class="screen">
+          <div class="card pad">
+            <div class="titleRow">
+              <div>
+                <h2 class="h2">Review</h2>
+                <p class="p">A quick mixed quiz to keep your streak.</p>
+              </div>
+              <button class="btn primary" id="btnStartReview">Start</button>
+            </div>
+            <p class="small">Tip: Review pulls from fish you’ve seen before + a couple new ones.</p>
+          </div>
+
+          <div class="card pad">
+            <h2 class="h2" style="margin-bottom:6px">Weak spots</h2>
+            <div class="small" id="weakList">No data yet — complete a quiz!</div>
+          </div>
+        </section>
+
+        <!-- PROFILE -->
+        <section id="screenProfile" class="screen">
+          <div class="card pad">
+            <div class="titleRow">
+              <div>
+                <h2 class="h2">Profile</h2>
+                <p class="p">Your fishing brain stats (stored offline on this device).</p>
+              </div>
+              <button class="btn danger" id="btnReset">Reset</button>
+            </div>
+          </div>
+          <div class="card pad">
+            <div class="kpi">
+              <div class="k"><div class="label">Total XP</div><div class="value" id="pXP">0</div></div>
+              <div class="k"><div class="label">Current streak</div><div class="value" id="pStreak">0</div></div>
+              <div class="k"><div class="label">Hearts</div><div class="value" id="pHearts">5</div></div>
+            </div>
+            <hr class="sep" />
+            <div class="small" id="pUnlock">Lessons unlocked: 1</div>
+            <div style="height:10px"></div>
+            <button class="btn block" id="btnExport">Export Progress (JSON)</button>
+            <button class="btn block" id="btnImport">Import Progress</button>
+            <input id="importFile" type="file" accept="application/json" style="display:none" />
+          </div>
+
+          <div class="card pad">
+            <h2 class="h2" style="margin-bottom:6px">Fish library</h2>
+            <div class="small">Tap a fish to see its ID notes.</div>
+            <div style="height:10px"></div>
+            <div id="fishLibrary" class="grid two"></div>
+          </div>
+        </section>
+
+        <div id="toast" class="toast"></div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <div class="navInner">
+        <button class="navBtn active" data-nav="home">🏠 Home</button>
+        <button class="navBtn" data-nav="learn">📚 Learn</button>
+        <button class="navBtn" data-nav="review">🧠 Review</button>
+        <button class="navBtn" data-nav="profile">👤 Profile</button>
+      </div>
+    </nav>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/svg.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
