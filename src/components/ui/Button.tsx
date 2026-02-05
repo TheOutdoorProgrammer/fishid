@@ -15,14 +15,14 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const baseClasses =
-    'min-h-[52px] px-3.5 py-3 rounded-2xl border font-extrabold text-[15px] inline-flex items-center justify-center gap-2.5 cursor-pointer select-none active:translate-y-px active:scale-[0.98] transition-transform';
+    'h-12 px-6 rounded-[var(--radius)] font-bold text-[15px] inline-flex items-center justify-center gap-2.5 cursor-pointer select-none active:scale-[0.98] transition-all duration-200 disabled:opacity-50 disabled:pointer-events-none';
 
   const variantClasses = {
-    primary:
-      'bg-gradient-to-br from-[rgba(31,122,79,.95)] to-[rgba(26,110,165,.85)] border-[rgba(255,255,255,.14)] text-text',
-    gold: 'bg-gradient-to-br from-[rgba(242,192,76,.95)] to-[rgba(255,211,122,.85)] border-[rgba(0,0,0,.15)] text-[#1a1a1a]',
-    danger: 'bg-[rgba(224,75,75,.18)] border-[rgba(224,75,75,.35)] text-text',
-    ghost: 'bg-transparent border-[rgba(255,255,255,.12)] text-text',
+    primary: 'bg-blue text-bg hover:bg-blue/90 shadow-lg shadow-blue/20 border border-transparent',
+    gold: 'bg-gold text-bg hover:bg-gold/90 shadow-lg shadow-gold/20 border border-transparent',
+    danger:
+      'bg-danger text-bg hover:bg-danger/90 shadow-lg shadow-danger/20 border border-transparent',
+    ghost: 'bg-transparent text-text border border-white/10 hover:bg-white/5',
   };
 
   const disabledClasses = disabled ? 'opacity-50 cursor-not-allowed pointer-events-none' : '';
