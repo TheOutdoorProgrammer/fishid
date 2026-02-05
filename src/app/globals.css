@@ -15,6 +15,11 @@
   --shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
   --radius: 18px;
   --radius2: 26px;
+  --nav-height: 70px;
+  --top-safe: env(safe-area-inset-top, 0px);
+  --bottom-safe: env(safe-area-inset-bottom, 0px);
+  --content-top: calc(var(--nav-height) + var(--top-safe));
+  --content-bottom: calc(var(--nav-height) + var(--bottom-safe));
 }
 
 * {
