@@ -11,7 +11,7 @@ function NavButton({ icon, label, isActive, onClick }: NavButtonProps) {
   return (
     <button
       onClick={onClick}
-      className={`flex-1 flex flex-col items-center justify-center gap-1 min-h-[44px] transition-colors ${
+      className={`flex-1 flex flex-col items-center justify-center gap-1 min-h-[48px] transition-colors ${
         isActive ? 'text-gold' : 'text-text hover:text-gold'
       }`}
     >
@@ -28,7 +28,7 @@ interface BottomNavProps {
 
 export default function BottomNav({ currentScreen, onNavigate }: BottomNavProps) {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[100] bg-panel border-t border-[rgba(255,255,255,.08)] h-[70px] flex items-center pb-safe">
+    <div className="fixed bottom-0 left-0 right-0 z-[100] bg-panel border-t border-[rgba(255,255,255,.08)] min-h-[70px] flex items-center pb-[env(safe-area-inset-bottom,0px)]">
       <NavButton
         icon="🏠"
         label="Home"
