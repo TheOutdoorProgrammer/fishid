@@ -13,7 +13,7 @@ export default function AppLayout({ children, currentScreen, onNavigate }: AppLa
   return (
     <div className="min-h-screen bg-bg text-text flex flex-col">
       <TopBar />
-      <main className="flex-1 overflow-auto pt-[calc(70px+env(safe-area-inset-top,0px))] pb-[calc(70px+env(safe-area-inset-bottom,0px))] flex justify-center">
+      <main className="fixed inset-x-0 top-[calc(70px+env(safe-area-inset-top,0px))] bottom-[calc(70px+env(safe-area-inset-bottom,0px))] overflow-auto flex justify-center">
         <div className="w-full max-w-[600px] px-4 py-6">{children}</div>
       </main>
       <BottomNav currentScreen={currentScreen} onNavigate={onNavigate} />
