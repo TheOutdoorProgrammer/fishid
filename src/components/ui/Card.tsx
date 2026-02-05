@@ -9,7 +9,7 @@ interface CardProps {
 export default function Card({ children, className = '', padding = true }: CardProps) {
   return (
     <div
-      className={`bg-gradient-to-b from-[rgba(18,52,71,0.95)] to-[rgba(16,43,58,0.92)] border border-[rgba(255,255,255,0.1)] rounded-md shadow-lg ${
+      className={`bg-gradient-to-b from-[rgba(18,52,71,0.95)] to-[rgba(16,43,58,0.92)] border border-[rgba(255,255,255,0.1)] rounded-xl shadow-lg ${
         padding ? 'p-5' : ''
       } ${className}`}
     >
