@@ -4,8 +4,7 @@ export const greenside_darter: Fish = {
   id: 'greenside_darter',
   name: 'Greenside Darter',
   scientific: 'Etheostoma blennioides',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Etheostoma_blennioides.jpg/500px-Etheostoma_blennioides.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Largest Ohio darter (can reach 6 inches)',
     'Green to olive body with U or V-shaped dark bars on sides',

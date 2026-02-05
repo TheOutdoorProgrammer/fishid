@@ -4,8 +4,9 @@ export const shortnose_gar: Fish = {
   id: 'shortnose_gar',
   name: 'Shortnose Gar',
   scientific: 'Lepisosteus platostomus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg/500px-Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/shortnose_gar/1.jpg'
+  ],
   features: [
     'Shorter, broader snout than longnose gar',
     'Diamond-shaped ganoid scales',

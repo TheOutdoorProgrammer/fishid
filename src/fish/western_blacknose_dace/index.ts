@@ -4,8 +4,9 @@ export const western_blacknose_dace: Fish = {
   id: 'western_blacknose_dace',
   name: 'Western Blacknose Dace',
   scientific: 'Rhinichthys obtusus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Blacknose_dace_-_Rhinichthys_atratulus.jpg/500px-Blacknose_dace_-_Rhinichthys_atratulus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/western_blacknose_dace/1.jpg'
+  ],
   features: [
     'Small, slender body',
     'Bold dark lateral stripe from snout to tail',

@@ -4,8 +4,9 @@ export const banded_darter: Fish = {
   id: 'banded_darter',
   name: 'Banded Darter',
   scientific: 'Etheostoma zonale',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Etheostoma_zonale_267441672.jpg/500px-Etheostoma_zonale_267441672.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/banded_darter/1.jpg'
+  ],
   features: [
     'Small body with distinct vertical bars',
     'Green to olive body with 8-12 dark vertical bars',

@@ -14,8 +14,7 @@ export type Fish = {
   id: string;
   name: string;
   scientific: string;
-  image: string;
-  quizImage: string;
+  image: string[];
   features: string[];
   keyFeature: string;
   habitat: string;

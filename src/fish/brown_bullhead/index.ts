@@ -4,8 +4,9 @@ export const brown_bullhead: Fish = {
   id: 'brown_bullhead',
   name: 'Brown Bullhead',
   scientific: 'Ameiurus nebulosus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Brown_bullhead_fish_ameiurus_nebulosus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/brown_bullhead/1.jpg'
+  ],
   features: [
     'Dark brown to olive body, often mottled',
     'Dark-colored chin barbels (brown or gray)',

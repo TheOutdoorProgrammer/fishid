@@ -4,8 +4,10 @@ export const muskellunge: Fish = {
   id: 'muskellunge',
   name: 'Muskellunge',
   scientific: 'Esox masquinongy',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Esox_masquinongyeditcrop.jpg/500px-Esox_masquinongyeditcrop.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Esox_masquinongy_%28muskellunge%29_1.jpg/500px-Esox_masquinongy_%28muskellunge%29_1.jpg',
+  image: [
+    '/img/fish/muskellunge/1.jpg',
+    '/img/fish/muskellunge/2.jpg'
+  ],
   features: [
     'Very long, torpedo-shaped body (larger than pike)',
     'Light body with dark bars or spots',

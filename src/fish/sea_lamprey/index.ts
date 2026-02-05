@@ -4,8 +4,7 @@ export const sea_lamprey: Fish = {
   id: 'sea_lamprey',
   name: 'Sea Lamprey',
   scientific: 'Petromyzon marinus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Petromyzon_marinus.jpg/500px-Petromyzon_marinus.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Eel-like body (but NOT a fish - jawless)',
     'Circular sucker mouth filled with sharp teeth',

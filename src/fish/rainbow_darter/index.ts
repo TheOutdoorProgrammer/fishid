@@ -4,8 +4,7 @@ export const rainbow_darter: Fish = {
   id: 'rainbow_darter',
   name: 'Rainbow Darter',
   scientific: 'Etheostoma caeruleum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Etheostoma_caeruleum.jpg/500px-Etheostoma_caeruleum.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Breeding males brilliantly colored with blue and orange bars',
     'Alternating blue and orange-red vertical bars on sides',

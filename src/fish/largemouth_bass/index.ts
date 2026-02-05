@@ -4,8 +4,10 @@ export const largemouth_bass: Fish = {
   id: 'largemouth_bass',
   name: 'Largemouth Bass',
   scientific: 'Micropterus salmoides',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Largemouth_Bass_%28Micropterus_salmoides%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29.jpg',
+  image: [
+    '/img/fish/largemouth_bass/1.jpg',
+    '/img/fish/largemouth_bass/2.jpg'
+  ],
   features: [
     'Green to olive body with lighter belly',
     'Dark lateral stripe (horizontal band)',

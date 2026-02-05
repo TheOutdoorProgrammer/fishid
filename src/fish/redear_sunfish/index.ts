@@ -4,8 +4,7 @@ export const redear_sunfish: Fish = {
   id: 'redear_sunfish',
   name: 'Redear Sunfish',
   scientific: 'Lepomis microlophus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Redear_sunfish.jpg/500px-Redear_sunfish.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Deep body, similar shape to bluegill',
     'Short ear flap with bright red or orange border',

@@ -4,8 +4,10 @@ export const flathead_catfish: Fish = {
   id: 'flathead_catfish',
   name: 'Flathead Catfish',
   scientific: 'Pylodictis olivaris',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pylodictis_olivaris.jpg/500px-Pylodictis_olivaris.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flathead_Catfish_%28Pylodictis_olivaris%29.jpg/500px-Flathead_Catfish_%28Pylodictis_olivaris%29.jpg',
+  image: [
+    '/img/fish/flathead_catfish/1.jpg',
+    '/img/fish/flathead_catfish/2.jpg'
+  ],
   features: [
     'Flat, wide head (distinctive!)',
     'Mottled brown and yellow coloring',

@@ -4,8 +4,9 @@ export const creek_chubsucker: Fish = {
   id: 'creek_chubsucker',
   name: 'Creek Chubsucker',
   scientific: 'Erimyzon oblongus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Erimyzon_oblongus.jpg/500px-Erimyzon_oblongus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/creek_chubsucker/1.jpg'
+  ],
   features: [
     'Small, chubby sucker with no lateral line',
     'Olive-green to brown body',

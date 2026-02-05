@@ -4,8 +4,10 @@ export const bluegill: Fish = {
   id: 'bluegill',
   name: 'Bluegill',
   scientific: 'Lepomis macrochirus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bluegill_%28cropped%29.jpg/500px-Bluegill_%28cropped%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg/500px-Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg',
+  image: [
+    '/img/fish/bluegill/1.jpg',
+    '/img/fish/bluegill/2.jpg'
+  ],
   features: [
     'Deep, compressed (tall) body shape',
     'Dark blue-black ear flap (opercular flap)',

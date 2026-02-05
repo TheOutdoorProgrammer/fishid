@@ -4,8 +4,9 @@ export const smallmouth_redhorse: Fish = {
   id: 'smallmouth_redhorse',
   name: 'Smallmouth Redhorse',
   scientific: 'Moxostoma breviceps',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg/500px-Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/smallmouth_redhorse/1.jpg'
+  ],
   features: [
     'Small mouth even for a sucker',
     'Silver to olive body',

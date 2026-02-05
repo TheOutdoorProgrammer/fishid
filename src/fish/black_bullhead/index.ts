@@ -4,8 +4,9 @@ export const black_bullhead: Fish = {
   id: 'black_bullhead',
   name: 'Black Bullhead',
   scientific: 'Ameiurus melas',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ameiurus_melas_by_Duane_Raver.png/500px-Ameiurus_melas_by_Duane_Raver.png',
-  quizImage: '',
+  image: [
+    '/img/fish/black_bullhead/1.png'
+  ],
   features: [
     'Dark olive to black body',
     'Dark chin barbels (black or dark gray)',

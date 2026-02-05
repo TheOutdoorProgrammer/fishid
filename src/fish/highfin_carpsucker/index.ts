@@ -4,8 +4,9 @@ export const highfin_carpsucker: Fish = {
   id: 'highfin_carpsucker',
   name: 'Highfin Carpsucker',
   scientific: 'Carpiodes velifer',
-  image: 'https://static.inaturalist.org/photos/454315141/medium.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/highfin_carpsucker/1.jpg'
+  ],
   features: [
     'Deep, compressed silver body',
     'Very tall dorsal fin (first rays extremely elongated)',

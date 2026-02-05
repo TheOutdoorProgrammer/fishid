@@ -4,8 +4,9 @@ export const grass_pickerel: Fish = {
   id: 'grass_pickerel',
   name: 'Grass Pickerel',
   scientific: 'Esox americanus vermiculatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Esox_americanus_vermiculatus.jpg/500px-Esox_americanus_vermiculatus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/grass_pickerel/1.jpg'
+  ],
   features: [
     'Small, torpedo-shaped body (smallest pike)',
     'Fully scaled cheeks and gill covers',

@@ -4,8 +4,10 @@ export const smallmouth_bass: Fish = {
   id: 'smallmouth_bass',
   name: 'Smallmouth Bass',
   scientific: 'Micropterus dolomieu',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Smallmouth_Bass_%2849561724026%29.jpg/500px-Smallmouth_Bass_%2849561724026%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Micropterus_dolomieu2.jpg/500px-Micropterus_dolomieu2.jpg',
+  image: [
+    '/img/fish/smallmouth_bass/1.jpg',
+    '/img/fish/smallmouth_bass/2.jpg'
+  ],
   features: [
     'Bronze to brown body color',
     'Vertical dark bars (may fade)',

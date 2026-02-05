@@ -4,8 +4,9 @@ export const silver_redhorse: Fish = {
   id: 'silver_redhorse',
   name: 'Silver Redhorse',
   scientific: 'Moxostoma anisurum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Moxostoma_anisurum.jpg/500px-Moxostoma_anisurum.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/silver_redhorse/1.jpg'
+  ],
   features: [
     'Silver to olive body',
     'Large scales',

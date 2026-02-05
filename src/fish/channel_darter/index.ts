@@ -4,8 +4,9 @@ export const channel_darter: Fish = {
   id: 'channel_darter',
   name: 'Channel Darter',
   scientific: 'Percina copelandi',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg/500px-FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/channel_darter/1.jpg'
+  ],
   features: [
     'Small, slender darter',
     'Row of X-shaped or oval blotches on sides',

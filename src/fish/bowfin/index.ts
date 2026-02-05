@@ -4,8 +4,7 @@ export const bowfin: Fish = {
   id: 'bowfin',
   name: 'Bowfin',
   scientific: 'Amia calva',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Amia_calva_%28YPM_ICH_004577%29_001.jpg/500px-Amia_calva_%28YPM_ICH_004577%29_001.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Long dorsal fin extending most of body length',
     'Rounded tail fin (not forked)',

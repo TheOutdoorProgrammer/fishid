@@ -4,8 +4,9 @@ export const rosyface_shiner: Fish = {
   id: 'rosyface_shiner',
   name: 'Rosyface Shiner',
   scientific: 'Notropis rubellus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Notropis_rubellus.jpg/500px-Notropis_rubellus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/rosyface_shiner/1.jpg'
+  ],
   features: [
     'Slender, streamlined body',
     'Silver with olive back',

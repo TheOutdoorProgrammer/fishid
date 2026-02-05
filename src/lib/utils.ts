@@ -41,3 +41,13 @@ export function daysBetween(a: Date | string, b: Date | string): number {
   const dateB = typeof b === 'string' ? new Date(b) : b;
   return Math.floor((dateB.getTime() - dateA.getTime()) / (24 * 60 * 60 * 1000));
 }
+
+/**
+ * Get a random image from a fish's image array
+ * @param images - Array of image paths
+ * @returns A random image path from the array
+ */
+export function getRandomFishImage(images: string[]): string {
+  if (images.length === 0) return '';
+  return images[Math.floor(Math.random() * images.length)];
+}

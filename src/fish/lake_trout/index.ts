@@ -4,8 +4,9 @@ export const lake_trout: Fish = {
   id: 'lake_trout',
   name: 'Lake Trout',
   scientific: 'Salvelinus namaycush',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lake_Trout_GLERL.jpg/500px-Lake_Trout_GLERL.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/lake_trout/1.jpg'
+  ],
   features: [
     'Dark gray-green body covered in pale spots',
     'Deeply forked tail (unique among chars)',

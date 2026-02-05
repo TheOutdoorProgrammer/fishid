@@ -4,8 +4,9 @@ export const iowa_darter: Fish = {
   id: 'iowa_darter',
   name: 'Iowa Darter',
   scientific: 'Etheostoma exile',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Etheostoma_exile_-_Iowa_Darter.png/500px-Etheostoma_exile_-_Iowa_Darter.png',
-  quizImage: '',
+  image: [
+    '/img/fish/iowa_darter/1.png'
+  ],
   features: [
     'Slender body with 9-12 dark vertical bars',
     'Olive to brown body',

@@ -4,8 +4,7 @@ export const coho_salmon: Fish = {
   id: 'coho_salmon',
   name: 'Coho Salmon',
   scientific: 'Oncorhynchus kisutch',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Oncorhynchus_kisutch.jpeg/500px-Oncorhynchus_kisutch.jpeg',
-  quizImage: '',
+  image: [],
   features: [
     'Silver body with dark back',
     'Black spots on back and UPPER lobe of tail only',

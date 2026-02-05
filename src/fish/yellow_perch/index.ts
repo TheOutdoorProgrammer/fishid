@@ -4,8 +4,10 @@ export const yellow_perch: Fish = {
   id: 'yellow_perch',
   name: 'Yellow Perch',
   scientific: 'Perca flavescens',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg/500px-Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/D3149-1._yellow_perch_%28Perca_flavescens%29.jpg/500px-D3149-1._yellow_perch_%28Perca_flavescens%29.jpg',
+  image: [
+    '/img/fish/yellow_perch/1.jpg',
+    '/img/fish/yellow_perch/2.jpg'
+  ],
   features: [
     'Bright golden-yellow body',
     '6-8 dark vertical bars on sides',

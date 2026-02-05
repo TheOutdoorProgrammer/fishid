@@ -4,8 +4,9 @@ export const sand_shiner: Fish = {
   id: 'sand_shiner',
   name: 'Sand Shiner',
   scientific: 'Notropis stramineus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Notropis_stramineus.jpg/500px-Notropis_stramineus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/sand_shiner/1.jpg'
+  ],
   features: [
     'Small, slender body',
     'Pale straw to olive color',

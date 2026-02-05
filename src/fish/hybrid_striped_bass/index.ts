@@ -4,8 +4,9 @@ export const hybrid_striped_bass: Fish = {
   id: 'hybrid_striped_bass',
   name: 'Hybrid Striped Bass',
   scientific: 'Morone chrysops × M. saxatilis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HybridBassCoosaRiver.jpg/500px-HybridBassCoosaRiver.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/hybrid_striped_bass/1.jpg'
+  ],
   features: [
     'Silver body with broken or offset horizontal stripes',
     'Deep body, deeper than white bass',

@@ -4,8 +4,9 @@ export const river_redhorse: Fish = {
   id: 'river_redhorse',
   name: 'River Redhorse',
   scientific: 'Moxostoma carinatum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moxostoma_carinatum_153150190.jpg/500px-Moxostoma_carinatum_153150190.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/river_redhorse/1.jpg'
+  ],
   features: [
     'Large, robust sucker',
     'Heavy pharyngeal teeth (molar-like for crushing)',

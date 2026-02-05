@@ -4,8 +4,10 @@ export const rainbow_trout: Fish = {
   id: 'rainbow_trout',
   name: 'Rainbow Trout',
   scientific: 'Oncorhynchus mykiss',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/500px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg/500px-Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg',
+  image: [
+    '/img/fish/rainbow_trout/1.jpg',
+    '/img/fish/rainbow_trout/2.jpg'
+  ],
   features: [
     'Streamlined body',
     'Pink-red stripe along lateral line',

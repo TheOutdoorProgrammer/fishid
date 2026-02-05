@@ -4,8 +4,10 @@ export const channel_catfish: Fish = {
   id: 'channel_catfish',
   name: 'Channel Catfish',
   scientific: 'Ictalurus punctatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg/500px-Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Channel_catfish_%28Ictalurus_punctatus%29.jpg/500px-Channel_catfish_%28Ictalurus_punctatus%29.jpg',
+  image: [
+    '/img/fish/channel_catfish/1.jpg',
+    '/img/fish/channel_catfish/2.jpg'
+  ],
   features: [
     'Blue-gray to olive body',
     'Scattered dark spots (especially when young)',

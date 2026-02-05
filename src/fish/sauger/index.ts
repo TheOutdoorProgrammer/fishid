@@ -4,8 +4,10 @@ export const sauger: Fish = {
   id: 'sauger',
   name: 'Sauger',
   scientific: 'Sander canadensis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Saugernctc.jpg/500px-Saugernctc.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg/500px-Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg',
+  image: [
+    '/img/fish/sauger/1.jpg',
+    '/img/fish/sauger/2.jpg'
+  ],
   features: [
     'Similar to walleye but smaller and darker',
     'Distinct dark spots/blotches on dorsal fin',

@@ -4,8 +4,9 @@ export const silver_chub: Fish = {
   id: 'silver_chub',
   name: 'Silver Chub',
   scientific: 'Macrhybopsis storeriana',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg/500px-FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/silver_chub/1.jpg'
+  ],
   features: [
     'Slender, elongated body',
     'Silver body with large eye',

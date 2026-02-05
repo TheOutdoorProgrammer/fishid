@@ -4,8 +4,9 @@ export const creek_chub: Fish = {
   id: 'creek_chub',
   name: 'Creek Chub',
   scientific: 'Semotilus atromaculatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Creek_Chub%2C_Semotilus_atromaculatus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/creek_chub/1.jpg'
+  ],
   features: [
     'Large minnow with robust body',
     'Dark spot at base of dorsal fin',

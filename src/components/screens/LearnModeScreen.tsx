@@ -93,7 +93,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
               ))}
             </div>
 
-            <div className="space-y-4 text-sm">
+            <div className="space-y-5 text-sm">
               <div className="bg-[rgba(255,255,255,.05)] p-3 rounded-lg border border-[rgba(255,255,255,.05)]">
                 <div className="uppercase text-[10px] font-bold tracking-wider opacity-50 mb-1">
                   Habitat
@@ -136,7 +136,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
         </Card>
       )}
 
-      <div className="flex gap-3 mt-4">
+      <div className="flex gap-4 mt-4">
         <Button variant="ghost" onClick={handlePrev} disabled={currentIndex === 0} className="w-14">
           ◀
         </Button>

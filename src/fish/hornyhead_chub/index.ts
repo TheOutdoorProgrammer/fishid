@@ -4,8 +4,9 @@ export const hornyhead_chub: Fish = {
   id: 'hornyhead_chub',
   name: 'Hornyhead Chub',
   scientific: 'Nocomis biguttatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Horned_Chub.JPG/500px-Horned_Chub.JPG',
-  quizImage: '',
+  image: [
+    '/img/fish/hornyhead_chub/1.jpg'
+  ],
   features: [
     'Large, robust minnow',
     'Red-orange spot behind eye',

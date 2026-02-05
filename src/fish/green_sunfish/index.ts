@@ -4,8 +4,9 @@ export const green_sunfish: Fish = {
   id: 'green_sunfish',
   name: 'Green Sunfish',
   scientific: 'Lepomis cyanellus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lepomis_cyanellus.jpg/500px-Lepomis_cyanellus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/green_sunfish/1.jpg'
+  ],
   features: [
     'Stocky, thick body for a sunfish',
     'Dark olive-green to blue-green color',

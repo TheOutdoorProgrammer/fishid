@@ -152,7 +152,7 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
   }
 
   return (
-    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-4">
+    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-5">
       <div className="flex items-center gap-3">
         <Button
           variant="ghost"

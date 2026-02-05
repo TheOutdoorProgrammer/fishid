@@ -4,8 +4,10 @@ export const brown_trout: Fish = {
   id: 'brown_trout',
   name: 'Brown Trout',
   scientific: 'Salmo trutta',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Brown_Trout_%28Salmo_trutta%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29.jpg',
+  image: [
+    '/img/fish/brown_trout/1.jpg',
+    '/img/fish/brown_trout/2.jpg'
+  ],
   features: [
     'Golden-brown to olive body',
     'Black spots and red/orange spots with pale halos',

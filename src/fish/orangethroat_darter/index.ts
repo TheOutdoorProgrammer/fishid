@@ -4,8 +4,9 @@ export const orangethroat_darter: Fish = {
   id: 'orangethroat_darter',
   name: 'Orangethroat Darter',
   scientific: 'Etheostoma spectabile',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Etheostoma_spectabile.jpg/500px-Etheostoma_spectabile.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/orangethroat_darter/1.jpg'
+  ],
   features: [
     'Small with alternating blue and orange bars',
     'Bright orange throat and breast on breeding males',

@@ -4,8 +4,9 @@ export const orangespotted_sunfish: Fish = {
   id: 'orangespotted_sunfish',
   name: 'Orangespotted Sunfish',
   scientific: 'Lepomis humilis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orangespottednctc.png/500px-Orangespottednctc.png',
-  quizImage: '',
+  image: [
+    '/img/fish/orangespotted_sunfish/1.png'
+  ],
   features: [
     'Small, compressed body',
     'Olive with orange or reddish spots on sides',

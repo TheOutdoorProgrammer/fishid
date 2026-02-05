@@ -4,8 +4,7 @@ export const longnose_gar: Fish = {
   id: 'longnose_gar',
   name: 'Longnose Gar',
   scientific: 'Lepisosteus osseus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lepisosteus_osseus.jpg/500px-Lepisosteus_osseus.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Very long, narrow snout (twice head length)',
     'Diamond-shaped ganoid (armored) scales',

@@ -4,8 +4,7 @@ export const rock_bass: Fish = {
   id: 'rock_bass',
   name: 'Rock Bass',
   scientific: 'Ambloplites rupestris',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ambloplites_rupestris.jpg/500px-Ambloplites_rupestris.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Stocky body, less compressed than sunfish',
     'Bright red eye',

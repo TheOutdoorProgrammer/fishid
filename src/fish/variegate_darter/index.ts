@@ -4,8 +4,9 @@ export const variegate_darter: Fish = {
   id: 'variegate_darter',
   name: 'Variegate Darter',
   scientific: 'Etheostoma variatum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Etheostoma_variatum.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/variegate_darter/1.jpg'
+  ],
   features: [
     'Four dark saddle marks across back',
     'Alternating bars of blue-green and orange-red on sides',

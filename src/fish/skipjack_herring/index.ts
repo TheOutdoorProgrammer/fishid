@@ -4,8 +4,9 @@ export const skipjack_herring: Fish = {
   id: 'skipjack_herring',
   name: 'Skipjack Herring',
   scientific: 'Alosa chrysochloris',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Skipjack_herring_fish_alosa_chrysochloris.jpg/500px-Skipjack_herring_fish_alosa_chrysochloris.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/skipjack_herring/1.jpg'
+  ],
   features: [
     'Elongated, compressed silver body',
     'Bluish-green back with brilliant silver sides',

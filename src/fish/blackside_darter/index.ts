@@ -4,8 +4,9 @@ export const blackside_darter: Fish = {
   id: 'blackside_darter',
   name: 'Blackside Darter',
   scientific: 'Percina maculata',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg/500px-..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/blackside_darter/1.jpg'
+  ],
   features: [
     'Row of dark oval blotches along sides',
     'Olive-brown body',

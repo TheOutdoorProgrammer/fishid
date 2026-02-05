@@ -4,8 +4,9 @@ export const common_shiner: Fish = {
   id: 'common_shiner',
   name: 'Common Shiner',
   scientific: 'Luxilus cornutus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Common_shiner.jpg/500px-Common_shiner.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/common_shiner/1.jpg'
+  ],
   features: [
     'Moderately deep, compressed body',
     'Silver body with olive back',

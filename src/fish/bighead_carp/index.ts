@@ -4,8 +4,9 @@ export const bighead_carp: Fish = {
   id: 'bighead_carp',
   name: 'Bighead Carp',
   scientific: 'Hypophthalmichthys nobilis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Bighead_carp.gif',
-  quizImage: '',
+  image: [
+    '/img/fish/bighead_carp/1.gif'
+  ],
   features: [
     'Very large head relative to body',
     'Eyes set low on head',

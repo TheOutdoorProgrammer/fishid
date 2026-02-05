@@ -4,8 +4,7 @@ export const round_goby: Fish = {
   id: 'round_goby',
   name: 'Round Goby',
   scientific: 'Neogobius melanostomus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Neogobius_melanostomus.jpg/500px-Neogobius_melanostomus.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Small, bottom-dwelling body',
     'Fused pelvic fins forming a suction disc',

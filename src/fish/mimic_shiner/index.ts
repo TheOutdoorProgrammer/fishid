@@ -4,8 +4,9 @@ export const mimic_shiner: Fish = {
   id: 'mimic_shiner',
   name: 'Mimic Shiner',
   scientific: 'Notropis volucellus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Notropis_volucellus.jpg/500px-Notropis_volucellus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/mimic_shiner/1.jpg'
+  ],
   features: [
     'Small, slender body',
     'Pale silver-olive color',

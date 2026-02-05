@@ -4,8 +4,7 @@ export const pumpkinseed: Fish = {
   id: 'pumpkinseed',
   name: 'Pumpkinseed',
   scientific: 'Lepomis gibbosus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lepomis_gibbosus_PAQ.jpg/500px-Lepomis_gibbosus_PAQ.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Deep, compressed body with vibrant colors',
     'Wavy blue and orange lines on cheeks',

@@ -4,8 +4,9 @@ export const brook_stickleback: Fish = {
   id: 'brook_stickleback',
   name: 'Brook Stickleback',
   scientific: 'Culaea inconstans',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Culaea_inconstans_1908.jpg/500px-Culaea_inconstans_1908.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/brook_stickleback/1.jpg'
+  ],
   features: [
     'Very small fish with 4-6 free dorsal spines',
     'No scales - smooth or with bony plates',

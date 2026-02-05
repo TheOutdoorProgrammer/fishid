@@ -4,8 +4,9 @@ export const redside_dace: Fish = {
   id: 'redside_dace',
   name: 'Redside Dace',
   scientific: 'Clinostomus elongatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Clinostomus_elongatus_-_Wilhelma_01.jpg/500px-Clinostomus_elongatus_-_Wilhelma_01.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/redside_dace/1.jpg'
+  ],
   features: [
     'Elongated, streamlined body',
     'Vivid red stripe along side (breeding males)',

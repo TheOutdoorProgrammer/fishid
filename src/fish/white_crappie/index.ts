@@ -4,8 +4,10 @@ export const white_crappie: Fish = {
   id: 'white_crappie',
   name: 'White Crappie',
   scientific: 'Pomoxis annularis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/White_Crappie.jpg/500px-White_Crappie.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/White_crappie_pomoxis_annularis_%28white_background%29.jpg/500px-White_crappie_pomoxis_annularis_%28white_background%29.jpg',
+  image: [
+    '/img/fish/white_crappie/1.jpg',
+    '/img/fish/white_crappie/2.jpg'
+  ],
   features: [
     'Deep, compressed body',
     'Silvery-green with dark VERTICAL bars',

@@ -4,8 +4,10 @@ export const saugeye: Fish = {
   id: 'saugeye',
   name: 'Saugeye',
   scientific: 'Sander vitreus × S. canadensis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg/500px-Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Saugeye.jpg/500px-Saugeye.jpg',
+  image: [
+    '/img/fish/saugeye/1.jpg',
+    '/img/fish/saugeye/2.jpg'
+  ],
   features: [
     'Olive-gold body (similar to walleye)',
     'Dark blotches/saddle marks on back',

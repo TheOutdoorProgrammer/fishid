@@ -4,8 +4,7 @@ export const european_rudd: Fish = {
   id: 'european_rudd',
   name: 'European Rudd',
   scientific: 'Scardinius erythrophthalmus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Scardinius_erythrophthalmus_Prague_Vltava_3.jpg/500px-Scardinius_erythrophthalmus_Prague_Vltava_3.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Deep, compressed golden body',
     'Bright red-orange fins',

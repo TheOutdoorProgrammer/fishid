@@ -4,8 +4,9 @@ export const striped_shiner: Fish = {
   id: 'striped_shiner',
   name: 'Striped Shiner',
   scientific: 'Luxilus chrysocephalus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Luxilus_chrysocephalus_67374238.jpg/500px-Luxilus_chrysocephalus_67374238.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/striped_shiner/1.jpg'
+  ],
   features: [
     'Large, deep-bodied shiner',
     'Dark crescent-shaped markings on scales creating striped look',

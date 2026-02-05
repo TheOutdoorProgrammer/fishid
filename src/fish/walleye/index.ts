@@ -4,8 +4,10 @@ export const walleye: Fish = {
   id: 'walleye',
   name: 'Walleye',
   scientific: 'Sander vitreus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Walleye_%28Sander_vitreus%29_%281%29.jpg/500px-Walleye_%28Sander_vitreus%29_%281%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sander_vitreus.jpg/500px-Sander_vitreus.jpg',
+  image: [
+    '/img/fish/walleye/1.jpg',
+    '/img/fish/walleye/2.jpg'
+  ],
   features: [
     'Large, glassy, reflective eyes (adapted for low light)',
     'Olive-gold body with dark saddle markings',

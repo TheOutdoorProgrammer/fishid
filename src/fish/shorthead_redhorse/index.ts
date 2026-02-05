@@ -4,8 +4,9 @@ export const shorthead_redhorse: Fish = {
   id: 'shorthead_redhorse',
   name: 'Shorthead Redhorse',
   scientific: 'Moxostoma macrolepidotum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Moxostoma_macrolepidotum.jpg/500px-Moxostoma_macrolepidotum.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/shorthead_redhorse/1.jpg'
+  ],
   features: [
     'Olive-gold body with red-orange tail and dorsal fin',
     'Relatively short head compared to body',

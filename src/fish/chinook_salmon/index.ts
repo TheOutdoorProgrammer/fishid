@@ -4,8 +4,7 @@ export const chinook_salmon: Fish = {
   id: 'chinook_salmon',
   name: 'Chinook Salmon',
   scientific: 'Oncorhynchus tshawytscha',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg/500px-Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Large, streamlined silver body',
     'Black spots on back AND both lobes of tail',

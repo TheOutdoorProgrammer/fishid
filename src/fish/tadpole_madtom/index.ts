@@ -4,8 +4,9 @@ export const tadpole_madtom: Fish = {
   id: 'tadpole_madtom',
   name: 'Tadpole Madtom',
   scientific: 'Noturus gyrinus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Noturus_gyrinus_89571583.jpg/500px-Noturus_gyrinus_89571583.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/tadpole_madtom/1.jpg'
+  ],
   features: [
     'Tiny, dark-colored catfish',
     'Chubby tadpole-like body shape',

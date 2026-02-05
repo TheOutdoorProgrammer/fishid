@@ -4,8 +4,9 @@ export const slenderhead_darter: Fish = {
   id: 'slenderhead_darter',
   name: 'Slenderhead Darter',
   scientific: 'Percina phoxocephala',
-  image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/28382165/medium.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/slenderhead_darter/1.jpg'
+  ],
   features: [
     'Pointed, slender head and snout',
     'Row of small dark blotches on side',

@@ -4,8 +4,10 @@ export const common_carp: Fish = {
   id: 'common_carp',
   name: 'Common Carp',
   scientific: 'Cyprinus carpio',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cyprinus_carpio_2008_G1_%28cropped%29.jpg/500px-Cyprinus_carpio_2008_G1_%28cropped%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Cyprinus_carpio.jpeg/500px-Cyprinus_carpio.jpeg',
+  image: [
+    '/img/fish/common_carp/1.jpg',
+    '/img/fish/common_carp/2.jpg'
+  ],
   features: [
     'Large, thick body with big scales',
     'Golden-bronze to olive color',

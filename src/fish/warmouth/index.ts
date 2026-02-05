@@ -4,8 +4,7 @@ export const warmouth: Fish = {
   id: 'warmouth',
   name: 'Warmouth',
   scientific: 'Lepomis gulosus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lepomis_gulosus.jpg/500px-Lepomis_gulosus.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Thick, robust body',
     'Large mouth for a sunfish (extends to middle of eye)',

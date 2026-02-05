@@ -4,8 +4,7 @@ export const mottled_sculpin: Fish = {
   id: 'mottled_sculpin',
   name: 'Mottled Sculpin',
   scientific: 'Cottus bairdii',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cottus_bairdii.jpg/500px-Cottus_bairdii.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Wide, flat head with fan-like pectoral fins',
     'No scales (smooth skin)',

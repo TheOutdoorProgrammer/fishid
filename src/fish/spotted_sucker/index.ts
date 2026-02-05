@@ -4,8 +4,9 @@ export const spotted_sucker: Fish = {
   id: 'spotted_sucker',
   name: 'Spotted Sucker',
   scientific: 'Minytrema melanops',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg/500px-The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/spotted_sucker/1.jpg'
+  ],
   features: [
     'Olive-brown body with rows of dark spots',
     'Each scale has a dark spot at its base creating parallel rows',

@@ -4,8 +4,9 @@ export const black_redhorse: Fish = {
   id: 'black_redhorse',
   name: 'Black Redhorse',
   scientific: 'Moxostoma duquesnei',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BlackRedHorseSucker.jpg/500px-BlackRedHorseSucker.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/black_redhorse/1.jpg'
+  ],
   features: [
     'Olive to dark bronze body',
     'Dark-edged scales giving a cross-hatched look',

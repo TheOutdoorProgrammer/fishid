@@ -4,8 +4,10 @@ export const northern_pike: Fish = {
   id: 'northern_pike',
   name: 'Northern Pike',
   scientific: 'Esox lucius',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/500px-Esox_lucius_ZOO_1.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/500px-Esox_Lucius.JPG',
+  image: [
+    '/img/fish/northern_pike/1.jpg',
+    '/img/fish/northern_pike/2.jpg'
+  ],
   features: [
     'Long, torpedo-shaped body',
     'Dark green with light bean-shaped spots',

@@ -4,8 +4,9 @@ export const redfin_shiner: Fish = {
   id: 'redfin_shiner',
   name: 'Redfin Shiner',
   scientific: 'Lythrurus umbratilis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Lythrurus_umbratilis.JPG/500px-Lythrurus_umbratilis.JPG',
-  quizImage: '',
+  image: [
+    '/img/fish/redfin_shiner/1.jpg'
+  ],
   features: [
     'Deep, compressed body',
     'Steel-blue back and upper sides',

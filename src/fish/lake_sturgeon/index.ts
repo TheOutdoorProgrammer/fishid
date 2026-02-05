@@ -4,8 +4,7 @@ export const lake_sturgeon: Fish = {
   id: 'lake_sturgeon',
   name: 'Lake Sturgeon',
   scientific: 'Acipenser fulvescens',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Acipenser_fulvescens.jpg/500px-Acipenser_fulvescens.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Large, torpedo-shaped body with bony plates (scutes)',
     'Four barbels in front of mouth on underside of snout',

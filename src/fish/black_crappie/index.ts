@@ -4,8 +4,10 @@ export const black_crappie: Fish = {
   id: 'black_crappie',
   name: 'Black Crappie',
   scientific: 'Pomoxis nigromaculatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Black_crappie.jpg/500px-Black_crappie.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg/500px-Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg',
+  image: [
+    '/img/fish/black_crappie/1.jpg',
+    '/img/fish/black_crappie/2.jpg'
+  ],
   features: [
     'Deep, compressed body (similar to bluegill)',
     'Silvery-green with irregular dark speckles/spots',

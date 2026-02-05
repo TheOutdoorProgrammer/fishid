@@ -4,8 +4,9 @@ export const trout_perch: Fish = {
   id: 'trout_perch',
   name: 'Trout-Perch',
   scientific: 'Percopsis omiscomaycus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Percopsis_omiscomaycus.jpg/500px-Percopsis_omiscomaycus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/trout_perch/1.jpg'
+  ],
   features: [
     'Small, semi-translucent body',
     'Adipose fin present (trout-like feature)',

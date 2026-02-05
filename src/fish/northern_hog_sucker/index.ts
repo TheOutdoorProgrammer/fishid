@@ -4,8 +4,7 @@ export const northern_hog_sucker: Fish = {
   id: 'northern_hog_sucker',
   name: 'Northern Hog Sucker',
   scientific: 'Hypentelium nigricans',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hypentelium_nigricans.jpg/500px-Hypentelium_nigricans.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Large, concave head (squared-off/boxy look)',
     'Dark saddle marks across back (3-4 saddles)',

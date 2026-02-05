@@ -4,8 +4,7 @@ export const yellow_bullhead: Fish = {
   id: 'yellow_bullhead',
   name: 'Yellow Bullhead',
   scientific: 'Ameiurus natalis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ameiurus_natalis.jpg/500px-Ameiurus_natalis.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Yellowish-brown to olive body',
     'White or cream-colored chin barbels',

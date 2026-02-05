@@ -4,8 +4,7 @@ export const southern_redbelly_dace: Fish = {
   id: 'southern_redbelly_dace',
   name: 'Southern Redbelly Dace',
   scientific: 'Chrosomus erythrogaster',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chrosomus_erythrogaster.jpg/500px-Chrosomus_erythrogaster.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Very small with two dark lateral stripes',
     'Bright red belly (especially breeding males)',

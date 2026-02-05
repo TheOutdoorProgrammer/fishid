@@ -4,8 +4,9 @@ export const white_catfish: Fish = {
   id: 'white_catfish',
   name: 'White Catfish',
   scientific: 'Ameiurus catus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ameiurus_catus.jpg/500px-Ameiurus_catus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/white_catfish/1.jpg'
+  ],
   features: [
     'Blue-gray to white body',
     'Moderately forked tail (less forked than channel cat)',

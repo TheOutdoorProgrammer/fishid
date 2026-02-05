@@ -4,8 +4,9 @@ export const central_stoneroller: Fish = {
   id: 'central_stoneroller',
   name: 'Central Stoneroller',
   scientific: 'Campostoma anomalum',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Campostoma_anomalum.JPG/500px-Campostoma_anomalum.JPG',
-  quizImage: '',
+  image: [
+    '/img/fish/central_stoneroller/1.jpg'
+  ],
   features: [
     'Rounded snout overhanging mouth',
     'Hard cartilaginous ridge on lower jaw for scraping algae',

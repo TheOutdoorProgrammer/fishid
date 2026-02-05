@@ -4,8 +4,7 @@ export const spotted_bass: Fish = {
   id: 'spotted_bass',
   name: 'Spotted Bass',
   scientific: 'Micropterus punctulatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Micropterus_punctulatus.jpg/500px-Micropterus_punctulatus.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Green to olive body',
     'Rows of dark spots below lateral line',

@@ -1,0 +1,264 @@
+Found 128 fish species to process
+Output directory: /Users/joeystout/projects/src/github.com/TheOutdoorProgrammer/fishid/public/img/fish
+Rate limit: 2000ms between requests
+
+✗ alewife/1.jpg - HTTP 404
+✗ american_eel/1.jpg - HTTP 404
+✓ banded_darter/1.jpg
+✓ banded_killifish/1.jpg
+✓ bighead_carp/1.gif
+✗ bigmouth_buffalo/1.jpg - HTTP 404
+✓ black_buffalo/1.jpg
+✓ black_bullhead/1.png
+✓ black_crappie/1.jpg
+✓ black_crappie/2.jpg
+✓ black_redhorse/1.jpg
+Progress: 10/128
+✓ blackside_darter/1.jpg
+✓ blackstripe_topminnow/1.jpg
+✗ blue_catfish/1.jpg - HTTP 404
+✗ blue_catfish/2.jpg - HTTP 404
+✓ blue_sucker/1.jpg
+✓ bluebreast_darter/1.jpg
+✓ bluegill/1.jpg
+✓ bluegill/2.jpg
+✓ bluntnose_minnow/1.jpg
+✗ bowfin/1.jpg - HTTP 404
+✓ brindled_madtom/1.jpg
+✓ brook_silverside/1.jpg
+Progress: 20/128
+✓ brook_stickleback/1.jpg
+✗ brook_trout/1.jpg - HTTP 404
+✓ brown_bullhead/1.jpg
+✓ brown_trout/1.jpg
+✓ brown_trout/2.jpg
+✗ burbot/1.jpg - HTTP 404
+✓ central_mudminnow/1.jpg
+✓ central_stoneroller/1.jpg
+✓ channel_catfish/1.jpg
+✓ channel_catfish/2.jpg
+✓ channel_darter/1.jpg
+✗ chinook_salmon/1.jpg - HTTP 404
+Progress: 30/128
+✗ coho_salmon/1.jpg - HTTP 404
+✓ common_carp/1.jpg
+✓ common_carp/2.jpg
+✓ common_shiner/1.jpg
+✓ creek_chub/1.jpg
+✓ creek_chubsucker/1.jpg
+✓ dusky_darter/1.jpg
+✓ eastern_sand_darter/1.jpg
+✓ emerald_shiner/1.jpg
+✗ european_rudd/1.jpg - HTTP 404
+✗ fantail_darter/1.jpg - HTTP 404
+Progress: 40/128
+✓ fathead_minnow/1.jpg
+✓ flathead_catfish/1.jpg
+✓ flathead_catfish/2.jpg
+✓ freshwater_drum/1.jpg
+✓ freshwater_drum/2.jpg
+✓ gilt_darter/1.jpg
+✗ gizzard_shad/1.jpg - HTTP 404
+✗ golden_redhorse/1.jpg - HTTP 404
+✓ golden_shiner/1.jpg
+✗ goldfish/1.jpg - HTTP 429
+✗ grass_carp/1.jpg - HTTP 429
+✓ grass_pickerel/1.jpg
+Progress: 50/128
+✓ greater_redhorse/1.jpg
+✓ green_sunfish/1.jpg
+✗ greenside_darter/1.jpg - HTTP 429
+✓ highfin_carpsucker/1.jpg
+✓ hornyhead_chub/1.jpg
+✓ hybrid_striped_bass/1.jpg
+✓ iowa_darter/1.png
+✓ johnny_darter/1.jpg
+✓ lake_chubsucker/1.jpg
+✗ lake_sturgeon/1.jpg - HTTP 404
+Progress: 60/128
+✓ lake_trout/1.jpg
+✓ largemouth_bass/1.jpg
+✓ largemouth_bass/2.jpg
+✗ logperch/1.jpg - HTTP 404
+✗ longear_sunfish/1.jpg - HTTP 429
+✓ longnose_dace/1.jpg
+✗ longnose_gar/1.jpg - HTTP 429
+✓ mimic_shiner/1.jpg
+✗ mooneye/1.jpg - HTTP 429
+✗ mottled_sculpin/1.jpg - HTTP 429
+✓ muskellunge/1.jpg
+✓ muskellunge/2.jpg
+Progress: 70/128
+✗ northern_hog_sucker/1.jpg - HTTP 429
+✓ northern_pike/1.jpg
+✓ northern_pike/2.jpg
+✓ northern_studfish/1.jpg
+✓ orangespotted_sunfish/1.png
+✓ orangethroat_darter/1.jpg
+✗ paddlefish/1.jpg - HTTP 404
+✗ pirate_perch/1.jpg - HTTP 429
+✗ pumpkinseed/1.jpg - HTTP 429
+✗ quillback/1.jpg - HTTP 429
+✗ rainbow_darter/1.jpg - HTTP 429
+Progress: 80/128
+✗ rainbow_smelt/1.jpg - HTTP 429
+✓ rainbow_trout/1.jpg
+✗ rainbow_trout/2.jpg - HTTP 429
+✗ redear_sunfish/1.jpg - HTTP 429
+✓ redfin_shiner/1.jpg
+✓ redside_dace/1.jpg
+✓ river_chub/1.jpg
+✓ river_redhorse/1.jpg
+✗ rock_bass/1.jpg - HTTP 404
+✓ rosyface_shiner/1.jpg
+✗ round_goby/1.jpg - HTTP 429
+Progress: 90/128
+✓ sand_shiner/1.jpg
+✓ sauger/1.jpg
+✓ sauger/2.jpg
+✓ saugeye/1.jpg
+✓ saugeye/2.jpg
+✓ scarlet_shiner/1.jpg
+✗ sea_lamprey/1.jpg - HTTP 404
+✓ shorthead_redhorse/1.jpg
+✓ shortnose_gar/1.jpg
+✗ shovelnose_sturgeon/1.jpg - HTTP 429
+✗ silver_carp_invasive/1.jpg - HTTP 429
+✓ silver_chub/1.jpg
+Progress: 100/128
+✓ silver_redhorse/1.jpg
+✓ silverjaw_minnow/1.jpg
+✓ skipjack_herring/1.jpg
+✓ slenderhead_darter/1.jpg
+✓ smallmouth_bass/1.jpg
+✓ smallmouth_bass/2.jpg
+✓ smallmouth_buffalo/1.jpg
+✓ smallmouth_redhorse/1.jpg
+✗ southern_redbelly_dace/1.jpg - HTTP 404
+✓ spotfin_shiner/1.jpg
+✗ spotted_bass/1.jpg - HTTP 404
+Progress: 110/128
+✓ spotted_sucker/1.jpg
+✓ steelhead/1.jpg
+✗ steelhead/2.png - HTTP 429
+✗ stonecat/1.jpg - HTTP 429
+✓ striped_shiner/1.jpg
+✓ suckermouth_minnow/1.jpg
+✓ tadpole_madtom/1.jpg
+✓ trout_perch/1.jpg
+✓ variegate_darter/1.jpg
+✓ walleye/1.jpg
+✓ walleye/2.jpg
+✗ warmouth/1.jpg - HTTP 404
+Progress: 120/128
+✓ western_blacknose_dace/1.jpg
+✓ white_bass/1.jpg
+✓ white_bass/2.jpg
+✗ white_catfish/1.jpg - HTTP 429
+✗ white_crappie/1.jpg - HTTP 429
+✓ white_crappie/2.jpg
+✓ white_perch/1.jpg
+✗ white_sucker/1.jpg - HTTP 429
+✗ yellow_bullhead/1.jpg - HTTP 429
+✗ yellow_perch/1.jpg - HTTP 429
+✓ yellow_perch/2.jpg
+
+=== Download Summary ===
+Total fish processed: 128
+Failed downloads: 47
+
+Failed downloads:
+  - alewife: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Alewife.jpg/500px-Alewife.jpg
+    Error: HTTP 404
+  - american_eel: https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Anguilla_rostrata.jpg/500px-Anguilla_rostrata.jpg
+    Error: HTTP 404
+  - bigmouth_buffalo: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ictiobus_cyprinellus.jpg/500px-Ictiobus_cyprinellus.jpg
+    Error: HTTP 404
+  - blue_catfish: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Blue_catfish.jpg/500px-Blue_catfish.jpg
+    Error: HTTP 404
+  - blue_catfish: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ictalurus_furcatus.jpg/500px-Ictalurus_furcatus.jpg
+    Error: HTTP 404
+  - bowfin: https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Amia_calva_%28YPM_ICH_004577%29_001.jpg/500px-Amia_calva_%28YPM_ICH_004577%29_001.jpg
+    Error: HTTP 404
+  - brook_trout: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Salvelinus_fontinalis.jpg/500px-Salvelinus_fontinalis.jpg
+    Error: HTTP 404
+  - burbot: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lota_lota.jpg/500px-Lota_lota.jpg
+    Error: HTTP 404
+  - chinook_salmon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg/500px-Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg
+    Error: HTTP 404
+  - coho_salmon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Oncorhynchus_kisutch.jpeg/500px-Oncorhynchus_kisutch.jpeg
+    Error: HTTP 404
+  - european_rudd: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Scardinius_erythrophthalmus_Prague_Vltava_3.jpg/500px-Scardinius_erythrophthalmus_Prague_Vltava_3.jpg
+    Error: HTTP 404
+  - fantail_darter: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Etheostoma_flabellare.jpg/500px-Etheostoma_flabellare.jpg
+    Error: HTTP 404
+  - gizzard_shad: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gizzard_shad.jpg/500px-Gizzard_shad.jpg
+    Error: HTTP 404
+  - golden_redhorse: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Moxostoma_erythrurum.jpg/500px-Moxostoma_erythrurum.jpg
+    Error: HTTP 404
+  - goldfish: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Carassius_auratus_-_Gold_fish_02.jpg/500px-Carassius_auratus_-_Gold_fish_02.jpg
+    Error: HTTP 429
+  - grass_carp: https://upload.wikimedia.org/wikipedia/commons/d/de/Grass_Carp.jpg
+    Error: HTTP 429
+  - greenside_darter: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Etheostoma_blennioides.jpg/500px-Etheostoma_blennioides.jpg
+    Error: HTTP 429
+  - lake_sturgeon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Acipenser_fulvescens.jpg/500px-Acipenser_fulvescens.jpg
+    Error: HTTP 404
+  - logperch: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Percina_caprodes.jpg/500px-Percina_caprodes.jpg
+    Error: HTTP 404
+  - longear_sunfish: https://upload.wikimedia.org/wikipedia/commons/9/98/Lepomis_megalotis_UMFS_2015.JPG
+    Error: HTTP 429
+  - longnose_gar: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lepisosteus_osseus.jpg/500px-Lepisosteus_osseus.jpg
+    Error: HTTP 429
+  - mooneye: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hiodon_tergisus.jpg/500px-Hiodon_tergisus.jpg
+    Error: HTTP 429
+  - mottled_sculpin: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cottus_bairdii.jpg/500px-Cottus_bairdii.jpg
+    Error: HTTP 429
+  - northern_hog_sucker: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hypentelium_nigricans.jpg/500px-Hypentelium_nigricans.jpg
+    Error: HTTP 429
+  - paddlefish: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Polyodon_spathula.jpg/500px-Polyodon_spathula.jpg
+    Error: HTTP 404
+  - pirate_perch: https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aphredoderus_sayanus_sayanus.jpg/500px-Aphredoderus_sayanus_sayanus.jpg
+    Error: HTTP 429
+  - pumpkinseed: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lepomis_gibbosus_PAQ.jpg/500px-Lepomis_gibbosus_PAQ.jpg
+    Error: HTTP 429
+  - quillback: https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Carpiodes_cyprinus.jpg/500px-Carpiodes_cyprinus.jpg
+    Error: HTTP 429
+  - rainbow_darter: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Etheostoma_caeruleum.jpg/500px-Etheostoma_caeruleum.jpg
+    Error: HTTP 429
+  - rainbow_smelt: https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Osmerus_mordax.jpg/500px-Osmerus_mordax.jpg
+    Error: HTTP 429
+  - rainbow_trout: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg/500px-Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg
+    Error: HTTP 429
+  - redear_sunfish: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Redear_sunfish.jpg/500px-Redear_sunfish.jpg
+    Error: HTTP 429
+  - rock_bass: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ambloplites_rupestris.jpg/500px-Ambloplites_rupestris.jpg
+    Error: HTTP 404
+  - round_goby: https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Neogobius_melanostomus.jpg/500px-Neogobius_melanostomus.jpg
+    Error: HTTP 429
+  - sea_lamprey: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Petromyzon_marinus.jpg/500px-Petromyzon_marinus.jpg
+    Error: HTTP 404
+  - shovelnose_sturgeon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shovelnose_sturgeon.jpg/500px-Shovelnose_sturgeon.jpg
+    Error: HTTP 429
+  - silver_carp_invasive: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hypophthalmichthys_molitrix.jpg/500px-Hypophthalmichthys_molitrix.jpg
+    Error: HTTP 429
+  - southern_redbelly_dace: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chrosomus_erythrogaster.jpg/500px-Chrosomus_erythrogaster.jpg
+    Error: HTTP 404
+  - spotted_bass: https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Micropterus_punctulatus.jpg/500px-Micropterus_punctulatus.jpg
+    Error: HTTP 404
+  - steelhead: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steelhead_%28Oncorhynchus_mykiss%29.png/500px-Steelhead_%28Oncorhynchus_mykiss%29.png
+    Error: HTTP 429
+  - stonecat: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noturus_flavus.jpg/500px-Noturus_flavus.jpg
+    Error: HTTP 429
+  - warmouth: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lepomis_gulosus.jpg/500px-Lepomis_gulosus.jpg
+    Error: HTTP 404
+  - white_catfish: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ameiurus_catus.jpg/500px-Ameiurus_catus.jpg
+    Error: HTTP 429
+  - white_crappie: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/White_Crappie.jpg/500px-White_Crappie.jpg
+    Error: HTTP 429
+  - white_sucker: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Catostomus_commersonii.jpg/500px-Catostomus_commersonii.jpg
+    Error: HTTP 429
+  - yellow_bullhead: https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ameiurus_natalis.jpg/500px-Ameiurus_natalis.jpg
+    Error: HTTP 429
+  - yellow_perch: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg/500px-Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg
+    Error: HTTP 429

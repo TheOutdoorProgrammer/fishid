@@ -4,8 +4,10 @@ export const steelhead: Fish = {
   id: 'steelhead',
   name: 'Steelhead Trout',
   scientific: 'Oncorhynchus mykiss',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg/500px-Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steelhead_%28Oncorhynchus_mykiss%29.png/500px-Steelhead_%28Oncorhynchus_mykiss%29.png',
+  image: [
+    '/img/fish/steelhead/1.jpg',
+    '/img/fish/steelhead/2.png'
+  ],
   features: [
     'Streamlined, torpedo-shaped body',
     'Chrome/silver sides (lake-run phase)',

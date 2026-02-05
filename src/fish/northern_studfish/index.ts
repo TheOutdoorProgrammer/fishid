@@ -4,8 +4,9 @@ export const northern_studfish: Fish = {
   id: 'northern_studfish',
   name: 'Northern Studfish',
   scientific: 'Fundulus catenatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Fundulus_catenatus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/northern_studfish/1.jpg'
+  ],
   features: [
     'Elongated body with flat head',
     'Rows of reddish-brown spots on olive body',

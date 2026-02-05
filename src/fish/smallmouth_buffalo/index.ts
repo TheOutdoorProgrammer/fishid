@@ -4,8 +4,9 @@ export const smallmouth_buffalo: Fish = {
   id: 'smallmouth_buffalo',
   name: 'Smallmouth Buffalo',
   scientific: 'Ictiobus bubalus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ictiobus_bubalus.jpg/500px-Ictiobus_bubalus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/smallmouth_buffalo/1.jpg'
+  ],
   features: [
     'Deep, compressed body similar to bigmouth buffalo',
     'Small, downward-pointing subterminal mouth',

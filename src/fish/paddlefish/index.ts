@@ -4,8 +4,7 @@ export const paddlefish: Fish = {
   id: 'paddlefish',
   name: 'Paddlefish',
   scientific: 'Polyodon spathula',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Polyodon_spathula.jpg/500px-Polyodon_spathula.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Extremely long, paddle-shaped rostrum (snout)',
     'Shark-like body shape with heterocercal tail',

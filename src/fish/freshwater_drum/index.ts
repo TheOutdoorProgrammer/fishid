@@ -4,8 +4,10 @@ export const freshwater_drum: Fish = {
   id: 'freshwater_drum',
   name: 'Freshwater Drum',
   scientific: 'Aplodinotus grunniens',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg/500px-Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg/500px-Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg',
+  image: [
+    '/img/fish/freshwater_drum/1.jpg',
+    '/img/fish/freshwater_drum/2.jpg'
+  ],
   features: [
     'Deep, humped body shape',
     'Silver-gray coloring',

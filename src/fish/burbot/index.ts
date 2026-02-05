@@ -4,8 +4,7 @@ export const burbot: Fish = {
   id: 'burbot',
   name: 'Burbot',
   scientific: 'Lota lota',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lota_lota.jpg/500px-Lota_lota.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Elongated body with eel-like appearance',
     'Single barbel on chin',

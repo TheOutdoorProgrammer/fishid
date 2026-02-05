@@ -4,8 +4,9 @@ export const bluntnose_minnow: Fish = {
   id: 'bluntnose_minnow',
   name: 'Bluntnose Minnow',
   scientific: 'Pimephales notatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg/500px-Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/bluntnose_minnow/1.jpg'
+  ],
   features: [
     'Small, slender body',
     'Blunt, rounded snout overhanging mouth',

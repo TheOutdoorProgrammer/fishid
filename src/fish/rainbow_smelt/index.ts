@@ -4,8 +4,7 @@ export const rainbow_smelt: Fish = {
   id: 'rainbow_smelt',
   name: 'Rainbow Smelt',
   scientific: 'Osmerus mordax',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Osmerus_mordax.jpg/500px-Osmerus_mordax.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Small, slender, elongated body',
     'Translucent silver-green coloring',

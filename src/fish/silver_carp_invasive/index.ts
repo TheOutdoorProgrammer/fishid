@@ -4,8 +4,7 @@ export const silver_carp_invasive: Fish = {
   id: 'silver_carp_invasive',
   name: 'Silver Carp',
   scientific: 'Hypophthalmichthys molitrix',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hypophthalmichthys_molitrix.jpg/500px-Hypophthalmichthys_molitrix.jpg',
-  quizImage: '',
+  image: [],
   features: [
     'Large, deep-bodied silver fish',
     'Eyes set very low on head (below mouth line)',

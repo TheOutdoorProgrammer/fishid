@@ -4,8 +4,9 @@ export const blackstripe_topminnow: Fish = {
   id: 'blackstripe_topminnow',
   name: 'Blackstripe Topminnow',
   scientific: 'Fundulus notatus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg/500px-FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/blackstripe_topminnow/1.jpg'
+  ],
   features: [
     'Small surface-dwelling fish',
     'Bold dark lateral stripe from snout to tail',

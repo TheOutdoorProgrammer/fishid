@@ -4,8 +4,9 @@ export const scarlet_shiner: Fish = {
   id: 'scarlet_shiner',
   name: 'Scarlet Shiner',
   scientific: 'Lythrurus fasciolaris',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scarletshinermale.jpg/500px-Scarletshinermale.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/scarlet_shiner/1.jpg'
+  ],
   features: [
     'Moderately deep body',
     'Olive back with silver sides',

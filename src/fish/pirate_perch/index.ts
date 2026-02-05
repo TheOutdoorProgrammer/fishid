@@ -4,8 +4,9 @@ export const pirate_perch: Fish = {
   id: 'pirate_perch',
   name: 'Pirate Perch',
   scientific: 'Aphredoderus sayanus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aphredoderus_sayanus_sayanus.jpg/500px-Aphredoderus_sayanus_sayanus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/pirate_perch/1.jpg'
+  ],
   features: [
     'Small, dark-bodied fish',
     'Anus located under the throat in adults (unique!)',

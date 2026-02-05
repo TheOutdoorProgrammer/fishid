@@ -4,8 +4,9 @@ export const silverjaw_minnow: Fish = {
   id: 'silverjaw_minnow',
   name: 'Silverjaw Minnow',
   scientific: 'Ericymba buccata',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ericymba_buccata_-_Gojilynx_-_606630924.jpeg/500px-Ericymba_buccata_-_Gojilynx_-_606630924.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/silverjaw_minnow/1.jpg'
+  ],
   features: [
     'Translucent body',
     'Visible silvery chambers in lower jaw and snout',

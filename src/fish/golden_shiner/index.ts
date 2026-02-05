@@ -4,8 +4,9 @@ export const golden_shiner: Fish = {
   id: 'golden_shiner',
   name: 'Golden Shiner',
   scientific: 'Notemigonus crysoleucas',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Notemigonus_crysoleucas_Tyson.JPG',
-  quizImage: '',
+  image: [
+    '/img/fish/golden_shiner/1.jpg'
+  ],
   features: [
     'Deep, laterally compressed body',
     'Golden to olive coloring',

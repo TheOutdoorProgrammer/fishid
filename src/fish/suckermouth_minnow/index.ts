@@ -4,8 +4,9 @@ export const suckermouth_minnow: Fish = {
   id: 'suckermouth_minnow',
   name: 'Suckermouth Minnow',
   scientific: 'Phenacobius mirabilis',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg/500px-Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg',
-  quizImage: '',
+  image: [
+    '/img/fish/suckermouth_minnow/1.jpg'
+  ],
   features: [
     'Elongated body with flattened underside',
     'Fleshy sucker-like mouth on underside of head',

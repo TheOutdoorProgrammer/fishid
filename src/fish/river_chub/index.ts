@@ -4,8 +4,9 @@ export const river_chub: Fish = {
   id: 'river_chub',
   name: 'River Chub',
   scientific: 'Nocomis micropogon',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/River_chub_-_Nocomis_micropogon.jpg/500px-River_chub_-_Nocomis_micropogon.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/river_chub/1.jpg'
+  ],
   features: [
     'Large, robust minnow (one of the biggest)',
     'Olive-brown body with large scales',

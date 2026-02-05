@@ -4,8 +4,9 @@ export const brook_silverside: Fish = {
   id: 'brook_silverside',
   name: 'Brook Silverside',
   scientific: 'Labidesthes sicculus',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Labidesthes_sicculus.jpg/500px-Labidesthes_sicculus.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/brook_silverside/1.jpg'
+  ],
   features: [
     'Very slender, elongated body',
     'Bright silver lateral stripe',

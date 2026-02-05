@@ -4,8 +4,9 @@ export const white_perch: Fish = {
   id: 'white_perch',
   name: 'White Perch',
   scientific: 'Morone americana',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White_perch.jpg/500px-White_perch.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/white_perch/1.jpg'
+  ],
   features: [
     'Silver-green body with no distinct stripes',
     'Deep, compressed body shape',

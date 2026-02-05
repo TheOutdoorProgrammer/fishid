@@ -4,8 +4,10 @@ export const white_bass: Fish = {
   id: 'white_bass',
   name: 'White Bass',
   scientific: 'Morone chrysops',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/White_Bass_%28Morone_chrysops%29.jpg/500px-White_Bass_%28Morone_chrysops%29.jpg',
-  quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Morone_chrysops_white_bass_fish_%28white_background%29.jpg/500px-Morone_chrysops_white_bass_fish_%28white_background%29.jpg',
+  image: [
+    '/img/fish/white_bass/1.jpg',
+    '/img/fish/white_bass/2.jpg'
+  ],
   features: [
     'Silver body with dark horizontal stripes',
     'Deep, laterally compressed body',

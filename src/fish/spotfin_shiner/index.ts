@@ -4,8 +4,9 @@ export const spotfin_shiner: Fish = {
   id: 'spotfin_shiner',
   name: 'Spotfin Shiner',
   scientific: 'Cyprinella spiloptera',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cyprinella_spiloptera_404697520.jpg/500px-Cyprinella_spiloptera_404697520.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/spotfin_shiner/1.jpg'
+  ],
   features: [
     'Steel-blue sheen on back and sides',
     'Dark blotch on rear of dorsal fin',

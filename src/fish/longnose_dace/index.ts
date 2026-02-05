@@ -4,8 +4,9 @@ export const longnose_dace: Fish = {
   id: 'longnose_dace',
   name: 'Longnose Dace',
   scientific: 'Rhinichthys cataractae',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Longnose_dace.jpg/500px-Longnose_dace.jpg',
-  quizImage: '',
+  image: [
+    '/img/fish/longnose_dace/1.jpg'
+  ],
   features: [
     'Small, elongated body',
     'Long snout that extends well past upper lip',
