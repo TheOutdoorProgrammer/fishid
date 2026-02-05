@@ -6,24 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "zustand": "^4.4.0",
-    "@ducanh2912/next-pwa": "^10.2.0"
+    "zustand": "^4.4.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitest/ui": "^4.0.18",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "happy-dom": "^20.5.0",
+    "prettier": "^3.2.0",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "prettier": "^3.2.0"
+    "vitest": "^4.0.18"
   }
 }
