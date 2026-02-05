@@ -718,7 +718,7 @@ const FISH = {
       { label: "Connecticut DEEP freshwater fishes", url: "https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/brown-bullhead" },
       { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/brown-bullhead" }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ameiurus_nebulosus.jpg/500px-Ameiurus_nebulosus.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Brown_bullhead_fish_ameiurus_nebulosus.jpg',
     quizImage: '',
     features: [
       'Dark brown to olive body, often mottled',
