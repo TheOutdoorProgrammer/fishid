@@ -323,6 +323,19 @@ function renderLearnCard(){
   });
   $('#learnFun').textContent = `Fun fact: ${fish.funFact}`;
 
+  // References (optional)
+  const refsEl = $('#learnRefs');
+  if(refsEl){
+    const refs = fish.refs || [];
+    if(!refs.length){
+      refsEl.innerHTML = '';
+    } else {
+      refsEl.innerHTML = `<b>References:</b><br>` + refs
+        .map(r=>`<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.label}</a>`)
+        .join('<br>');
+    }
+  }
+
   // stats & XP — only award once per card per session
   if(!learnCtx.seen.has(fishId)){
     learnCtx.seen.add(fishId);

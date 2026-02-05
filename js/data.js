@@ -2,6 +2,10 @@
 const FISH = {
   walleye: {
     id: 'walleye', name: 'Walleye', scientific: 'Sander vitreus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20vitreus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+vitreus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Walleye_%28Sander_vitreus%29_%281%29.jpg/500px-Walleye_%28Sander_vitreus%29_%281%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sander_vitreus.jpg/500px-Sander_vitreus.jpg',
     features: [
@@ -19,6 +23,10 @@ const FISH = {
   },
   yellow_perch: {
     id: 'yellow_perch', name: 'Yellow Perch', scientific: 'Perca flavescens',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Perca%20flavescens' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Perca+flavescens' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg/500px-Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/D3149-1._yellow_perch_%28Perca_flavescens%29.jpg/500px-D3149-1._yellow_perch_%28Perca_flavescens%29.jpg',
     features: [
@@ -36,6 +44,10 @@ const FISH = {
   },
   smallmouth_bass: {
     id: 'smallmouth_bass', name: 'Smallmouth Bass', scientific: 'Micropterus dolomieu',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20dolomieu' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+dolomieu' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Smallmouth_Bass_%2849561724026%29.jpg/500px-Smallmouth_Bass_%2849561724026%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Micropterus_dolomieu2.jpg/500px-Micropterus_dolomieu2.jpg',
     features: [
@@ -53,6 +65,10 @@ const FISH = {
   },
   largemouth_bass: {
     id: 'largemouth_bass', name: 'Largemouth Bass', scientific: 'Micropterus salmoides',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20salmoides' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+salmoides' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Largemouth_Bass_%28Micropterus_salmoides%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29.jpg',
     features: [
@@ -70,6 +86,10 @@ const FISH = {
   },
   channel_catfish: {
     id: 'channel_catfish', name: 'Channel Catfish', scientific: 'Ictalurus punctatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictalurus%20punctatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictalurus+punctatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg/500px-Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Channel_catfish_%28Ictalurus_punctatus%29.jpg/500px-Channel_catfish_%28Ictalurus_punctatus%29.jpg',
     features: [
@@ -88,6 +108,10 @@ const FISH = {
   },
   bluegill: {
     id: 'bluegill', name: 'Bluegill', scientific: 'Lepomis macrochirus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20macrochirus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+macrochirus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bluegill_%28cropped%29.jpg/500px-Bluegill_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg/500px-Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg',
     features: [
@@ -106,6 +130,10 @@ const FISH = {
   },
   black_crappie: {
     id: 'black_crappie', name: 'Black Crappie', scientific: 'Pomoxis nigromaculatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pomoxis%20nigromaculatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pomoxis+nigromaculatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Black_crappie.jpg/500px-Black_crappie.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg/500px-Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg',
     features: [
@@ -123,6 +151,10 @@ const FISH = {
   },
   white_crappie: {
     id: 'white_crappie', name: 'White Crappie', scientific: 'Pomoxis annularis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pomoxis%20annularis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pomoxis+annularis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/White_Crappie.jpg/500px-White_Crappie.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/White_crappie_pomoxis_annularis_%28white_background%29.jpg/500px-White_crappie_pomoxis_annularis_%28white_background%29.jpg',
     features: [
@@ -140,6 +172,10 @@ const FISH = {
   },
   northern_pike: {
     id: 'northern_pike', name: 'Northern Pike', scientific: 'Esox lucius',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20lucius' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+lucius' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/500px-Esox_lucius_ZOO_1.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/500px-Esox_Lucius.JPG',
     features: [
@@ -158,6 +194,10 @@ const FISH = {
   },
   muskellunge: {
     id: 'muskellunge', name: 'Muskellunge', scientific: 'Esox masquinongy',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20masquinongy' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+masquinongy' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Esox_masquinongyeditcrop.jpg/500px-Esox_masquinongyeditcrop.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Esox_masquinongy_%28muskellunge%29_1.jpg/500px-Esox_masquinongy_%28muskellunge%29_1.jpg',
     features: [
@@ -176,6 +216,10 @@ const FISH = {
   },
   steelhead: {
     id: 'steelhead', name: 'Steelhead Trout', scientific: 'Oncorhynchus mykiss',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20mykiss' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+mykiss' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg/500px-Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steelhead_%28Oncorhynchus_mykiss%29.png/500px-Steelhead_%28Oncorhynchus_mykiss%29.png',
     features: [
@@ -194,6 +238,10 @@ const FISH = {
   },
   saugeye: {
     id: 'saugeye', name: 'Saugeye', scientific: 'Sander vitreus × S. canadensis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20vitreus%20%C3%97%20S.%20canadensis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+vitreus+×+S.+canadensis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg/500px-Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Saugeye.jpg/500px-Saugeye.jpg',
     features: [
@@ -212,6 +260,10 @@ const FISH = {
   },
   white_bass: {
     id: 'white_bass', name: 'White Bass', scientific: 'Morone chrysops',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20chrysops' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+chrysops' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/White_Bass_%28Morone_chrysops%29.jpg/500px-White_Bass_%28Morone_chrysops%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Morone_chrysops_white_bass_fish_%28white_background%29.jpg/500px-Morone_chrysops_white_bass_fish_%28white_background%29.jpg',
     features: [
@@ -229,6 +281,10 @@ const FISH = {
   },
   common_carp: {
     id: 'common_carp', name: 'Common Carp', scientific: 'Cyprinus carpio',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cyprinus%20carpio' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cyprinus+carpio' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cyprinus_carpio_2008_G1_%28cropped%29.jpg/500px-Cyprinus_carpio_2008_G1_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Cyprinus_carpio.jpeg/500px-Cyprinus_carpio.jpeg',
     features: [
@@ -247,6 +303,10 @@ const FISH = {
   },
   flathead_catfish: {
     id: 'flathead_catfish', name: 'Flathead Catfish', scientific: 'Pylodictis olivaris',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pylodictis%20olivaris' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pylodictis+olivaris' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pylodictis_olivaris.jpg/500px-Pylodictis_olivaris.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flathead_Catfish_%28Pylodictis_olivaris%29.jpg/500px-Flathead_Catfish_%28Pylodictis_olivaris%29.jpg',
     features: [
@@ -265,6 +325,10 @@ const FISH = {
   },
   blue_catfish: {
     id: 'blue_catfish', name: 'Blue Catfish', scientific: 'Ictalurus furcatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictalurus%20furcatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictalurus+furcatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Blue_catfish.jpg/500px-Blue_catfish.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ictalurus_furcatus.jpg/500px-Ictalurus_furcatus.jpg',
     features: [
@@ -283,6 +347,10 @@ const FISH = {
   },
   rainbow_trout: {
     id: 'rainbow_trout', name: 'Rainbow Trout', scientific: 'Oncorhynchus mykiss',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20mykiss' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+mykiss' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/500px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg/500px-Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg',
     features: [
@@ -301,6 +369,10 @@ const FISH = {
   },
   brown_trout: {
     id: 'brown_trout', name: 'Brown Trout', scientific: 'Salmo trutta',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salmo%20trutta' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salmo+trutta' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Brown_Trout_%28Salmo_trutta%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29.jpg',
     features: [
@@ -318,6 +390,10 @@ const FISH = {
   },
   freshwater_drum: {
     id: 'freshwater_drum', name: 'Freshwater Drum', scientific: 'Aplodinotus grunniens',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Aplodinotus%20grunniens' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Aplodinotus+grunniens' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg/500px-Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg/500px-Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg',
     features: [
@@ -336,6 +412,10 @@ const FISH = {
   },
   sauger: {
     id: 'sauger', name: 'Sauger', scientific: 'Sander canadensis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20canadensis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+canadensis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Saugernctc.jpg/500px-Saugernctc.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg/500px-Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg',
     features: [
@@ -354,6 +434,10 @@ const FISH = {
   },
   green_sunfish: {
     id: 'green_sunfish', name: 'Green Sunfish', scientific: 'Lepomis cyanellus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20cyanellus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+cyanellus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lepomis_cyanellus.jpg/500px-Lepomis_cyanellus.jpg',
     quizImage: '',
     features: [
@@ -372,6 +456,10 @@ const FISH = {
   },
   pumpkinseed: {
     id: 'pumpkinseed', name: 'Pumpkinseed', scientific: 'Lepomis gibbosus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20gibbosus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+gibbosus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lepomis_gibbosus_PAQ.jpg/500px-Lepomis_gibbosus_PAQ.jpg',
     quizImage: '',
     features: [
@@ -390,6 +478,10 @@ const FISH = {
   },
   longear_sunfish: {
     id: 'longear_sunfish', name: 'Longear Sunfish', scientific: 'Lepomis megalotis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20megalotis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+megalotis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lepomis_megalotis.jpg/500px-Lepomis_megalotis.jpg',
     quizImage: '',
     features: [
@@ -408,6 +500,10 @@ const FISH = {
   },
   redear_sunfish: {
     id: 'redear_sunfish', name: 'Redear Sunfish', scientific: 'Lepomis microlophus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20microlophus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+microlophus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Redear_sunfish.jpg/500px-Redear_sunfish.jpg',
     quizImage: '',
     features: [
@@ -426,6 +522,10 @@ const FISH = {
   },
   orangespotted_sunfish: {
     id: 'orangespotted_sunfish', name: 'Orangespotted Sunfish', scientific: 'Lepomis humilis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20humilis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+humilis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orangespottednctc.png/500px-Orangespottednctc.png',
     quizImage: '',
     features: [
@@ -444,6 +544,10 @@ const FISH = {
   },
   warmouth: {
     id: 'warmouth', name: 'Warmouth', scientific: 'Lepomis gulosus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20gulosus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+gulosus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lepomis_gulosus.jpg/500px-Lepomis_gulosus.jpg',
     quizImage: '',
     features: [
@@ -462,6 +566,10 @@ const FISH = {
   },
   spotted_bass: {
     id: 'spotted_bass', name: 'Spotted Bass', scientific: 'Micropterus punctulatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20punctulatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+punctulatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Micropterus_punctulatus.jpg/500px-Micropterus_punctulatus.jpg',
     quizImage: '',
     features: [
@@ -480,6 +588,10 @@ const FISH = {
   },
   rock_bass: {
     id: 'rock_bass', name: 'Rock Bass', scientific: 'Ambloplites rupestris',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ambloplites%20rupestris' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ambloplites+rupestris' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ambloplites_rupestris.jpg/500px-Ambloplites_rupestris.jpg',
     quizImage: '',
     features: [
@@ -498,6 +610,10 @@ const FISH = {
   },
   hybrid_striped_bass: {
     id: 'hybrid_striped_bass', name: 'Hybrid Striped Bass', scientific: 'Morone chrysops × M. saxatilis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20chrysops%20%C3%97%20M.%20saxatilis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+chrysops+×+M.+saxatilis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HybridBassCoosaRiver.jpg/500px-HybridBassCoosaRiver.jpg',
     quizImage: '',
     features: [
@@ -516,6 +632,10 @@ const FISH = {
   },
   white_perch: {
     id: 'white_perch', name: 'White Perch', scientific: 'Morone americana',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20americana' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+americana' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White_perch.jpg/500px-White_perch.jpg',
     quizImage: '',
     features: [
@@ -534,6 +654,10 @@ const FISH = {
   },
   yellow_bullhead: {
     id: 'yellow_bullhead', name: 'Yellow Bullhead', scientific: 'Ameiurus natalis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20natalis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+natalis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ameiurus_natalis.jpg/500px-Ameiurus_natalis.jpg',
     quizImage: '',
     features: [
@@ -552,6 +676,10 @@ const FISH = {
   },
   brown_bullhead: {
     id: 'brown_bullhead', name: 'Brown Bullhead', scientific: 'Ameiurus nebulosus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20nebulosus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+nebulosus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ameiurus_nebulosus.jpg/500px-Ameiurus_nebulosus.jpg',
     quizImage: '',
     features: [
@@ -570,6 +698,10 @@ const FISH = {
   },
   black_bullhead: {
     id: 'black_bullhead', name: 'Black Bullhead', scientific: 'Ameiurus melas',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20melas' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+melas' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ameiurus_melas_by_Duane_Raver.png/500px-Ameiurus_melas_by_Duane_Raver.png',
     quizImage: '',
     features: [
@@ -588,6 +720,10 @@ const FISH = {
   },
   white_catfish: {
     id: 'white_catfish', name: 'White Catfish', scientific: 'Ameiurus catus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20catus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+catus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ameiurus_catus.jpg/500px-Ameiurus_catus.jpg',
     quizImage: '',
     features: [
@@ -606,6 +742,10 @@ const FISH = {
   },
   stonecat: {
     id: 'stonecat', name: 'Stonecat', scientific: 'Noturus flavus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20flavus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+flavus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noturus_flavus.jpg/500px-Noturus_flavus.jpg',
     quizImage: '',
     features: [
@@ -624,6 +764,10 @@ const FISH = {
   },
   tadpole_madtom: {
     id: 'tadpole_madtom', name: 'Tadpole Madtom', scientific: 'Noturus gyrinus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20gyrinus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+gyrinus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Noturus_gyrinus_89571583.jpg/500px-Noturus_gyrinus_89571583.jpg',
     quizImage: '',
     features: [
@@ -642,6 +786,10 @@ const FISH = {
   },
   brindled_madtom: {
     id: 'brindled_madtom', name: 'Brindled Madtom', scientific: 'Noturus miurus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20miurus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+miurus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Noturus_miurus_%28Madtom%29.jpg',
     quizImage: '',
     features: [
@@ -660,6 +808,10 @@ const FISH = {
   },
   grass_pickerel: {
     id: 'grass_pickerel', name: 'Grass Pickerel', scientific: 'Esox americanus vermiculatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20americanus%20vermiculatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+americanus+vermiculatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Esox_americanus_vermiculatus.jpg/500px-Esox_americanus_vermiculatus.jpg',
     quizImage: '',
     features: [
@@ -678,6 +830,10 @@ const FISH = {
   },
   brook_trout: {
     id: 'brook_trout', name: 'Brook Trout', scientific: 'Salvelinus fontinalis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salvelinus%20fontinalis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salvelinus+fontinalis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Salvelinus_fontinalis.jpg/500px-Salvelinus_fontinalis.jpg',
     quizImage: '',
     features: [
@@ -696,6 +852,10 @@ const FISH = {
   },
   lake_trout: {
     id: 'lake_trout', name: 'Lake Trout', scientific: 'Salvelinus namaycush',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salvelinus%20namaycush' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salvelinus+namaycush' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lake_Trout_GLERL.jpg/500px-Lake_Trout_GLERL.jpg',
     quizImage: '',
     features: [
@@ -714,6 +874,10 @@ const FISH = {
   },
   chinook_salmon: {
     id: 'chinook_salmon', name: 'Chinook Salmon', scientific: 'Oncorhynchus tshawytscha',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20tshawytscha' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+tshawytscha' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg/500px-Chinook_salmon%2C_Oncorhynchus_tshawytscha.jpg',
     quizImage: '',
     features: [
@@ -732,6 +896,10 @@ const FISH = {
   },
   coho_salmon: {
     id: 'coho_salmon', name: 'Coho Salmon', scientific: 'Oncorhynchus kisutch',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20kisutch' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+kisutch' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Oncorhynchus_kisutch.jpeg/500px-Oncorhynchus_kisutch.jpeg',
     quizImage: '',
     features: [
@@ -750,6 +918,10 @@ const FISH = {
   },
   rainbow_smelt: {
     id: 'rainbow_smelt', name: 'Rainbow Smelt', scientific: 'Osmerus mordax',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Osmerus%20mordax' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Osmerus+mordax' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Osmerus_mordax.jpg/500px-Osmerus_mordax.jpg',
     quizImage: '',
     features: [
@@ -768,6 +940,10 @@ const FISH = {
   },
   gizzard_shad: {
     id: 'gizzard_shad', name: 'Gizzard Shad', scientific: 'Dorosoma cepedianum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Dorosoma%20cepedianum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Dorosoma+cepedianum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gizzard_shad.jpg/500px-Gizzard_shad.jpg',
     quizImage: '',
     features: [
@@ -786,6 +962,10 @@ const FISH = {
   },
   alewife: {
     id: 'alewife', name: 'Alewife', scientific: 'Alosa pseudoharengus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Alosa%20pseudoharengus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Alosa+pseudoharengus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Alewife.jpg/500px-Alewife.jpg',
     quizImage: '',
     features: [
@@ -804,6 +984,10 @@ const FISH = {
   },
   skipjack_herring: {
     id: 'skipjack_herring', name: 'Skipjack Herring', scientific: 'Alosa chrysochloris',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Alosa%20chrysochloris' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Alosa+chrysochloris' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Skipjack_herring_fish_alosa_chrysochloris.jpg/500px-Skipjack_herring_fish_alosa_chrysochloris.jpg',
     quizImage: '',
     features: [
@@ -822,6 +1006,10 @@ const FISH = {
   },
   mooneye: {
     id: 'mooneye', name: 'Mooneye', scientific: 'Hiodon tergisus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hiodon%20tergisus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hiodon+tergisus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hiodon_tergisus.jpg/500px-Hiodon_tergisus.jpg',
     quizImage: '',
     features: [
@@ -840,6 +1028,10 @@ const FISH = {
   },
   white_sucker: {
     id: 'white_sucker', name: 'White Sucker', scientific: 'Catostomus commersonii',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Catostomus%20commersonii' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Catostomus+commersonii' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Catostomus_commersonii.jpg/500px-Catostomus_commersonii.jpg',
     quizImage: '',
     features: [
@@ -858,6 +1050,10 @@ const FISH = {
   },
   northern_hog_sucker: {
     id: 'northern_hog_sucker', name: 'Northern Hog Sucker', scientific: 'Hypentelium nigricans',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hypentelium%20nigricans' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hypentelium+nigricans' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Hypentelium_nigricans.jpg/500px-Hypentelium_nigricans.jpg',
     quizImage: '',
     features: [
@@ -876,6 +1072,10 @@ const FISH = {
   },
   spotted_sucker: {
     id: 'spotted_sucker', name: 'Spotted Sucker', scientific: 'Minytrema melanops',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Minytrema%20melanops' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Minytrema+melanops' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg/500px-The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg',
     quizImage: '',
     features: [
@@ -894,6 +1094,10 @@ const FISH = {
   },
   creek_chubsucker: {
     id: 'creek_chubsucker', name: 'Creek Chubsucker', scientific: 'Erimyzon oblongus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Erimyzon%20oblongus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Erimyzon+oblongus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Erimyzon_oblongus.jpg/500px-Erimyzon_oblongus.jpg',
     quizImage: '',
     features: [
@@ -912,6 +1116,10 @@ const FISH = {
   },
   lake_chubsucker: {
     id: 'lake_chubsucker', name: 'Lake Chubsucker', scientific: 'Erimyzon sucetta',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Erimyzon%20sucetta' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Erimyzon+sucetta' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Erimyzon_sucetta.jpg/500px-Erimyzon_sucetta.jpg',
     quizImage: '',
     features: [
@@ -930,6 +1138,10 @@ const FISH = {
   },
   quillback: {
     id: 'quillback', name: 'Quillback', scientific: 'Carpiodes cyprinus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carpiodes%20cyprinus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carpiodes+cyprinus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Carpiodes_cyprinus.jpg/500px-Carpiodes_cyprinus.jpg',
     quizImage: '',
     features: [
@@ -948,6 +1160,10 @@ const FISH = {
   },
   highfin_carpsucker: {
     id: 'highfin_carpsucker', name: 'Highfin Carpsucker', scientific: 'Carpiodes velifer',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carpiodes%20velifer' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carpiodes+velifer' }
+    ],
     image: '',
     quizImage: '',
     features: [
@@ -966,6 +1182,10 @@ const FISH = {
   },
   golden_redhorse: {
     id: 'golden_redhorse', name: 'Golden Redhorse', scientific: 'Moxostoma erythrurum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20erythrurum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+erythrurum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Moxostoma_erythrurum.jpg/500px-Moxostoma_erythrurum.jpg',
     quizImage: '',
     features: [
@@ -984,6 +1204,10 @@ const FISH = {
   },
   silver_redhorse: {
     id: 'silver_redhorse', name: 'Silver Redhorse', scientific: 'Moxostoma anisurum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20anisurum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+anisurum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Moxostoma_anisurum.jpg/500px-Moxostoma_anisurum.jpg',
     quizImage: '',
     features: [
@@ -1002,6 +1226,10 @@ const FISH = {
   },
   black_redhorse: {
     id: 'black_redhorse', name: 'Black Redhorse', scientific: 'Moxostoma duquesnei',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20duquesnei' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+duquesnei' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BlackRedHorseSucker.jpg/500px-BlackRedHorseSucker.jpg',
     quizImage: '',
     features: [
@@ -1020,6 +1248,10 @@ const FISH = {
   },
   shorthead_redhorse: {
     id: 'shorthead_redhorse', name: 'Shorthead Redhorse', scientific: 'Moxostoma macrolepidotum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20macrolepidotum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+macrolepidotum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Moxostoma_macrolepidotum.jpg/500px-Moxostoma_macrolepidotum.jpg',
     quizImage: '',
     features: [
@@ -1038,6 +1270,10 @@ const FISH = {
   },
   river_redhorse: {
     id: 'river_redhorse', name: 'River Redhorse', scientific: 'Moxostoma carinatum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20carinatum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+carinatum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moxostoma_carinatum_153150190.jpg/500px-Moxostoma_carinatum_153150190.jpg',
     quizImage: '',
     features: [
@@ -1056,6 +1292,10 @@ const FISH = {
   },
   smallmouth_redhorse: {
     id: 'smallmouth_redhorse', name: 'Smallmouth Redhorse', scientific: 'Moxostoma breviceps',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20breviceps' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+breviceps' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg/500px-Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg',
     quizImage: '',
     features: [
@@ -1074,6 +1314,10 @@ const FISH = {
   },
   greater_redhorse: {
     id: 'greater_redhorse', name: 'Greater Redhorse', scientific: 'Moxostoma valenciennesi',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20valenciennesi' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+valenciennesi' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Moxostoma_valenciennesi.jpg/500px-Moxostoma_valenciennesi.jpg',
     quizImage: '',
     features: [
@@ -1092,6 +1336,10 @@ const FISH = {
   },
   bigmouth_buffalo: {
     id: 'bigmouth_buffalo', name: 'Bigmouth Buffalo', scientific: 'Ictiobus cyprinellus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictiobus%20cyprinellus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictiobus+cyprinellus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Ictiobus_cyprinellus.jpg/500px-Ictiobus_cyprinellus.jpg',
     quizImage: '',
     features: [
@@ -1110,6 +1358,10 @@ const FISH = {
   },
   smallmouth_buffalo: {
     id: 'smallmouth_buffalo', name: 'Smallmouth Buffalo', scientific: 'Ictiobus bubalus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictiobus%20bubalus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictiobus+bubalus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ictiobus_bubalus.jpg/500px-Ictiobus_bubalus.jpg',
     quizImage: '',
     features: [
@@ -1128,6 +1380,10 @@ const FISH = {
   },
   black_buffalo: {
     id: 'black_buffalo', name: 'Black Buffalo', scientific: 'Ictiobus niger',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictiobus%20niger' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictiobus+niger' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ictiobus_niger.jpg/500px-Ictiobus_niger.jpg',
     quizImage: '',
     features: [
@@ -1146,6 +1402,10 @@ const FISH = {
   },
   blue_sucker: {
     id: 'blue_sucker', name: 'Blue Sucker', scientific: 'Cycleptus elongatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cycleptus%20elongatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cycleptus+elongatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Blue_Sucker.jpg/500px-Blue_Sucker.jpg',
     quizImage: '',
     features: [
@@ -1164,6 +1424,10 @@ const FISH = {
   },
   central_stoneroller: {
     id: 'central_stoneroller', name: 'Central Stoneroller', scientific: 'Campostoma anomalum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Campostoma%20anomalum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Campostoma+anomalum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Campostoma_anomalum.JPG/500px-Campostoma_anomalum.JPG',
     quizImage: '',
     features: [
@@ -1182,6 +1446,10 @@ const FISH = {
   },
   creek_chub: {
     id: 'creek_chub', name: 'Creek Chub', scientific: 'Semotilus atromaculatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Semotilus%20atromaculatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Semotilus+atromaculatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semotilus_atromaculatus.jpg/500px-Semotilus_atromaculatus.jpg',
     quizImage: '',
     features: [
@@ -1200,6 +1468,10 @@ const FISH = {
   },
   golden_shiner: {
     id: 'golden_shiner', name: 'Golden Shiner', scientific: 'Notemigonus crysoleucas',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notemigonus%20crysoleucas' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notemigonus+crysoleucas' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Notemigonus_crysoleucas.jpg/500px-Notemigonus_crysoleucas.jpg',
     quizImage: '',
     features: [
@@ -1218,6 +1490,10 @@ const FISH = {
   },
   fathead_minnow: {
     id: 'fathead_minnow', name: 'Fathead Minnow', scientific: 'Pimephales promelas',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pimephales%20promelas' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pimephales+promelas' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fathead_minnow.jpg/500px-Fathead_minnow.jpg',
     quizImage: '',
     features: [
@@ -1236,6 +1512,10 @@ const FISH = {
   },
   bluntnose_minnow: {
     id: 'bluntnose_minnow', name: 'Bluntnose Minnow', scientific: 'Pimephales notatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pimephales%20notatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pimephales+notatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg/500px-Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg',
     quizImage: '',
     features: [
@@ -1254,6 +1534,10 @@ const FISH = {
   },
   common_shiner: {
     id: 'common_shiner', name: 'Common Shiner', scientific: 'Luxilus cornutus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Luxilus%20cornutus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Luxilus+cornutus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Common_shiner.jpg/500px-Common_shiner.jpg',
     quizImage: '',
     features: [
@@ -1272,6 +1556,10 @@ const FISH = {
   },
   emerald_shiner: {
     id: 'emerald_shiner', name: 'Emerald Shiner', scientific: 'Notropis atherinoides',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20atherinoides' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+atherinoides' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Emerald_shiner.jpg/500px-Emerald_shiner.jpg',
     quizImage: '',
     features: [
@@ -1290,6 +1578,10 @@ const FISH = {
   },
   spotfin_shiner: {
     id: 'spotfin_shiner', name: 'Spotfin Shiner', scientific: 'Cyprinella spiloptera',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cyprinella%20spiloptera' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cyprinella+spiloptera' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cyprinella_spiloptera_404697520.jpg/500px-Cyprinella_spiloptera_404697520.jpg',
     quizImage: '',
     features: [
@@ -1308,6 +1600,10 @@ const FISH = {
   },
   striped_shiner: {
     id: 'striped_shiner', name: 'Striped Shiner', scientific: 'Luxilus chrysocephalus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Luxilus%20chrysocephalus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Luxilus+chrysocephalus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Luxilus_chrysocephalus_67374238.jpg/500px-Luxilus_chrysocephalus_67374238.jpg',
     quizImage: '',
     features: [
@@ -1326,6 +1622,10 @@ const FISH = {
   },
   hornyhead_chub: {
     id: 'hornyhead_chub', name: 'Hornyhead Chub', scientific: 'Nocomis biguttatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Nocomis%20biguttatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Nocomis+biguttatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Horned_Chub.JPG/500px-Horned_Chub.JPG',
     quizImage: '',
     features: [
@@ -1344,6 +1644,10 @@ const FISH = {
   },
   river_chub: {
     id: 'river_chub', name: 'River Chub', scientific: 'Nocomis micropogon',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Nocomis%20micropogon' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Nocomis+micropogon' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/River_chub_-_Nocomis_micropogon.jpg/500px-River_chub_-_Nocomis_micropogon.jpg',
     quizImage: '',
     features: [
@@ -1362,6 +1666,10 @@ const FISH = {
   },
   rosyface_shiner: {
     id: 'rosyface_shiner', name: 'Rosyface Shiner', scientific: 'Notropis rubellus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20rubellus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+rubellus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Notropis_rubellus.jpg/500px-Notropis_rubellus.jpg',
     quizImage: '',
     features: [
@@ -1380,6 +1688,10 @@ const FISH = {
   },
   sand_shiner: {
     id: 'sand_shiner', name: 'Sand Shiner', scientific: 'Notropis stramineus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20stramineus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+stramineus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Notropis_stramineus.jpg/500px-Notropis_stramineus.jpg',
     quizImage: '',
     features: [
@@ -1398,6 +1710,10 @@ const FISH = {
   },
   silverjaw_minnow: {
     id: 'silverjaw_minnow', name: 'Silverjaw Minnow', scientific: 'Ericymba buccata',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ericymba%20buccata' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ericymba+buccata' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ericymba_buccata_-_Gojilynx_-_606630924.jpeg/500px-Ericymba_buccata_-_Gojilynx_-_606630924.jpeg',
     quizImage: '',
     features: [
@@ -1416,6 +1732,10 @@ const FISH = {
   },
   western_blacknose_dace: {
     id: 'western_blacknose_dace', name: 'Western Blacknose Dace', scientific: 'Rhinichthys obtusus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Rhinichthys%20obtusus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Rhinichthys+obtusus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Blacknose_dace_-_Rhinichthys_atratulus.jpg/500px-Blacknose_dace_-_Rhinichthys_atratulus.jpg',
     quizImage: '',
     features: [
@@ -1434,6 +1754,10 @@ const FISH = {
   },
   longnose_dace: {
     id: 'longnose_dace', name: 'Longnose Dace', scientific: 'Rhinichthys cataractae',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Rhinichthys%20cataractae' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Rhinichthys+cataractae' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Longnose_dace.jpg/500px-Longnose_dace.jpg',
     quizImage: '',
     features: [
@@ -1452,6 +1776,10 @@ const FISH = {
   },
   southern_redbelly_dace: {
     id: 'southern_redbelly_dace', name: 'Southern Redbelly Dace', scientific: 'Chrosomus erythrogaster',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Chrosomus%20erythrogaster' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Chrosomus+erythrogaster' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chrosomus_erythrogaster.jpg/500px-Chrosomus_erythrogaster.jpg',
     quizImage: '',
     features: [
@@ -1470,6 +1798,10 @@ const FISH = {
   },
   redside_dace: {
     id: 'redside_dace', name: 'Redside Dace', scientific: 'Clinostomus elongatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Clinostomus%20elongatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Clinostomus+elongatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Clinostomus_elongatus_-_Wilhelma_01.jpg/500px-Clinostomus_elongatus_-_Wilhelma_01.jpg',
     quizImage: '',
     features: [
@@ -1488,6 +1820,10 @@ const FISH = {
   },
   silver_chub: {
     id: 'silver_chub', name: 'Silver Chub', scientific: 'Macrhybopsis storeriana',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Macrhybopsis%20storeriana' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Macrhybopsis+storeriana' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg/500px-FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg',
     quizImage: '',
     features: [
@@ -1506,6 +1842,10 @@ const FISH = {
   },
   mimic_shiner: {
     id: 'mimic_shiner', name: 'Mimic Shiner', scientific: 'Notropis volucellus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20volucellus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+volucellus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Notropis_volucellus.jpg/500px-Notropis_volucellus.jpg',
     quizImage: '',
     features: [
@@ -1524,6 +1864,10 @@ const FISH = {
   },
   scarlet_shiner: {
     id: 'scarlet_shiner', name: 'Scarlet Shiner', scientific: 'Lythrurus fasciolaris',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lythrurus%20fasciolaris' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lythrurus+fasciolaris' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scarletshinermale.jpg/500px-Scarletshinermale.jpg',
     quizImage: '',
     features: [
@@ -1542,6 +1886,10 @@ const FISH = {
   },
   redfin_shiner: {
     id: 'redfin_shiner', name: 'Redfin Shiner', scientific: 'Lythrurus umbratilis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lythrurus%20umbratilis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lythrurus+umbratilis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Lythrurus_umbratilis.JPG/500px-Lythrurus_umbratilis.JPG',
     quizImage: '',
     features: [
@@ -1560,6 +1908,10 @@ const FISH = {
   },
   suckermouth_minnow: {
     id: 'suckermouth_minnow', name: 'Suckermouth Minnow', scientific: 'Phenacobius mirabilis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Phenacobius%20mirabilis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Phenacobius+mirabilis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg/500px-Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg',
     quizImage: '',
     features: [
@@ -1578,6 +1930,10 @@ const FISH = {
   },
   rainbow_darter: {
     id: 'rainbow_darter', name: 'Rainbow Darter', scientific: 'Etheostoma caeruleum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20caeruleum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+caeruleum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Etheostoma_caeruleum.jpg/500px-Etheostoma_caeruleum.jpg',
     quizImage: '',
     features: [
@@ -1596,6 +1952,10 @@ const FISH = {
   },
   fantail_darter: {
     id: 'fantail_darter', name: 'Fantail Darter', scientific: 'Etheostoma flabellare',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20flabellare' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+flabellare' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Etheostoma_flabellare.jpg/500px-Etheostoma_flabellare.jpg',
     quizImage: '',
     features: [
@@ -1614,6 +1974,10 @@ const FISH = {
   },
   johnny_darter: {
     id: 'johnny_darter', name: 'Johnny Darter', scientific: 'Etheostoma nigrum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20nigrum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+nigrum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Etheostoma_nigrum.jpg/500px-Etheostoma_nigrum.jpg',
     quizImage: '',
     features: [
@@ -1632,6 +1996,10 @@ const FISH = {
   },
   greenside_darter: {
     id: 'greenside_darter', name: 'Greenside Darter', scientific: 'Etheostoma blennioides',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20blennioides' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+blennioides' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Etheostoma_blennioides.jpg/500px-Etheostoma_blennioides.jpg',
     quizImage: '',
     features: [
@@ -1650,6 +2018,10 @@ const FISH = {
   },
   orangethroat_darter: {
     id: 'orangethroat_darter', name: 'Orangethroat Darter', scientific: 'Etheostoma spectabile',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20spectabile' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+spectabile' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Etheostoma_spectabile.jpg/500px-Etheostoma_spectabile.jpg',
     quizImage: '',
     features: [
@@ -1668,6 +2040,10 @@ const FISH = {
   },
   banded_darter: {
     id: 'banded_darter', name: 'Banded Darter', scientific: 'Etheostoma zonale',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20zonale' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+zonale' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Etheostoma_zonale_267441672.jpg/500px-Etheostoma_zonale_267441672.jpg',
     quizImage: '',
     features: [
@@ -1686,6 +2062,10 @@ const FISH = {
   },
   bluebreast_darter: {
     id: 'bluebreast_darter', name: 'Bluebreast Darter', scientific: 'Etheostoma camurum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20camurum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+camurum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Etheostoma_camurum.jpg/500px-Etheostoma_camurum.jpg',
     quizImage: '',
     features: [
@@ -1704,6 +2084,10 @@ const FISH = {
   },
   variegate_darter: {
     id: 'variegate_darter', name: 'Variegate Darter', scientific: 'Etheostoma variatum',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20variatum' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+variatum' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Etheostoma_variatum.jpg',
     quizImage: '',
     features: [
@@ -1722,6 +2106,10 @@ const FISH = {
   },
   eastern_sand_darter: {
     id: 'eastern_sand_darter', name: 'Eastern Sand Darter', scientific: 'Ammocrypta pellucida',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ammocrypta%20pellucida' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ammocrypta+pellucida' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ammocrypta_pellucida.jpg/500px-Ammocrypta_pellucida.jpg',
     quizImage: '',
     features: [
@@ -1740,6 +2128,10 @@ const FISH = {
   },
   logperch: {
     id: 'logperch', name: 'Logperch', scientific: 'Percina caprodes',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20caprodes' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+caprodes' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Percina_caprodes.jpg/500px-Percina_caprodes.jpg',
     quizImage: '',
     features: [
@@ -1758,6 +2150,10 @@ const FISH = {
   },
   blackside_darter: {
     id: 'blackside_darter', name: 'Blackside Darter', scientific: 'Percina maculata',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20maculata' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+maculata' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg/500px-..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg',
     quizImage: '',
     features: [
@@ -1776,6 +2172,10 @@ const FISH = {
   },
   channel_darter: {
     id: 'channel_darter', name: 'Channel Darter', scientific: 'Percina copelandi',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20copelandi' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+copelandi' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg/500px-FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg',
     quizImage: '',
     features: [
@@ -1794,6 +2194,10 @@ const FISH = {
   },
   iowa_darter: {
     id: 'iowa_darter', name: 'Iowa Darter', scientific: 'Etheostoma exile',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20exile' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+exile' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Etheostoma_exile_-_Iowa_Darter.png/500px-Etheostoma_exile_-_Iowa_Darter.png',
     quizImage: '',
     features: [
@@ -1812,6 +2216,10 @@ const FISH = {
   },
   dusky_darter: {
     id: 'dusky_darter', name: 'Dusky Darter', scientific: 'Percina sciera',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20sciera' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+sciera' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Percina_sciera_332617380.jpg/500px-Percina_sciera_332617380.jpg',
     quizImage: '',
     features: [
@@ -1830,6 +2238,10 @@ const FISH = {
   },
   slenderhead_darter: {
     id: 'slenderhead_darter', name: 'Slenderhead Darter', scientific: 'Percina phoxocephala',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20phoxocephala' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+phoxocephala' }
+    ],
     image: '',
     quizImage: '',
     features: [
@@ -1848,6 +2260,10 @@ const FISH = {
   },
   gilt_darter: {
     id: 'gilt_darter', name: 'Gilt Darter', scientific: 'Percina evides',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20evides' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+evides' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Percina_evides_323739855.jpg/500px-Percina_evides_323739855.jpg',
     quizImage: '',
     features: [
@@ -1866,6 +2282,10 @@ const FISH = {
   },
   longnose_gar: {
     id: 'longnose_gar', name: 'Longnose Gar', scientific: 'Lepisosteus osseus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepisosteus%20osseus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepisosteus+osseus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lepisosteus_osseus.jpg/500px-Lepisosteus_osseus.jpg',
     quizImage: '',
     features: [
@@ -1884,6 +2304,10 @@ const FISH = {
   },
   shortnose_gar: {
     id: 'shortnose_gar', name: 'Shortnose Gar', scientific: 'Lepisosteus platostomus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepisosteus%20platostomus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepisosteus+platostomus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg/500px-Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg',
     quizImage: '',
     features: [
@@ -1902,6 +2326,10 @@ const FISH = {
   },
   bowfin: {
     id: 'bowfin', name: 'Bowfin', scientific: 'Amia calva',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Amia%20calva' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Amia+calva' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Amia_calva_%28YPM_ICH_004577%29_001.jpg/500px-Amia_calva_%28YPM_ICH_004577%29_001.jpg',
     quizImage: '',
     features: [
@@ -1920,6 +2348,10 @@ const FISH = {
   },
   paddlefish: {
     id: 'paddlefish', name: 'Paddlefish', scientific: 'Polyodon spathula',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Polyodon%20spathula' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Polyodon+spathula' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Polyodon_spathula.jpg/500px-Polyodon_spathula.jpg',
     quizImage: '',
     features: [
@@ -1938,6 +2370,10 @@ const FISH = {
   },
   lake_sturgeon: {
     id: 'lake_sturgeon', name: 'Lake Sturgeon', scientific: 'Acipenser fulvescens',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Acipenser%20fulvescens' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Acipenser+fulvescens' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Acipenser_fulvescens.jpg/500px-Acipenser_fulvescens.jpg',
     quizImage: '',
     features: [
@@ -1956,6 +2392,10 @@ const FISH = {
   },
   shovelnose_sturgeon: {
     id: 'shovelnose_sturgeon', name: 'Shovelnose Sturgeon', scientific: 'Scaphirhynchus platorynchus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Scaphirhynchus%20platorynchus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Scaphirhynchus+platorynchus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Shovelnose_sturgeon.jpg/500px-Shovelnose_sturgeon.jpg',
     quizImage: '',
     features: [
@@ -1974,6 +2414,10 @@ const FISH = {
   },
   american_eel: {
     id: 'american_eel', name: 'American Eel', scientific: 'Anguilla rostrata',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Anguilla%20rostrata' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Anguilla+rostrata' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Anguilla_rostrata.jpg/500px-Anguilla_rostrata.jpg',
     quizImage: '',
     features: [
@@ -1992,6 +2436,10 @@ const FISH = {
   },
   round_goby: {
     id: 'round_goby', name: 'Round Goby', scientific: 'Neogobius melanostomus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Neogobius%20melanostomus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Neogobius+melanostomus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Neogobius_melanostomus.jpg/500px-Neogobius_melanostomus.jpg',
     quizImage: '',
     features: [
@@ -2010,6 +2458,10 @@ const FISH = {
   },
   sea_lamprey: {
     id: 'sea_lamprey', name: 'Sea Lamprey', scientific: 'Petromyzon marinus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Petromyzon%20marinus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Petromyzon+marinus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Petromyzon_marinus.jpg/500px-Petromyzon_marinus.jpg',
     quizImage: '',
     features: [
@@ -2028,6 +2480,10 @@ const FISH = {
   },
   grass_carp: {
     id: 'grass_carp', name: 'Grass Carp', scientific: 'Ctenopharyngodon idella',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ctenopharyngodon%20idella' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ctenopharyngodon+idella' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ctenopharyngodon_idella.jpg/500px-Ctenopharyngodon_idella.jpg',
     quizImage: '',
     features: [
@@ -2046,6 +2502,10 @@ const FISH = {
   },
   silver_carp_invasive: {
     id: 'silver_carp_invasive', name: 'Silver Carp', scientific: 'Hypophthalmichthys molitrix',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hypophthalmichthys%20molitrix' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hypophthalmichthys+molitrix' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hypophthalmichthys_molitrix.jpg/500px-Hypophthalmichthys_molitrix.jpg',
     quizImage: '',
     features: [
@@ -2064,6 +2524,10 @@ const FISH = {
   },
   bighead_carp: {
     id: 'bighead_carp', name: 'Bighead Carp', scientific: 'Hypophthalmichthys nobilis',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hypophthalmichthys%20nobilis' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hypophthalmichthys+nobilis' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Bighead_carp.gif',
     quizImage: '',
     features: [
@@ -2082,6 +2546,10 @@ const FISH = {
   },
   goldfish: {
     id: 'goldfish', name: 'Goldfish', scientific: 'Carassius auratus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carassius%20auratus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carassius+auratus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Carassius_auratus_-_Gold_fish_02.jpg/500px-Carassius_auratus_-_Gold_fish_02.jpg',
     quizImage: '',
     features: [
@@ -2100,6 +2568,10 @@ const FISH = {
   },
   european_rudd: {
     id: 'european_rudd', name: 'European Rudd', scientific: 'Scardinius erythrophthalmus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Scardinius%20erythrophthalmus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Scardinius+erythrophthalmus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Scardinius_erythrophthalmus_Prague_Vltava_3.jpg/500px-Scardinius_erythrophthalmus_Prague_Vltava_3.jpg',
     quizImage: '',
     features: [
@@ -2118,6 +2590,10 @@ const FISH = {
   },
   burbot: {
     id: 'burbot', name: 'Burbot', scientific: 'Lota lota',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lota%20lota' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lota+lota' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Lota_lota.jpg/500px-Lota_lota.jpg',
     quizImage: '',
     features: [
@@ -2136,6 +2612,10 @@ const FISH = {
   },
   trout_perch: {
     id: 'trout_perch', name: 'Trout-Perch', scientific: 'Percopsis omiscomaycus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percopsis%20omiscomaycus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percopsis+omiscomaycus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Percopsis_omiscomaycus.jpg/500px-Percopsis_omiscomaycus.jpg',
     quizImage: '',
     features: [
@@ -2154,6 +2634,10 @@ const FISH = {
   },
   pirate_perch: {
     id: 'pirate_perch', name: 'Pirate Perch', scientific: 'Aphredoderus sayanus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Aphredoderus%20sayanus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Aphredoderus+sayanus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aphredoderus_sayanus_sayanus.jpg/500px-Aphredoderus_sayanus_sayanus.jpg',
     quizImage: '',
     features: [
@@ -2172,6 +2656,10 @@ const FISH = {
   },
   brook_silverside: {
     id: 'brook_silverside', name: 'Brook Silverside', scientific: 'Labidesthes sicculus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Labidesthes%20sicculus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Labidesthes+sicculus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Labidesthes_sicculus.jpg/500px-Labidesthes_sicculus.jpg',
     quizImage: '',
     features: [
@@ -2190,6 +2678,10 @@ const FISH = {
   },
   central_mudminnow: {
     id: 'central_mudminnow', name: 'Central Mudminnow', scientific: 'Umbra limi',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Umbra%20limi' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Umbra+limi' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Umbra_limi.jpg/500px-Umbra_limi.jpg',
     quizImage: '',
     features: [
@@ -2208,6 +2700,10 @@ const FISH = {
   },
   mottled_sculpin: {
     id: 'mottled_sculpin', name: 'Mottled Sculpin', scientific: 'Cottus bairdii',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cottus%20bairdii' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cottus+bairdii' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cottus_bairdii.jpg/500px-Cottus_bairdii.jpg',
     quizImage: '',
     features: [
@@ -2226,6 +2722,10 @@ const FISH = {
   },
   blackstripe_topminnow: {
     id: 'blackstripe_topminnow', name: 'Blackstripe Topminnow', scientific: 'Fundulus notatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Fundulus%20notatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Fundulus+notatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg/500px-FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg',
     quizImage: '',
     features: [
@@ -2244,6 +2744,10 @@ const FISH = {
   },
   banded_killifish: {
     id: 'banded_killifish', name: 'Banded Killifish', scientific: 'Fundulus diaphanus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Fundulus%20diaphanus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Fundulus+diaphanus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Banded_killifish.JPG/500px-Banded_killifish.JPG',
     quizImage: '',
     features: [
@@ -2262,6 +2766,10 @@ const FISH = {
   },
   northern_studfish: {
     id: 'northern_studfish', name: 'Northern Studfish', scientific: 'Fundulus catenatus',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Fundulus%20catenatus' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Fundulus+catenatus' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Fundulus_catenatus.jpg',
     quizImage: '',
     features: [
@@ -2280,6 +2788,10 @@ const FISH = {
   },
   brook_stickleback: {
     id: 'brook_stickleback', name: 'Brook Stickleback', scientific: 'Culaea inconstans',
+    refs: [
+      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Culaea%20inconstans' },
+      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Culaea+inconstans' }
+    ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Culaea_inconstans_1908.jpg/500px-Culaea_inconstans_1908.jpg',
     quizImage: '',
     features: [
