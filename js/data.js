@@ -1500,7 +1500,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Semotilus%20atromaculatus' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Semotilus+atromaculatus' }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semotilus_atromaculatus.jpg/500px-Semotilus_atromaculatus.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Creek_Chub%2C_Semotilus_atromaculatus.jpg',
     quizImage: '',
     features: [
       'Large minnow with robust body',
@@ -1522,7 +1522,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notemigonus%20crysoleucas' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notemigonus+crysoleucas' }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Notemigonus_crysoleucas.jpg/500px-Notemigonus_crysoleucas.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Notemigonus_crysoleucas_Tyson.JPG',
     quizImage: '',
     features: [
       'Deep, laterally compressed body',
@@ -1544,7 +1544,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pimephales%20promelas' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pimephales+promelas' }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fathead_minnow.jpg/500px-Fathead_minnow.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Fathead_minnow_fish_pimephales_promelas.jpg',
     quizImage: '',
     features: [
       'Small, stout body',
