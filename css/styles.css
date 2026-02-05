@@ -473,6 +473,13 @@ body{
 hr.sep{border:none;border-top:1px solid rgba(255,255,255,.10);margin:8px 0}
 .small{font-size:12px;color:var(--muted)}
 
+/* Links (esp. reference links) */
+a{color:var(--gold2); text-decoration: underline; text-underline-offset: 2px}
+a:hover{color:var(--gold)}
+a:visited{color:rgba(255,211,122,.90)}
+a:active{color:var(--text)}
+#learnRefs a{font-weight:700}
+
 /* ===== Transitions & Polish ===== */
 .btn{transition: transform .1s ease, background .15s ease, box-shadow .15s ease}
 .opt{transition: transform .1s ease, background .15s ease, border-color .15s ease}
