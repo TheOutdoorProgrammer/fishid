@@ -1,8 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { IdentifyQuestion as IdentifyQuestionType } from '@/types';
 import Card from '@/components/ui/Card';
+import { getRandomFishImage } from '@/lib/utils';
+import { FISH } from '@/fish';
 
 interface IdentifyQuestionProps {
   question: IdentifyQuestionType;
@@ -17,12 +19,15 @@ export default function IdentifyQuestion({
   showFeedback,
   userAnswer,
 }: IdentifyQuestionProps) {
+  const fish = FISH[question.fishId];
+  const imageSrc = useMemo(() => getRandomFishImage(fish?.image || []), [fish]);
+
   return (
     <div className="flex flex-col gap-4">
       <Card className="flex flex-col items-center justify-center p-6 min-h-[200px]">
         {/* Fish Image */}
         <img
-          src={`/img/fish/${question.fishId}.png`}
+          src={imageSrc}
           alt="Fish to identify"
           className="max-h-[160px] w-auto object-contain drop-shadow-md"
         />

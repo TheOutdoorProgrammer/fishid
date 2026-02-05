@@ -1,8 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { SpotQuestion as SpotQuestionType } from '@/types';
 import Card from '@/components/ui/Card';
+import { getRandomFishImage } from '@/lib/utils';
+import { FISH } from '@/fish';
 
 interface SpotQuestionProps {
   question: SpotQuestionType;
@@ -17,6 +19,17 @@ export default function SpotQuestion({
   showFeedback,
   userAnswer,
 }: SpotQuestionProps) {
+  const optionImages = useMemo(() => {
+    return question.options.reduce(
+      (acc, option) => {
+        const fish = FISH[option.id];
+        acc[option.id] = getRandomFishImage(fish?.image || []);
+        return acc;
+      },
+      {} as Record<string, string>
+    );
+  }, [question.options]);
+
   return (
     <div className="flex flex-col gap-4">
       {/* Hint Card */}
@@ -57,7 +70,7 @@ export default function SpotQuestion({
               `}
             >
               <img
-                src={`/img/fish/${option.id}.png`}
+                src={optionImages[option.id]}
                 alt={option.label}
                 className={`w-full h-auto object-contain transition-all ${imageOpacity}`}
               />

@@ -1,8 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { FeatureQuestion as FeatureQuestionType } from '@/types';
 import Card from '@/components/ui/Card';
+import { getRandomFishImage } from '@/lib/utils';
+import { FISH } from '@/fish';
 
 interface FeatureQuestionProps {
   question: FeatureQuestionType;
@@ -17,13 +19,16 @@ export default function FeatureQuestion({
   showFeedback,
   userAnswer,
 }: FeatureQuestionProps) {
+  const fish = FISH[question.fishId];
+  const imageSrc = useMemo(() => getRandomFishImage(fish?.image || []), [fish]);
+
   return (
     <div className="flex flex-col gap-4">
       <Card className="flex flex-col items-center gap-3 p-5">
         <h3 className="text-lg font-bold text-center text-text/90">Which feature belongs to:</h3>
         <div className="flex flex-col items-center">
           <img
-            src={`/img/fish/${question.fishId}.png`}
+            src={imageSrc}
             alt="Target fish"
             className="h-24 w-auto object-contain drop-shadow-sm mb-2"
           />
