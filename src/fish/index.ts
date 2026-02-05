@@ -126,3 +126,16 @@ export { blackstripe_topminnow } from './blackstripe_topminnow';
 export { banded_killifish } from './banded_killifish';
 export { northern_studfish } from './northern_studfish';
 export { brook_stickleback } from './brook_stickleback';
+
+// Create FISH lookup object for quiz engine
+import * as fishExports from '.';
+
+export const FISH: Record<string, any> = Object.keys(fishExports)
+  .filter(key => key !== 'FISH')
+  .reduce((acc, key) => {
+    const fish = (fishExports as any)[key];
+    if (fish && fish.id) {
+      acc[fish.id] = fish;
+    }
+    return acc;
+  }, {} as Record<string, any>);
