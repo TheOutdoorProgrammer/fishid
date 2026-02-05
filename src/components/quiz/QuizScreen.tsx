@@ -122,7 +122,7 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
     else if (score >= 60) stars = 1;
 
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 gap-6 animate-in fade-in zoom-in duration-300">
+      <div className="flex flex-col items-center justify-center min-h-screen p-6 pt-[calc(1.5rem+env(safe-area-inset-top,0px))] pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] gap-6 animate-in fade-in zoom-in duration-300">
         <div className="text-center space-y-2">
           <h2 className="text-3xl font-black text-white">Quiz Complete!</h2>
           <p className="text-white/60">Great job!</p>
@@ -152,7 +152,7 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
   }
 
   return (
-    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pb-safe gap-4">
+    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-4">
       <div className="flex items-center gap-3">
         <Button
           variant="ghost"
