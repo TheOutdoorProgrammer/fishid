@@ -354,7 +354,7 @@ const FISH = {
   },
   green_sunfish: {
     id: 'green_sunfish', name: 'Green Sunfish', scientific: 'Lepomis cyanellus',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Lepomis_cyanellus.jpg/500px-Lepomis_cyanellus.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lepomis_cyanellus.jpg/500px-Lepomis_cyanellus.jpg',
     quizImage: '',
     features: [
       'Stocky, thick body for a sunfish',
@@ -516,7 +516,7 @@ const FISH = {
   },
   white_perch: {
     id: 'white_perch', name: 'White Perch', scientific: 'Morone americana',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/White_perch.jpg/500px-White_perch.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White_perch.jpg/500px-White_perch.jpg',
     quizImage: '',
     features: [
       'Silver-green body with no distinct stripes',
@@ -570,7 +570,7 @@ const FISH = {
   },
   black_bullhead: {
     id: 'black_bullhead', name: 'Black Bullhead', scientific: 'Ameiurus melas',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Ameiurus_melas_by_Duane_Raver.png/500px-Ameiurus_melas_by_Duane_Raver.png',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ameiurus_melas_by_Duane_Raver.png/500px-Ameiurus_melas_by_Duane_Raver.png',
     quizImage: '',
     features: [
       'Dark olive to black body',
@@ -696,7 +696,7 @@ const FISH = {
   },
   lake_trout: {
     id: 'lake_trout', name: 'Lake Trout', scientific: 'Salvelinus namaycush',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Salvelinus_namaycush.jpg/500px-Salvelinus_namaycush.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lake_Trout_GLERL.jpg/500px-Lake_Trout_GLERL.jpg',
     quizImage: '',
     features: [
       'Dark gray-green body covered in pale spots',
@@ -1020,7 +1020,7 @@ const FISH = {
   },
   shorthead_redhorse: {
     id: 'shorthead_redhorse', name: 'Shorthead Redhorse', scientific: 'Moxostoma macrolepidotum',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Moxostoma_macrolepidotum.jpg/500px-Moxostoma_macrolepidotum.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Moxostoma_macrolepidotum.jpg/500px-Moxostoma_macrolepidotum.jpg',
     quizImage: '',
     features: [
       'Olive-gold body with red-orange tail and dorsal fin',
@@ -1164,7 +1164,7 @@ const FISH = {
   },
   central_stoneroller: {
     id: 'central_stoneroller', name: 'Central Stoneroller', scientific: 'Campostoma anomalum',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Campostoma_anomalum.jpg/500px-Campostoma_anomalum.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Campostoma_anomalum.JPG/500px-Campostoma_anomalum.JPG',
     quizImage: '',
     features: [
       'Rounded snout overhanging mouth',
@@ -1416,7 +1416,7 @@ const FISH = {
   },
   western_blacknose_dace: {
     id: 'western_blacknose_dace', name: 'Western Blacknose Dace', scientific: 'Rhinichthys obtusus',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Rhinichthys_atratulus.jpg/500px-Rhinichthys_atratulus.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Blacknose_dace_-_Rhinichthys_atratulus.jpg/500px-Blacknose_dace_-_Rhinichthys_atratulus.jpg',
     quizImage: '',
     features: [
       'Small, slender body',
@@ -1614,7 +1614,7 @@ const FISH = {
   },
   johnny_darter: {
     id: 'johnny_darter', name: 'Johnny Darter', scientific: 'Etheostoma nigrum',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Etheostoma_nigrum.jpg/500px-Etheostoma_nigrum.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Etheostoma_nigrum.jpg/500px-Etheostoma_nigrum.jpg',
     quizImage: '',
     features: [
       'Small, pale body with dark W- and X-shaped markings',

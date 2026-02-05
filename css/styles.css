@@ -38,7 +38,9 @@ body{
 .topbar{
   min-height:64px;
   padding:10px 14px;
-  padding-top: max(10px, env(safe-area-inset-top, 10px));
+  padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
+  padding-left: calc(env(safe-area-inset-left, 0px) + 14px);
+  padding-right: calc(env(safe-area-inset-right, 0px) + 14px);
   display:flex;
   align-items:center;
   justify-content:space-between;
