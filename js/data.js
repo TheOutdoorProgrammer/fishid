@@ -3,8 +3,9 @@ const FISH = {
   walleye: {
     id: 'walleye', name: 'Walleye', scientific: 'Sander vitreus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20vitreus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+vitreus' }
+      { label: "ODNR species page: Walleye", url: "https://ohiodnr.gov/discover-and-learn/animals/fish/walleye" },
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=831" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Walleye_%28Sander_vitreus%29_%281%29.jpg/500px-Walleye_%28Sander_vitreus%29_%281%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sander_vitreus.jpg/500px-Sander_vitreus.jpg',
@@ -24,8 +25,9 @@ const FISH = {
   yellow_perch: {
     id: 'yellow_perch', name: 'Yellow Perch', scientific: 'Perca flavescens',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Perca%20flavescens' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Perca+flavescens' }
+      { label: "Wikipedia: Yellow perch", url: "https://en.wikipedia.org/wiki/Yellow_perch" },
+      { label: "DFO Canada species profile", url: "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/yellowperch-perchaude-eng.html" },
+      { label: "Animal Diversity Web: Perca flavescens", url: "https://animaldiversity.org/accounts/Perca_flavescens/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg/500px-Yellow_Perch_%28Perca_flavescens%29_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/D3149-1._yellow_perch_%28Perca_flavescens%29.jpg/500px-D3149-1._yellow_perch_%28Perca_flavescens%29.jpg',
@@ -45,8 +47,9 @@ const FISH = {
   smallmouth_bass: {
     id: 'smallmouth_bass', name: 'Smallmouth Bass', scientific: 'Micropterus dolomieu',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20dolomieu' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+dolomieu' }
+      { label: "Wikipedia: Smallmouth bass", url: "https://en.wikipedia.org/wiki/Smallmouth_bass" },
+      { label: "DFO Canada species profile", url: "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/smallmouthbass-achiganpetitebouche-eng.html" },
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/smallmouth-bass-micropterus-dolomieui" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Smallmouth_Bass_%2849561724026%29.jpg/500px-Smallmouth_Bass_%2849561724026%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Micropterus_dolomieu2.jpg/500px-Micropterus_dolomieu2.jpg',
@@ -66,8 +69,9 @@ const FISH = {
   largemouth_bass: {
     id: 'largemouth_bass', name: 'Largemouth Bass', scientific: 'Micropterus salmoides',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20salmoides' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+salmoides' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "Ohio State AEL: Ohio reservoir largemouth bass", url: "https://ael.osu.edu/understanding-differences-ohio-reservoir-largemouth-bass-populations" },
+      { label: "ODNR Fish Ohio program", url: "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/fishing-resources/fishohio-program" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29_June_2023_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Largemouth_Bass_%28Micropterus_salmoides%29.jpg/500px-Largemouth_Bass_%28Micropterus_salmoides%29.jpg',
@@ -87,8 +91,9 @@ const FISH = {
   channel_catfish: {
     id: 'channel_catfish', name: 'Channel Catfish', scientific: 'Ictalurus punctatus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictalurus%20punctatus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictalurus+punctatus' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "Ohio State AEL: Reservoir channel catfish project", url: "https://ael.osu.edu/research/projects/reservoir-channel-catfish-assessment-stocking-and-ecology" },
+      { label: "ODNR Fish Ohio program", url: "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/fishing-resources/fishohio-program" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg/500px-Channel_Catfish_%28Ictalurus_punctatus%29_white_background.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Channel_catfish_%28Ictalurus_punctatus%29.jpg/500px-Channel_catfish_%28Ictalurus_punctatus%29.jpg',
@@ -109,8 +114,9 @@ const FISH = {
   bluegill: {
     id: 'bluegill', name: 'Bluegill', scientific: 'Lepomis macrochirus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20macrochirus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+macrochirus' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "Ohio State ENR Fish Taxonomy (Bluegill)", url: "https://u.osu.edu/enrfishtax/2019/11/07/is-everything-a-bluegill/" },
+      { label: "Take Me Fishing: Bluegill", url: "https://www.takemefishing.org/bluegill/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bluegill_%28cropped%29.jpg/500px-Bluegill_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg/500px-Bluegill_%28Lepomis_macrochirus%29_%2853678765399%29.jpg',
@@ -131,8 +137,9 @@ const FISH = {
   black_crappie: {
     id: 'black_crappie', name: 'Black Crappie', scientific: 'Pomoxis nigromaculatus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pomoxis%20nigromaculatus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pomoxis+nigromaculatus' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "Fish of Ohio: Black Crappie", url: "http://www.fishofohio.com/ohio-fish-black-crappie.htm" },
+      { label: "USGS specimen record (example)", url: "https://nas.er.usgs.gov/queries/SpecimenViewer.aspx?SpecimenID=1406233" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Black_crappie.jpg/500px-Black_crappie.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg/500px-Black_Crappie_%28Pomoxis_nigromaculatus%29.jpg',
@@ -152,8 +159,9 @@ const FISH = {
   white_crappie: {
     id: 'white_crappie', name: 'White Crappie', scientific: 'Pomoxis annularis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pomoxis%20annularis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pomoxis+annularis' }
+      { label: "Missouri Dept. of Conservation: White Crappie", url: "https://mdc.mo.gov/discover-nature/field-guide/white-crappie" },
+      { label: "Iowa DNR Fish Iowa: White Crappie", url: "https://programs.iowadnr.gov/lakemanagement/fishiowa/fishdetails/WHC" },
+      { label: "Animal Diversity Web: Pomoxis annularis", url: "https://animaldiversity.org/accounts/Pomoxis_annularis/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/White_Crappie.jpg/500px-White_Crappie.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/White_crappie_pomoxis_annularis_%28white_background%29.jpg/500px-White_crappie_pomoxis_annularis_%28white_background%29.jpg',
@@ -173,8 +181,9 @@ const FISH = {
   northern_pike: {
     id: 'northern_pike', name: 'Northern Pike', scientific: 'Esox lucius',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20lucius' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+lucius' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "ODNR Pike (state-listed species PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/state-listed-species/pike.pdf" },
+      { label: "ODNR Fish Ohio program", url: "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/fishing-resources/fishohio-program" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Esox_lucius_ZOO_1.jpg/500px-Esox_lucius_ZOO_1.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Esox_Lucius.JPG/500px-Esox_Lucius.JPG',
@@ -195,8 +204,9 @@ const FISH = {
   muskellunge: {
     id: 'muskellunge', name: 'Muskellunge', scientific: 'Esox masquinongy',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20masquinongy' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+masquinongy' }
+      { label: "ODNR Muskie Angler Log", url: "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/fishing-resources/muskie-angler-log" },
+      { label: "Ohio State ENR Fish Taxonomy (Muskellunge)", url: "https://u.osu.edu/enrfishtax/2019/11/06/muskellunge-recovery-in-ohio/" },
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Esox_masquinongyeditcrop.jpg/500px-Esox_masquinongyeditcrop.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Esox_masquinongy_%28muskellunge%29_1.jpg/500px-Esox_masquinongy_%28muskellunge%29_1.jpg',
@@ -217,8 +227,9 @@ const FISH = {
   steelhead: {
     id: 'steelhead', name: 'Steelhead Trout', scientific: 'Oncorhynchus mykiss',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20mykiss' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+mykiss' }
+      { label: "ODNR: Steelhead fishing", url: "https://ohiodnr.gov/home/additional-resources/division-of-wildlife/steelhead-fishing-promo" },
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "ODNR Fish Ohio program", url: "https://ohiodnr.gov/buy-and-apply/hunting-fishing-boating/fishing-resources/fishohio-program" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg/500px-Man_holding_a_steelhead_%28Oncorhynchus_mykiss%29_cropped.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steelhead_%28Oncorhynchus_mykiss%29.png/500px-Steelhead_%28Oncorhynchus_mykiss%29.png',
@@ -239,8 +250,9 @@ const FISH = {
   saugeye: {
     id: 'saugeye', name: 'Saugeye', scientific: 'Sander vitreus × S. canadensis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20vitreus%20%C3%97%20S.%20canadensis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+vitreus+×+S.+canadensis' }
+      { label: "Wikipedia: Saugeye", url: "https://en.wikipedia.org/wiki/Saugeye" },
+      { label: "West Virginia DNR: Saugeye", url: "https://wvdnr.gov/plants-animals/sportfish/saugeye/" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=829" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg/500px-Sander_canadensis_%C3%97_vitreus_-_Jensyn_Scott_-_376881973.jpeg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Saugeye.jpg/500px-Saugeye.jpg',
@@ -261,8 +273,9 @@ const FISH = {
   white_bass: {
     id: 'white_bass', name: 'White Bass', scientific: 'Morone chrysops',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20chrysops' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+chrysops' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "Fish of Ohio: White Bass", url: "http://www.fishofohio.com/ohio-fish-white-bass.htm" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=779" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/White_Bass_%28Morone_chrysops%29.jpg/500px-White_Bass_%28Morone_chrysops%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Morone_chrysops_white_bass_fish_%28white_background%29.jpg/500px-Morone_chrysops_white_bass_fish_%28white_background%29.jpg',
@@ -282,8 +295,9 @@ const FISH = {
   common_carp: {
     id: 'common_carp', name: 'Common Carp', scientific: 'Cyprinus carpio',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cyprinus%20carpio' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cyprinus+carpio' }
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?speciesID=4" },
+      { label: "FishBase summary", url: "https://fishbase.se/summary/Cyprinus-carpio.html" },
+      { label: "USFWS: Common carp", url: "https://www.fws.gov/media/common-carp-3" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cyprinus_carpio_2008_G1_%28cropped%29.jpg/500px-Cyprinus_carpio_2008_G1_%28cropped%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Cyprinus_carpio.jpeg/500px-Cyprinus_carpio.jpeg',
@@ -304,8 +318,9 @@ const FISH = {
   flathead_catfish: {
     id: 'flathead_catfish', name: 'Flathead Catfish', scientific: 'Pylodictis olivaris',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pylodictis%20olivaris' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pylodictis+olivaris' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/flathead-catfish-pylodictis-olivaris" },
+      { label: "Wikipedia: Flathead catfish", url: "https://en.wikipedia.org/wiki/Flathead_catfish" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pylodictis_olivaris.jpg/500px-Pylodictis_olivaris.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flathead_Catfish_%28Pylodictis_olivaris%29.jpg/500px-Flathead_Catfish_%28Pylodictis_olivaris%29.jpg',
@@ -326,8 +341,9 @@ const FISH = {
   blue_catfish: {
     id: 'blue_catfish', name: 'Blue Catfish', scientific: 'Ictalurus furcatus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictalurus%20furcatus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictalurus+furcatus' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "ODNR Blue catfish reporting", url: "https://ohiodnr.gov/wps/portal/gov/odnr/buy-and-apply/hunting-fishing-boating/fishing-resources/blue-catfish-reporting" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=740" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Blue_catfish.jpg/500px-Blue_catfish.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Ictalurus_furcatus.jpg/500px-Ictalurus_furcatus.jpg',
@@ -348,8 +364,9 @@ const FISH = {
   rainbow_trout: {
     id: 'rainbow_trout', name: 'Rainbow Trout', scientific: 'Oncorhynchus mykiss',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20mykiss' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+mykiss' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=910" },
+      { label: "Animal Diversity Web: Oncorhynchus mykiss", url: "https://animaldiversity.org/accounts/Oncorhynchus_mykiss/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg/500px-Close_up_of_rainbow_trout_fish_underwater_oncorhynchus_mykiss.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg/500px-Rainbow_Trout_%28Oncorhynchus_mykiss%29_Gavins_Point.jpg',
@@ -370,8 +387,9 @@ const FISH = {
   brown_trout: {
     id: 'brown_trout', name: 'Brown Trout', scientific: 'Salmo trutta',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salmo%20trutta' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salmo+trutta' }
+      { label: "Illinois DNR: Brown Trout", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsalmon/wafbrowntrout.html" },
+      { label: "Wikipedia: Brown trout", url: "https://en.wikipedia.org/wiki/Brown_trout" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=931" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29_%2853678765394%29.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Brown_Trout_%28Salmo_trutta%29.jpg/500px-Brown_Trout_%28Salmo_trutta%29.jpg',
@@ -391,8 +409,9 @@ const FISH = {
   freshwater_drum: {
     id: 'freshwater_drum', name: 'Freshwater Drum', scientific: 'Aplodinotus grunniens',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Aplodinotus%20grunniens' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Aplodinotus+grunniens' }
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" },
+      { label: "ODNR: Freshwater drum recipe/info", url: "https://ohiodnr.gov/discover-and-learn/education-training/wild-ohio-harvest-cookbook/fish-recipes/freshwater-drum-cocktail" },
+      { label: "Wikipedia: Freshwater drum", url: "https://en.wikipedia.org/wiki/Freshwater_drum" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg/500px-Freshwater_Drum%2C_North_Channel_Saint_Clair_River_imported_from_iNaturalist_photo_423155272.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg/500px-Freshwater_Drum_%28Aplodinotus_grunniens%29_-_Leamington%2C_Ontario.jpg',
@@ -413,8 +432,9 @@ const FISH = {
   sauger: {
     id: 'sauger', name: 'Sauger', scientific: 'Sander canadensis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Sander%20canadensis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Sander+canadensis' }
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/sauger-sander-canadensis" },
+      { label: "West Virginia DNR: Sauger", url: "https://wvdnr.gov/plants-animals/sportfish/sauger/" },
+      { label: "ODNR Sport Fish of Ohio Field Guide (PDF)", url: "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Saugernctc.jpg/500px-Saugernctc.jpg',
     quizImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg/500px-Sauger_%28Sander_canadensis%29_%2851747095009%29.jpg',
