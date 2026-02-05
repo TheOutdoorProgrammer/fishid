@@ -1,0 +1,37 @@
+import type { Fish, FeatureOption, TrueFalseQuestion } from '../types';
+
+export const scarlet_shiner: Fish = {
+  id: 'scarlet_shiner',
+  name: 'Scarlet Shiner',
+  scientific: 'Lythrurus fasciolaris',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scarletshinermale.jpg/500px-Scarletshinermale.jpg',
+  quizImage: '',
+  features: [
+    'Moderately deep body',
+    'Olive back with silver sides',
+    'Breeding males develop bright scarlet-red fins and body',
+    'Dark crescent markings on scales',
+    'Slightly compressed body',
+    'Forked tail'
+  ],
+  keyFeature: 'Shiner with breeding males showing brilliant scarlet-red coloring',
+  habitat: 'Pools of medium streams in southern Ohio',
+  size: '3-4 inches typical',
+  funFact: 'Scarlet shiners are named for the stunning scarlet-red color that breeding males develop. They are most common in streams of southeastern Ohio.',
+  refs: [
+    { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lythrurus%20fasciolaris' },
+    { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lythrurus+fasciolaris' }
+  ],
+  colors: { primary: '#708870', secondary: '#88A088', belly: '#C8D0C0', fin: '#C03030' },
+};
+
+export const featureOptions: FeatureOption = {
+  correct: 'Shiner with breeding males showing brilliant scarlet-red coloring',
+  wrong: ['Bright red fins with steel-blue body', 'Rosy-pink head on breeding males', 'Deep golden body with belly keel'],
+};
+
+export const trueFalseQuestions: TrueFalseQuestion[] = [
+  { statement: 'Scarlet shiner breeding males develop brilliant scarlet-red coloring.', answer: true, fishId: 'scarlet_shiner' }
+];
+
+export default scarlet_shiner;
