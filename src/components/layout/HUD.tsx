@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useGameStore } from '@/store/gameStore';
+import { Heart, Star, Flame } from '../ui/icons';
 
 export default function HUD() {
   const { hearts, heartsMax, lastHeartTs, xp, streak } = useGameStore();
@@ -30,22 +31,22 @@ export default function HUD() {
   }, [hearts, heartsMax, lastHeartTs]);
 
   return (
-    <div className="flex items-center gap-3 text-sm">
-      <div className="flex items-center gap-1">
-        <span>❤️</span>
-        <span className="font-bold">{hearts}</span>
-        {countdown && <span className="text-muted text-xs">{countdown}</span>}
+    <div className="flex items-center gap-4 text-sm font-medium">
+      <div className="flex items-center gap-1.5 bg-black/20 px-2 py-1 rounded-full border border-white/5">
+        <Heart size={16} className="text-danger fill-danger" />
+        <span className="text-white">{hearts}</span>
+        {countdown && <span className="text-muted text-[10px] tabular-nums">{countdown}</span>}
       </div>
 
-      <div className="flex items-center gap-1">
-        <span>⭐</span>
-        <span className="font-bold">{xp}</span>
+      <div className="flex items-center gap-1.5 bg-black/20 px-2 py-1 rounded-full border border-white/5">
+        <Star size={16} className="text-gold fill-gold" />
+        <span className="text-white">{xp}</span>
       </div>
 
       {streak > 0 && (
-        <div className="flex items-center gap-1">
-          <span>🔥</span>
-          <span className="font-bold">{streak}</span>
+        <div className="flex items-center gap-1.5 bg-black/20 px-2 py-1 rounded-full border border-white/5">
+          <Flame size={16} className="text-gold-2 fill-gold-2" />
+          <span className="text-white">{streak}</span>
         </div>
       )}
     </div>

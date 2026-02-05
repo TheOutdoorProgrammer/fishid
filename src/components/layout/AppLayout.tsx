@@ -11,10 +11,12 @@ interface AppLayoutProps {
 
 export default function AppLayout({ children, currentScreen, onNavigate }: AppLayoutProps) {
   return (
-    <div className="min-h-screen bg-bg text-text flex flex-col">
+    <div className="h-screen w-full bg-bg text-text overflow-hidden flex flex-col">
       <TopBar />
-      <main className="fixed inset-x-0 top-[calc(70px+env(safe-area-inset-top,0px))] bottom-[calc(70px+env(safe-area-inset-bottom,0px))] overflow-auto flex justify-center">
-        <div className="w-full max-w-[600px] px-4 py-6">{children}</div>
+      <main className="flex-1 overflow-y-auto w-full flex justify-center pt-[calc(70px+env(safe-area-inset-top,0px))] pb-[calc(90px+env(safe-area-inset-bottom,0px))] scroll-smooth">
+        <div className="w-full max-w-[600px] px-4 py-6 animate-in fade-in duration-300">
+          {children}
+        </div>
       </main>
       <BottomNav currentScreen={currentScreen} onNavigate={onNavigate} />
     </div>
