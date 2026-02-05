@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { LESSONS } from '@/store/gameStore';
 import { FISH } from '@/fish';
+import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
@@ -34,6 +35,11 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
   const fish = FISH[currentFishId];
   const progress = ((currentIndex + 1) / fishIds.length) * 100;
   const isLast = currentIndex === fishIds.length - 1;
+
+  const fishImage = React.useMemo(() => {
+    if (!fish?.image) return '';
+    return getRandomFishImage(fish.image);
+  }, [fish]);
 
   const handleNext = () => {
     if (isLast) {
@@ -71,61 +77,80 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
       </div>
 
       {fish ? (
-        <Card className="flex-1 flex flex-col relative overflow-hidden !p-0 border-[rgba(255,255,255,.15)]">
-          <div className="bg-[rgba(0,0,0,.2)] p-6 flex items-center justify-center min-h-[180px] border-b border-[rgba(255,255,255,.05)]">
-            <div
-              className="w-full h-full flex items-center justify-center"
-              dangerouslySetInnerHTML={{ __html: fish.svg || '<div class="text-6xl">🐟</div>' }}
-            />
+        <Card className="flex-1 flex flex-col relative overflow-hidden !p-0 border-white/10 bg-panel">
+          <div className="relative h-64 w-full bg-black/20 shrink-0">
+            {fishImage ? (
+              <img src={fishImage} alt={fish.name} className="w-full h-full object-cover" />
+            ) : (
+              <div className="w-full h-full flex items-center justify-center text-6xl bg-black/20">
+                🐟
+              </div>
+            )}
+
+            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-panel via-panel/80 to-transparent pt-16 pb-4 px-5">
+              <h2 className="text-3xl font-black leading-tight text-white mb-0.5 drop-shadow-md">
+                {fish.name}
+              </h2>
+              <div className="text-lg italic text-white/70 font-serif">{fish.sci}</div>
+            </div>
           </div>
 
-          <div className="p-5 flex-1 overflow-y-auto">
-            <div className="mb-4">
-              <h2 className="text-3xl font-black leading-tight mb-1">{fish.name}</h2>
-              <div className="text-lg italic opacity-60 font-serif">{fish.sci}</div>
-            </div>
-
-            <div className="flex flex-wrap gap-2 mb-4">
+          <div className="p-5 pt-0 flex-1 overflow-y-auto">
+            <div className="flex flex-wrap gap-2 mb-6">
               {fish.keywords?.map((k: string) => (
-                <Chip key={k} variant="blue">
+                <Chip key={k} variant="blue" className="text-xs">
                   {k}
                 </Chip>
               ))}
             </div>
 
-            <div className="space-y-5 text-sm">
-              <div className="bg-[rgba(255,255,255,.05)] p-3 rounded-lg border border-[rgba(255,255,255,.05)]">
-                <div className="uppercase text-[10px] font-bold tracking-wider opacity-50 mb-1">
-                  Habitat
+            <div className="space-y-6 text-sm">
+              <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                <div className="flex items-center gap-2 mb-2 text-blue-300">
+                  <span className="text-lg">🌊</span>
+                  <span className="uppercase text-[11px] font-bold tracking-wider opacity-80">
+                    Habitat
+                  </span>
                 </div>
-                <div>{fish.habitat}</div>
+                <div className="text-white/90 leading-relaxed">{fish.habitat}</div>
               </div>
 
               <div>
-                <div className="uppercase text-[10px] font-bold tracking-wider opacity-50 mb-2">
-                  Key Features
+                <div className="flex items-center gap-2 mb-3 text-green-300">
+                  <span className="text-lg">🔍</span>
+                  <span className="uppercase text-[11px] font-bold tracking-wider opacity-80">
+                    Key Features
+                  </span>
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   {fish.features?.map((f: string, i: number) => (
-                    <li key={i} className="flex gap-2">
-                      <span className="text-green-400 font-bold">•</span>
-                      <span>{f}</span>
+                    <li
+                      key={i}
+                      className="flex gap-3 bg-white/[0.02] p-3 rounded-lg border border-white/5"
+                    >
+                      <span className="text-green-400 font-bold mt-0.5">•</span>
+                      <span className="text-white/90 leading-snug">{f}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
               {fish.fact && (
-                <div className="bg-[rgba(242,192,76,.1)] p-3 rounded-lg border border-[rgba(242,192,76,.2)] text-[rgba(255,225,160,1)]">
-                  <div className="flex gap-2">
-                    <span>💡</span>
-                    <span className="italic">{fish.fact}</span>
+                <div className="bg-gold/10 p-4 rounded-xl border border-gold/20">
+                  <div className="flex gap-3">
+                    <span className="text-xl">💡</span>
+                    <div>
+                      <span className="uppercase text-[10px] font-bold tracking-wider text-gold mb-1 block">
+                        Fun Fact
+                      </span>
+                      <span className="text-gold/90 italic leading-relaxed">{fish.fact}</span>
+                    </div>
                   </div>
                 </div>
               )}
             </div>
 
-            <div className="text-[10px] opacity-30 mt-6 text-center">
+            <div className="text-[10px] text-white/30 mt-8 text-center">
               Source: {fish.sources?.join(', ') || 'ODNR'}
             </div>
           </div>

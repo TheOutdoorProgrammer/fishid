@@ -17,10 +17,20 @@ import {
   ChevronLeft as ChevronLeftIcon,
   ChevronRight as ChevronRightIcon,
   Check as CheckIcon,
+  Fish as FishIcon,
+  Award as AwardIcon,
 } from 'lucide-react';
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {
   size?: number;
+}
+
+export function Fish({ size = 24, ...props }: IconProps) {
+  return <FishIcon size={size} {...props} />;
+}
+
+export function Award({ size = 24, ...props }: IconProps) {
+  return <AwardIcon size={size} {...props} />;
 }
 
 export function Home({ size = 24, ...props }: IconProps) {
