@@ -1184,7 +1184,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carpiodes%20velifer' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carpiodes+velifer' }
     ],
-    image: '',
+    image: 'https://static.inaturalist.org/photos/454315141/medium.jpeg',
     quizImage: '',
     features: [
       'Deep, compressed silver body',
@@ -2262,7 +2262,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20phoxocephala' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+phoxocephala' }
     ],
-    image: '',
+    image: 'https://inaturalist-open-data.s3.amazonaws.com/photos/28382165/medium.jpg',
     quizImage: '',
     features: [
       'Pointed, slender head and snout',
