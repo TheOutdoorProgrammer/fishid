@@ -426,7 +426,7 @@ const FISH = {
   },
   orangespotted_sunfish: {
     id: 'orangespotted_sunfish', name: 'Orangespotted Sunfish', scientific: 'Lepomis humilis',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orangespottednctc.png/500px-Orangespottednctc.png',
     quizImage: '',
     features: [
       'Small, compressed body',
@@ -498,7 +498,7 @@ const FISH = {
   },
   hybrid_striped_bass: {
     id: 'hybrid_striped_bass', name: 'Hybrid Striped Bass', scientific: 'Morone chrysops × M. saxatilis',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HybridBassCoosaRiver.jpg/500px-HybridBassCoosaRiver.jpg',
     quizImage: '',
     features: [
       'Silver body with broken or offset horizontal stripes',
@@ -588,7 +588,7 @@ const FISH = {
   },
   white_catfish: {
     id: 'white_catfish', name: 'White Catfish', scientific: 'Ameiurus catus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ameiurus_catus.jpg/500px-Ameiurus_catus.jpg',
     quizImage: '',
     features: [
       'Blue-gray to white body',
@@ -624,7 +624,7 @@ const FISH = {
   },
   tadpole_madtom: {
     id: 'tadpole_madtom', name: 'Tadpole Madtom', scientific: 'Noturus gyrinus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Noturus_gyrinus_89571583.jpg/500px-Noturus_gyrinus_89571583.jpg',
     quizImage: '',
     features: [
       'Tiny, dark-colored catfish',
@@ -642,7 +642,7 @@ const FISH = {
   },
   brindled_madtom: {
     id: 'brindled_madtom', name: 'Brindled Madtom', scientific: 'Noturus miurus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Noturus_miurus_%28Madtom%29.jpg',
     quizImage: '',
     features: [
       'Small catfish with dark saddle markings',
@@ -660,7 +660,7 @@ const FISH = {
   },
   grass_pickerel: {
     id: 'grass_pickerel', name: 'Grass Pickerel', scientific: 'Esox americanus vermiculatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Esox_americanus_vermiculatus.jpg/500px-Esox_americanus_vermiculatus.jpg',
     quizImage: '',
     features: [
       'Small, torpedo-shaped body (smallest pike)',
@@ -804,7 +804,7 @@ const FISH = {
   },
   skipjack_herring: {
     id: 'skipjack_herring', name: 'Skipjack Herring', scientific: 'Alosa chrysochloris',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Skipjack_herring_fish_alosa_chrysochloris.jpg/500px-Skipjack_herring_fish_alosa_chrysochloris.jpg',
     quizImage: '',
     features: [
       'Elongated, compressed silver body',
@@ -876,7 +876,7 @@ const FISH = {
   },
   spotted_sucker: {
     id: 'spotted_sucker', name: 'Spotted Sucker', scientific: 'Minytrema melanops',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg/500px-The_fishes_of_North_and_Middle_America_%28Pl._XXXVI%29_%287983312822%29.jpg',
     quizImage: '',
     features: [
       'Olive-brown body with rows of dark spots',
@@ -894,7 +894,7 @@ const FISH = {
   },
   creek_chubsucker: {
     id: 'creek_chubsucker', name: 'Creek Chubsucker', scientific: 'Erimyzon oblongus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Erimyzon_oblongus.jpg/500px-Erimyzon_oblongus.jpg',
     quizImage: '',
     features: [
       'Small, chubby sucker with no lateral line',
@@ -912,7 +912,7 @@ const FISH = {
   },
   lake_chubsucker: {
     id: 'lake_chubsucker', name: 'Lake Chubsucker', scientific: 'Erimyzon sucetta',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Erimyzon_sucetta.jpg/500px-Erimyzon_sucetta.jpg',
     quizImage: '',
     features: [
       'Deeper body than creek chubsucker',
@@ -984,7 +984,7 @@ const FISH = {
   },
   silver_redhorse: {
     id: 'silver_redhorse', name: 'Silver Redhorse', scientific: 'Moxostoma anisurum',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Moxostoma_anisurum.jpg/500px-Moxostoma_anisurum.jpg',
     quizImage: '',
     features: [
       'Silver to olive body',
@@ -1002,7 +1002,7 @@ const FISH = {
   },
   black_redhorse: {
     id: 'black_redhorse', name: 'Black Redhorse', scientific: 'Moxostoma duquesnei',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/BlackRedHorseSucker.jpg/500px-BlackRedHorseSucker.jpg',
     quizImage: '',
     features: [
       'Olive to dark bronze body',
@@ -1038,7 +1038,7 @@ const FISH = {
   },
   river_redhorse: {
     id: 'river_redhorse', name: 'River Redhorse', scientific: 'Moxostoma carinatum',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Moxostoma_carinatum_153150190.jpg/500px-Moxostoma_carinatum_153150190.jpg',
     quizImage: '',
     features: [
       'Large, robust sucker',
@@ -1056,7 +1056,7 @@ const FISH = {
   },
   smallmouth_redhorse: {
     id: 'smallmouth_redhorse', name: 'Smallmouth Redhorse', scientific: 'Moxostoma breviceps',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg/500px-Smallmouth_Redhorse%2C_Kentucky%2C_US_imported_from_iNaturalist_photo_423666444.jpg',
     quizImage: '',
     features: [
       'Small mouth even for a sucker',
@@ -1074,7 +1074,7 @@ const FISH = {
   },
   greater_redhorse: {
     id: 'greater_redhorse', name: 'Greater Redhorse', scientific: 'Moxostoma valenciennesi',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Moxostoma_valenciennesi.jpg/500px-Moxostoma_valenciennesi.jpg',
     quizImage: '',
     features: [
       'Very large sucker species',
@@ -1110,7 +1110,7 @@ const FISH = {
   },
   smallmouth_buffalo: {
     id: 'smallmouth_buffalo', name: 'Smallmouth Buffalo', scientific: 'Ictiobus bubalus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ictiobus_bubalus.jpg/500px-Ictiobus_bubalus.jpg',
     quizImage: '',
     features: [
       'Deep, compressed body similar to bigmouth buffalo',
@@ -1128,7 +1128,7 @@ const FISH = {
   },
   black_buffalo: {
     id: 'black_buffalo', name: 'Black Buffalo', scientific: 'Ictiobus niger',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ictiobus_niger.jpg/500px-Ictiobus_niger.jpg',
     quizImage: '',
     features: [
       'Deep body but less compressed than other buffalo',
@@ -1146,7 +1146,7 @@ const FISH = {
   },
   blue_sucker: {
     id: 'blue_sucker', name: 'Blue Sucker', scientific: 'Cycleptus elongatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Blue_Sucker.jpg/500px-Blue_Sucker.jpg',
     quizImage: '',
     features: [
       'Elongated, streamlined body (unusual for a sucker)',
@@ -1236,7 +1236,7 @@ const FISH = {
   },
   bluntnose_minnow: {
     id: 'bluntnose_minnow', name: 'Bluntnose Minnow', scientific: 'Pimephales notatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg/500px-Pimephales_notatus_-_Stumpfnasen-Zwergd%C3%B6bel_192957406.jpg',
     quizImage: '',
     features: [
       'Small, slender body',
@@ -1254,7 +1254,7 @@ const FISH = {
   },
   common_shiner: {
     id: 'common_shiner', name: 'Common Shiner', scientific: 'Luxilus cornutus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Common_shiner.jpg/500px-Common_shiner.jpg',
     quizImage: '',
     features: [
       'Moderately deep, compressed body',
@@ -1272,7 +1272,7 @@ const FISH = {
   },
   emerald_shiner: {
     id: 'emerald_shiner', name: 'Emerald Shiner', scientific: 'Notropis atherinoides',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Emerald_shiner.jpg/500px-Emerald_shiner.jpg',
     quizImage: '',
     features: [
       'Slender, streamlined body',
@@ -1290,7 +1290,7 @@ const FISH = {
   },
   spotfin_shiner: {
     id: 'spotfin_shiner', name: 'Spotfin Shiner', scientific: 'Cyprinella spiloptera',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cyprinella_spiloptera_404697520.jpg/500px-Cyprinella_spiloptera_404697520.jpg',
     quizImage: '',
     features: [
       'Steel-blue sheen on back and sides',
@@ -1308,7 +1308,7 @@ const FISH = {
   },
   striped_shiner: {
     id: 'striped_shiner', name: 'Striped Shiner', scientific: 'Luxilus chrysocephalus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Luxilus_chrysocephalus_67374238.jpg/500px-Luxilus_chrysocephalus_67374238.jpg',
     quizImage: '',
     features: [
       'Large, deep-bodied shiner',
@@ -1326,7 +1326,7 @@ const FISH = {
   },
   hornyhead_chub: {
     id: 'hornyhead_chub', name: 'Hornyhead Chub', scientific: 'Nocomis biguttatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Horned_Chub.JPG/500px-Horned_Chub.JPG',
     quizImage: '',
     features: [
       'Large, robust minnow',
@@ -1344,7 +1344,7 @@ const FISH = {
   },
   river_chub: {
     id: 'river_chub', name: 'River Chub', scientific: 'Nocomis micropogon',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/River_chub_-_Nocomis_micropogon.jpg/500px-River_chub_-_Nocomis_micropogon.jpg',
     quizImage: '',
     features: [
       'Large, robust minnow (one of the biggest)',
@@ -1362,7 +1362,7 @@ const FISH = {
   },
   rosyface_shiner: {
     id: 'rosyface_shiner', name: 'Rosyface Shiner', scientific: 'Notropis rubellus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Notropis_rubellus.jpg/500px-Notropis_rubellus.jpg',
     quizImage: '',
     features: [
       'Slender, streamlined body',
@@ -1380,7 +1380,7 @@ const FISH = {
   },
   sand_shiner: {
     id: 'sand_shiner', name: 'Sand Shiner', scientific: 'Notropis stramineus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Notropis_stramineus.jpg/500px-Notropis_stramineus.jpg',
     quizImage: '',
     features: [
       'Small, slender body',
@@ -1398,7 +1398,7 @@ const FISH = {
   },
   silverjaw_minnow: {
     id: 'silverjaw_minnow', name: 'Silverjaw Minnow', scientific: 'Ericymba buccata',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ericymba_buccata_-_Gojilynx_-_606630924.jpeg/500px-Ericymba_buccata_-_Gojilynx_-_606630924.jpeg',
     quizImage: '',
     features: [
       'Translucent body',
@@ -1434,7 +1434,7 @@ const FISH = {
   },
   longnose_dace: {
     id: 'longnose_dace', name: 'Longnose Dace', scientific: 'Rhinichthys cataractae',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Longnose_dace.jpg/500px-Longnose_dace.jpg',
     quizImage: '',
     features: [
       'Small, elongated body',
@@ -1470,7 +1470,7 @@ const FISH = {
   },
   redside_dace: {
     id: 'redside_dace', name: 'Redside Dace', scientific: 'Clinostomus elongatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Clinostomus_elongatus_-_Wilhelma_01.jpg/500px-Clinostomus_elongatus_-_Wilhelma_01.jpg',
     quizImage: '',
     features: [
       'Elongated, streamlined body',
@@ -1488,7 +1488,7 @@ const FISH = {
   },
   silver_chub: {
     id: 'silver_chub', name: 'Silver Chub', scientific: 'Macrhybopsis storeriana',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg/500px-FMIB_51127_Fall-Fish_or_Silver_Chub.jpeg',
     quizImage: '',
     features: [
       'Slender, elongated body',
@@ -1506,7 +1506,7 @@ const FISH = {
   },
   mimic_shiner: {
     id: 'mimic_shiner', name: 'Mimic Shiner', scientific: 'Notropis volucellus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Notropis_volucellus.jpg/500px-Notropis_volucellus.jpg',
     quizImage: '',
     features: [
       'Small, slender body',
@@ -1524,7 +1524,7 @@ const FISH = {
   },
   scarlet_shiner: {
     id: 'scarlet_shiner', name: 'Scarlet Shiner', scientific: 'Lythrurus fasciolaris',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scarletshinermale.jpg/500px-Scarletshinermale.jpg',
     quizImage: '',
     features: [
       'Moderately deep body',
@@ -1542,7 +1542,7 @@ const FISH = {
   },
   redfin_shiner: {
     id: 'redfin_shiner', name: 'Redfin Shiner', scientific: 'Lythrurus umbratilis',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Lythrurus_umbratilis.JPG/500px-Lythrurus_umbratilis.JPG',
     quizImage: '',
     features: [
       'Deep, compressed body',
@@ -1560,7 +1560,7 @@ const FISH = {
   },
   suckermouth_minnow: {
     id: 'suckermouth_minnow', name: 'Suckermouth Minnow', scientific: 'Phenacobius mirabilis',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg/500px-Phenacobius_mirabilis_-_Gojilynx_-_606630980.jpeg',
     quizImage: '',
     features: [
       'Elongated body with flattened underside',
@@ -1650,7 +1650,7 @@ const FISH = {
   },
   orangethroat_darter: {
     id: 'orangethroat_darter', name: 'Orangethroat Darter', scientific: 'Etheostoma spectabile',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Etheostoma_spectabile.jpg/500px-Etheostoma_spectabile.jpg',
     quizImage: '',
     features: [
       'Small with alternating blue and orange bars',
@@ -1668,7 +1668,7 @@ const FISH = {
   },
   banded_darter: {
     id: 'banded_darter', name: 'Banded Darter', scientific: 'Etheostoma zonale',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Etheostoma_zonale_267441672.jpg/500px-Etheostoma_zonale_267441672.jpg',
     quizImage: '',
     features: [
       'Small body with distinct vertical bars',
@@ -1686,7 +1686,7 @@ const FISH = {
   },
   bluebreast_darter: {
     id: 'bluebreast_darter', name: 'Bluebreast Darter', scientific: 'Etheostoma camurum',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Etheostoma_camurum.jpg/500px-Etheostoma_camurum.jpg',
     quizImage: '',
     features: [
       'Breeding males with brilliant blue breast and belly',
@@ -1704,7 +1704,7 @@ const FISH = {
   },
   variegate_darter: {
     id: 'variegate_darter', name: 'Variegate Darter', scientific: 'Etheostoma variatum',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Etheostoma_variatum.jpg',
     quizImage: '',
     features: [
       'Four dark saddle marks across back',
@@ -1722,7 +1722,7 @@ const FISH = {
   },
   eastern_sand_darter: {
     id: 'eastern_sand_darter', name: 'Eastern Sand Darter', scientific: 'Ammocrypta pellucida',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ammocrypta_pellucida.jpg/500px-Ammocrypta_pellucida.jpg',
     quizImage: '',
     features: [
       'Very slender, elongated body',
@@ -1758,7 +1758,7 @@ const FISH = {
   },
   blackside_darter: {
     id: 'blackside_darter', name: 'Blackside Darter', scientific: 'Percina maculata',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg/500px-..._The_fishes_of_Illinois_%281908%29_%2814801632653%29.jpg',
     quizImage: '',
     features: [
       'Row of dark oval blotches along sides',
@@ -1776,7 +1776,7 @@ const FISH = {
   },
   channel_darter: {
     id: 'channel_darter', name: 'Channel Darter', scientific: 'Percina copelandi',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg/500px-FMIB_39791_Cottogaster_cheneyi%2C_new_species_Type.jpeg',
     quizImage: '',
     features: [
       'Small, slender darter',
@@ -1794,7 +1794,7 @@ const FISH = {
   },
   iowa_darter: {
     id: 'iowa_darter', name: 'Iowa Darter', scientific: 'Etheostoma exile',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Etheostoma_exile_-_Iowa_Darter.png/500px-Etheostoma_exile_-_Iowa_Darter.png',
     quizImage: '',
     features: [
       'Slender body with 9-12 dark vertical bars',
@@ -1812,7 +1812,7 @@ const FISH = {
   },
   dusky_darter: {
     id: 'dusky_darter', name: 'Dusky Darter', scientific: 'Percina sciera',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Percina_sciera_332617380.jpg/500px-Percina_sciera_332617380.jpg',
     quizImage: '',
     features: [
       'Row of fused or connected dark blotches along side',
@@ -1848,7 +1848,7 @@ const FISH = {
   },
   gilt_darter: {
     id: 'gilt_darter', name: 'Gilt Darter', scientific: 'Percina evides',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Percina_evides_323739855.jpg/500px-Percina_evides_323739855.jpg',
     quizImage: '',
     features: [
       'Broad dark vertical bars on golden-orange body',
@@ -1884,7 +1884,7 @@ const FISH = {
   },
   shortnose_gar: {
     id: 'shortnose_gar', name: 'Shortnose Gar', scientific: 'Lepisosteus platostomus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg/500px-Shortnose_Gar_%28Lepisosteus_platostomus%29_%2853084345784%29.jpg',
     quizImage: '',
     features: [
       'Shorter, broader snout than longnose gar',
@@ -2064,7 +2064,7 @@ const FISH = {
   },
   bighead_carp: {
     id: 'bighead_carp', name: 'Bighead Carp', scientific: 'Hypophthalmichthys nobilis',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Bighead_carp.gif',
     quizImage: '',
     features: [
       'Very large head relative to body',
@@ -2136,7 +2136,7 @@ const FISH = {
   },
   trout_perch: {
     id: 'trout_perch', name: 'Trout-Perch', scientific: 'Percopsis omiscomaycus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Percopsis_omiscomaycus.jpg/500px-Percopsis_omiscomaycus.jpg',
     quizImage: '',
     features: [
       'Small, semi-translucent body',
@@ -2154,7 +2154,7 @@ const FISH = {
   },
   pirate_perch: {
     id: 'pirate_perch', name: 'Pirate Perch', scientific: 'Aphredoderus sayanus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aphredoderus_sayanus_sayanus.jpg/500px-Aphredoderus_sayanus_sayanus.jpg',
     quizImage: '',
     features: [
       'Small, dark-bodied fish',
@@ -2172,7 +2172,7 @@ const FISH = {
   },
   brook_silverside: {
     id: 'brook_silverside', name: 'Brook Silverside', scientific: 'Labidesthes sicculus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Labidesthes_sicculus.jpg/500px-Labidesthes_sicculus.jpg',
     quizImage: '',
     features: [
       'Very slender, elongated body',
@@ -2190,7 +2190,7 @@ const FISH = {
   },
   central_mudminnow: {
     id: 'central_mudminnow', name: 'Central Mudminnow', scientific: 'Umbra limi',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Umbra_limi.jpg/500px-Umbra_limi.jpg',
     quizImage: '',
     features: [
       'Small, stout body with rounded tail',
@@ -2226,7 +2226,7 @@ const FISH = {
   },
   blackstripe_topminnow: {
     id: 'blackstripe_topminnow', name: 'Blackstripe Topminnow', scientific: 'Fundulus notatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg/500px-FMIB_51864_Top-minnow%2C_Zygonectes_notatus_%28Rafineesque%29_Eureka_Springs%2C_Ark.jpeg',
     quizImage: '',
     features: [
       'Small surface-dwelling fish',
@@ -2244,7 +2244,7 @@ const FISH = {
   },
   banded_killifish: {
     id: 'banded_killifish', name: 'Banded Killifish', scientific: 'Fundulus diaphanus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Banded_killifish.JPG/500px-Banded_killifish.JPG',
     quizImage: '',
     features: [
       'Small surface-dwelling fish',
@@ -2262,7 +2262,7 @@ const FISH = {
   },
   northern_studfish: {
     id: 'northern_studfish', name: 'Northern Studfish', scientific: 'Fundulus catenatus',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Fundulus_catenatus.jpg',
     quizImage: '',
     features: [
       'Elongated body with flat head',
@@ -2280,7 +2280,7 @@ const FISH = {
   },
   brook_stickleback: {
     id: 'brook_stickleback', name: 'Brook Stickleback', scientific: 'Culaea inconstans',
-    image: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Culaea_inconstans_1908.jpg/500px-Culaea_inconstans_1908.jpg',
     quizImage: '',
     features: [
       'Very small fish with 4-6 free dorsal spines',
