@@ -15,7 +15,7 @@ export default function LearnScreen({ onNavigate }: LearnScreenProps) {
   const { lessons, toggleSkipUnlock, settings } = useGameStore();
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <Card>
         <div className="flex justify-between items-start">
           <div>
@@ -33,7 +33,7 @@ export default function LearnScreen({ onNavigate }: LearnScreenProps) {
         </div>
       </Card>
 
-      <div className="grid grid-cols-1 gap-3">
+      <div className="grid grid-cols-1 gap-4">
         {LESSONS.map((lesson) => {
           const state = lessons[lesson.id] || { unlocked: false, completed: false, bestStars: 0 };
           const isLocked = !state.unlocked && !settings.allowSkipUnlock;
@@ -43,7 +43,7 @@ export default function LearnScreen({ onNavigate }: LearnScreenProps) {
               key={lesson.id}
               onClick={() => !isLocked && onNavigate('learnMode', lesson.id)}
               className={`
-                relative bg-panel border rounded-xl p-4 flex gap-4 items-center transition-all
+                relative bg-panel border rounded-2xl p-5 flex gap-4 items-center transition-all
                 ${isLocked ? 'opacity-60 grayscale border-[rgba(255,255,255,.05)]' : 'cursor-pointer border-[rgba(255,255,255,.15)] active:scale-[0.98] hover:bg-[rgba(255,255,255,.05)]'}
               `}
             >

@@ -31,7 +31,7 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
     .slice(0, 5);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <Card>
         <div className="flex justify-between items-start mb-4">
           <div>
@@ -57,11 +57,11 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
         <h2 className="text-xl font-black mb-3">Weak spots</h2>
 
         {weakSpots.length > 0 ? (
-          <div className="space-y-3">
+          <div className="space-y-4">
             {weakSpots.map((fish) => (
               <div
                 key={fish.id}
-                className="flex items-center gap-3 bg-[rgba(255,255,255,.05)] p-2 rounded-lg border border-[rgba(255,255,255,.05)]"
+                className="flex items-center gap-3 bg-[rgba(255,255,255,.05)] p-3 rounded-xl border border-[rgba(255,255,255,.05)]"
               >
                 <div className="w-10 h-10 bg-[rgba(0,0,0,.3)] rounded flex items-center justify-center text-xl">
                   <div

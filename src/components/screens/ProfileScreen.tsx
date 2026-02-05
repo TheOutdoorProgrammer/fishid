@@ -71,7 +71,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
   const completedLessons = Object.values(lessons).filter((l: any) => l.completed).length;
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-6">
       <Card>
         <div className="flex justify-between items-start mb-4">
           <div>
@@ -105,13 +105,13 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
         </div>
 
         <div className="flex flex-col gap-2">
-          <div className="flex items-center justify-between p-3 bg-[rgba(255,255,255,.05)] rounded-lg">
+          <div className="flex items-center justify-between p-4 bg-[rgba(255,255,255,.05)] rounded-xl">
             <span>Sound Effects</span>
             <Button variant="ghost" onClick={toggleSound} className="!p-1 min-h-0 h-8 w-8">
               {settings.sound ? '🔊' : '🔇'}
             </Button>
           </div>
-          <div className="flex items-center justify-between p-3 bg-[rgba(255,255,255,.05)] rounded-lg">
+          <div className="flex items-center justify-between p-4 bg-[rgba(255,255,255,.05)] rounded-xl">
             <span>Allow Skip Unlock</span>
             <Button
               variant="ghost"
@@ -144,7 +144,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
         <h2 className="text-xl font-black mb-1">Fish Library</h2>
         <p className="text-sm opacity-80 mb-4">Tap a fish to see its ID notes.</p>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
           {FISH_IDS.map((id) => {
             const fish = FISH[id];
             const stats = fishStats[id] || { seen: 0 };
