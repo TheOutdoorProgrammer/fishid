@@ -17,11 +17,12 @@
   --maxw: 520px;
 }
 *{box-sizing:border-box}
-html,body{height:100%}
+html,body{height:100%;background-color:#0b1f2d}
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  background: radial-gradient(1200px 700px at 50% -20%, rgba(26,110,165,.35), transparent 55%),
+  background-color:#0b1f2d;
+  background-image: radial-gradient(1200px 700px at 50% -20%, rgba(26,110,165,.35), transparent 55%),
               radial-gradient(800px 600px at 120% 40%, rgba(31,122,79,.25), transparent 55%),
               linear-gradient(180deg, #071723, #0b1f2d 40%, #071723);
   color:var(--text);

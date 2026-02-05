@@ -4,8 +4,8 @@
   "description": "Learn to identify Ohio & Lake Erie fish species - Duolingo style!",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0f2b3c",
-  "theme_color": "#1a5276",
+  "background_color": "#0b1f2d",
+  "theme_color": "#0b1f2d",
   "orientation": "portrait",
   "icons": [
     {
