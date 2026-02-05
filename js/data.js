@@ -455,8 +455,9 @@ const FISH = {
   green_sunfish: {
     id: 'green_sunfish', name: 'Green Sunfish', scientific: 'Lepomis cyanellus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20cyanellus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+cyanellus' }
+      { label: "Virginia DWR species profile", url: "https://dwr.virginia.gov/wildlife/information/green-sunfish/" },
+      { label: "Mississippi MDWFP Fish ID Guide", url: "https://www.mdwfp.com/fishing-boating/fish-id-guide/green-sunfish" },
+      { label: "Outdoor Alabama species page", url: "https://www.outdooralabama.com/bream/green-sunfish" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lepomis_cyanellus.jpg/500px-Lepomis_cyanellus.jpg',
     quizImage: '',
@@ -477,8 +478,9 @@ const FISH = {
   pumpkinseed: {
     id: 'pumpkinseed', name: 'Pumpkinseed', scientific: 'Lepomis gibbosus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20gibbosus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+gibbosus' }
+      { label: "DFO Canada species profile", url: "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/pumpkinseed-crapetsoleil-eng.html" },
+      { label: "Illinois DNR Wild About Fishes", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsunfish/wafpumpkinseed.html" },
+      { label: "Wisconsin DNR species overview (PDF)", url: "https://dnr.wisconsin.gov/sites/default/files/topic/Fishing/Species_pumpkinseed.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lepomis_gibbosus_PAQ.jpg/500px-Lepomis_gibbosus_PAQ.jpg',
     quizImage: '',
@@ -499,8 +501,9 @@ const FISH = {
   longear_sunfish: {
     id: 'longear_sunfish', name: 'Longear Sunfish', scientific: 'Lepomis megalotis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20megalotis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+megalotis' }
+      { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/longear-sunfish" },
+      { label: "Outdoor Alabama species page", url: "https://www.outdooralabama.com/bream/longear-sunfish" },
+      { label: "Texas Parks & Wildlife species account", url: "https://tpwd.texas.gov/huntwild/wild/species/longearsunfish/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lepomis_megalotis.jpg/500px-Lepomis_megalotis.jpg',
     quizImage: '',
@@ -521,8 +524,10 @@ const FISH = {
   redear_sunfish: {
     id: 'redear_sunfish', name: 'Redear Sunfish', scientific: 'Lepomis microlophus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20microlophus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+microlophus' }
+      { label: "Virginia DWR species profile", url: "https://dwr.virginia.gov/wildlife/information/redear-sunfish/" },
+      { label: "North Carolina Wildlife Resources Commission", url: "https://www.ncwildlife.gov/species/redear-sunfish" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=390" },
+      { label: "Maryland DNR fish facts", url: "https://dnr.maryland.gov/fisheries/pages/fish-facts.aspx?fishname=Redear+Sunfish" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Redear_sunfish.jpg/500px-Redear_sunfish.jpg',
     quizImage: '',
@@ -543,8 +548,10 @@ const FISH = {
   orangespotted_sunfish: {
     id: 'orangespotted_sunfish', name: 'Orangespotted Sunfish', scientific: 'Lepomis humilis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20humilis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+humilis' }
+      { label: "Illinois DNR Wild About Fishes", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsunfish/waforangespottedsunfish.html" },
+      { label: "Outdoor Alabama species page", url: "https://www.outdooralabama.com/bream/orangespotted-sunfish" },
+      { label: "USFWS species media", url: "https://www.fws.gov/media/orange-spotted-sunfish-0" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=383" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Orangespottednctc.png/500px-Orangespottednctc.png',
     quizImage: '',
@@ -565,8 +572,10 @@ const FISH = {
   warmouth: {
     id: 'warmouth', name: 'Warmouth', scientific: 'Lepomis gulosus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepomis%20gulosus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepomis+gulosus' }
+      { label: "North Carolina Wildlife Resources Commission", url: "https://www.ncwildlife.gov/species/warmouth" },
+      { label: "Kentucky Fish & Wildlife", url: "https://fw.ky.gov/Fish/pages/warmouth.aspx" },
+      { label: "Texas Parks & Wildlife species account", url: "https://tpwd.texas.gov/huntwild/wild/species/war/" },
+      { label: "Mississippi MDWFP Fish ID Guide", url: "https://www.mdwfp.com/fishing-boating/fish-id-guide/warmouth" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lepomis_gulosus.jpg/500px-Lepomis_gulosus.jpg',
     quizImage: '',
@@ -587,8 +596,9 @@ const FISH = {
   spotted_bass: {
     id: 'spotted_bass', name: 'Spotted Bass', scientific: 'Micropterus punctulatus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Micropterus%20punctulatus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Micropterus+punctulatus' }
+      { label: "Louisiana Dept. of Wildlife & Fisheries", url: "https://www.wlf.louisiana.gov/species/detail/spotted-bass" },
+      { label: "Mississippi MDWFP Fish ID Guide", url: "https://www.mdwfp.com/fishing-boating/fish-id-guide/spotted-bass" },
+      { label: "Bassmaster ID guide (PDF)", url: "https://www.bassmaster.com/wp-content/uploads/2022/03/howtoidspottedbass_1.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Micropterus_punctulatus.jpg/500px-Micropterus_punctulatus.jpg',
     quizImage: '',
@@ -609,8 +619,9 @@ const FISH = {
   rock_bass: {
     id: 'rock_bass', name: 'Rock Bass', scientific: 'Ambloplites rupestris',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ambloplites%20rupestris' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ambloplites+rupestris' }
+      { label: "North Carolina Wildlife Resources Commission", url: "https://www.ncwildlife.gov/species/rock-bass" },
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/rock-bass-ambloplites-rupestris" },
+      { label: "Outdoor Alabama species page", url: "https://www.outdooralabama.com/bream/rock-bass" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ambloplites_rupestris.jpg/500px-Ambloplites_rupestris.jpg',
     quizImage: '',
@@ -631,8 +642,10 @@ const FISH = {
   hybrid_striped_bass: {
     id: 'hybrid_striped_bass', name: 'Hybrid Striped Bass', scientific: 'Morone chrysops × M. saxatilis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20chrysops%20%C3%97%20M.%20saxatilis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+chrysops+×+M.+saxatilis' }
+      { label: "Virginia DWR species profile", url: "https://dwr.virginia.gov/wildlife/information/hybrid-striped-bass/" },
+      { label: "Texas Parks & Wildlife (PDF)", url: "https://tpwd.texas.gov/publications/pwdpubs/media/pwd_lf_t3200_086.pdf" },
+      { label: "Iowa DNR species page", url: "https://www.iowadnr.gov/things-do/fishing/iowa-fish-species/hybrid-striped-bass" },
+      { label: "New Jersey DEP overview", url: "https://dep.nj.gov/njfw/fishing/freshwater/striped-bass-hybrid/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/HybridBassCoosaRiver.jpg/500px-HybridBassCoosaRiver.jpg',
     quizImage: '',
@@ -653,8 +666,10 @@ const FISH = {
   white_perch: {
     id: 'white_perch', name: 'White Perch', scientific: 'Morone americana',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Morone%20americana' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Morone+americana' }
+      { label: "Virginia DWR species profile", url: "https://dwr.virginia.gov/wildlife/information/white-perch/" },
+      { label: "Wisconsin DNR species page", url: "https://dnr.wisconsin.gov/topic/Fishing/species/whiteperch.html" },
+      { label: "USFWS ecological risk screening (PDF)", url: "https://www.fws.gov/sites/default/files/documents/Ecological-Risk-Screening-Summary-White-Perch.pdf" },
+      { label: "NY Sea Grant factsheet (PDF)", url: "https://www.seagrant.sunysb.edu/olei/Factsheets/White%20Perch.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/White_perch.jpg/500px-White_perch.jpg',
     quizImage: '',
@@ -675,8 +690,10 @@ const FISH = {
   yellow_bullhead: {
     id: 'yellow_bullhead', name: 'Yellow Bullhead', scientific: 'Ameiurus natalis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20natalis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+natalis' }
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=733" },
+      { label: "Illinois DNR Wild About Fishes", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/wafyellowbullhead.html" },
+      { label: "Connecticut DEEP freshwater fishes", url: "https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/yellow-bullhead" },
+      { label: "Mississippi MDWFP Fish ID Guide", url: "https://www.mdwfp.com/fishing-boating/fish-id-guide/yellow-bullhead" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ameiurus_natalis.jpg/500px-Ameiurus_natalis.jpg',
     quizImage: '',
@@ -697,8 +714,9 @@ const FISH = {
   brown_bullhead: {
     id: 'brown_bullhead', name: 'Brown Bullhead', scientific: 'Ameiurus nebulosus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20nebulosus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+nebulosus' }
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=734" },
+      { label: "Connecticut DEEP freshwater fishes", url: "https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/brown-bullhead" },
+      { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/brown-bullhead" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ameiurus_nebulosus.jpg/500px-Ameiurus_nebulosus.jpg',
     quizImage: '',
@@ -719,8 +737,9 @@ const FISH = {
   black_bullhead: {
     id: 'black_bullhead', name: 'Black Bullhead', scientific: 'Ameiurus melas',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20melas' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+melas' }
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=730" },
+      { label: "Oklahoma Department of Wildlife Conservation", url: "https://www.wildlifedepartment.com/wildlife/field-guide/fish/black-bullhead-catfish" },
+      { label: "New York DEC SWAP species account (PDF)", url: "https://extapps.dec.ny.gov/fs/programs/dfw/SWAP2025/Freshwater%20Fish/blackbullhead.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ameiurus_melas_by_Duane_Raver.png/500px-Ameiurus_melas_by_Duane_Raver.png',
     quizImage: '',
@@ -741,8 +760,10 @@ const FISH = {
   white_catfish: {
     id: 'white_catfish', name: 'White Catfish', scientific: 'Ameiurus catus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ameiurus%20catus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ameiurus+catus' }
+      { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/white-catfish" },
+      { label: "Connecticut DEEP freshwater fishes", url: "https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/white-catfish" },
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=729" },
+      { label: "New Jersey DEP (PDF)", url: "https://dep.nj.gov/njfw/wp-content/uploads/njfw/White-Catfish.pdf" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ameiurus_catus.jpg/500px-Ameiurus_catus.jpg',
     quizImage: '',
@@ -763,8 +784,9 @@ const FISH = {
   stonecat: {
     id: 'stonecat', name: 'Stonecat', scientific: 'Noturus flavus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20flavus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+flavus' }
+      { label: "USGS NAS factsheet", url: "https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=745" },
+      { label: "NatureServe Explorer", url: "https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.101382/Noturus_flavus" },
+      { label: "Animal Diversity Web", url: "https://animaldiversity.org/accounts/Noturus_flavus/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Noturus_flavus.jpg/500px-Noturus_flavus.jpg',
     quizImage: '',
@@ -785,8 +807,9 @@ const FISH = {
   tadpole_madtom: {
     id: 'tadpole_madtom', name: 'Tadpole Madtom', scientific: 'Noturus gyrinus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20gyrinus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+gyrinus' }
+      { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/tadpole-madtom" },
+      { label: "Illinois DNR Wild About Fishes", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/waftadpolemadtom.html" },
+      { label: "Florida Museum fish account", url: "https://www.floridamuseum.ufl.edu/fish/catfish/ictaluridae/tadpole-madtom/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Noturus_gyrinus_89571583.jpg/500px-Noturus_gyrinus_89571583.jpg',
     quizImage: '',
@@ -807,8 +830,9 @@ const FISH = {
   brindled_madtom: {
     id: 'brindled_madtom', name: 'Brindled Madtom', scientific: 'Noturus miurus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Noturus%20miurus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Noturus+miurus' }
+      { label: "Missouri Dept. of Conservation field guide", url: "https://mdc.mo.gov/discover-nature/field-guide/brindled-madtom" },
+      { label: "Illinois DNR Wild About Fishes", url: "https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/wafbrindledmadtom.html" },
+      { label: "Kentucky Fish & Wildlife", url: "https://fw.ky.gov/Fish/Pages/Brindled-Madtom.aspx" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Noturus_miurus_%28Madtom%29.jpg',
     quizImage: '',
@@ -829,8 +853,10 @@ const FISH = {
   grass_pickerel: {
     id: 'grass_pickerel', name: 'Grass Pickerel', scientific: 'Esox americanus vermiculatus',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Esox%20americanus%20vermiculatus' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Esox+americanus+vermiculatus' }
+      { label: "USFWS species media", url: "https://www.fws.gov/media/grass-pickerel-0" },
+      { label: "North American Native Fishes Association (PDF)", url: "https://www.nanfa.org/ac/grass-pickerel.pdf" },
+      { label: "COSEWIC status report (Canada)", url: "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/grass-pickerel.html" },
+      { label: "Outdoor Nebraska article", url: "https://magazine.outdoornebraska.gov/blogs/barbs-and-backlashes/grass-pickerel/" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Esox_americanus_vermiculatus.jpg/500px-Esox_americanus_vermiculatus.jpg',
     quizImage: '',
@@ -851,8 +877,10 @@ const FISH = {
   brook_trout: {
     id: 'brook_trout', name: 'Brook Trout', scientific: 'Salvelinus fontinalis',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salvelinus%20fontinalis' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salvelinus+fontinalis' }
+      { label: "Virginia DWR species profile", url: "https://dwr.virginia.gov/wildlife/information/brook-trout/" },
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/brook-trout-salvelinus-fontinalis" },
+      { label: "Chesapeake Bay Program field guide", url: "https://www.chesapeakebay.net/discover/field-guide/entry/brook-trout" },
+      { label: "National Wildlife Federation", url: "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Fish/Brook-Trout" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Salvelinus_fontinalis.jpg/500px-Salvelinus_fontinalis.jpg',
     quizImage: '',
@@ -873,8 +901,10 @@ const FISH = {
   lake_trout: {
     id: 'lake_trout', name: 'Lake Trout', scientific: 'Salvelinus namaycush',
     refs: [
-      { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Salvelinus%20namaycush' },
-      { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Salvelinus+namaycush' }
+      { label: "Michigan DNR species page", url: "https://www.michigan.gov/dnr/education/michigan-species/fish-species/lake-trout" },
+      { label: "DFO Canada species profile", url: "https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/lake-trout-touladi-eng.html" },
+      { label: "USFWS species profile", url: "https://www.fws.gov/species/lake-trout-salvelinus-namaycush" },
+      { label: "Alaska Dept. of Fish & Game", url: "https://www.adfg.alaska.gov/index.cfm?adfg=laketrout.main" }
     ],
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lake_Trout_GLERL.jpg/500px-Lake_Trout_GLERL.jpg',
     quizImage: '',
