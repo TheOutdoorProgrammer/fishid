@@ -505,7 +505,7 @@ const FISH = {
       { label: "Outdoor Alabama species page", url: "https://www.outdooralabama.com/bream/longear-sunfish" },
       { label: "Texas Parks & Wildlife species account", url: "https://tpwd.texas.gov/huntwild/wild/species/longearsunfish/" }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lepomis_megalotis.jpg/500px-Lepomis_megalotis.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Lepomis_megalotis_UMFS_2015.JPG',
     quizImage: '',
     features: [
       'Very long, flexible ear flap (opercular flap)',
@@ -2534,7 +2534,7 @@ const FISH = {
       { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ctenopharyngodon%20idella' },
       { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ctenopharyngodon+idella' }
     ],
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ctenopharyngodon_idella.jpg/500px-Ctenopharyngodon_idella.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Grass_Carp.jpg',
     quizImage: '',
     features: [
       'Large, elongated torpedo-shaped body',
