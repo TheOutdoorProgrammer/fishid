@@ -15,7 +15,7 @@ export default function Button({
   ...props
 }: ButtonProps) {
   const baseClasses =
-    'min-h-[44px] px-3.5 py-3 rounded-2xl border font-extrabold text-[15px] inline-flex items-center justify-center gap-2.5 cursor-pointer select-none active:translate-y-px active:scale-[0.98] transition-transform';
+    'min-h-[52px] px-3.5 py-3 rounded-2xl border font-extrabold text-[15px] inline-flex items-center justify-center gap-2.5 cursor-pointer select-none active:translate-y-px active:scale-[0.98] transition-transform';
 
   const variantClasses = {
     primary:
