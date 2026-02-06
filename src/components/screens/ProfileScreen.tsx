@@ -102,9 +102,22 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
   return (
     <div className="space-y-8 pb-20">
       <div className="space-y-4">
-        <div className="flex items-center justify-between">
-          <h2 className="text-3xl font-black text-white">Profile</h2>
-          <div className="text-sm font-medium text-white/50">Level {Math.floor(xp / 1000) + 1}</div>
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <h2 className="text-3xl font-black text-white">Profile</h2>
+            <div className="text-sm font-medium text-white/50">Level {Math.floor(xp / 1000) + 1}</div>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="flex-1 h-2 bg-white/10 rounded-full overflow-hidden">
+              <div 
+                className="h-full bg-gradient-to-r from-blue to-purple-500 rounded-full transition-all duration-300"
+                style={{ width: `${(xp % 1000) / 10}%` }}
+              />
+            </div>
+            <div className="text-xs text-white/40 font-medium whitespace-nowrap">
+              {xp % 1000} / 1000
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-3 gap-3">
