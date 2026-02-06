@@ -3,6 +3,7 @@
 import React, { useRef } from 'react';
 import { useGameStore, FISH_IDS } from '@/store/gameStore';
 import { FISH } from '@/fish';
+import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 
@@ -68,67 +69,97 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
     }
   };
 
-  const completedLessons = Object.values(lessons).filter((l: any) => l.completed).length;
-
   return (
-    <div className="space-y-6">
-      <Card>
-        <div className="flex justify-between items-start mb-4">
-          <div>
-            <h2 className="text-xl font-black mb-1">Profile</h2>
-            <p className="text-sm opacity-80">Your fishing brain stats.</p>
-          </div>
-          <Button variant="danger" onClick={handleReset} className="!py-2 !px-3 text-xs min-h-0">
-            Reset
-          </Button>
+    <div className="space-y-8 pb-20">
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-3xl font-black text-white">Profile</h2>
+          <div className="text-sm font-medium text-white/50">Level {Math.floor(xp / 1000) + 1}</div>
         </div>
 
-        <div className="grid grid-cols-3 gap-2 py-4">
-          <div className="text-center">
-            <div className="text-xs uppercase tracking-wider opacity-60 mb-1">Total XP</div>
-            <div className="font-black text-xl">{xp}</div>
-          </div>
-          <div className="text-center">
-            <div className="text-xs uppercase tracking-wider opacity-60 mb-1">Streak</div>
-            <div className="font-black text-xl">{streak}</div>
-          </div>
-          <div className="text-center">
-            <div className="text-xs uppercase tracking-wider opacity-60 mb-1">Hearts</div>
-            <div className="font-black text-xl">{hearts}</div>
-          </div>
+        <div className="grid grid-cols-3 gap-3">
+          <Card className="flex flex-col items-center justify-center !p-4 bg-gradient-to-br from-blue/20 to-blue/5 border-blue/20">
+            <div className="text-2xl mb-1">⚡</div>
+            <div className="text-2xl font-black text-white">{xp}</div>
+            <div className="text-[10px] uppercase tracking-wider font-bold text-blue-200 opacity-60">
+              Total XP
+            </div>
+          </Card>
+          <Card className="flex flex-col items-center justify-center !p-4 bg-gradient-to-br from-orange-500/20 to-orange-500/5 border-orange-500/20">
+            <div className="text-2xl mb-1">🔥</div>
+            <div className="text-2xl font-black text-white">{streak}</div>
+            <div className="text-[10px] uppercase tracking-wider font-bold text-orange-200 opacity-60">
+              Day Streak
+            </div>
+          </Card>
+          <Card className="flex flex-col items-center justify-center !p-4 bg-gradient-to-br from-red-500/20 to-red-500/5 border-red-500/20">
+            <div className="text-2xl mb-1">❤️</div>
+            <div className="text-2xl font-black text-white">{hearts}</div>
+            <div className="text-[10px] uppercase tracking-wider font-bold text-red-200 opacity-60">
+              Lives
+            </div>
+          </Card>
         </div>
+      </div>
 
-        <hr className="border-[rgba(255,255,255,.08)] my-4" />
-
-        <div className="text-sm opacity-80 mb-4">
-          Lessons unlocked: {Object.values(lessons).filter((l: any) => l.unlocked).length}
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <div className="flex items-center justify-between p-4 bg-[rgba(255,255,255,.05)] rounded-xl">
-            <span>Sound Effects</span>
-            <Button variant="ghost" onClick={toggleSound} className="!p-1 min-h-0 h-8 w-8">
-              {settings.sound ? '🔊' : '🔇'}
-            </Button>
-          </div>
-          <div className="flex items-center justify-between p-4 bg-[rgba(255,255,255,.05)] rounded-xl">
-            <span>Allow Skip Unlock</span>
-            <Button
-              variant="ghost"
-              onClick={toggleSkipUnlock}
-              className={`!p-1 min-h-0 h-8 w-8 ${settings.allowSkipUnlock ? 'text-yellow-400' : 'opacity-50'}`}
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-white/80 px-1">Settings</h3>
+        <Card className="space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-sm">
+                🔊
+              </div>
+              <span className="font-medium">Sound Effects</span>
+            </div>
+            <button
+              onClick={toggleSound}
+              className={`w-12 h-7 rounded-full transition-colors relative ${settings.sound ? 'bg-green-500' : 'bg-white/10'}`}
             >
-              🔓
+              <div
+                className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-transform ${settings.sound ? 'left-6' : 'left-1'}`}
+              />
+            </button>
+          </div>
+
+          <div className="h-px bg-white/5" />
+
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-sm">
+                🔓
+              </div>
+              <span className="font-medium">Skip Unlock</span>
+            </div>
+            <button
+              onClick={toggleSkipUnlock}
+              className={`w-12 h-7 rounded-full transition-colors relative ${settings.allowSkipUnlock ? 'bg-green-500' : 'bg-white/10'}`}
+            >
+              <div
+                className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-transform ${settings.allowSkipUnlock ? 'left-6' : 'left-1'}`}
+              />
+            </button>
+          </div>
+        </Card>
+      </div>
+
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-white/80 px-1">Data</h3>
+        <Card className="space-y-4">
+          <div className="grid grid-cols-2 gap-3">
+            <Button variant="ghost" onClick={handleExport} className="w-full">
+              Export JSON
+            </Button>
+            <Button variant="ghost" onClick={handleImportClick} className="w-full">
+              Import JSON
             </Button>
           </div>
-        </div>
-
-        <div className="flex gap-2 mt-4">
-          <Button variant="ghost" onClick={handleExport} className="flex-1 text-xs">
-            Export JSON
-          </Button>
-          <Button variant="ghost" onClick={handleImportClick} className="flex-1 text-xs">
-            Import JSON
+          <Button
+            variant="danger"
+            onClick={handleReset}
+            className="w-full opacity-80 hover:opacity-100"
+          >
+            Reset All Progress
           </Button>
           <input
             ref={fileInputRef}
@@ -137,17 +168,22 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
             style={{ display: 'none' }}
             onChange={handleFileChange}
           />
+        </Card>
+      </div>
+
+      <div className="space-y-4">
+        <div className="flex items-end justify-between px-1">
+          <h3 className="text-lg font-bold text-white/80">Fish Library</h3>
+          <span className="text-xs font-medium text-white/40">
+            {Object.keys(fishStats).filter((id) => fishStats[id]?.seen > 0).length} /{' '}
+            {FISH_IDS.length} Found
+          </span>
         </div>
-      </Card>
 
-      <Card>
-        <h2 className="text-xl font-black mb-1">Fish Library</h2>
-        <p className="text-sm opacity-80 mb-4">Tap a fish to see its ID notes.</p>
-
-        <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {FISH_IDS.map((id) => {
             const fish = FISH[id];
-            const stats = fishStats[id] || { seen: 0 };
+            const stats = fishStats[id] || { seen: 0, correct: 0 };
             const isSeen = stats.seen > 0;
 
             if (!fish) return null;
@@ -156,29 +192,48 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
               <div
                 key={id}
                 className={`
-                  aspect-square rounded-lg border flex items-center justify-center relative overflow-hidden
+                  relative aspect-[4/3] rounded-xl overflow-hidden border transition-all duration-300
                   ${
                     isSeen
-                      ? 'bg-[rgba(255,255,255,.05)] border-[rgba(255,255,255,.1)]'
-                      : 'bg-[rgba(0,0,0,.2)] border-[rgba(255,255,255,.03)] opacity-50 grayscale'
+                      ? 'bg-panel border-white/10 shadow-lg'
+                      : 'bg-black/20 border-white/5 opacity-60'
                   }
                 `}
-                title={fish.name}
               >
-                <div
-                  dangerouslySetInnerHTML={{ __html: fish.svg || '<div class="text-2xl">?</div>' }}
-                  className="w-2/3 h-2/3 flex items-center justify-center"
-                />
-                {isSeen && (
-                  <div className="absolute bottom-1 right-1 text-[8px] bg-green-900/50 px-1 rounded">
-                    {stats.correct}
+                {isSeen ? (
+                  <>
+                    <img
+                      src={getRandomFishImage(fish.image)}
+                      alt={fish.name}
+                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+
+                    <div className="absolute bottom-0 left-0 right-0 p-3">
+                      <div className="text-sm font-bold leading-tight mb-1">{fish.name}</div>
+                      <div className="flex gap-2">
+                        <span className="text-[10px] font-medium px-1.5 py-0.5 bg-white/10 rounded text-white/70">
+                          Seen: {stats.seen}
+                        </span>
+                        {stats.correct > 0 && (
+                          <span className="text-[10px] font-medium px-1.5 py-0.5 bg-green-500/20 text-green-300 rounded">
+                            Caught: {stats.correct}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center">
+                    <div className="text-3xl opacity-20 mb-2">?</div>
+                    <div className="text-xs font-medium opacity-30">Undiscovered</div>
                   </div>
                 )}
               </div>
             );
           })}
         </div>
-      </Card>
+      </div>
     </div>
   );
 }

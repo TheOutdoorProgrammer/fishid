@@ -5,6 +5,7 @@ import { QuizQuestion } from '@/types';
 import { useGameStore } from '@/store/gameStore';
 import { beep } from '@/lib/sounds';
 import Button from '@/components/ui/Button';
+import Card from '@/components/ui/Card';
 import ProgressBar from '@/components/ui/ProgressBar';
 import Toast from '@/components/ui/Toast';
 import StarRating from '@/components/ui/StarRating';
@@ -125,24 +126,24 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
       <div className="flex flex-col items-center justify-center min-h-screen p-6 pt-[calc(1.5rem+env(safe-area-inset-top,0px))] pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] gap-6 animate-in fade-in zoom-in duration-300">
         <div className="text-center space-y-2">
           <h2 className="text-3xl font-black text-white">Quiz Complete!</h2>
-          <p className="text-white/60">Great job!</p>
+          <p className="text-muted">Great job!</p>
         </div>
 
-        <div className="bg-panel border border-white/10 rounded-3xl p-8 w-full max-w-sm flex flex-col items-center gap-6 shadow-2xl">
+        <Card className="w-full max-w-sm flex flex-col items-center gap-6" padding>
           <div className="text-center">
             <div className="text-6xl font-black bg-gradient-to-br from-green-400 to-emerald-600 bg-clip-text text-transparent">
               {score}%
             </div>
-            <div className="text-sm font-bold text-white/40 mt-1">ACCURACY</div>
+            <div className="text-sm font-bold text-muted mt-1">ACCURACY</div>
           </div>
 
           <StarRating stars={stars} className="scale-150 gap-2" />
 
           <div className="w-full bg-white/5 rounded-xl p-4 flex justify-between items-center border border-white/5">
-            <span className="font-bold text-white/70">XP Earned</span>
-            <span className="font-black text-yellow-400 text-xl">+{xpEarned + 12}</span>
+            <span className="font-bold text-muted">XP Earned</span>
+            <span className="font-black text-gold text-xl">+{xpEarned + 12}</span>
           </div>
-        </div>
+        </Card>
 
         <Button onClick={onExit} className="w-full max-w-sm" variant="primary">
           Continue
@@ -152,73 +153,77 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
   }
 
   return (
-    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-5">
-      <div className="flex items-center gap-3">
+    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-6">
+      <div className="flex items-center gap-4">
         <Button
           variant="ghost"
-          className="!p-2 min-h-0 aspect-square rounded-full bg-black/20 border-0"
+          className="!p-2 min-h-0 aspect-square rounded-full border-0 bg-panel"
           onClick={onExit}
         >
           ✕
         </Button>
         <div className="flex-1">
-          <ProgressBar progress={progress} className="h-2.5" />
+          <ProgressBar progress={progress} className="h-3" />
         </div>
-        <div className="font-bold text-sm tabular-nums text-white/60">
+        <div className="font-bold text-sm tabular-nums text-muted">
           {currentIndex + 1}/{questions.length}
         </div>
       </div>
 
-      <h2 className="text-center font-bold text-lg text-white/90 py-1">{currentQuestion.prompt}</h2>
-
-      <div className="flex-1 overflow-y-auto">
-        {currentQuestion.type === 'identify' && (
-          <IdentifyQuestion
-            question={currentQuestion}
-            onAnswer={handleAnswer}
-            showFeedback={showFeedback}
-            userAnswer={userAnswers[currentIndex]}
-          />
-        )}
-        {currentQuestion.type === 'feature' && (
-          <FeatureQuestion
-            question={currentQuestion}
-            onAnswer={handleAnswer}
-            showFeedback={showFeedback}
-            userAnswer={userAnswers[currentIndex]}
-          />
-        )}
-        {currentQuestion.type === 'tf' && (
-          <TrueFalseQuestion
-            question={currentQuestion}
-            onAnswer={handleAnswer}
-            showFeedback={showFeedback}
-            userAnswer={userAnswers[currentIndex]}
-          />
-        )}
-        {currentQuestion.type === 'match' && (
-          <MatchQuestion
-            question={currentQuestion}
-            onAnswer={handleAnswer}
-            showFeedback={showFeedback}
-            onMistake={handleMatchMistake}
-          />
-        )}
-        {currentQuestion.type === 'spot' && (
-          <SpotQuestion
-            question={currentQuestion}
-            onAnswer={handleAnswer}
-            showFeedback={showFeedback}
-            userAnswer={userAnswers[currentIndex]}
-          />
-        )}
+      <div className="text-center py-2">
+        <h2 className="text-xl font-bold text-white leading-relaxed">{currentQuestion.prompt}</h2>
       </div>
 
-      <div className="pt-4 mt-auto">
+      <div className="flex-1 flex flex-col min-h-0">
+        <div className="flex-1 overflow-y-auto hide-scrollbar">
+          {currentQuestion.type === 'identify' && (
+            <IdentifyQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              userAnswer={userAnswers[currentIndex]}
+            />
+          )}
+          {currentQuestion.type === 'feature' && (
+            <FeatureQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              userAnswer={userAnswers[currentIndex]}
+            />
+          )}
+          {currentQuestion.type === 'tf' && (
+            <TrueFalseQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              userAnswer={userAnswers[currentIndex]}
+            />
+          )}
+          {currentQuestion.type === 'match' && (
+            <MatchQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              onMistake={handleMatchMistake}
+            />
+          )}
+          {currentQuestion.type === 'spot' && (
+            <SpotQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              userAnswer={userAnswers[currentIndex]}
+            />
+          )}
+        </div>
+      </div>
+
+      <div className="pt-2 mt-auto">
         {showFeedback && (
           <Button
             onClick={handleNext}
-            className="w-full animate-in slide-in-from-bottom-4 duration-200"
+            className="w-full animate-in slide-in-from-bottom-4 duration-200 shadow-xl"
             variant="primary"
           >
             {currentIndex === questions.length - 1 ? 'Finish' : 'Continue'}
