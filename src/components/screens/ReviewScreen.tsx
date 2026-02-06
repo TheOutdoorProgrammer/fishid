@@ -84,7 +84,7 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
                     <img
                       src={assetPath(fish.image[0])}
                       alt={fish.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   ) : (
                     <div className="w-full h-full flex items-center justify-center text-2xl">

@@ -205,7 +205,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
                     <img
                       src={getRandomFishImage(fish.image)}
                       alt={fish.name}
-                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                      className="w-full h-full object-contain transition-transform hover:scale-105 duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
 

@@ -81,7 +81,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
         <Card className="flex-1 flex flex-col relative overflow-hidden !p-0 border-white/10 bg-panel">
           <div className="relative h-64 w-full bg-black/20 shrink-0">
             {fishImage ? (
-              <img src={fishImage} alt={fish.name} className="w-full h-full object-cover" />
+              <img src={fishImage} alt={fish.name} className="w-full h-full object-contain" />
             ) : (
               <div className="w-full h-full flex items-center justify-center text-6xl bg-black/20">
                 🐟
