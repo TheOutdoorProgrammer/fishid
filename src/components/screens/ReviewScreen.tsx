@@ -4,6 +4,7 @@ import React from 'react';
 import { Brain, TrendingUp, Play } from 'lucide-react';
 import { useGameStore, FISH_IDS } from '@/store/gameStore';
 import { FISH } from '@/fish';
+import { assetPath } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 
@@ -81,7 +82,7 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
                 <div className="w-16 h-16 shrink-0 bg-black/30 rounded-lg overflow-hidden border border-white/10 relative">
                   {fish.image && fish.image[0] ? (
                     <img
-                      src={fish.image[0]}
+                      src={assetPath(fish.image[0])}
                       alt={fish.name}
                       className="w-full h-full object-cover"
                     />
