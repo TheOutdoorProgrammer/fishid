@@ -4,7 +4,7 @@ import React from 'react';
 import { Brain, TrendingUp, Play } from 'lucide-react';
 import { useGameStore, FISH_IDS } from '@/store/gameStore';
 import { FISH } from '@/fish';
-import { assetPath } from '@/lib/utils';
+import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 
@@ -80,9 +80,9 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
                 className="p-3 flex items-center gap-4 hover:bg-white/5 transition-colors"
               >
                 <div className="w-16 h-16 shrink-0 bg-black/30 rounded-lg overflow-hidden border border-white/10 relative">
-                  {fish.image && fish.image[0] ? (
+                  {fish.image && fish.image.length > 0 ? (
                     <img
-                      src={assetPath(fish.image[0])}
+                      src={getRandomFishImage(fish.image)}
                       alt={fish.name}
                       className="w-full h-full object-contain"
                     />
