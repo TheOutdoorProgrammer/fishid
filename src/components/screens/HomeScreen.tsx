@@ -3,12 +3,11 @@
 import React from 'react';
 import { useGameStore } from '@/store/gameStore';
 import { useServiceWorker } from '@/hooks/useServiceWorker';
-import { usePWAInstall } from '@/hooks/usePWAInstall';
 import { todayStr } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
-import { Trophy, Flame, BookOpen, Volume2, VolumeX, RefreshCw, Download, Share } from 'lucide-react';
+import { Trophy, Flame, BookOpen, Volume2, VolumeX, RefreshCw } from 'lucide-react';
 
 interface HomeScreenProps {
   onNavigate: (screen: string) => void;
@@ -17,7 +16,6 @@ interface HomeScreenProps {
 export default function HomeScreen({ onNavigate }: HomeScreenProps) {
   const { xp, streak, bestStreak, lessons, dailyXP, toggleSound, settings } = useGameStore();
   const { updateAvailable, applyUpdate } = useServiceWorker();
-  const { showInstallBanner, isIOS, isInstallable, promptInstall } = usePWAInstall();
 
   const today = todayStr();
   const todayXP = dailyXP[today] || 0;
@@ -38,40 +36,6 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
           <RefreshCw size={18} />
           New Update Available — Tap to Refresh
         </button>
-      )}
-
-      {showInstallBanner && (
-        <Card className="bg-blue/10 border-blue/30">
-          <div className="flex items-start gap-3">
-            <div className="p-2 bg-blue/20 rounded-lg text-blue shrink-0">
-              {isIOS ? <Share size={20} /> : <Download size={20} />}
-            </div>
-            <div className="flex-1">
-              <h3 className="font-bold text-text mb-1">Install FishID</h3>
-              {isIOS ? (
-                <p className="text-sm text-text/70 leading-relaxed">
-                  Tap the <span className="inline-flex items-center"><Share size={14} className="mx-1" /></span> share button, then <strong>"Add to Home Screen"</strong> for the best experience.
-                </p>
-              ) : isInstallable ? (
-                <div>
-                  <p className="text-sm text-text/70 mb-2">
-                    Add to your home screen for quick access and offline use.
-                  </p>
-                  <button
-                    onClick={promptInstall}
-                    className="bg-blue hover:bg-blue/80 text-white font-bold py-2 px-4 rounded-lg text-sm transition-colors"
-                  >
-                    Install App
-                  </button>
-                </div>
-              ) : (
-                <p className="text-sm text-text/70 leading-relaxed">
-                  Add this app to your home screen for the best experience.
-                </p>
-              )}
-            </div>
-          </div>
-        </Card>
       )}
 
       <Card className="relative overflow-hidden">

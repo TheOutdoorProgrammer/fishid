@@ -3,6 +3,8 @@
 import { useState } from 'react';
 import AppLayout from '@/components/layout/AppLayout';
 import HomeScreen from '@/components/screens/HomeScreen';
+import InstallScreen from '@/components/screens/InstallScreen';
+import { usePWAInstall } from '@/hooks/usePWAInstall';
 import LearnScreen from '@/components/screens/LearnScreen';
 import LearnModeScreen from '@/components/screens/LearnModeScreen';
 import ProfileScreen from '@/components/screens/ProfileScreen';
@@ -21,6 +23,21 @@ export default function App() {
   const [quizLessonId, setQuizLessonId] = useState<string | null>(null);
 
   const { fishStats } = useGameStore();
+  const { isInstalled } = usePWAInstall();
+
+  // Gate: require install before using the app
+  // isInstalled is null while checking, show loading
+  if (isInstalled === null) {
+    return (
+      <div className="min-h-screen bg-bg flex items-center justify-center">
+        <div className="text-6xl animate-bounce">🐟</div>
+      </div>
+    );
+  }
+
+  if (!isInstalled) {
+    return <InstallScreen />;
+  }
 
   const navigateTo = (screen: string, params?: any) => {
     if (screen === 'learnMode' && params) {
