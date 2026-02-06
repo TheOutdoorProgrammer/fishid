@@ -12,6 +12,7 @@ import StarRating from '@/components/ui/StarRating';
 
 import IdentifyQuestion from './IdentifyQuestion';
 import FeatureQuestion from './FeatureQuestion';
+import HabitatQuestion from './HabitatQuestion';
 import TrueFalseQuestion from './TrueFalseQuestion';
 import MatchQuestion from './MatchQuestion';
 import SpotQuestion from './SpotQuestion';
@@ -67,6 +68,10 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
         isCorrect = answer === currentQuestion.correct;
         questionXp = 12;
         break;
+      case 'habitat':
+        isCorrect = answer === currentQuestion.correct;
+        questionXp = 12;
+        break;
       case 'tf':
         isCorrect = answer === currentQuestion.correct;
         questionXp = 10;
@@ -83,7 +88,7 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
 
     // Update fish stats for questions with a fishId
     const fishId = 'fishId' in currentQuestion ? currentQuestion.fishId : null;
-    if (fishId) {
+    if (fishId && currentQuestion.type !== 'match') {
       updateFishStats(fishId, isCorrect);
     }
 
@@ -248,6 +253,14 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
           )}
           {currentQuestion.type === 'feature' && (
             <FeatureQuestion
+              question={currentQuestion}
+              onAnswer={handleAnswer}
+              showFeedback={showFeedback}
+              userAnswer={userAnswers[currentIndex]}
+            />
+          )}
+          {currentQuestion.type === 'habitat' && (
+            <HabitatQuestion
               question={currentQuestion}
               onAnswer={handleAnswer}
               showFeedback={showFeedback}

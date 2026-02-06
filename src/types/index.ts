@@ -13,7 +13,7 @@ export * from '../fish/types';
 /**
  * Quiz type variants supported by the application
  */
-export type QuizType = 'identify' | 'feature' | 'tf' | 'match' | 'spot';
+export type QuizType = 'identify' | 'feature' | 'habitat' | 'tf' | 'match' | 'spot';
 
 /**
  * Generic option for quiz questions
@@ -43,6 +43,18 @@ export type IdentifyQuestion = {
  */
 export type FeatureQuestion = {
   type: 'feature';
+  prompt: string;
+  fishId: string;
+  options: Array<{ label: string; value: string }>;
+  correct: string;
+};
+
+/**
+ * Habitat quiz question: "Where does this fish live?"
+ * Shows a fish and asks user to select the best habitat description
+ */
+export type HabitatQuestion = {
+  type: 'habitat';
   prompt: string;
   fishId: string;
   options: Array<{ label: string; value: string }>;
@@ -94,6 +106,7 @@ export type SpotQuestion = {
 export type QuizQuestion =
   | IdentifyQuestion
   | FeatureQuestion
+  | HabitatQuestion
   | TrueFalseQuestion
   | MatchQuestion
   | SpotQuestion;

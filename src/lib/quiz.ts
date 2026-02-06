@@ -1,6 +1,7 @@
 import type { FeatureOption, Fish, TrueFalseQuestion as FishTrueFalseQuestion } from '@/fish/types';
 import type {
   FeatureQuestion,
+  HabitatQuestion,
   IdentifyQuestion,
   MatchQuestion,
   QuizQuestion,
@@ -36,12 +37,12 @@ type QuizData = {
 
 const FISH_BY_ID = FISH as Record<string, Fish>;
 const ALL_FISH = Object.values(FISH_BY_ID);
-const QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'tf', 'match', 'spot'];
+const QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'habitat', 'tf', 'match', 'spot'];
 const QUIZ_DATA = loadQuizData();
 
 // Lesson quizzes should focus on questions that actually test a specific fish.
 // (Match questions don’t map cleanly to a single fish for discovery/weak-spot tracking.)
-const LESSON_QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'tf', 'spot'];
+const LESSON_QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'habitat', 'tf', 'spot'];
 
 export function buildLessonQuizQuestions(fishPool: Fish[], count: number): QuizQuestion[] {
   const pool = fishPool.length ? fishPool.slice() : ALL_FISH.slice();
@@ -54,6 +55,8 @@ export function buildLessonQuizQuestions(fishPool: Fish[], count: number): QuizQ
       questions.push(qIdentify(pool, used));
     } else if (type === 'feature') {
       questions.push(qFeature(pool, used));
+    } else if (type === 'habitat') {
+      questions.push(qHabitat(pool, used));
     } else if (type === 'tf') {
       questions.push(qTrueFalse(pool, used));
     } else {
@@ -75,6 +78,8 @@ export function buildQuizQuestions(fishPool: Fish[], count: number): QuizQuestio
       questions.push(qIdentify(pool, used));
     } else if (type === 'feature') {
       questions.push(qFeature(pool, used));
+    } else if (type === 'habitat') {
+      questions.push(qHabitat(pool, used));
     } else if (type === 'tf') {
       questions.push(qTrueFalse(pool, used));
     } else if (type === 'match') {
@@ -160,6 +165,47 @@ export function qFeature(pool: Fish[], used: UsedTracker): FeatureQuestion {
     fishId: fish.id,
     options,
     correct: candidateCorrect,
+  };
+}
+
+export function qHabitat(pool: Fish[], used: UsedTracker): HabitatQuestion {
+  const fish = pickUnused(pool, used.fish, ALL_FISH);
+  used.fish.add(fish.id);
+
+  const correct = fish.habitat;
+
+  const sourceFish = pool.length ? pool : ALL_FISH;
+  const wrong = Array.from(
+    new Set(
+      shuffle(
+        sourceFish
+          .filter((f) => f.id !== fish.id)
+          .map((f) => f.habitat)
+          .filter((h) => Boolean(h) && h !== correct)
+      )
+    )
+  ).slice(0, 3);
+
+  // Top up if needed
+  if (wrong.length < 3) {
+    for (const f of shuffle(ALL_FISH)) {
+      if (f.id === fish.id) continue;
+      if (f.habitat && f.habitat !== correct && !wrong.includes(f.habitat)) wrong.push(f.habitat);
+      if (wrong.length >= 3) break;
+    }
+  }
+
+  const options = shuffle([correct, ...wrong]).map((option) => ({
+    label: option,
+    value: option,
+  }));
+
+  return {
+    type: 'habitat',
+    prompt: `Where does ${fish.name} typically live?`,
+    fishId: fish.id,
+    options,
+    correct,
   };
 }
 
