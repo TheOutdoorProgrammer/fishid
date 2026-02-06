@@ -115,19 +115,21 @@ export function qIdentify(pool: Fish[], used: UsedTracker): IdentifyQuestion {
   const answer = pickUnused(pool, used.fish, ALL_FISH);
   used.fish.add(answer.id);
 
-  // Use the current quiz pool for distractors when possible (makes lesson quizzes harder).
+  // Prefer the current quiz pool for distractors (even if the pool is smaller than 4),
+  // then top up from the full fish list.
   const poolIds = Array.from(new Set(pool.map((f) => f.id)));
   const allIds = Object.keys(FISH_BY_ID);
-  const distractorSource = poolIds.length >= 4 ? poolIds : allIds;
 
   const choices = new Set<string>([answer.id]);
-  const maxChoices = Math.min(4, distractorSource.length);
 
-  while (choices.size < maxChoices) {
-    choices.add(distractorSource[Math.floor(Math.random() * distractorSource.length)]);
+  // 1) Pull from pool first (helps lessons like Catfish/Bass feel like the same "type")
+  const poolShuffled = shuffle(poolIds.filter((id) => id !== answer.id));
+  for (const id of poolShuffled) {
+    if (choices.size >= 4) break;
+    choices.add(id);
   }
 
-  // If we still don’t have enough options (tiny pools), top up from global list.
+  // 2) Top up from global list
   while (choices.size < Math.min(4, allIds.length)) {
     choices.add(allIds[Math.floor(Math.random() * allIds.length)]);
   }
