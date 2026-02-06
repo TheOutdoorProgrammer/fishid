@@ -17,7 +17,7 @@ export const spotted_bass: Fish = {
     'Connected dorsal fin'
   ],
   keyFeature: 'Rows of spots below lateral line with rough tooth patch on tongue',
-  habitat: 'Rocky streams and reservoirs in southern Ohio',
+  habitat: ['Rocky streams and reservoirs in southern Ohio'],
   size: '10-15 inches typical',
   funFact: 'Spotted bass look like a cross between largemouth and smallmouth. The rows of spots below the lateral line and the rough tongue patch are the best way to identify them.',
   refs: [

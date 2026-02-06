@@ -17,7 +17,7 @@ export const blue_catfish: Fish = {
     'Can grow very large (50+ pounds)'
   ],
   keyFeature: 'Blue-gray body with no spots, straight anal fin edge, deeply forked tail',
-  habitat: 'Large rivers, reservoirs, Lake Erie tributaries; prefers deep channels with current',
+  habitat: ['Large rivers, reservoirs, Lake Erie tributaries; prefers deep channels with current'],
   size: '25-40 inches typical, can exceed 100 pounds',
   funFact: 'Blue catfish are the largest catfish species in North America and can live over 25 years. They were originally stocked in Ohio rivers and have spread to Lake Erie tributaries!',
   refs: [

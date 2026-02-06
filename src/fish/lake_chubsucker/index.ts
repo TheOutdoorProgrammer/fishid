@@ -17,7 +17,7 @@ export const lake_chubsucker: Fish = {
     'Found in lake habitat vs creek chubsucker in streams'
   ],
   keyFeature: 'Deep-bodied round-tailed sucker without lateral line, prefers lakes',
-  habitat: 'Glacial lakes, ponds, and backwaters with vegetation',
+  habitat: ['Glacial lakes, ponds, and backwaters with vegetation'],
   size: '8-12 inches typical',
   funFact: 'Lake chubsuckers are becoming increasingly rare in Ohio and are considered a species of concern. They prefer clear, vegetated glacial lakes.',
   refs: [

@@ -7,6 +7,7 @@ import ProgressBar from '@/components/ui/ProgressBar';
 import type { FishRef } from '@/fish/types';
 import { FISH } from '@/fish';
 import { getRandomFishImage } from '@/lib/utils';
+import { formatHabitat } from '@/lib/habitat';
 
 interface FishDetailScreenProps {
   fishId: string;
@@ -72,7 +73,7 @@ export default function FishDetailScreen({ fishId, onNavigate }: FishDetailScree
                   Habitat
                 </span>
               </div>
-              <div className="text-white/90 leading-relaxed">{fish.habitat}</div>
+              <div className="text-white/90 leading-relaxed">{formatHabitat(fish.habitat)}</div>
             </div>
 
             <div>

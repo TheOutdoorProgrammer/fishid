@@ -17,7 +17,7 @@ export const burbot: Fish = {
     'Wide, flat head'
   ],
   keyFeature: 'Elongated eel-like body with single chin barbel and mottled pattern',
-  habitat: 'Deep cold waters of Lake Erie; nocturnal predator',
+  habitat: ['Deep cold waters of Lake Erie; nocturnal predator'],
   size: '16-24 inches typical',
   funFact: 'Burbot are the only freshwater member of the cod family. They spawn under the ice in winter, making them one of the few fish that breed in the coldest months of the year!',
   refs: [

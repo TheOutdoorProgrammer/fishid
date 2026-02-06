@@ -203,28 +203,36 @@ export function qHabitat(pool: Fish[], used: UsedTracker): HabitatQuestion {
   used.fish.add(fish.id);
 
   const fishNameText = fish.name;
-  const correct = fish.habitat;
+
+  const correctSet = new Set((fish.habitat || []).map((h) => (h || '').trim()).filter(Boolean));
+  const correctChoices = Array.from(correctSet);
+  const correct = correctChoices.length
+    ? correctChoices[Math.floor(Math.random() * correctChoices.length)]
+    : '';
 
   const sourceFish = pool.length ? pool : ALL_FISH;
-  const wrong = uniqueStrings(
-    shuffle(
-      sourceFish
-        .filter((f) => f.id !== fish.id)
-        .map((f) => f.habitat)
-        .filter((h) => Boolean(h) && h !== correct)
-        .filter((h) => !containsFishName(h, fishNameText))
-    )
-  ).slice(0, 3);
 
-  // Top up if needed
+  // Build a pool of habitat tokens that are NOT correct for this fish.
+  const wrongCandidates = sourceFish
+    .filter((f) => f.id !== fish.id)
+    .flatMap((f) => (f.habitat || []).map((h) => (h || '').trim()).filter(Boolean))
+    .filter((h) => h && h !== correct)
+    .filter((h) => !correctSet.has(h))
+    .filter((h) => !containsFishName(h, fishNameText));
+
+  const wrong = uniqueStrings(shuffle(wrongCandidates)).slice(0, 3);
+
+  // Top up from global list if needed
   if (wrong.length < 3) {
-    for (const f of shuffle(ALL_FISH)) {
+    const globalCandidates = ALL_FISH
+      .filter((f) => f.id !== fish.id)
+      .flatMap((f) => (f.habitat || []).map((h) => (h || '').trim()).filter(Boolean))
+      .filter((h) => h && h !== correct)
+      .filter((h) => !correctSet.has(h))
+      .filter((h) => !containsFishName(h, fishNameText));
+
+    for (const h of uniqueStrings(shuffle(globalCandidates))) {
       if (wrong.length >= 3) break;
-      if (f.id === fish.id) continue;
-      const h = f.habitat;
-      if (!h) continue;
-      if (h === correct) continue;
-      if (containsFishName(h, fishNameText)) continue;
       if (!wrong.includes(h)) wrong.push(h);
     }
   }
@@ -239,7 +247,7 @@ export function qHabitat(pool: Fish[], used: UsedTracker): HabitatQuestion {
 
   return {
     type: 'habitat',
-    prompt: `Where does ${fish.name} typically live?`,
+    prompt: `Where would you most likely find ${fish.name}?`,
     fishId: fish.id,
     options,
     correct,

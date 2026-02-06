@@ -17,7 +17,7 @@ export const sauger: Fish = {
     'More cylindrical body'
   ],
   keyFeature: 'Like a walleye but darker, spotted dorsal, NO white tail tip',
-  habitat: 'Ohio River, large rivers; prefers deeper turbid water',
+  habitat: ['Ohio River, large rivers; prefers deeper turbid water'],
   size: '10-16 inches typical (smaller than walleye)',
   funFact: 'Sauger are the smaller cousin of the walleye. The easiest way to tell them apart: check the tail! Walleye have a white tip on the lower tail lobe; sauger don\'t. Sauger also have spots on their dorsal fin.',
   refs: [

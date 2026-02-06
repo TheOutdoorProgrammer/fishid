@@ -17,7 +17,7 @@ export const redear_sunfish: Fish = {
     'Feeds on snails (hence nickname)'
   ],
   keyFeature: 'Sunfish with red/orange margin on short ear flap - the shellcracker',
-  habitat: 'Ponds and lakes with sandy or muddy bottoms',
+  habitat: ['Ponds and lakes with sandy or muddy bottoms'],
   size: '7-10 inches typical, can reach 12+',
   funFact: 'Redear sunfish are nicknamed "shellcrackers" because they use special teeth in their throat to crush snail shells. They grow larger than most other sunfish.',
   refs: [

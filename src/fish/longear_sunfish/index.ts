@@ -17,7 +17,7 @@ export const longear_sunfish: Fish = {
     'Small mouth'
   ],
   keyFeature: 'Extremely long ear flap with white border and bright orange belly',
-  habitat: 'Clear streams and small rivers over gravel or rock',
+  habitat: ['Clear streams and small rivers over gravel or rock'],
   size: '4-7 inches typical',
   funFact: 'Longear sunfish have the longest ear flaps of any sunfish species. Males become brilliantly colored during spawning season with vivid orange and blue.',
   refs: [

@@ -17,7 +17,7 @@ export const flathead_catfish: Fish = {
     'Small eyes set wide apart'
   ],
   keyFeature: 'Flat wide head, mottled brown/yellow, square tail (not forked)',
-  habitat: 'Large rivers, reservoirs; prefers deep pools with cover',
+  habitat: ['Large rivers, reservoirs; prefers deep pools with cover'],
   size: '20-36 inches typical, Ohio record 76+ pounds',
   funFact: 'Flathead catfish are solitary ambush predators that prefer to eat live fish. Unlike channel cats, they rarely eat stinky bait. They can live over 20 years!',
   refs: [

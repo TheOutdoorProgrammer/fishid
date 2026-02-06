@@ -17,7 +17,7 @@ export const tadpole_madtom: Fish = {
     'Pectoral spines without strong barbs'
   ],
   keyFeature: 'Tiny dark catfish with chubby tadpole shape and connected adipose fin',
-  habitat: 'Muddy-bottomed ponds, marshes, slow streams with debris',
+  habitat: ['Muddy-bottomed ponds, marshes, slow streams with debris'],
   size: '2-4 inches typical',
   funFact: 'Tadpole madtoms are one of the smallest catfish in Ohio. They get their name from their resemblance to a tadpole and are mostly nocturnal.',
   refs: [

@@ -17,7 +17,7 @@ export const bowfin: Fish = {
     'Gular plate (bony plate) under lower jaw'
   ],
   keyFeature: 'Long dorsal fin nearly reaching round tail, with dark spot at tail base (males)',
-  habitat: 'Weedy lakes, swamps, slow rivers with vegetation',
+  habitat: ['Weedy lakes, swamps, slow rivers with vegetation'],
   size: '18-24 inches typical, can exceed 30',
   funFact: 'Bowfin are living fossils dating back 150 million years. They can breathe air using their swim bladder and survive in water too oxygen-poor for most fish. Males guard their young.',
   refs: [

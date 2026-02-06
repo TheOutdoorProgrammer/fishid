@@ -17,7 +17,7 @@ export const smallmouth_buffalo: Fish = {
     'Long dorsal fin'
   ],
   keyFeature: 'Deep-bodied buffalo with small downward-pointing mouth and thick lips',
-  habitat: 'Large rivers, pools with moderate current',
+  habitat: ['Large rivers, pools with moderate current'],
   size: '18-25 inches typical',
   funFact: 'Smallmouth buffalo are bottom feeders that use their small downward-facing mouth to vacuum up invertebrates. Unlike bigmouth buffalo, they cannot filter feed.',
   refs: [

@@ -17,7 +17,7 @@ export const rosyface_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Slender shiner whose breeding males have bright rosy-red head and face',
-  habitat: 'Rocky riffles of clear streams; sensitive to pollution',
+  habitat: ['Rocky riffles of clear streams; sensitive to pollution'],
   size: '2-4 inches typical',
   funFact: 'Rosyface shiners are excellent water quality indicators - they need clean, clear, well-oxygenated streams to survive. Breeding males develop a stunning rosy-red head.',
   refs: [

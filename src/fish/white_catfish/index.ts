@@ -17,7 +17,7 @@ export const white_catfish: Fish = {
     'Anal fin shorter than channel catfish (19-23 rays)'
   ],
   keyFeature: 'Blue-white catfish with moderately forked tail and white chin barbels',
-  habitat: 'Ohio River, slow rivers and reservoirs; lower reaches',
+  habitat: ['Ohio River, slow rivers and reservoirs; lower reaches'],
   size: '10-18 inches typical',
   funFact: 'White catfish are sometimes confused with channel catfish but lack the dark spots and have a less deeply forked tail. They are near the edge of their range in Ohio.',
   refs: [

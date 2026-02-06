@@ -17,7 +17,7 @@ export const common_carp: Fish = {
     'Long dorsal fin with 15-20+ rays'
   ],
   keyFeature: 'Large golden-bronze body with big scales and mouth barbels',
-  habitat: 'Lakes, rivers, ponds; tolerates poor water quality',
+  habitat: ['Lakes, rivers, ponds; tolerates poor water quality'],
   size: '18-30 inches typical, can exceed 40',
   funFact: 'Carp are actually an invasive species from Asia, introduced to the US in the 1800s. In Europe, they\'re a prized sport fish. A large carp in Lake Erie can weigh over 30 pounds!',
   refs: [

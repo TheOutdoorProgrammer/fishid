@@ -17,7 +17,7 @@ export const western_blacknose_dace: Fish = {
     'Breeding males develop rusty-orange on sides and fins'
   ],
   keyFeature: 'Small dace with bold dark stripe from snout to tail and tiny mouth barbel',
-  habitat: 'Rocky riffles of small streams; very common in Ohio',
+  habitat: ['Rocky riffles of small streams; very common in Ohio'],
   size: '2-3 inches typical',
   funFact: 'Western blacknose dace are one of the most common fish in small Ohio streams. The tiny barbel at the corner of the mouth helps distinguish them from similar small minnows.',
   refs: [

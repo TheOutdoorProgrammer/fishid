@@ -17,7 +17,7 @@ export const blackside_darter: Fish = {
     'Moderately robust body'
   ],
   keyFeature: 'Olive darter with row of dark oval blotches along side',
-  habitat: 'Pools and runs of streams with rocky or gravelly bottoms',
+  habitat: ['Pools and runs of streams with rocky or gravelly bottoms'],
   size: '2-4 inches typical',
   funFact: 'Blackside darters are one of the most common Percina darters in Ohio. Their row of oval blotches is distinctive, though the blotches sometimes merge into a continuous band.',
   refs: [

@@ -17,7 +17,7 @@ export const eastern_sand_darter: Fish = {
     'Two widely separated dorsal fins'
   ],
   keyFeature: 'Nearly transparent darter that buries in sand with only eyes exposed',
-  habitat: 'Sandy-bottomed pools and runs of clean streams',
+  habitat: ['Sandy-bottomed pools and runs of clean streams'],
   size: '2-3 inches typical',
   funFact: 'Eastern sand darters are almost invisible when buried in sand with just their eyes poking out. They are translucent enough to see their internal organs! Listed as threatened in Ohio.',
   refs: [

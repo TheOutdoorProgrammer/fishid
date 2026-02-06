@@ -17,7 +17,7 @@ export type Fish = {
   image: string[];
   features: string[];
   keyFeature: string;
-  habitat: string;
+  habitat: string[];
   size: string;
   funFact: string;
   refs: FishRef[];

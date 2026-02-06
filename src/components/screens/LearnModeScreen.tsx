@@ -8,6 +8,7 @@ import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
+import { formatHabitat } from '@/lib/habitat';
 import Chip from '@/components/ui/Chip';
 
 interface LearnModeScreenProps {
@@ -124,7 +125,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
                     Habitat
                   </span>
                 </div>
-                <div className="text-white/90 leading-relaxed">{fish.habitat}</div>
+                <div className="text-white/90 leading-relaxed">{formatHabitat(fish.habitat)}</div>
               </div>
 
               <div>

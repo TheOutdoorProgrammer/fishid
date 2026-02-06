@@ -17,7 +17,7 @@ export const variegate_darter: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Robust darter with four saddle marks and alternating blue-green and orange bars',
-  habitat: 'Large rocky riffles of clean rivers in eastern Ohio',
+  habitat: ['Large rocky riffles of clean rivers in eastern Ohio'],
   size: '3-4 inches typical',
   funFact: 'Variegate darters are found primarily in the upper Ohio River drainage. They are one of the more colorful darter species and require clean, rocky rivers.',
   refs: [

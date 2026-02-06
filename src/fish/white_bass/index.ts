@@ -16,7 +16,7 @@ export const white_bass: Fish = {
     'Stripes are thin and run lengthwise'
   ],
   keyFeature: 'Silver body with thin dark horizontal stripes',
-  habitat: 'Lake Erie, large reservoirs, rivers during spawning runs',
+  habitat: ['Lake Erie, large reservoirs, rivers during spawning runs'],
   size: '10-15 inches typical',
   funFact: 'White bass make massive spawning runs up rivers in spring. When you find a school, you can catch them almost every cast! They\'re related to striped bass (saltwater fish).',
   refs: [

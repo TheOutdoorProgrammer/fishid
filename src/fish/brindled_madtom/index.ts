@@ -17,7 +17,7 @@ export const brindled_madtom: Fish = {
     'Mildly venomous pectoral spines'
   ],
   keyFeature: 'Small catfish with four dark saddle marks and banded tail pattern',
-  habitat: 'Riffles of clear streams with rocky or gravelly bottoms',
+  habitat: ['Riffles of clear streams with rocky or gravelly bottoms'],
   size: '2-4 inches typical',
   funFact: 'Brindled madtoms are state-listed as species of concern in some areas. Like all madtoms, they have a venomous pectoral spine used for defense.',
   refs: [

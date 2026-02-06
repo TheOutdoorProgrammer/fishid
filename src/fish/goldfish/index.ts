@@ -17,7 +17,7 @@ export const goldfish: Fish = {
     'Wild ones are dark olive, not bright gold'
   ],
   keyFeature: 'Carp-like fish without barbels; wild ones are dark olive (not pet-store gold)',
-  habitat: 'Ponds, lakes, slow streams; released pet fish now established',
+  habitat: ['Ponds, lakes, slow streams; released pet fish now established'],
   size: '6-12 inches typical in wild, can reach 16+',
   funFact: 'Wild goldfish in Ohio are NOT the bright orange of pet stores. They revert to dark olive-bronze coloring within a generation. Released pet goldfish have established invasive populations in Ohio waters.',
   refs: [

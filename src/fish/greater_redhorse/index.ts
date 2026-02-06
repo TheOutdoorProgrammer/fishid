@@ -17,7 +17,7 @@ export const greater_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Very large sucker with extremely thick plicate lips and large scales',
-  habitat: 'Large clean rivers; uncommon in Ohio',
+  habitat: ['Large clean rivers; uncommon in Ohio'],
   size: '18-28 inches typical',
   funFact: 'Greater redhorse are one of the rarest sucker species in Ohio. They require clean rivers with good water quality and are indicators of stream health.',
   refs: [

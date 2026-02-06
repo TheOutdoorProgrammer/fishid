@@ -17,7 +17,7 @@ export const bluegill: Fish = {
     'Small mouth'
   ],
   keyFeature: 'Deep body, dark ear flap, orange breast',
-  habitat: 'Ponds, lakes, slow streams; near vegetation',
+  habitat: ['Ponds', 'Lakes', 'Slow streams', 'Near vegetation'],
   size: '6-10 inches typical',
   funFact: 'Bluegill are one of the best fish for beginners to catch. Male bluegill guard their nests aggressively and will bite almost anything!',
   refs: [

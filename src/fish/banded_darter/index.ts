@@ -17,7 +17,7 @@ export const banded_darter: Fish = {
     'Rounded pectoral fins'
   ],
   keyFeature: 'Small green darter with bold, evenly spaced vertical bars',
-  habitat: 'Rocky riffles and runs of clear streams',
+  habitat: ['Rocky riffles and runs of clear streams'],
   size: '2-3 inches typical',
   funFact: 'Banded darters are named for their very distinct, evenly spaced vertical bars. They are one of the easier darters to identify because the bars are so bold and regular.',
   refs: [

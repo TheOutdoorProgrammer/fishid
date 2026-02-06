@@ -17,7 +17,7 @@ export const shorthead_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Short head relative to body with bright red-orange fins and straight dorsal edge',
-  habitat: 'Large streams and rivers with rocky or gravelly bottoms',
+  habitat: ['Large streams and rivers with rocky or gravelly bottoms'],
   size: '14-20 inches typical',
   funFact: 'Shorthead redhorse are common in Lake Erie tributaries. Their short head relative to body size helps distinguish them from other redhorse species.',
   refs: [

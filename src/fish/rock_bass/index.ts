@@ -17,7 +17,7 @@ export const rock_bass: Fish = {
     'Dark spots in rows along sides'
   ],
   keyFeature: 'Red eye, stocky body with six anal spines and dark spots in rows',
-  habitat: 'Rocky streams, clear lakes near boulders and structure',
+  habitat: ['Rocky streams, clear lakes near boulders and structure'],
   size: '6-10 inches typical',
   funFact: 'Rock bass have bright red eyes that make them easy to identify. They are sometimes called "redeyes" or "goggle-eyes" and are closely related to smallmouth bass.',
   refs: [

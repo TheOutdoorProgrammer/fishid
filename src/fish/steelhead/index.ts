@@ -17,7 +17,7 @@ export const steelhead: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Chrome silver body with pink stripe and black spots on tail',
-  habitat: 'Lake Erie, spawning runs up tributaries (Rocky River, Chagrin River, etc.)',
+  habitat: ['Lake Erie, spawning runs up tributaries (Rocky River, Chagrin River, etc.)'],
   size: '20-30 inches typical',
   funFact: 'Steelhead are actually the same species as rainbow trout! The difference is that steelhead migrate to Lake Erie while rainbow trout stay in streams. They run up Ohio\'s tributaries every fall and spring.',
   refs: [

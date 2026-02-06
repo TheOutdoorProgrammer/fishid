@@ -17,7 +17,7 @@ export const green_sunfish: Fish = {
     'Yellow-orange belly and fin edges'
   ],
   keyFeature: 'Stocky sunfish with large mouth and blue-green facial streaks',
-  habitat: 'Streams, ponds, ditches; very tolerant of poor water quality',
+  habitat: ['Streams, ponds, ditches; very tolerant of poor water quality'],
   size: '4-8 inches typical',
   funFact: 'Green sunfish are one of the toughest panfish - they can survive in muddy, low-oxygen water where other sunfish cannot. They readily hybridize with bluegill.',
   refs: [

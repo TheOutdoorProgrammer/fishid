@@ -17,7 +17,7 @@ export const mooneye: Fish = {
     'Distinct keel along belly'
   ],
   keyFeature: 'Large-eyed silver fish with dorsal fin starting ahead of anal fin',
-  habitat: 'Large rivers and Lake Erie; prefers clear water with current',
+  habitat: ['Large rivers and Lake Erie; prefers clear water with current'],
   size: '10-14 inches typical',
   funFact: 'Mooneyes are named for their huge, reflective eyes. They are often confused with shad but lack the serrated belly and have a more streamlined body.',
   refs: [

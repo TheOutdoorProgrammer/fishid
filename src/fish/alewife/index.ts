@@ -17,7 +17,7 @@ export const alewife: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Slender herring with large eye, single dark shoulder spot, and serrated belly',
-  habitat: 'Lake Erie open waters; invasive from Atlantic coast',
+  habitat: ['Lake Erie open waters; invasive from Atlantic coast'],
   size: '5-9 inches typical',
   funFact: 'Alewife are invasive in the Great Lakes. They occasionally die in massive numbers that wash up on beaches. They are an important forage fish for salmon and trout.',
   refs: [

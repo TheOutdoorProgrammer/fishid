@@ -17,7 +17,7 @@ export const trout_perch: Fish = {
     'Silver-olive coloring'
   ],
   keyFeature: 'Small fish combining trout features (adipose fin) and perch features (spiny fins)',
-  habitat: 'Lake Erie and large rivers; deep sandy or gravelly bottoms',
+  habitat: ['Lake Erie and large rivers; deep sandy or gravelly bottoms'],
   size: '3-5 inches typical',
   funFact: 'Trout-perch are named because they combine features of both trout (adipose fin) and perch (spiny fin rays). They are mostly nocturnal and are seldom seen by anglers.',
   refs: [

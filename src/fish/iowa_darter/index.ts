@@ -17,7 +17,7 @@ export const iowa_darter: Fish = {
     'Small pointed snout'
   ],
   keyFeature: 'Slender darter with many narrow dark bars; breeding males turn blue-orange',
-  habitat: 'Quiet, vegetated pools and lake margins; bog habitats',
+  habitat: ['Quiet, vegetated pools and lake margins; bog habitats'],
   size: '2-3 inches typical',
   funFact: 'Iowa darters are unusual among darters because they prefer quiet, vegetated water rather than fast riffles. They are often found in boggy habitats and glacial lakes.',
   refs: [

@@ -17,7 +17,7 @@ export const black_buffalo: Fish = {
     'Long dorsal fin'
   ],
   keyFeature: 'Darkest buffalo species with thicker, more cylindrical body',
-  habitat: 'Large rivers, deep pools; Ohio River system',
+  habitat: ['Large rivers, deep pools; Ohio River system'],
   size: '18-26 inches typical',
   funFact: 'Black buffalo are the least common of the three buffalo species in Ohio. They are darker and more cylindrical than their relatives and prefer deeper river pools.',
   refs: [

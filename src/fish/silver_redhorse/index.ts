@@ -17,7 +17,7 @@ export const silver_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silvery redhorse with distinctive V-shaped lower lip',
-  habitat: 'Large streams and rivers with moderate current',
+  habitat: ['Large streams and rivers with moderate current'],
   size: '15-22 inches typical',
   funFact: 'Silver redhorse can be identified by their unique V-shaped lower lip, which distinguishes them from other redhorse species that have straighter or U-shaped lips.',
   refs: [

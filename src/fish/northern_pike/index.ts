@@ -17,7 +17,7 @@ export const northern_pike: Fish = {
     '5 sensory pores on each side of lower jaw'
   ],
   keyFeature: 'Elongated body, duck-bill snout, light spots on dark background',
-  habitat: 'Weedy lakes, rivers, marshes; Lake Erie tributaries',
+  habitat: ['Weedy lakes, rivers, marshes; Lake Erie tributaries'],
   size: '20-30 inches typical, can exceed 40',
   funFact: 'Northern pike are ambush predators that can strike at speeds up to 10 mph. They\'ve been known to eat ducklings, frogs, and even small muskrats!',
   refs: [
