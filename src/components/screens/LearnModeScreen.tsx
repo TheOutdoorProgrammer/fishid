@@ -148,19 +148,20 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
                 <div className="text-[10px] uppercase font-bold tracking-wider text-white/40 mb-2">
                   Sources
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <ul className="list-disc list-inside space-y-1">
                   {fish.refs.map((ref: FishRef, i: number) => (
-                    <a
-                      key={i}
-                      href={ref.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-[11px] text-blue-400/80 hover:text-blue-300 underline underline-offset-2"
-                    >
-                      {ref.label}
-                    </a>
+                    <li key={i} className="text-[11px] text-white/50">
+                      <a
+                        href={ref.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-400/80 hover:text-blue-300 underline underline-offset-2"
+                      >
+                        {ref.label}
+                      </a>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             )}
           </div>

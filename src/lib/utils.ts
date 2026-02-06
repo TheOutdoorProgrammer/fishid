@@ -43,11 +43,32 @@ export function daysBetween(a: Date | string, b: Date | string): number {
 }
 
 /**
+ * Get the base path for assets (handles GitHub Pages subdirectory)
+ */
+export function getBasePath(): string {
+  return process.env.NEXT_PUBLIC_BASE_PATH || '';
+}
+
+/**
+ * Prefix a path with the base path for static assets
+ * @param path - The asset path (e.g., '/img/fish/walleye/1.jpg')
+ * @returns The path with basePath prepended
+ */
+export function assetPath(path: string): string {
+  const base = getBasePath();
+  if (!path) return '';
+  // Avoid double-prefixing
+  if (base && path.startsWith(base)) return path;
+  return `${base}${path}`;
+}
+
+/**
  * Get a random image from a fish's image array
  * @param images - Array of image paths
- * @returns A random image path from the array
+ * @returns A random image path from the array (with basePath)
  */
 export function getRandomFishImage(images: string[]): string {
   if (images.length === 0) return '';
-  return images[Math.floor(Math.random() * images.length)];
+  const img = images[Math.floor(Math.random() * images.length)];
+  return assetPath(img);
 }
