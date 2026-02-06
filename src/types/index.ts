@@ -142,6 +142,11 @@ export type FishStats = {
   seen: number;
   correct: number;
   wrong: number;
+
+  // Optional fields (back-compat with older saves)
+  wrongStreak?: number;
+  lastWrongAt?: number;
+  lastCorrectAt?: number;
 };
 
 /**

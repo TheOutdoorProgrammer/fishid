@@ -20,7 +20,7 @@ export default function IdentifyQuestion({
   userAnswer,
 }: IdentifyQuestionProps) {
   const fish = FISH[question.fishId];
-  const imageSrc = useMemo(() => getRandomFishImage(fish?.image || []), [fish]);
+  const imageSrc = useMemo(() => getRandomFishImage(fish?.image || [], question.fishId), [fish, question.fishId]);
 
   return (
     <div className="flex flex-col gap-4">

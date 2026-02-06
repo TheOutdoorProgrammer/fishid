@@ -20,9 +20,10 @@ interface QuizScreenProps {
   questions: QuizQuestion[];
   lessonId: string | null;
   onExit: () => void;
+  onRetry?: () => void;
 }
 
-export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenProps) {
+export default function QuizScreen({ questions, lessonId, onExit, onRetry }: QuizScreenProps) {
   const { addXP, spendHeart, settings, updateLesson, lessons, updateFishStats } = useGameStore();
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -33,6 +34,7 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
 
   const [correctCount, setCorrectCount] = useState(0);
   const [xpEarned, setXpEarned] = useState(0);
+  const [lessonBonusXp, setLessonBonusXp] = useState(0);
 
   const currentQuestion = questions[currentIndex];
   const progress = (currentIndex / questions.length) * 100;
@@ -114,8 +116,15 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
   const finishQuiz = () => {
     const finalScore = Math.round((correctCount / questions.length) * 100);
     const bonusXp = 12;
-    const totalXp = xpEarned + bonusXp;
 
+    // One-time reward for passing a lesson the first time
+    const passedLesson = Boolean(lessonId && finalScore >= 80);
+    const previousCompleted = lessonId ? Boolean(lessons[lessonId]?.completed) : false;
+    const firstPassBonus = passedLesson && !previousCompleted ? 50 : 0;
+
+    const totalXp = xpEarned + bonusXp + firstPassBonus;
+
+    setLessonBonusXp(firstPassBonus);
     addXP(totalXp, 'quiz');
 
     // Update lesson progress if this is a lesson quiz
@@ -174,13 +183,33 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
 
           <div className="w-full bg-white/5 rounded-xl p-4 flex justify-between items-center border border-white/5">
             <span className="font-bold text-muted">XP Earned</span>
-            <span className="font-black text-gold text-xl">+{xpEarned + 12}</span>
+            <span className="font-black text-gold text-xl">+{xpEarned + 12 + lessonBonusXp}</span>
           </div>
+
+          {lessonId && score < 80 && (
+            <div className="w-full text-center text-sm text-white/70">
+              <div className="font-bold text-gold">Almost!</div>
+              <div>Hit 80%+ to unlock the next lesson.</div>
+            </div>
+          )}
+
+          {lessonBonusXp > 0 && (
+            <div className="w-full text-center text-xs text-white/60">
+              Bonus: <span className="text-gold font-bold">+{lessonBonusXp}</span> first-time pass reward
+            </div>
+          )}
         </Card>
 
-        <Button onClick={onExit} className="w-full max-w-sm" variant="primary">
-          Continue
-        </Button>
+        <div className="w-full max-w-sm space-y-3">
+          {lessonId && score < 80 && onRetry && (
+            <Button onClick={onRetry} className="w-full" variant="gold">
+              Retry Lesson Quiz
+            </Button>
+          )}
+          <Button onClick={onExit} className="w-full" variant="primary">
+            Continue
+          </Button>
+        </div>
       </div>
     );
   }

@@ -9,7 +9,7 @@ import ProgressBar from '@/components/ui/ProgressBar';
 import { Trophy, Flame, BookOpen } from 'lucide-react';
 
 interface HomeScreenProps {
-  onNavigate: (screen: string) => void;
+  onNavigate: (screen: string, params?: any) => void;
 }
 
 export default function HomeScreen({ onNavigate }: HomeScreenProps) {
@@ -62,6 +62,16 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
           </Button>
           <Button variant="primary" onClick={() => onNavigate('review')} className="w-full">
             Review
+          </Button>
+        </div>
+
+        <div className="mt-3">
+          <Button
+            variant="ghost"
+            onClick={() => onNavigate('quiz', { mode: 'weakspots' })}
+            className="w-full"
+          >
+            Quick Practice (Weak Spots)
           </Button>
         </div>
       </Card>

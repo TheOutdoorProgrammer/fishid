@@ -39,7 +39,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
 
   const fishImage = React.useMemo(() => {
     if (!fish?.image) return '';
-    return getRandomFishImage(fish.image);
+    return getRandomFishImage(fish.image, fish.id);
   }, [fish]);
 
   const scrollToTop = () => {

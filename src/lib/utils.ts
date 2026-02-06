@@ -67,8 +67,20 @@ export function assetPath(path: string): string {
  * @param images - Array of image paths
  * @returns A random image path from the array (with basePath)
  */
-export function getRandomFishImage(images: string[]): string {
+const _lastImageByKey: Record<string, string> = {};
+
+export function getRandomFishImage(images: string[], key?: string): string {
   if (images.length === 0) return '';
+
+  // If a key is provided, try to avoid repeating the last image for that key.
+  if (key && images.length > 1) {
+    const last = _lastImageByKey[key];
+    const candidates = last ? images.filter((img) => img !== last) : images;
+    const picked = candidates[Math.floor(Math.random() * candidates.length)];
+    _lastImageByKey[key] = picked;
+    return assetPath(picked);
+  }
+
   const img = images[Math.floor(Math.random() * images.length)];
   return assetPath(img);
 }

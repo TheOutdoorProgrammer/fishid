@@ -211,10 +211,18 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
 
       <div className="space-y-4">
         <div className="flex items-end justify-between px-1">
-          <h3 className="text-lg font-bold text-white/80">Fish Library</h3>
+          <div className="flex items-center gap-2">
+            <h3 className="text-lg font-bold text-white/80">Caught Fish</h3>
+            <span
+              className="text-xs text-white/40 cursor-help"
+              title="A fish counts as caught after you answer at least one question about it correctly."
+            >
+              (i)
+            </span>
+          </div>
           <span className="text-xs font-medium text-white/40">
             {Object.keys(fishStats).filter((id) => fishStats[id]?.correct > 0).length} /{' '}
-            {FISH_IDS.length} Found
+            {FISH_IDS.length} Caught
           </span>
         </div>
 
@@ -241,7 +249,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
                 {isDiscovered ? (
                   <>
                     <img
-                      src={getRandomFishImage(fish.image)}
+                      src={getRandomFishImage(fish.image, id)}
                       alt={fish.name}
                       className="w-full h-full object-contain transition-transform hover:scale-105 duration-500"
                     />

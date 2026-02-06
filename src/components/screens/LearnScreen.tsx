@@ -127,6 +127,17 @@ export default function LearnScreen({ onNavigate }: LearnScreenProps) {
                   >
                     {lesson.description}
                   </p>
+
+                  {!isLocked && !isCompleted && (
+                    <p className="text-[11px] text-gold/80 mt-1 font-bold">
+                      Pass the quiz with 80%+ to unlock the next lesson
+                    </p>
+                  )}
+                  {isLocked && (
+                    <p className="text-[11px] text-white/30 mt-1 font-bold">
+                      Locked — pass the previous lesson with 80%+
+                    </p>
+                  )}
                 </div>
 
                 {!isLocked && (

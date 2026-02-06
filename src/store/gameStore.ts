@@ -333,19 +333,30 @@ export const useGameStore = create<GameStore>()(
        */
       updateFishStats: (fishId, correct) => {
         set((state) => {
+          const now = Date.now();
           const current = state.fishStats[fishId] || {
             seen: 0,
             correct: 0,
             wrong: 0,
+            wrongStreak: 0,
+            lastWrongAt: undefined,
+            lastCorrectAt: undefined,
           };
+
+          const prevWrongStreak = current.wrongStreak || 0;
+          const nextWrongStreak = correct ? 0 : prevWrongStreak + 1;
 
           return {
             fishStats: {
               ...state.fishStats,
               [fishId]: {
+                ...current,
                 seen: current.seen + 1,
                 correct: correct ? current.correct + 1 : current.correct,
                 wrong: correct ? current.wrong : current.wrong + 1,
+                wrongStreak: nextWrongStreak,
+                lastWrongAt: correct ? current.lastWrongAt : now,
+                lastCorrectAt: correct ? now : current.lastCorrectAt,
               },
             },
           };

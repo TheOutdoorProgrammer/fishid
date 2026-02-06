@@ -23,7 +23,7 @@ export default function SpotQuestion({
     return question.options.reduce(
       (acc, option) => {
         const fish = FISH[option.id];
-        acc[option.id] = getRandomFishImage(fish?.image || []);
+        acc[option.id] = getRandomFishImage(fish?.image || [], option.id);
         return acc;
       },
       {} as Record<string, string>

@@ -17,19 +17,29 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
 
   const weakSpots = FISH_IDS.filter((id) => {
     const stats = fishStats[id];
-    if (!stats || stats.seen < 3) return false;
+    if (!stats || stats.seen < 2) return false;
     const accuracy = stats.correct / stats.seen;
-    return accuracy < 0.6;
+    const wrongStreak = stats.wrongStreak || 0;
+
+    // Include fish you’re currently missing (wrong streak), or fish with low overall accuracy.
+    if (wrongStreak >= 2) return true;
+    return accuracy < 0.65;
   })
     .map((id) => {
-      const stats = fishStats[id];
+      const stats = fishStats[id]!;
       return {
         id,
         ...FISH[id],
         accuracy: Math.round((stats.correct / stats.seen) * 100),
+        wrongStreak: stats.wrongStreak || 0,
+        lastWrongAt: stats.lastWrongAt || 0,
       };
     })
-    .sort((a, b) => a.accuracy - b.accuracy)
+    .sort((a, b) => {
+      if (b.wrongStreak !== a.wrongStreak) return b.wrongStreak - a.wrongStreak;
+      if (a.accuracy !== b.accuracy) return a.accuracy - b.accuracy;
+      return b.lastWrongAt - a.lastWrongAt;
+    })
     .slice(0, 5);
 
   return (
@@ -82,7 +92,7 @@ export default function ReviewScreen({ onNavigate }: ReviewScreenProps) {
                 <div className="w-16 h-16 shrink-0 bg-black/30 rounded-lg overflow-hidden border border-white/10 relative">
                   {fish.image && fish.image.length > 0 ? (
                     <img
-                      src={getRandomFishImage(fish.image)}
+                      src={getRandomFishImage(fish.image, fish.id)}
                       alt={fish.name}
                       className="w-full h-full object-contain"
                     />
