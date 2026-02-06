@@ -5,7 +5,8 @@ export const johnny_darter: Fish = {
   name: 'Johnny Darter',
   scientific: 'Etheostoma nigrum',
   image: [
-    '/img/fish/johnny_darter/1.jpg'
+    '/img/fish/johnny_darter/1.jpg',
+    '/img/fish/johnny_darter/2.jpg'
   ],
   features: [
     'Small, pale body with dark W- and X-shaped markings',

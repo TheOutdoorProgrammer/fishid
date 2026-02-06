@@ -5,7 +5,8 @@ export const grass_pickerel: Fish = {
   name: 'Grass Pickerel',
   scientific: 'Esox americanus vermiculatus',
   image: [
-    '/img/fish/grass_pickerel/1.jpg'
+    '/img/fish/grass_pickerel/1.jpg',
+    '/img/fish/grass_pickerel/2.jpg'
   ],
   features: [
     'Small, torpedo-shaped body (smallest pike)',

@@ -4,7 +4,10 @@ export const american_eel: Fish = {
   id: 'american_eel',
   name: 'American Eel',
   scientific: 'Anguilla rostrata',
-  image: [],
+  image: [
+    '/img/fish/american_eel/1.jpg',
+    '/img/fish/american_eel/2.jpg'
+  ],
   features: [
     'Snake-like elongated body',
     'Continuous fin running along back, around tail, and under body',

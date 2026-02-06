@@ -5,7 +5,8 @@ export const lake_chubsucker: Fish = {
   name: 'Lake Chubsucker',
   scientific: 'Erimyzon sucetta',
   image: [
-    '/img/fish/lake_chubsucker/1.jpg'
+    '/img/fish/lake_chubsucker/1.jpg',
+    '/img/fish/lake_chubsucker/2.jpg'
   ],
   features: [
     'Deeper body than creek chubsucker',

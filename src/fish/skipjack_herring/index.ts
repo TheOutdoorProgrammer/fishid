@@ -5,7 +5,8 @@ export const skipjack_herring: Fish = {
   name: 'Skipjack Herring',
   scientific: 'Alosa chrysochloris',
   image: [
-    '/img/fish/skipjack_herring/1.jpg'
+    '/img/fish/skipjack_herring/1.jpg',
+    '/img/fish/skipjack_herring/2.jpg'
   ],
   features: [
     'Elongated, compressed silver body',

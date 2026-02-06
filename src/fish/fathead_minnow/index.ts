@@ -5,7 +5,8 @@ export const fathead_minnow: Fish = {
   name: 'Fathead Minnow',
   scientific: 'Pimephales promelas',
   image: [
-    '/img/fish/fathead_minnow/1.jpg'
+    '/img/fish/fathead_minnow/1.jpg',
+    '/img/fish/fathead_minnow/2.jpg'
   ],
   features: [
     'Small, stout body',

@@ -5,7 +5,8 @@ export const bighead_carp: Fish = {
   name: 'Bighead Carp',
   scientific: 'Hypophthalmichthys nobilis',
   image: [
-    '/img/fish/bighead_carp/1.gif'
+    '/img/fish/bighead_carp/1.gif',
+    '/img/fish/bighead_carp/2.jpg'
   ],
   features: [
     'Very large head relative to body',

@@ -4,7 +4,10 @@ export const mooneye: Fish = {
   id: 'mooneye',
   name: 'Mooneye',
   scientific: 'Hiodon tergisus',
-  image: [],
+  image: [
+    '/img/fish/mooneye/1.jpg',
+    '/img/fish/mooneye/2.jpg'
+  ],
   features: [
     'Laterally compressed silver body',
     'Very large eye with golden iris',

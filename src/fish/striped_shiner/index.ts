@@ -5,7 +5,8 @@ export const striped_shiner: Fish = {
   name: 'Striped Shiner',
   scientific: 'Luxilus chrysocephalus',
   image: [
-    '/img/fish/striped_shiner/1.jpg'
+    '/img/fish/striped_shiner/1.jpg',
+    '/img/fish/striped_shiner/2.jpg'
   ],
   features: [
     'Large, deep-bodied shiner',

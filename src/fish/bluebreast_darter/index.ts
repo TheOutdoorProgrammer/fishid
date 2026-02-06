@@ -5,7 +5,8 @@ export const bluebreast_darter: Fish = {
   name: 'Bluebreast Darter',
   scientific: 'Etheostoma camurum',
   image: [
-    '/img/fish/bluebreast_darter/1.jpg'
+    '/img/fish/bluebreast_darter/1.jpg',
+    '/img/fish/bluebreast_darter/2.jpg'
   ],
   features: [
     'Breeding males with brilliant blue breast and belly',

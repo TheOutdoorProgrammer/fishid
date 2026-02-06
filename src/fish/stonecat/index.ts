@@ -4,7 +4,10 @@ export const stonecat: Fish = {
   id: 'stonecat',
   name: 'Stonecat',
   scientific: 'Noturus flavus',
-  image: [],
+  image: [
+    '/img/fish/stonecat/1.jpg',
+    '/img/fish/stonecat/2.jpg'
+  ],
   features: [
     'Small, slender catfish',
     'Yellowish-brown to gray body',

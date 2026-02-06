@@ -5,7 +5,8 @@ export const longear_sunfish: Fish = {
   name: 'Longear Sunfish',
   scientific: 'Lepomis megalotis',
   image: [
-    '/img/fish/longear_sunfish/1.jpg'
+    '/img/fish/longear_sunfish/1.jpg',
+    '/img/fish/longear_sunfish/2.jpg'
   ],
   features: [
     'Very long, flexible ear flap (opercular flap)',

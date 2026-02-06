@@ -5,7 +5,8 @@ export const emerald_shiner: Fish = {
   name: 'Emerald Shiner',
   scientific: 'Notropis atherinoides',
   image: [
-    '/img/fish/emerald_shiner/1.jpg'
+    '/img/fish/emerald_shiner/1.jpg',
+    '/img/fish/emerald_shiner/2.jpg'
   ],
   features: [
     'Slender, streamlined body',

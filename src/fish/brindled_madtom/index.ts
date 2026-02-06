@@ -5,7 +5,8 @@ export const brindled_madtom: Fish = {
   name: 'Brindled Madtom',
   scientific: 'Noturus miurus',
   image: [
-    '/img/fish/brindled_madtom/1.jpg'
+    '/img/fish/brindled_madtom/1.jpg',
+    '/img/fish/brindled_madtom/2.jpg'
   ],
   features: [
     'Small catfish with dark saddle markings',

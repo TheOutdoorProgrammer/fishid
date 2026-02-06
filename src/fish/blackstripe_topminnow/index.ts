@@ -5,7 +5,8 @@ export const blackstripe_topminnow: Fish = {
   name: 'Blackstripe Topminnow',
   scientific: 'Fundulus notatus',
   image: [
-    '/img/fish/blackstripe_topminnow/1.jpg'
+    '/img/fish/blackstripe_topminnow/1.jpg',
+    '/img/fish/blackstripe_topminnow/2.jpg'
   ],
   features: [
     'Small surface-dwelling fish',

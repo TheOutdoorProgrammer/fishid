@@ -4,7 +4,10 @@ export const goldfish: Fish = {
   id: 'goldfish',
   name: 'Goldfish',
   scientific: 'Carassius auratus',
-  image: [],
+  image: [
+    '/img/fish/goldfish/1.jpg',
+    '/img/fish/goldfish/2.jpg'
+  ],
   features: [
     'Deep, compressed body',
     'Gold to olive body (wild-type are dark)',

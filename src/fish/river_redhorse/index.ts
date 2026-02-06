@@ -5,7 +5,8 @@ export const river_redhorse: Fish = {
   name: 'River Redhorse',
   scientific: 'Moxostoma carinatum',
   image: [
-    '/img/fish/river_redhorse/1.jpg'
+    '/img/fish/river_redhorse/1.jpg',
+    '/img/fish/river_redhorse/2.jpg'
   ],
   features: [
     'Large, robust sucker',

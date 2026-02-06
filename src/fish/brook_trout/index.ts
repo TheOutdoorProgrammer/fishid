@@ -4,7 +4,10 @@ export const brook_trout: Fish = {
   id: 'brook_trout',
   name: 'Brook Trout',
   scientific: 'Salvelinus fontinalis',
-  image: [],
+  image: [
+    '/img/fish/brook_trout/1.jpg',
+    '/img/fish/brook_trout/2.jpg'
+  ],
   features: [
     'Dark green body with distinctive worm-like markings (vermiculations) on back',
     'Red spots with blue halos on sides',

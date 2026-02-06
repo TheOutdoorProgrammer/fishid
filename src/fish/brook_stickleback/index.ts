@@ -5,7 +5,8 @@ export const brook_stickleback: Fish = {
   name: 'Brook Stickleback',
   scientific: 'Culaea inconstans',
   image: [
-    '/img/fish/brook_stickleback/1.jpg'
+    '/img/fish/brook_stickleback/1.jpg',
+    '/img/fish/brook_stickleback/2.jpg'
   ],
   features: [
     'Very small fish with 4-6 free dorsal spines',

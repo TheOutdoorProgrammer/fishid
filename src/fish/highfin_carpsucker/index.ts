@@ -5,7 +5,8 @@ export const highfin_carpsucker: Fish = {
   name: 'Highfin Carpsucker',
   scientific: 'Carpiodes velifer',
   image: [
-    '/img/fish/highfin_carpsucker/1.jpg'
+    '/img/fish/highfin_carpsucker/1.jpg',
+    '/img/fish/highfin_carpsucker/2.jpg'
   ],
   features: [
     'Deep, compressed silver body',

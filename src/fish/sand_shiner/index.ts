@@ -5,7 +5,8 @@ export const sand_shiner: Fish = {
   name: 'Sand Shiner',
   scientific: 'Notropis stramineus',
   image: [
-    '/img/fish/sand_shiner/1.jpg'
+    '/img/fish/sand_shiner/1.jpg',
+    '/img/fish/sand_shiner/2.jpg'
   ],
   features: [
     'Small, slender body',

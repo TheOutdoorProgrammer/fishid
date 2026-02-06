@@ -5,7 +5,8 @@ export const blackside_darter: Fish = {
   name: 'Blackside Darter',
   scientific: 'Percina maculata',
   image: [
-    '/img/fish/blackside_darter/1.jpg'
+    '/img/fish/blackside_darter/1.jpg',
+    '/img/fish/blackside_darter/2.jpg'
   ],
   features: [
     'Row of dark oval blotches along sides',

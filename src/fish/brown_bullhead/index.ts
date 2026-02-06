@@ -5,7 +5,8 @@ export const brown_bullhead: Fish = {
   name: 'Brown Bullhead',
   scientific: 'Ameiurus nebulosus',
   image: [
-    '/img/fish/brown_bullhead/1.jpg'
+    '/img/fish/brown_bullhead/1.jpg',
+    '/img/fish/brown_bullhead/2.jpg'
   ],
   features: [
     'Dark brown to olive body, often mottled',

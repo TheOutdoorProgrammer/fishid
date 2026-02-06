@@ -5,7 +5,8 @@ export const river_chub: Fish = {
   name: 'River Chub',
   scientific: 'Nocomis micropogon',
   image: [
-    '/img/fish/river_chub/1.jpg'
+    '/img/fish/river_chub/1.jpg',
+    '/img/fish/river_chub/2.jpg'
   ],
   features: [
     'Large, robust minnow (one of the biggest)',

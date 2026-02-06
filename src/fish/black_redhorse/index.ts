@@ -5,7 +5,8 @@ export const black_redhorse: Fish = {
   name: 'Black Redhorse',
   scientific: 'Moxostoma duquesnei',
   image: [
-    '/img/fish/black_redhorse/1.jpg'
+    '/img/fish/black_redhorse/1.jpg',
+    '/img/fish/black_redhorse/2.jpg'
   ],
   features: [
     'Olive to dark bronze body',

@@ -4,7 +4,10 @@ export const quillback: Fish = {
   id: 'quillback',
   name: 'Quillback',
   scientific: 'Carpiodes cyprinus',
-  image: [],
+  image: [
+    '/img/fish/quillback/1.jpg',
+    '/img/fish/quillback/2.jpg'
+  ],
   features: [
     'Deep, laterally compressed silver body',
     'First ray of dorsal fin extremely long (like a quill)',

@@ -5,7 +5,8 @@ export const greater_redhorse: Fish = {
   name: 'Greater Redhorse',
   scientific: 'Moxostoma valenciennesi',
   image: [
-    '/img/fish/greater_redhorse/1.jpg'
+    '/img/fish/greater_redhorse/1.jpg',
+    '/img/fish/greater_redhorse/2.jpg'
   ],
   features: [
     'Very large sucker species',

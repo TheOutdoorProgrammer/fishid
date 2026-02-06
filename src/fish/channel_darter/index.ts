@@ -5,7 +5,8 @@ export const channel_darter: Fish = {
   name: 'Channel Darter',
   scientific: 'Percina copelandi',
   image: [
-    '/img/fish/channel_darter/1.jpg'
+    '/img/fish/channel_darter/1.jpg',
+    '/img/fish/channel_darter/2.jpg'
   ],
   features: [
     'Small, slender darter',

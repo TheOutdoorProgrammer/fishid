@@ -5,7 +5,8 @@ export const orangespotted_sunfish: Fish = {
   name: 'Orangespotted Sunfish',
   scientific: 'Lepomis humilis',
   image: [
-    '/img/fish/orangespotted_sunfish/1.png'
+    '/img/fish/orangespotted_sunfish/1.png',
+    '/img/fish/orangespotted_sunfish/2.jpg'
   ],
   features: [
     'Small, compressed body',

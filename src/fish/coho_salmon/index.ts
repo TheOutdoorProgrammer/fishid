@@ -4,7 +4,10 @@ export const coho_salmon: Fish = {
   id: 'coho_salmon',
   name: 'Coho Salmon',
   scientific: 'Oncorhynchus kisutch',
-  image: [],
+  image: [
+    '/img/fish/coho_salmon/1.jpg',
+    '/img/fish/coho_salmon/2.jpg'
+  ],
   features: [
     'Silver body with dark back',
     'Black spots on back and UPPER lobe of tail only',

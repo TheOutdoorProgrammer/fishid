@@ -5,7 +5,8 @@ export const spotted_sucker: Fish = {
   name: 'Spotted Sucker',
   scientific: 'Minytrema melanops',
   image: [
-    '/img/fish/spotted_sucker/1.jpg'
+    '/img/fish/spotted_sucker/1.jpg',
+    '/img/fish/spotted_sucker/2.jpg'
   ],
   features: [
     'Olive-brown body with rows of dark spots',

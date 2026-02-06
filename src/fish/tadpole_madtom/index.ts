@@ -5,7 +5,8 @@ export const tadpole_madtom: Fish = {
   name: 'Tadpole Madtom',
   scientific: 'Noturus gyrinus',
   image: [
-    '/img/fish/tadpole_madtom/1.jpg'
+    '/img/fish/tadpole_madtom/1.jpg',
+    '/img/fish/tadpole_madtom/2.jpg'
   ],
   features: [
     'Tiny, dark-colored catfish',

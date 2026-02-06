@@ -5,7 +5,8 @@ export const silverjaw_minnow: Fish = {
   name: 'Silverjaw Minnow',
   scientific: 'Ericymba buccata',
   image: [
-    '/img/fish/silverjaw_minnow/1.jpg'
+    '/img/fish/silverjaw_minnow/1.jpg',
+    '/img/fish/silverjaw_minnow/2.jpg'
   ],
   features: [
     'Translucent body',

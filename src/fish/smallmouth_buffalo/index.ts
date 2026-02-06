@@ -5,7 +5,8 @@ export const smallmouth_buffalo: Fish = {
   name: 'Smallmouth Buffalo',
   scientific: 'Ictiobus bubalus',
   image: [
-    '/img/fish/smallmouth_buffalo/1.jpg'
+    '/img/fish/smallmouth_buffalo/1.jpg',
+    '/img/fish/smallmouth_buffalo/2.jpg'
   ],
   features: [
     'Deep, compressed body similar to bigmouth buffalo',

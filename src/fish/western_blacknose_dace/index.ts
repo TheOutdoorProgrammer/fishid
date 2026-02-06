@@ -5,7 +5,8 @@ export const western_blacknose_dace: Fish = {
   name: 'Western Blacknose Dace',
   scientific: 'Rhinichthys obtusus',
   image: [
-    '/img/fish/western_blacknose_dace/1.jpg'
+    '/img/fish/western_blacknose_dace/1.jpg',
+    '/img/fish/western_blacknose_dace/2.jpg'
   ],
   features: [
     'Small, slender body',

@@ -4,7 +4,10 @@ export const bigmouth_buffalo: Fish = {
   id: 'bigmouth_buffalo',
   name: 'Bigmouth Buffalo',
   scientific: 'Ictiobus cyprinellus',
-  image: [],
+  image: [
+    '/img/fish/bigmouth_buffalo/1.jpg',
+    '/img/fish/bigmouth_buffalo/2.jpg'
+  ],
   features: [
     'Very deep, compressed body (hump-backed)',
     'Large terminal mouth (facing forward, not downward)',

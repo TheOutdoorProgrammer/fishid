@@ -5,7 +5,8 @@ export const black_buffalo: Fish = {
   name: 'Black Buffalo',
   scientific: 'Ictiobus niger',
   image: [
-    '/img/fish/black_buffalo/1.jpg'
+    '/img/fish/black_buffalo/1.jpg',
+    '/img/fish/black_buffalo/2.jpg'
   ],
   features: [
     'Deep body but less compressed than other buffalo',

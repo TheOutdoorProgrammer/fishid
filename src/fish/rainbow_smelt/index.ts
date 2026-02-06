@@ -4,7 +4,10 @@ export const rainbow_smelt: Fish = {
   id: 'rainbow_smelt',
   name: 'Rainbow Smelt',
   scientific: 'Osmerus mordax',
-  image: [],
+  image: [
+    '/img/fish/rainbow_smelt/1.jpg',
+    '/img/fish/rainbow_smelt/2.jpg'
+  ],
   features: [
     'Small, slender, elongated body',
     'Translucent silver-green coloring',

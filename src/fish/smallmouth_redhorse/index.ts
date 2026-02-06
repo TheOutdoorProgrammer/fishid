@@ -5,7 +5,8 @@ export const smallmouth_redhorse: Fish = {
   name: 'Smallmouth Redhorse',
   scientific: 'Moxostoma breviceps',
   image: [
-    '/img/fish/smallmouth_redhorse/1.jpg'
+    '/img/fish/smallmouth_redhorse/1.jpg',
+    '/img/fish/smallmouth_redhorse/2.jpg'
   ],
   features: [
     'Small mouth even for a sucker',

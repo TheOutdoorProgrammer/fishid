@@ -4,7 +4,10 @@ export const logperch: Fish = {
   id: 'logperch',
   name: 'Logperch',
   scientific: 'Percina caprodes',
-  image: [],
+  image: [
+    '/img/fish/logperch/1.jpg',
+    '/img/fish/logperch/2.jpg'
+  ],
   features: [
     'Largest darter commonly found in Ohio (up to 7 inches)',
     'Alternating long and short vertical bars on sides',

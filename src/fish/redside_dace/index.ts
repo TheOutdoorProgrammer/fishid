@@ -5,7 +5,8 @@ export const redside_dace: Fish = {
   name: 'Redside Dace',
   scientific: 'Clinostomus elongatus',
   image: [
-    '/img/fish/redside_dace/1.jpg'
+    '/img/fish/redside_dace/1.jpg',
+    '/img/fish/redside_dace/2.jpg'
   ],
   features: [
     'Elongated, streamlined body',

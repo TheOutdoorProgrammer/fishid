@@ -4,7 +4,10 @@ export const gizzard_shad: Fish = {
   id: 'gizzard_shad',
   name: 'Gizzard Shad',
   scientific: 'Dorosoma cepedianum',
-  image: [],
+  image: [
+    '/img/fish/gizzard_shad/1.jpg',
+    '/img/fish/gizzard_shad/2.jpg'
+  ],
   features: [
     'Deep, laterally compressed silver body',
     'Last ray of dorsal fin extended into long filament',

@@ -5,7 +5,8 @@ export const blue_sucker: Fish = {
   name: 'Blue Sucker',
   scientific: 'Cycleptus elongatus',
   image: [
-    '/img/fish/blue_sucker/1.jpg'
+    '/img/fish/blue_sucker/1.jpg',
+    '/img/fish/blue_sucker/2.jpg'
   ],
   features: [
     'Elongated, streamlined body (unusual for a sucker)',

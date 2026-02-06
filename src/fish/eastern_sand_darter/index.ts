@@ -5,7 +5,8 @@ export const eastern_sand_darter: Fish = {
   name: 'Eastern Sand Darter',
   scientific: 'Ammocrypta pellucida',
   image: [
-    '/img/fish/eastern_sand_darter/1.jpg'
+    '/img/fish/eastern_sand_darter/1.jpg',
+    '/img/fish/eastern_sand_darter/2.jpg'
   ],
   features: [
     'Very slender, elongated body',

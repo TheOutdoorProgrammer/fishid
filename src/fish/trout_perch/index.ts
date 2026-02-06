@@ -5,7 +5,8 @@ export const trout_perch: Fish = {
   name: 'Trout-Perch',
   scientific: 'Percopsis omiscomaycus',
   image: [
-    '/img/fish/trout_perch/1.jpg'
+    '/img/fish/trout_perch/1.jpg',
+    '/img/fish/trout_perch/2.jpg'
   ],
   features: [
     'Small, semi-translucent body',

@@ -4,7 +4,10 @@ export const golden_redhorse: Fish = {
   id: 'golden_redhorse',
   name: 'Golden Redhorse',
   scientific: 'Moxostoma erythrurum',
-  image: [],
+  image: [
+    '/img/fish/golden_redhorse/1.jpg',
+    '/img/fish/golden_redhorse/2.jpg'
+  ],
   features: [
     'Golden-olive body color',
     'Distinctly red or orange tail fin',

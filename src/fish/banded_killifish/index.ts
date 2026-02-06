@@ -5,7 +5,8 @@ export const banded_killifish: Fish = {
   name: 'Banded Killifish',
   scientific: 'Fundulus diaphanus',
   image: [
-    '/img/fish/banded_killifish/1.jpg'
+    '/img/fish/banded_killifish/1.jpg',
+    '/img/fish/banded_killifish/2.jpg'
   ],
   features: [
     'Small surface-dwelling fish',

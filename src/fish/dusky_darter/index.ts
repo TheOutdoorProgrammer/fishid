@@ -5,7 +5,8 @@ export const dusky_darter: Fish = {
   name: 'Dusky Darter',
   scientific: 'Percina sciera',
   image: [
-    '/img/fish/dusky_darter/1.jpg'
+    '/img/fish/dusky_darter/1.jpg',
+    '/img/fish/dusky_darter/2.jpg'
   ],
   features: [
     'Row of fused or connected dark blotches along side',

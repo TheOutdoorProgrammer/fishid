@@ -5,7 +5,8 @@ export const pirate_perch: Fish = {
   name: 'Pirate Perch',
   scientific: 'Aphredoderus sayanus',
   image: [
-    '/img/fish/pirate_perch/1.jpg'
+    '/img/fish/pirate_perch/1.jpg',
+    '/img/fish/pirate_perch/2.jpg'
   ],
   features: [
     'Small, dark-bodied fish',

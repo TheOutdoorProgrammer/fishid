@@ -5,7 +5,8 @@ export const black_bullhead: Fish = {
   name: 'Black Bullhead',
   scientific: 'Ameiurus melas',
   image: [
-    '/img/fish/black_bullhead/1.png'
+    '/img/fish/black_bullhead/1.png',
+    '/img/fish/black_bullhead/2.jpg'
   ],
   features: [
     'Dark olive to black body',

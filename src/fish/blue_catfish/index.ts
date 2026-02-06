@@ -4,7 +4,10 @@ export const blue_catfish: Fish = {
   id: 'blue_catfish',
   name: 'Blue Catfish',
   scientific: 'Ictalurus furcatus',
-  image: [],
+  image: [
+    '/img/fish/blue_catfish/1.jpg',
+    '/img/fish/blue_catfish/2.jpg'
+  ],
   features: [
     'Slate blue to grayish-blue body',
     'NO dark spots (unlike channel catfish)',

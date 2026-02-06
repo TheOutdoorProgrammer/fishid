@@ -4,7 +4,10 @@ export const round_goby: Fish = {
   id: 'round_goby',
   name: 'Round Goby',
   scientific: 'Neogobius melanostomus',
-  image: [],
+  image: [
+    '/img/fish/round_goby/1.jpg',
+    '/img/fish/round_goby/2.jpg'
+  ],
   features: [
     'Small, bottom-dwelling body',
     'Fused pelvic fins forming a suction disc',

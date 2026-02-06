@@ -4,7 +4,10 @@ export const rock_bass: Fish = {
   id: 'rock_bass',
   name: 'Rock Bass',
   scientific: 'Ambloplites rupestris',
-  image: [],
+  image: [
+    '/img/fish/rock_bass/1.jpg',
+    '/img/fish/rock_bass/2.jpg'
+  ],
   features: [
     'Stocky body, less compressed than sunfish',
     'Bright red eye',

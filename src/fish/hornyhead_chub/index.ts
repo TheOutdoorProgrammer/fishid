@@ -5,7 +5,8 @@ export const hornyhead_chub: Fish = {
   name: 'Hornyhead Chub',
   scientific: 'Nocomis biguttatus',
   image: [
-    '/img/fish/hornyhead_chub/1.jpg'
+    '/img/fish/hornyhead_chub/1.jpg',
+    '/img/fish/hornyhead_chub/2.jpg'
   ],
   features: [
     'Large, robust minnow',

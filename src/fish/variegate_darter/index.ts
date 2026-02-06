@@ -5,7 +5,8 @@ export const variegate_darter: Fish = {
   name: 'Variegate Darter',
   scientific: 'Etheostoma variatum',
   image: [
-    '/img/fish/variegate_darter/1.jpg'
+    '/img/fish/variegate_darter/1.jpg',
+    '/img/fish/variegate_darter/2.jpg'
   ],
   features: [
     'Four dark saddle marks across back',

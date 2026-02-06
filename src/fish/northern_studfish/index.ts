@@ -5,7 +5,8 @@ export const northern_studfish: Fish = {
   name: 'Northern Studfish',
   scientific: 'Fundulus catenatus',
   image: [
-    '/img/fish/northern_studfish/1.jpg'
+    '/img/fish/northern_studfish/1.jpg',
+    '/img/fish/northern_studfish/2.jpg'
   ],
   features: [
     'Elongated body with flat head',

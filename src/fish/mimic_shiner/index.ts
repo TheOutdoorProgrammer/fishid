@@ -5,7 +5,8 @@ export const mimic_shiner: Fish = {
   name: 'Mimic Shiner',
   scientific: 'Notropis volucellus',
   image: [
-    '/img/fish/mimic_shiner/1.jpg'
+    '/img/fish/mimic_shiner/1.jpg',
+    '/img/fish/mimic_shiner/2.jpg'
   ],
   features: [
     'Small, slender body',

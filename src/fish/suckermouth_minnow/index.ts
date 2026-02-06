@@ -5,7 +5,8 @@ export const suckermouth_minnow: Fish = {
   name: 'Suckermouth Minnow',
   scientific: 'Phenacobius mirabilis',
   image: [
-    '/img/fish/suckermouth_minnow/1.jpg'
+    '/img/fish/suckermouth_minnow/1.jpg',
+    '/img/fish/suckermouth_minnow/2.jpg'
   ],
   features: [
     'Elongated body with flattened underside',

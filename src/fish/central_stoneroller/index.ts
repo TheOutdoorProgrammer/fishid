@@ -5,7 +5,8 @@ export const central_stoneroller: Fish = {
   name: 'Central Stoneroller',
   scientific: 'Campostoma anomalum',
   image: [
-    '/img/fish/central_stoneroller/1.jpg'
+    '/img/fish/central_stoneroller/1.jpg',
+    '/img/fish/central_stoneroller/2.jpg'
   ],
   features: [
     'Rounded snout overhanging mouth',

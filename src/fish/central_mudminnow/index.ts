@@ -5,7 +5,8 @@ export const central_mudminnow: Fish = {
   name: 'Central Mudminnow',
   scientific: 'Umbra limi',
   image: [
-    '/img/fish/central_mudminnow/1.jpg'
+    '/img/fish/central_mudminnow/1.jpg',
+    '/img/fish/central_mudminnow/2.jpg'
   ],
   features: [
     'Small, stout body with rounded tail',

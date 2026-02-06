@@ -5,7 +5,8 @@ export const grass_carp: Fish = {
   name: 'Grass Carp',
   scientific: 'Ctenopharyngodon idella',
   image: [
-    '/img/fish/grass_carp/1.jpg'
+    '/img/fish/grass_carp/1.jpg',
+    '/img/fish/grass_carp/2.jpg'
   ],
   features: [
     'Large, elongated torpedo-shaped body',

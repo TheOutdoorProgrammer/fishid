@@ -5,7 +5,8 @@ export const white_catfish: Fish = {
   name: 'White Catfish',
   scientific: 'Ameiurus catus',
   image: [
-    '/img/fish/white_catfish/1.jpg'
+    '/img/fish/white_catfish/1.jpg',
+    '/img/fish/white_catfish/2.jpg'
   ],
   features: [
     'Blue-gray to white body',

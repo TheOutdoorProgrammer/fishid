@@ -4,7 +4,10 @@ export const fantail_darter: Fish = {
   id: 'fantail_darter',
   name: 'Fantail Darter',
   scientific: 'Etheostoma flabellare',
-  image: [],
+  image: [
+    '/img/fish/fantail_darter/1.jpg',
+    '/img/fish/fantail_darter/2.jpg'
+  ],
   features: [
     'Fan-shaped tail (rounded, not forked)',
     'Brown to olive body with dark bars and mottling',

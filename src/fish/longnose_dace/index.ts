@@ -5,7 +5,8 @@ export const longnose_dace: Fish = {
   name: 'Longnose Dace',
   scientific: 'Rhinichthys cataractae',
   image: [
-    '/img/fish/longnose_dace/1.jpg'
+    '/img/fish/longnose_dace/1.jpg',
+    '/img/fish/longnose_dace/2.jpg'
   ],
   features: [
     'Small, elongated body',

@@ -4,7 +4,10 @@ export const spotted_bass: Fish = {
   id: 'spotted_bass',
   name: 'Spotted Bass',
   scientific: 'Micropterus punctulatus',
-  image: [],
+  image: [
+    '/img/fish/spotted_bass/1.jpg',
+    '/img/fish/spotted_bass/2.jpg'
+  ],
   features: [
     'Green to olive body',
     'Rows of dark spots below lateral line',

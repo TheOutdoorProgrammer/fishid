@@ -5,7 +5,8 @@ export const gilt_darter: Fish = {
   name: 'Gilt Darter',
   scientific: 'Percina evides',
   image: [
-    '/img/fish/gilt_darter/1.jpg'
+    '/img/fish/gilt_darter/1.jpg',
+    '/img/fish/gilt_darter/2.jpg'
   ],
   features: [
     'Broad dark vertical bars on golden-orange body',

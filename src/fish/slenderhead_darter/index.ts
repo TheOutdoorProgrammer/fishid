@@ -5,7 +5,8 @@ export const slenderhead_darter: Fish = {
   name: 'Slenderhead Darter',
   scientific: 'Percina phoxocephala',
   image: [
-    '/img/fish/slenderhead_darter/1.jpg'
+    '/img/fish/slenderhead_darter/1.jpg',
+    '/img/fish/slenderhead_darter/2.jpg'
   ],
   features: [
     'Pointed, slender head and snout',

@@ -4,7 +4,10 @@ export const white_sucker: Fish = {
   id: 'white_sucker',
   name: 'White Sucker',
   scientific: 'Catostomus commersonii',
-  image: [],
+  image: [
+    '/img/fish/white_sucker/1.jpg',
+    '/img/fish/white_sucker/2.jpg'
+  ],
   features: [
     'Cylindrical body, round in cross-section',
     'Downward-pointing sucker mouth with fleshy lips',

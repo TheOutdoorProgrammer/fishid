@@ -4,7 +4,10 @@ export const shovelnose_sturgeon: Fish = {
   id: 'shovelnose_sturgeon',
   name: 'Shovelnose Sturgeon',
   scientific: 'Scaphirhynchus platorynchus',
-  image: [],
+  image: [
+    '/img/fish/shovelnose_sturgeon/1.jpg',
+    '/img/fish/shovelnose_sturgeon/2.jpg'
+  ],
   features: [
     'Flattened, shovel-shaped snout',
     'Four fringed barbels under snout',

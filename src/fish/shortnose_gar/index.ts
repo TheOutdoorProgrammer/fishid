@@ -5,7 +5,8 @@ export const shortnose_gar: Fish = {
   name: 'Shortnose Gar',
   scientific: 'Lepisosteus platostomus',
   image: [
-    '/img/fish/shortnose_gar/1.jpg'
+    '/img/fish/shortnose_gar/1.jpg',
+    '/img/fish/shortnose_gar/2.jpg'
   ],
   features: [
     'Shorter, broader snout than longnose gar',

@@ -5,7 +5,8 @@ export const bluntnose_minnow: Fish = {
   name: 'Bluntnose Minnow',
   scientific: 'Pimephales notatus',
   image: [
-    '/img/fish/bluntnose_minnow/1.jpg'
+    '/img/fish/bluntnose_minnow/1.jpg',
+    '/img/fish/bluntnose_minnow/2.jpg'
   ],
   features: [
     'Small, slender body',

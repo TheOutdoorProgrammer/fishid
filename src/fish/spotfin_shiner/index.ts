@@ -5,7 +5,8 @@ export const spotfin_shiner: Fish = {
   name: 'Spotfin Shiner',
   scientific: 'Cyprinella spiloptera',
   image: [
-    '/img/fish/spotfin_shiner/1.jpg'
+    '/img/fish/spotfin_shiner/1.jpg',
+    '/img/fish/spotfin_shiner/2.jpg'
   ],
   features: [
     'Steel-blue sheen on back and sides',

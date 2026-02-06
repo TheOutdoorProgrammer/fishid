@@ -5,7 +5,8 @@ export const lake_trout: Fish = {
   name: 'Lake Trout',
   scientific: 'Salvelinus namaycush',
   image: [
-    '/img/fish/lake_trout/1.jpg'
+    '/img/fish/lake_trout/1.jpg',
+    '/img/fish/lake_trout/2.jpg'
   ],
   features: [
     'Dark gray-green body covered in pale spots',

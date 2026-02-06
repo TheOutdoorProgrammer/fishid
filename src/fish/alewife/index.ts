@@ -4,7 +4,10 @@ export const alewife: Fish = {
   id: 'alewife',
   name: 'Alewife',
   scientific: 'Alosa pseudoharengus',
-  image: [],
+  image: [
+    '/img/fish/alewife/1.jpg',
+    '/img/fish/alewife/2.jpg'
+  ],
   features: [
     'Slender, laterally compressed body',
     'Large eye relative to head size',

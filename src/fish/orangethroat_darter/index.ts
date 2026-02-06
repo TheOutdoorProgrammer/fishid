@@ -5,7 +5,8 @@ export const orangethroat_darter: Fish = {
   name: 'Orangethroat Darter',
   scientific: 'Etheostoma spectabile',
   image: [
-    '/img/fish/orangethroat_darter/1.jpg'
+    '/img/fish/orangethroat_darter/1.jpg',
+    '/img/fish/orangethroat_darter/2.jpg'
   ],
   features: [
     'Small with alternating blue and orange bars',
