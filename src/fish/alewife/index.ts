@@ -14,7 +14,7 @@ export const alewife: Fish = {
     'Forked tail',
   ],
   keyFeature: 'Large eye + single shoulder spot + serrated belly (scutes)',
-  habitat: ['Great Lakes open waters (pelagic schools)', 'nearshore waters seasonally', 'introduced/invasive in several Great Lakes'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes open waters (pelagic schools)', 'nearshore waters seasonally', 'introduced/invasive in several Great Lakes'],
   size: '5–9 inches typical',
   funFact:
     'Alewife are an important forage fish for salmon and trout in the Great Lakes, and they have been associated with large die-offs that wash up on beaches.',

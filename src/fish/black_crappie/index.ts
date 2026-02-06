@@ -16,7 +16,7 @@ export const black_crappie: Fish = {
     'Large mouth for a panfish'
   ],
   keyFeature: 'Silvery body with random dark spots, 7-8 dorsal spines',
-  habitat: ['Clear lakes', 'reservoirs with brush piles', 'structure'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Clear lakes', 'reservoirs with brush piles', 'structure'],
   size: '8-12 inches typical',
   funFact: 'Black crappie are sometimes called "papermouths" because their mouths tear easily. They\'re schooling fish - if you catch one, there are usually more!',
   refs: [

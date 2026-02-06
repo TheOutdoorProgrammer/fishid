@@ -17,7 +17,7 @@ export const bigmouth_buffalo: Fish = {
     'Thin, smooth lips (not plicate like redhorse)'
   ],
   keyFeature: 'Deep-bodied buffalo with forward-facing large mouth and thin lips',
-  habitat: ['Large rivers', 'reservoirs', 'floodplain lakes'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Large rivers', 'reservoirs'],
   size: '20-30 inches typical, can exceed 50 pounds',
   funFact: 'Bigmouth buffalo are filter feeders that can live over 100 years, making them one of the longest-lived freshwater fish in North America! One was aged at 112 years.',
   refs: [

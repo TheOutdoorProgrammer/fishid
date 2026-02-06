@@ -17,7 +17,7 @@ export const paddlefish: Fish = {
     'Long gill rakers for filtering plankton'
   ],
   keyFeature: 'Unmistakable long paddle-shaped snout and smooth shark-like body',
-  habitat: ['Large rivers', 'reservoirs', 'Ohio River system'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Large rivers', 'reservoirs'],
   size: '36-60 inches typical, can exceed 5 feet',
   funFact: 'Paddlefish have been around since the age of dinosaurs. Their paddle-shaped rostrum is covered in electroreceptors that detect plankton, similar to a shark\'s electroreception!',
   refs: [

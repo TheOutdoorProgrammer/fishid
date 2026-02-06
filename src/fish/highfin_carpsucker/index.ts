@@ -17,7 +17,7 @@ export const highfin_carpsucker: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silver carpsucker with exceptionally tall dorsal fin and nipple on lower lip',
-  habitat: ['Large rivers with moderate current', 'pools', 'clear streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Large rivers with moderate current', 'pools', 'clear streams and rivers'],
   size: '12-18 inches typical',
   funFact: 'Highfin carpsuckers have the tallest dorsal fin of the carpsucker group. They can be distinguished from quillback by a small nipple-like projection on the lower lip.',
   refs: [

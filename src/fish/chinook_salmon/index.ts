@@ -17,7 +17,7 @@ export const chinook_salmon: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Large salmon with black spots on both tail lobes and dark gum line',
-  habitat: ['Lake Erie open waters', 'spawns in tributaries', 'lakes and reservoirs'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Lake Erie open waters', 'spawns in tributaries', 'lakes and reservoirs'],
   size: '24-36 inches typical in Lake Erie',
   funFact: 'Chinook (king) salmon are the largest Pacific salmon species, originally from the Pacific Northwest. They are stocked in Lake Erie and provide an exciting fall fishery.',
   refs: [

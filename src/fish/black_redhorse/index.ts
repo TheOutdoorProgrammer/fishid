@@ -17,7 +17,7 @@ export const black_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Dark-edged scales creating cross-hatch pattern and dusky (not red) fins',
-  habitat: ['Clear streams', 'rivers over gravel', 'moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Clear streams', 'rivers over gravel', 'moderate current'],
   size: '12-18 inches typical',
   funFact: 'Black redhorse get their name not from their body color but from their dark-edged scales and dusky fins. They prefer cleaner water than many other sucker species.',
   refs: [

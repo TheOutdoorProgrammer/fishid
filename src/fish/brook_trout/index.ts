@@ -17,7 +17,7 @@ export const brook_trout: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Worm-like markings on back, red spots with blue halos, white-edged lower fins',
-  habitat: ['Cold', 'clean headwater streams', 'very sensitive to water quality'],
+  habitat: ['Ohio creeks and small rivers', 'Cold', 'clean headwater streams', 'very sensitive to water quality'],
   size: '6-10 inches typical in Ohio streams',
   funFact: 'Brook trout are actually a char, not a true trout. They are Ohio\'s only native salmonid and require the coldest, cleanest water of any Ohio fish.',
   refs: [

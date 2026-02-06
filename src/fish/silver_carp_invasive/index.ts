@@ -17,7 +17,7 @@ export const silver_carp_invasive: Fish = {
     'Silver body with olive-green back'
   ],
   keyFeature: 'Large silver carp with eyes set very low on head, below the mouth line',
-  habitat: ['Ohio River system', 'invasive', 'threatening Lake Erie'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Ohio River system'],
   size: '24-36 inches typical, can exceed 60 pounds',
   funFact: 'Silver carp are famous for leaping out of the water when startled by boat motors, sometimes injuring boaters. They are a major invasive threat to Lake Erie.',
   refs: [

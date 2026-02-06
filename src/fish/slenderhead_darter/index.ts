@@ -17,7 +17,7 @@ export const slenderhead_darter: Fish = {
     'Streamlined body shape'
   ],
   keyFeature: 'Darter with distinctly pointed, narrow head and small side blotches',
-  habitat: ['Riffles and runs of medium to large streams', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Riffles and runs of medium to large streams', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-3 inches typical',
   funFact: 'Slenderhead darters are named for their distinctly pointed, narrow head. They prefer larger streams than many darter species and are most common in western Ohio.',
   refs: [

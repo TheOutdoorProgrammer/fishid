@@ -17,7 +17,7 @@ export const fantail_darter: Fish = {
     'Brown-olive color provides camouflage'
   ],
   keyFeature: 'Brown darter with fan-shaped tail and fleshy knobs on dorsal spines (males)',
-  habitat: ['Rocky riffles of small to medium streams', 'very common', 'clear streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of small to medium streams', 'very common', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Fantail darters get fleshy knobs on the tips of their dorsal spines during breeding. Males guard eggs laid on the undersides of flat rocks, doing "push-ups" to fan water over them.',
   refs: [

@@ -17,7 +17,7 @@ export const silver_chub: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Slender silver minnow with small barbel and large eye',
-  habitat: ['Large rivers', 'Great Lakes (including Lake Erie)', 'sandy or silty bottoms'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Large rivers'],
   size: '4-6 inches typical',
   funFact: 'Silver chub are important forage fish in Lake Erie and the Ohio River. They use their small barbels to detect food in murky bottom habitats.',
   refs: [

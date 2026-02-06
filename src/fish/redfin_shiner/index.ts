@@ -17,7 +17,7 @@ export const redfin_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Deep-bodied steel-blue shiner with bright red fins on breeding males',
-  habitat: ['Quiet pools of streams', 'backwaters', 'pond edges'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Quiet pools of streams'],
   size: '2-3 inches typical',
   funFact: 'Redfin shiners lay their eggs in the nests of sunfish and other species, letting the host fish guard their eggs for them - a behavior called nest parasitism.',
   refs: [

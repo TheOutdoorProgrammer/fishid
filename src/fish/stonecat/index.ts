@@ -17,7 +17,7 @@ export const stonecat: Fish = {
     'Venomous pectoral spine'
   ],
   keyFeature: 'Small catfish with adipose fin fused to rounded tail and yellow-brown color',
-  habitat: ['Rocky riffles in streams', 'rivers', 'hides under flat rocks'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles in streams', 'rivers', 'hides under flat rocks'],
   size: '5-8 inches typical',
   funFact: 'Stonecats have a mildly venomous spine in their pectoral fins that can cause a painful sting like a bee sting. They are the largest of the madtom catfish.',
   refs: [

@@ -17,7 +17,7 @@ export const quillback: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Deep silver body with very long first dorsal ray (the quill)',
-  habitat: ['Rivers', 'lakes', 'reservoirs', 'slow to moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Rivers', 'lakes', 'reservoirs'],
   size: '15-22 inches typical',
   funFact: 'Quillback are often confused with carp, but they have no barbels and a small sucker mouth. The long first dorsal ray that gives them their name can be as long as the entire dorsal fin.',
   refs: [

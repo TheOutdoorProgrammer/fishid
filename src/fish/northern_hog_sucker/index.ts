@@ -17,7 +17,7 @@ export const northern_hog_sucker: Fish = {
     'Often rests on stream bottom with pectoral fins spread'
   ],
   keyFeature: 'Boxy concave head with dark saddle marks and widely spaced eyes',
-  habitat: ['Clear, rocky riffles of streams and rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Clear, rocky riffles of streams and rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '8-14 inches typical',
   funFact: 'Northern hog suckers use their large fleshy lips to vacuum invertebrates from between rocks. Their boxy head shape is unlike any other Ohio fish and makes them easy to identify.',
   refs: [

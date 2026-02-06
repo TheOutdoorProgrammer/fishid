@@ -17,7 +17,7 @@ export const southern_redbelly_dace: Fish = {
     'Breeding males brilliantly colored red and yellow'
   ],
   keyFeature: 'Tiny minnow with two dark stripes and brilliant red belly',
-  habitat: ['Small headwater streams with cool', 'spring-fed water', 'clear streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Small headwater streams with cool', 'spring-fed water', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Southern redbelly dace are one of Ohio\'s most beautiful small fish. Breeding males have electric red bellies and bright yellow flanks that rival tropical fish.',
   refs: [

@@ -17,7 +17,7 @@ export const mimic_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Plain silver shiner that closely resembles several other shiner species',
-  habitat: ['Lakes and quiet pools of streams over sand or silt', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lakes and quiet pools of streams over sand or silt', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-3 inches typical',
   funFact: 'Mimic shiners get their name because they look so much like other shiner species that even experts have trouble telling them apart without microscopic examination.',
   refs: [

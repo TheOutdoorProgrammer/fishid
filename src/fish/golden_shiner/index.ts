@@ -17,7 +17,7 @@ export const golden_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Deep-bodied golden minnow with strongly decurved lateral line and belly keel',
-  habitat: ['Ponds', 'lakes', 'quiet pools', 'prefers vegetated areas'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds', 'lakes'],
   size: '5-8 inches typical, can reach 12',
   funFact: 'Golden shiners are the most popular baitfish sold in the US. They are also one of the largest minnow species in Ohio and can form massive schools.',
   refs: [

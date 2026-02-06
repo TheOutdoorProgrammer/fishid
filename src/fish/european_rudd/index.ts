@@ -17,7 +17,7 @@ export const european_rudd: Fish = {
     'Similar to golden shiner but with red fins'
   ],
   keyFeature: 'Golden-bodied minnow with bright red-orange fins and red eye',
-  habitat: ['Great Lakes (including Lake Erie)', 'tributaries', 'invasive from Europe'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)', 'tributaries', 'invasive from Europe'],
   size: '8-12 inches typical',
   funFact: 'European rudd were illegally introduced and are now invasive in parts of Ohio. They look similar to golden shiners but are easily identified by their bright red-orange fins.',
   refs: [

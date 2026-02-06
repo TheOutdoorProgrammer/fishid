@@ -17,7 +17,7 @@ export const creek_chubsucker: Fish = {
     'Dorsal fin with rounded edge'
   ],
   keyFeature: 'Small round-tailed sucker with no lateral line; young have dark stripe',
-  habitat: ['Small streams and headwaters with sand or gravel bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Small streams and headwaters with sand or gravel bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '6-10 inches typical',
   funFact: 'Creek chubsuckers are unusual among suckers because they have a rounded tail instead of a forked one. Young fish look completely different from adults with their bold stripe.',
   refs: [

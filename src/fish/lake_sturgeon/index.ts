@@ -17,7 +17,7 @@ export const lake_sturgeon: Fish = {
     'Five rows of bony plates along body'
   ],
   keyFeature: 'Large armored fish with bony plates, four barbels, and shark-like tail',
-  habitat: ['Great Lakes (including Lake Erie)', 'large rivers', 'historically abundant', 'now rare'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)'],
   size: '36-60 inches typical, can reach 6+ feet',
   funFact: 'Lake sturgeon can live over 150 years and reach over 200 pounds. They were once so abundant in Lake Erie that they were considered trash fish and burned as fuel! Now they are endangered.',
   refs: [

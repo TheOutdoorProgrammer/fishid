@@ -17,7 +17,7 @@ export const fathead_minnow: Fish = {
     'Incomplete lateral line'
   ],
   keyFeature: 'Small stout minnow with blunt head; breeding males have dark fat pad on head',
-  habitat: ['Ponds', 'ditches', 'quiet streams', 'very tolerant of poor conditions'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds', 'ditches'],
   size: '2-3 inches typical',
   funFact: 'Fathead minnows are extremely popular bait and feeder fish. Breeding males develop a dark spongy fat pad on their heads and tubercles, looking completely different from females.',
   refs: [

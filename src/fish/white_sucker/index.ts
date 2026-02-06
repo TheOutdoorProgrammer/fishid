@@ -17,7 +17,7 @@ export const white_sucker: Fish = {
     'Scales get larger toward rear of body'
   ],
   keyFeature: 'Olive-brown cylindrical fish with downward sucker mouth and no barbels',
-  habitat: ['Streams', 'rivers', 'lakes', 'one of most common fish in Ohio'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Streams', 'rivers', 'lakes'],
   size: '12-18 inches typical',
   funFact: 'White suckers are one of the first fish to make spawning runs in spring. They crowd into small streams by the hundreds, often before the ice is fully melted.',
   refs: [

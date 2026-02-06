@@ -17,7 +17,7 @@ export const river_chub: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Very large robust minnow with barbel at mouth corner; males build huge nests',
-  habitat: ['Streams and rivers with gravel or rubble bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Streams and rivers with gravel or rubble bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '6-10 inches typical, can reach 12',
   funFact: 'River chub build the largest nests of any minnow - massive gravel mounds up to 3 feet across! These nests become community spawning sites used by many other species.',
   refs: [

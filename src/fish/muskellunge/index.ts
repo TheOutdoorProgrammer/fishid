@@ -14,7 +14,7 @@ export const muskellunge: Fish = {
     'Tail fin often appears more pointed than pike',
   ],
   keyFeature: 'Light body with dark markings and a long pointed snout',
-  habitat: ['clear lakes with weed beds and structure', 'vegetated bays and edges (ambush cover)', 'slow rivers with pools', 'large lakes/reservoirs (including parts of the Great Lakes)'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'clear lakes with weed beds and structure'],
   size: '30–48 inches typical; Ohio record over 50 inches',
   funFact:
     'Muskies are sometimes called “the fish of 10,000 casts” because they can be difficult to hook consistently.',

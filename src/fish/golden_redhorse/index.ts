@@ -17,7 +17,7 @@ export const golden_redhorse: Fish = {
     'Round cross-section body'
   ],
   keyFeature: 'Golden-olive sucker with bright red-orange tail fin',
-  habitat: ['Streams and rivers with moderate current over gravel', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Streams and rivers with moderate current over gravel', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '12-18 inches typical',
   funFact: 'Golden redhorse are the most common redhorse species in Ohio. Their orange-red tail fin makes them one of the more attractive sucker species.',
   refs: [

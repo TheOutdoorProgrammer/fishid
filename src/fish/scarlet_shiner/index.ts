@@ -17,7 +17,7 @@ export const scarlet_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Shiner with breeding males showing brilliant scarlet-red coloring',
-  habitat: ['Pools of medium streams in southern Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Pools of medium streams in southern Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '3-4 inches typical',
   funFact: 'Scarlet shiners are named for the stunning scarlet-red color that breeding males develop. They are most common in streams of southeastern Ohio.',
   refs: [

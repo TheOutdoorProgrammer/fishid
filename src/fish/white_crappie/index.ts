@@ -16,7 +16,7 @@ export const white_crappie: Fish = {
     'Slightly more elongated than black crappie'
   ],
   keyFeature: 'Silvery body with vertical dark bars, 5-6 dorsal spines',
-  habitat: ['Murky lakes', 'reservoirs', 'rivers', 'more turbidity-tolerant'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Murky lakes', 'reservoirs', 'rivers'],
   size: '8-12 inches typical',
   funFact: 'The key to telling crappie apart: Black crappie have random spots, White crappie have organized vertical bars. Count the dorsal spines: 5-6 = White, 7-8 = Black!',
   refs: [

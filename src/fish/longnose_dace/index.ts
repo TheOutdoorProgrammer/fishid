@@ -17,7 +17,7 @@ export const longnose_dace: Fish = {
     'Breeding males develop red-orange on lips and fin bases'
   ],
   keyFeature: 'Elongated dace with distinctly long snout overhanging mouth',
-  habitat: ['Swift rocky riffles', 'well-oxygenated streams', 'clear streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Swift rocky riffles', 'well-oxygenated streams', 'clear streams and rivers'],
   size: '3-5 inches typical',
   funFact: 'Longnose dace are adapted for fast current and spend their time on the bottom of swift riffles, using their flattened bodies to resist being swept away.',
   refs: [

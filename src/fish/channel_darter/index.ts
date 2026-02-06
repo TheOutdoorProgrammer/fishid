@@ -17,7 +17,7 @@ export const channel_darter: Fish = {
     'Premaxilla protractile (unique among Percina)'
   ],
   keyFeature: 'Small slender darter with X-shaped blotches and large head',
-  habitat: ['Sandy or gravelly channels of medium to large rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Sandy or gravelly channels of medium to large rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '1.5-2.5 inches typical',
   funFact: 'Channel darters are named for their preference for the main channel of rivers. They are one of the smaller Percina darters and can be challenging to identify.',
   refs: [

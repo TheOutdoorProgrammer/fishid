@@ -17,7 +17,7 @@ export const creek_chub: Fish = {
     'Olive-brown back with silver sides'
   ],
   keyFeature: 'Large minnow with dark spot at dorsal fin base and big mouth',
-  habitat: ['Small to medium streams', 'one of most common stream fish', 'clear streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Small to medium streams', 'one of most common stream fish', 'clear streams and rivers'],
   size: '5-8 inches typical, can reach 12',
   funFact: 'Creek chub males build nests by carrying stones in their mouths to create gravel mounds. A single nest mound can contain thousands of pebbles!',
   refs: [

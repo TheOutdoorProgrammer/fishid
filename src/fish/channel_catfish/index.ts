@@ -17,7 +17,7 @@ export const channel_catfish: Fish = {
     'Spine in dorsal and pectoral fins'
   ],
   keyFeature: 'Forked tail with barbels and dark spots',
-  habitat: ['Rivers', 'lakes', 'reservoirs', 'prefers deeper channels'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Rivers', 'lakes', 'reservoirs'],
   size: '15-24 inches typical, can exceed 30',
   funFact: 'Channel catfish have about 100,000 taste buds covering their entire body! They can literally taste with their skin.',
   refs: [

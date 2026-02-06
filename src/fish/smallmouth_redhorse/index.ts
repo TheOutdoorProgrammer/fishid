@@ -17,7 +17,7 @@ export const smallmouth_redhorse: Fish = {
     'Compressed body shape'
   ],
   keyFeature: 'Small-mouthed sucker with falcate dorsal fin and short U-shaped lower lip',
-  habitat: ['Large streams', 'rivers', 'Lake Erie tributaries'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Large streams', 'rivers'],
   size: '10-16 inches typical',
   funFact: 'Smallmouth redhorse have the smallest mouth of any redhorse species. Their falcate (deeply curved) dorsal fin is a good identification feature.',
   refs: [
