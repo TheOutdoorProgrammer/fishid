@@ -2,12 +2,11 @@
 
 import React from 'react';
 import { useGameStore } from '@/store/gameStore';
-import { useServiceWorker } from '@/hooks/useServiceWorker';
 import { todayStr } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
-import { Trophy, Flame, BookOpen, Volume2, VolumeX, RefreshCw } from 'lucide-react';
+import { Trophy, Flame, BookOpen, Volume2, VolumeX } from 'lucide-react';
 
 interface HomeScreenProps {
   onNavigate: (screen: string) => void;
@@ -15,7 +14,6 @@ interface HomeScreenProps {
 
 export default function HomeScreen({ onNavigate }: HomeScreenProps) {
   const { xp, streak, bestStreak, lessons, dailyXP, toggleSound, settings } = useGameStore();
-  const { updateAvailable, applyUpdate } = useServiceWorker();
 
   const today = todayStr();
   const todayXP = dailyXP[today] || 0;
@@ -28,21 +26,11 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
 
   return (
     <div className="space-y-6 max-w-md mx-auto pb-20">
-      {updateAvailable && (
-        <button
-          onClick={applyUpdate}
-          className="w-full flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-4 rounded-xl transition-colors"
-        >
-          <RefreshCw size={18} />
-          New Update Available — Tap to Refresh
-        </button>
-      )}
-
       <Card className="relative overflow-hidden">
         <div className="flex justify-between items-start mb-4">
           <div>
             <h2 className="text-sm font-bold text-blue uppercase tracking-wider mb-1">
-              Today's Goal
+              Daily Goal
             </h2>
             <div className="flex items-baseline gap-2">
               <span className="text-3xl font-black text-text">{todayXP}</span>

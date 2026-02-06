@@ -22,7 +22,8 @@ export default withPWA({
   disable: false,
   register: true,
   workboxOptions: {
-    importScripts: [`${basePath}/worker-custom.js`],
+    skipWaiting: true,
+    clientsClaim: true,
     runtimeCaching: [
       {
         urlPattern: /^https:\/\/upload\.wikimedia\.org\/.*/i,
