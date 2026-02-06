@@ -96,9 +96,9 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
             </div>
           </div>
 
-          <div className="p-5 pt-0 flex-1 overflow-y-auto">
+          <div className="p-5 pt-4 flex-1 overflow-y-auto">
             <div className="space-y-6 text-sm">
-              <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+              <div className="bg-white/5 p-4 rounded-xl border border-white/5 mb-2">
                 <div className="flex items-center gap-2 mb-2 text-blue-300">
                   <span className="text-lg">🌊</span>
                   <span className="uppercase text-[11px] font-bold tracking-wider opacity-80">
