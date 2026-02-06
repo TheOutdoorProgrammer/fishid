@@ -16,7 +16,8 @@ export default function StarRating({ stars, className = '' }: StarRatingProps) {
         <Star
           key={i}
           size={16}
-          className={`${i <= clampedStars ? 'text-gold fill-gold' : 'text-muted fill-transparent'}`}
+          className={`${i <= clampedStars ? 'text-gold' : 'text-muted'}`}
+          fill={i <= clampedStars ? '#f1fa8c' : 'transparent'}
         />
       ))}
     </div>
