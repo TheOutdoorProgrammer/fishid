@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { QuizQuestion } from '@/types';
-import { useGameStore } from '@/store/gameStore';
+import { useGameStore, LESSONS } from '@/store/gameStore';
 import { beep } from '@/lib/sounds';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
@@ -23,7 +23,7 @@ interface QuizScreenProps {
 }
 
 export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenProps) {
-  const { addXP, spendHeart, settings } = useGameStore();
+  const { addXP, spendHeart, settings, updateLesson, lessons } = useGameStore();
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, any>>({});
@@ -111,6 +111,33 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
     const totalXp = xpEarned + bonusXp;
 
     addXP(totalXp, 'quiz');
+
+    // Update lesson progress if this is a lesson quiz
+    if (lessonId) {
+      const currentLessonState = lessons[lessonId] || {};
+      let stars = 0;
+      if (finalScore >= 90) stars = 3;
+      else if (finalScore >= 80) stars = 2;
+      else if (finalScore >= 60) stars = 1;
+
+      // Update current lesson
+      updateLesson(lessonId, {
+        completed: finalScore >= 80,
+        bestStars: Math.max(stars, currentLessonState.bestStars || 0),
+        bestAcc: Math.max(finalScore, currentLessonState.bestAcc || 0),
+        attempts: (currentLessonState.attempts || 0) + 1,
+        xpEarned: (currentLessonState.xpEarned || 0) + totalXp,
+      });
+
+      // Unlock next lesson if passed with 80%+
+      if (finalScore >= 80) {
+        const currentLessonIndex = LESSONS.findIndex((l) => l.id === Number(lessonId));
+        if (currentLessonIndex !== -1 && currentLessonIndex < LESSONS.length - 1) {
+          const nextLesson = LESSONS[currentLessonIndex + 1];
+          updateLesson(nextLesson.id, { unlocked: true });
+        }
+      }
+    }
 
     setQuizComplete(true);
   };
