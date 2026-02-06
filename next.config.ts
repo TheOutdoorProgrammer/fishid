@@ -3,7 +3,15 @@ import withPWA from '@ducanh2912/next-pwa';
 
 const nextConfig: NextConfig = {
   turbopack: {},
-  output: 'standalone',
+  // Use 'export' for static site (GitHub Pages), 'standalone' for Docker
+  output: 'export',
+  // GitHub Pages deploys to /fishid/ subdirectory
+  basePath: process.env.GITHUB_ACTIONS ? '/fishid' : '',
+  assetPrefix: process.env.GITHUB_ACTIONS ? '/fishid/' : '',
+  // Disable image optimization for static export
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default withPWA({
