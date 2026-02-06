@@ -250,7 +250,7 @@ async function main() {
   console.log('🐟 FishID Image Downloader (iNaturalist)\n');
   
   // Get all fish directories
-  const fishDirs = fs.readdirSync(FISH_DIR).filter(f => {
+  const fishDirs = fs.readdirSync(FISH_DIR).filter((f: string) => {
     const p = path.join(FISH_DIR, f);
     return fs.statSync(p).isDirectory() && fs.existsSync(path.join(p, 'index.ts'));
   });

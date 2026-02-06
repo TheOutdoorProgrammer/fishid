@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { LESSONS } from '@/store/gameStore';
 import { FISH } from '@/fish';
+import type { FishRef } from '@/fish/types';
 import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
@@ -91,19 +92,11 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
               <h2 className="text-3xl font-black leading-tight text-white mb-0.5 drop-shadow-md">
                 {fish.name}
               </h2>
-              <div className="text-lg italic text-white/70 font-serif">{fish.sci}</div>
+              <div className="text-lg italic text-white/70 font-serif">{fish.scientific}</div>
             </div>
           </div>
 
           <div className="p-5 pt-0 flex-1 overflow-y-auto">
-            <div className="flex flex-wrap gap-2 mb-6">
-              {fish.keywords?.map((k: string) => (
-                <Chip key={k} variant="blue" className="text-xs">
-                  {k}
-                </Chip>
-              ))}
-            </div>
-
             <div className="space-y-6 text-sm">
               <div className="bg-white/5 p-4 rounded-xl border border-white/5">
                 <div className="flex items-center gap-2 mb-2 text-blue-300">
@@ -135,7 +128,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
                 </ul>
               </div>
 
-              {fish.fact && (
+              {fish.funFact && (
                 <div className="bg-gold/10 p-4 rounded-xl border border-gold/20">
                   <div className="flex gap-3">
                     <span className="text-xl">💡</span>
@@ -143,16 +136,33 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
                       <span className="uppercase text-[10px] font-bold tracking-wider text-gold mb-1 block">
                         Fun Fact
                       </span>
-                      <span className="text-gold/90 italic leading-relaxed">{fish.fact}</span>
+                      <span className="text-gold/90 italic leading-relaxed">{fish.funFact}</span>
                     </div>
                   </div>
                 </div>
               )}
             </div>
 
-            <div className="text-[10px] text-white/30 mt-8 text-center">
-              Source: {fish.sources?.join(', ') || 'ODNR'}
-            </div>
+            {fish.refs && fish.refs.length > 0 && (
+              <div className="mt-8 pt-4 border-t border-white/10">
+                <div className="text-[10px] uppercase font-bold tracking-wider text-white/40 mb-2">
+                  Sources
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {fish.refs.map((ref: FishRef, i: number) => (
+                    <a
+                      key={i}
+                      href={ref.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[11px] text-blue-400/80 hover:text-blue-300 underline underline-offset-2"
+                    >
+                      {ref.label}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </Card>
       ) : (
