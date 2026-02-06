@@ -44,7 +44,19 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
 
   const scrollToTop = () => {
     const main = document.getElementById('main-scroll');
-    if (main) main.scrollTo(0, 0);
+    if (!main) return;
+
+    // This view lives inside a custom scroll container (<main> in AppLayout),
+    // not the window. On iOS/PWA, scrollTo can be flaky unless we also set scrollTop
+    // and schedule it after the state update.
+    main.scrollTop = 0;
+    main.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    requestAnimationFrame(() => {
+      main.scrollTop = 0;
+    });
+    setTimeout(() => {
+      main.scrollTop = 0;
+    }, 0);
   };
 
   const handleNext = () => {
