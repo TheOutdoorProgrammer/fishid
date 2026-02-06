@@ -8,6 +8,7 @@ import { usePWAInstall } from '@/hooks/usePWAInstall';
 import LearnScreen from '@/components/screens/LearnScreen';
 import LearnModeScreen from '@/components/screens/LearnModeScreen';
 import ProfileScreen from '@/components/screens/ProfileScreen';
+import FishDetailScreen from '@/components/screens/FishDetailScreen';
 import ReviewScreen from '@/components/screens/ReviewScreen';
 import QuizScreen from '@/components/quiz/QuizScreen';
 import { useGameStore, LESSONS, FISH_IDS } from '@/store/gameStore';
@@ -22,6 +23,7 @@ export default function App() {
   const [quizQuestions, setQuizQuestions] = useState<QuizQuestion[]>([]);
   const [quizLessonId, setQuizLessonId] = useState<string | null>(null);
   const [lastQuizParams, setLastQuizParams] = useState<any>(null);
+  const [selectedFishId, setSelectedFishId] = useState<string | null>(null);
 
   const { fishStats } = useGameStore();
   const { isInstalled } = usePWAInstall();
@@ -43,6 +45,10 @@ export default function App() {
   const navigateTo = (screen: string, params?: any) => {
     if (screen === 'learnMode' && params) {
       setSelectedLessonId(params);
+    }
+
+    if (screen === 'fishDetail' && params?.fishId) {
+      setSelectedFishId(String(params.fishId));
     }
 
     if (screen === 'quiz') {
@@ -126,6 +132,8 @@ export default function App() {
         return <ReviewScreen onNavigate={navigateTo} />;
       case 'profile':
         return <ProfileScreen onNavigate={navigateTo} />;
+      case 'fishDetail':
+        return <FishDetailScreen fishId={selectedFishId!} onNavigate={navigateTo} />;
       case 'quiz':
         return (
           <QuizScreen
