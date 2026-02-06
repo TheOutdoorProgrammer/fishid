@@ -213,7 +213,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
         <div className="flex items-end justify-between px-1">
           <h3 className="text-lg font-bold text-white/80">Fish Library</h3>
           <span className="text-xs font-medium text-white/40">
-            {Object.keys(fishStats).filter((id) => fishStats[id]?.seen > 0).length} /{' '}
+            {Object.keys(fishStats).filter((id) => fishStats[id]?.correct > 0).length} /{' '}
             {FISH_IDS.length} Found
           </span>
         </div>
@@ -222,7 +222,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
           {FISH_IDS.map((id) => {
             const fish = FISH[id];
             const stats = fishStats[id] || { seen: 0, correct: 0 };
-            const isSeen = stats.seen > 0;
+            const isDiscovered = stats.correct > 0;
 
             if (!fish) return null;
 
@@ -232,13 +232,13 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
                 className={`
                   relative aspect-[4/3] rounded-xl overflow-hidden border transition-all duration-300
                   ${
-                    isSeen
+                    isDiscovered
                       ? 'bg-panel border-white/10 shadow-lg'
                       : 'bg-black/20 border-white/5 opacity-60'
                   }
                 `}
               >
-                {isSeen ? (
+                {isDiscovered ? (
                   <>
                     <img
                       src={getRandomFishImage(fish.image)}

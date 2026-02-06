@@ -23,7 +23,7 @@ interface QuizScreenProps {
 }
 
 export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenProps) {
-  const { addXP, spendHeart, settings, updateLesson, lessons } = useGameStore();
+  const { addXP, spendHeart, settings, updateLesson, lessons, updateFishStats } = useGameStore();
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, any>>({});
@@ -77,6 +77,12 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
         isCorrect = answer === currentQuestion.correct;
         questionXp = 14;
         break;
+    }
+
+    // Update fish stats for questions with a fishId
+    const fishId = 'fishId' in currentQuestion ? currentQuestion.fishId : null;
+    if (fishId) {
+      updateFishStats(fishId, isCorrect);
     }
 
     if (isCorrect) {
