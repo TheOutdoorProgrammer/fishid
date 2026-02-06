@@ -38,6 +38,25 @@ type QuizData = {
 const FISH_BY_ID = FISH as Record<string, Fish>;
 const ALL_FISH = Object.values(FISH_BY_ID);
 const QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'habitat', 'tf', 'match', 'spot'];
+
+function containsFishName(text: string, fishName: string): boolean {
+  const t = (text || '').toLowerCase();
+  const name = (fishName || '').toLowerCase();
+  if (!t || !name) return false;
+  return t.includes(name);
+}
+
+function uniqueStrings(arr: string[]): string[] {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const s of arr) {
+    if (!s) continue;
+    if (seen.has(s)) continue;
+    seen.add(s);
+    out.push(s);
+  }
+  return out;
+}
 const QUIZ_DATA = loadQuizData();
 
 // Lesson quizzes should focus on questions that actually test a specific fish.
@@ -131,9 +150,13 @@ export function qFeature(pool: Fish[], used: UsedTracker): FeatureQuestion {
   const fish = pickUnused(pool, used.fish, ALL_FISH);
   used.fish.add(fish.id);
 
+  const fishNameText = fish.name;
+
   // Vary the "correct" feature so repeat questions don't always use the same line.
   const candidateCorrect = shuffle(
-    Array.from(new Set([fish.keyFeature, ...(fish.features || [])])).filter(Boolean)
+    uniqueStrings([fish.keyFeature, ...(fish.features || [])])
+      .filter(Boolean)
+      .filter((txt) => !containsFishName(txt, fishNameText))
   )[0];
 
   // Pull wrong features from other fish (prefer the current pool so it's harder / more relevant).
@@ -141,23 +164,30 @@ export function qFeature(pool: Fish[], used: UsedTracker): FeatureQuestion {
   const wrongCandidates = sourceFish
     .filter((f) => f.id !== fish.id)
     .flatMap((f) => [f.keyFeature, ...(f.features || [])])
-    .filter((f) => Boolean(f) && f !== candidateCorrect);
+    .filter((f) => Boolean(f) && f !== candidateCorrect)
+    .filter((txt) => !containsFishName(txt, fishNameText));
 
-  const wrong = Array.from(new Set(shuffle(wrongCandidates))).slice(0, 3);
+  const wrong = uniqueStrings(shuffle(wrongCandidates)).slice(0, 3);
 
   // Fallback to existing per-fish options if needed.
   if (wrong.length < 3) {
     const optionsData = getFeatureOptions(fish);
     for (const w of optionsData.wrong) {
-      if (w !== candidateCorrect && !wrong.includes(w)) wrong.push(w);
       if (wrong.length >= 3) break;
+      if (!w) continue;
+      if (w === candidateCorrect) continue;
+      if (containsFishName(w, fishNameText)) continue;
+      if (!wrong.includes(w)) wrong.push(w);
     }
   }
 
-  const options = shuffle([candidateCorrect, ...wrong]).map((option) => ({
-    label: option,
-    value: option,
-  }));
+  const optionValues = uniqueStrings([candidateCorrect, ...wrong]).filter(Boolean);
+  const options = shuffle(optionValues)
+    .slice(0, 4)
+    .map((option) => ({
+      label: option,
+      value: option,
+    }));
 
   return {
     type: 'feature',
@@ -172,33 +202,40 @@ export function qHabitat(pool: Fish[], used: UsedTracker): HabitatQuestion {
   const fish = pickUnused(pool, used.fish, ALL_FISH);
   used.fish.add(fish.id);
 
+  const fishNameText = fish.name;
   const correct = fish.habitat;
 
   const sourceFish = pool.length ? pool : ALL_FISH;
-  const wrong = Array.from(
-    new Set(
-      shuffle(
-        sourceFish
-          .filter((f) => f.id !== fish.id)
-          .map((f) => f.habitat)
-          .filter((h) => Boolean(h) && h !== correct)
-      )
+  const wrong = uniqueStrings(
+    shuffle(
+      sourceFish
+        .filter((f) => f.id !== fish.id)
+        .map((f) => f.habitat)
+        .filter((h) => Boolean(h) && h !== correct)
+        .filter((h) => !containsFishName(h, fishNameText))
     )
   ).slice(0, 3);
 
   // Top up if needed
   if (wrong.length < 3) {
     for (const f of shuffle(ALL_FISH)) {
-      if (f.id === fish.id) continue;
-      if (f.habitat && f.habitat !== correct && !wrong.includes(f.habitat)) wrong.push(f.habitat);
       if (wrong.length >= 3) break;
+      if (f.id === fish.id) continue;
+      const h = f.habitat;
+      if (!h) continue;
+      if (h === correct) continue;
+      if (containsFishName(h, fishNameText)) continue;
+      if (!wrong.includes(h)) wrong.push(h);
     }
   }
 
-  const options = shuffle([correct, ...wrong]).map((option) => ({
-    label: option,
-    value: option,
-  }));
+  const optionValues = uniqueStrings([correct, ...wrong]).filter(Boolean);
+  const options = shuffle(optionValues)
+    .slice(0, 4)
+    .map((option) => ({
+      label: option,
+      value: option,
+    }));
 
   return {
     type: 'habitat',
