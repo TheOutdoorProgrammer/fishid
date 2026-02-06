@@ -17,7 +17,7 @@ export const flathead_catfish: Fish = {
     'Small eyes set wide apart'
   ],
   keyFeature: 'Flat wide head, mottled brown/yellow, square tail (not forked)',
-  habitat: ['Large rivers', 'reservoirs', 'prefers deep pools with cover'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Large rivers', 'reservoirs'],
   size: '20-36 inches typical, Ohio record 76+ pounds',
   funFact: 'Flathead catfish are solitary ambush predators that prefer to eat live fish. Unlike channel cats, they rarely eat stinky bait. They can live over 20 years!',
   refs: [
@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Flathead catfish have a deeply forked tail.', answer: false, fishId: 'flathead_catfish' }
+  { statement: 'A key ID clue for this fish is: Flat wide head, mottled brown/yellow, square tail (not forked).', answer: true, fishId: 'flathead_catfish' },
+  { statement: 'This fish can be identified by: Flat, wide head (distinctive!).', answer: true, fishId: 'flathead_catfish' },
+  { statement: 'This fish can be identified by: Mottled brown and yellow coloring.', answer: true, fishId: 'flathead_catfish' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'flathead_catfish' }
 ];
 
 export default flathead_catfish;

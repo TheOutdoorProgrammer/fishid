@@ -17,7 +17,7 @@ export const sauger: Fish = {
     'More cylindrical body'
   ],
   keyFeature: 'Like a walleye but darker, spotted dorsal, NO white tail tip',
-  habitat: ['Ohio River', 'large rivers', 'prefers deeper turbid water'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large rivers', 'prefers deeper turbid water'],
   size: '10-16 inches typical (smaller than walleye)',
   funFact: 'Sauger are the smaller cousin of the walleye. The easiest way to tell them apart: check the tail! Walleye have a white tip on the lower tail lobe; sauger don\'t. Sauger also have spots on their dorsal fin.',
   refs: [
@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Sauger have a white tip on their tail just like walleye.', answer: false, fishId: 'sauger' }
+  { statement: 'A key ID clue for this fish is: Like a walleye but darker, spotted dorsal, NO white tail tip.', answer: true, fishId: 'sauger' },
+  { statement: 'This fish can be identified by: Similar to walleye but smaller and darker.', answer: true, fishId: 'sauger' },
+  { statement: 'This fish can be identified by: Distinct dark spots/blotches on dorsal fin.', answer: true, fishId: 'sauger' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'sauger' }
 ];
 
 export default sauger;

@@ -17,10 +17,11 @@ export const common_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silver minnow with large visible scales; breeding males turn rosy pink',
-  habitat: ['Small to medium streams', 'often in pools with moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Small to medium streams', 'often in pools with moderate current', 'clear streams and rivers'],
   size: '4-7 inches typical',
   funFact: 'Common shiners are one of the showiest minnows when breeding. Males develop brilliant rosy-pink bodies and build nests in gravel over which many other minnow species also spawn.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Luxilus%20cornutus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Luxilus+cornutus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Common shiners are dull-colored even during breeding.', answer: false, fishId: 'common_shiner' }
+  { statement: 'A key ID clue for this fish is: Silver minnow with large visible scales; breeding males turn rosy pink.', answer: true, fishId: 'common_shiner' },
+  { statement: 'This fish can be identified by: Moderately deep, compressed body.', answer: true, fishId: 'common_shiner' },
+  { statement: 'This fish can be identified by: Silver body with olive back.', answer: true, fishId: 'common_shiner' },
+  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'common_shiner' }
 ];
 
 export default common_shiner;

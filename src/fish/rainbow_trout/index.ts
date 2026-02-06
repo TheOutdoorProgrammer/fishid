@@ -17,7 +17,7 @@ export const rainbow_trout: Fish = {
     'White-tipped fins'
   ],
   keyFeature: 'Prominent pink-red lateral stripe with spots everywhere',
-  habitat: ['Cold streams', 'stocked in Ohio lakes', 'ponds'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Cold streams', 'stocked in Ohio lakes'],
   size: '10-16 inches typical (stream fish)',
   funFact: 'Rainbow trout and steelhead are the same species! Stream-resident fish are called rainbow trout, while those that migrate to Lake Erie are called steelhead.',
   refs: [
@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Rainbow trout lack an adipose fin.', answer: false, fishId: 'rainbow_trout' }
+  { statement: 'A key ID clue for this fish is: Prominent pink-red lateral stripe with spots everywhere.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'This fish can be identified by: Streamlined body.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'This fish can be identified by: Pink-red stripe along lateral line.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'You might find this fish in cold streams.', answer: true, fishId: 'rainbow_trout' }
 ];
 
 export default rainbow_trout;

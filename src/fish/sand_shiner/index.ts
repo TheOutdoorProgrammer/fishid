@@ -17,10 +17,11 @@ export const sand_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Small pale straw-colored minnow with faint zig-zag lateral stripe',
-  habitat: ['Sandy pools', 'runs of streams', 'also lake margins'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Sandy pools', 'runs of streams', 'also lake margins'],
   size: '2-3 inches typical',
   funFact: 'Sand shiners are named for their preference for sandy-bottomed habitats. They are one of the most widespread minnow species in the central United States.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20stramineus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+stramineus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Sand shiners prefer deep-water rocky habitat.', answer: false, fishId: 'sand_shiner' }
+  { statement: 'A key ID clue for this fish is: Small pale straw-colored minnow with faint zig-zag lateral stripe.', answer: true, fishId: 'sand_shiner' },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'sand_shiner' },
+  { statement: 'This fish can be identified by: Pale straw to olive color.', answer: true, fishId: 'sand_shiner' },
+  { statement: 'You might find this fish in sandy pools.', answer: true, fishId: 'sand_shiner' }
 ];
 
 export default sand_shiner;

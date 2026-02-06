@@ -17,10 +17,11 @@ export const shovelnose_sturgeon: Fish = {
     'Smaller than lake sturgeon'
   ],
   keyFeature: 'Flat shovel-shaped snout with fringed barbels and bony-plated tail stalk',
-  habitat: ['Ohio River', 'large tributaries', 'sandy or gravelly channels'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large tributaries', 'sandy or gravelly channels'],
   size: '18-30 inches typical',
   funFact: 'Shovelnose sturgeon are the most abundant sturgeon in the Ohio River system. Unlike lake sturgeon, they are still relatively common. Their flat snout helps them feed in current.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Scaphirhynchus%20platorynchus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Scaphirhynchus+platorynchus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Shovelnose sturgeon have a flat, shovel-shaped snout.', answer: true, fishId: 'shovelnose_sturgeon' }
+  { statement: 'A key ID clue for this fish is: Flat shovel-shaped snout with fringed barbels and bony-plated tail stalk.', answer: true, fishId: 'shovelnose_sturgeon' },
+  { statement: 'This fish can be identified by: Flattened, shovel-shaped snout.', answer: true, fishId: 'shovelnose_sturgeon' },
+  { statement: 'This fish can be identified by: Four fringed barbels under snout.', answer: true, fishId: 'shovelnose_sturgeon' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shovelnose_sturgeon' }
 ];
 
 export default shovelnose_sturgeon;

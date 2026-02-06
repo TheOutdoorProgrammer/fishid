@@ -16,7 +16,7 @@ export const black_crappie: Fish = {
     'Large mouth for a panfish'
   ],
   keyFeature: 'Silvery body with random dark spots, 7-8 dorsal spines',
-  habitat: ['Clear lakes', 'reservoirs with brush piles', 'structure'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Clear lakes', 'reservoirs with brush piles', 'structure'],
   size: '8-12 inches typical',
   funFact: 'Black crappie are sometimes called "papermouths" because their mouths tear easily. They\'re schooling fish - if you catch one, there are usually more!',
   refs: [
@@ -33,7 +33,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Black crappie have organized vertical bars on their sides.', answer: false, fishId: 'black_crappie' }
+  { statement: 'A key ID clue for this fish is: Silvery body with random dark spots, 7-8 dorsal spines.', answer: true, fishId: 'black_crappie' },
+  { statement: 'This fish can be identified by: Deep, compressed body (similar to bluegill).', answer: true, fishId: 'black_crappie' },
+  { statement: 'This fish can be identified by: Silvery-green with irregular dark speckles/spots.', answer: true, fishId: 'black_crappie' },
+  { statement: 'You might find this fish in clear lakes.', answer: true, fishId: 'black_crappie' }
 ];
 
 export default black_crappie;

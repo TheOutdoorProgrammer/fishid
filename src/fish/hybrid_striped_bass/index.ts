@@ -17,10 +17,11 @@ export const hybrid_striped_bass: Fish = {
     'Separated dorsal fins'
   ],
   keyFeature: 'Like white bass but larger with broken/offset horizontal stripes',
-  habitat: ['Large reservoirs where stocked', 'open water'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Large reservoirs where stocked', 'open water', 'lakes and reservoirs'],
   size: '15-20 inches typical, can exceed 10 pounds',
   funFact: 'Hybrid striped bass (wipers) are a cross between white bass and saltwater striped bass. They fight incredibly hard and are stocked in many Ohio reservoirs.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Virginia DWR species profile', url: 'https://dwr.virginia.gov/wildlife/information/hybrid-striped-bass/' },
     { label: 'Texas Parks & Wildlife (PDF)', url: 'https://tpwd.texas.gov/publications/pwdpubs/media/pwd_lf_t3200_086.pdf' },
     { label: 'Iowa DNR species page', url: 'https://www.iowadnr.gov/things-do/fishing/iowa-fish-species/hybrid-striped-bass' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Hybrid striped bass have continuous unbroken horizontal stripes.', answer: false, fishId: 'hybrid_striped_bass' }
+  { statement: 'A key ID clue for this fish is: Like white bass but larger with broken/offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass' },
+  { statement: 'This fish can be identified by: Silver body with broken or offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass' },
+  { statement: 'This fish can be identified by: Deep body, deeper than white bass.', answer: true, fishId: 'hybrid_striped_bass' },
+  { statement: 'You might find this fish in large reservoirs where stocked.', answer: true, fishId: 'hybrid_striped_bass' }
 ];
 
 export default hybrid_striped_bass;

@@ -17,10 +17,11 @@ export const pirate_perch: Fish = {
     'No lateral line'
   ],
   keyFeature: 'Dark small fish with unique forward-migrating anus positioned under throat',
-  habitat: ['Swamps', 'backwaters', 'quiet streams with heavy vegetation', 'debris'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Swamps', 'backwaters', 'quiet streams with heavy vegetation'],
   size: '3-5 inches typical',
   funFact: 'Pirate perch have one of the weirdest features in the fish world: as they mature, their anus migrates forward from the normal position to underneath the throat! Scientists still debate why.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Aphredoderus%20sayanus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Aphredoderus+sayanus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Pirate perch have their anus in the normal position behind the body.', answer: false, fishId: 'pirate_perch' }
+  { statement: 'A key ID clue for this fish is: Dark small fish with unique forward-migrating anus positioned under throat.', answer: true, fishId: 'pirate_perch' },
+  { statement: 'This fish can be identified by: Small, dark-bodied fish.', answer: true, fishId: 'pirate_perch' },
+  { statement: 'This fish can be identified by: Anus located under the throat in adults (unique!).', answer: true, fishId: 'pirate_perch' },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'pirate_perch' }
 ];
 
 export default pirate_perch;

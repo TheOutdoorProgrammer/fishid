@@ -17,10 +17,11 @@ export const gizzard_shad: Fish = {
     'Deeply forked tail'
   ],
   keyFeature: 'Silver deep body with trailing dorsal filament and dark shoulder spot',
-  habitat: ['Lakes', 'reservoirs', 'rivers', 'extremely abundant in Ohio'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lakes', 'reservoirs', 'rivers'],
   size: '8-14 inches typical',
   funFact: 'Gizzard shad are the most abundant fish in many Ohio lakes. They have a gizzard-like stomach that grinds food, just like a bird. They are critical forage for game fish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Dorosoma%20cepedianum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Dorosoma+cepedianum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Gizzard shad have teeth and are active predators.', answer: false, fishId: 'gizzard_shad' }
+  { statement: 'A key ID clue for this fish is: Silver deep body with trailing dorsal filament and dark shoulder spot.', answer: true, fishId: 'gizzard_shad' },
+  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'gizzard_shad' },
+  { statement: 'This fish can be identified by: Last ray of dorsal fin extended into long filament.', answer: true, fishId: 'gizzard_shad' },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'gizzard_shad' }
 ];
 
 export default gizzard_shad;

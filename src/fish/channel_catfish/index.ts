@@ -17,7 +17,7 @@ export const channel_catfish: Fish = {
     'Spine in dorsal and pectoral fins'
   ],
   keyFeature: 'Forked tail with barbels and dark spots',
-  habitat: ['Rivers', 'lakes', 'reservoirs', 'prefers deeper channels'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Rivers', 'lakes', 'reservoirs'],
   size: '15-24 inches typical, can exceed 30',
   funFact: 'Channel catfish have about 100,000 taste buds covering their entire body! They can literally taste with their skin.',
   refs: [
@@ -34,8 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Channel catfish have a forked tail.', answer: true, fishId: 'channel_catfish' },
-  { statement: 'Channel catfish have about 100,000 taste buds on their body.', answer: true, fishId: 'channel_catfish' }
+  { statement: 'A key ID clue for this fish is: Forked tail with barbels and dark spots.', answer: true, fishId: 'channel_catfish' },
+  { statement: 'This fish can be identified by: Blue-gray to olive body.', answer: true, fishId: 'channel_catfish' },
+  { statement: 'This fish can be identified by: Scattered dark spots (especially when young).', answer: true, fishId: 'channel_catfish' },
+  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'channel_catfish' }
 ];
 
 export default channel_catfish;

@@ -17,10 +17,11 @@ export const yellow_bullhead: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Yellow-brown bullhead with distinctive white chin barbels',
-  habitat: ['Ponds', 'lakes', 'slow streams with muddy bottoms', 'vegetation'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds'],
   size: '8-14 inches typical',
   funFact: 'Yellow bullhead are the most common bullhead in Ohio. The easiest way to tell bullheads apart is by their chin barbels: yellow bullheads have white or cream barbels.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=733' },
     { label: 'Illinois DNR Wild About Fishes', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/wafyellowbullhead.html' },
     { label: 'Connecticut DEEP freshwater fishes', url: 'https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/yellow-bullhead' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Yellow bullhead have white chin barbels.', answer: true, fishId: 'yellow_bullhead' }
+  { statement: 'A key ID clue for this fish is: Yellow-brown bullhead with distinctive white chin barbels.', answer: true, fishId: 'yellow_bullhead' },
+  { statement: 'This fish can be identified by: Yellowish-brown to olive body.', answer: true, fishId: 'yellow_bullhead' },
+  { statement: 'This fish can be identified by: White or cream-colored chin barbels.', answer: true, fishId: 'yellow_bullhead' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'yellow_bullhead' }
 ];
 
 export default yellow_bullhead;

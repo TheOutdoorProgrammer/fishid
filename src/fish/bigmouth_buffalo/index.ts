@@ -17,10 +17,11 @@ export const bigmouth_buffalo: Fish = {
     'Thin, smooth lips (not plicate like redhorse)'
   ],
   keyFeature: 'Deep-bodied buffalo with forward-facing large mouth and thin lips',
-  habitat: ['Large rivers', 'reservoirs', 'floodplain lakes'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Large rivers', 'reservoirs'],
   size: '20-30 inches typical, can exceed 50 pounds',
   funFact: 'Bigmouth buffalo are filter feeders that can live over 100 years, making them one of the longest-lived freshwater fish in North America! One was aged at 112 years.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictiobus%20cyprinellus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictiobus+cyprinellus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Bigmouth buffalo can live over 100 years.', answer: true, fishId: 'bigmouth_buffalo' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied buffalo with forward-facing large mouth and thin lips.', answer: true, fishId: 'bigmouth_buffalo' },
+  { statement: 'This fish can be identified by: Very deep, compressed body (hump-backed).', answer: true, fishId: 'bigmouth_buffalo' },
+  { statement: 'This fish can be identified by: Large terminal mouth (facing forward, not downward).', answer: true, fishId: 'bigmouth_buffalo' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'bigmouth_buffalo' }
 ];
 
 export default bigmouth_buffalo;

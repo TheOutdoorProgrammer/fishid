@@ -17,10 +17,11 @@ export const longnose_dace: Fish = {
     'Breeding males develop red-orange on lips and fin bases'
   ],
   keyFeature: 'Elongated dace with distinctly long snout overhanging mouth',
-  habitat: ['Swift rocky riffles', 'well-oxygenated streams'],
+  habitat: ['Ohio creeks and small rivers', 'Swift rocky riffles', 'well-oxygenated streams', 'clear streams and rivers'],
   size: '3-5 inches typical',
   funFact: 'Longnose dace are adapted for fast current and spend their time on the bottom of swift riffles, using their flattened bodies to resist being swept away.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Rhinichthys%20cataractae' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Rhinichthys+cataractae' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Longnose dace are adapted for living in fast current.', answer: true, fishId: 'longnose_dace' }
+  { statement: 'A key ID clue for this fish is: Elongated dace with distinctly long snout overhanging mouth.', answer: true, fishId: 'longnose_dace' },
+  { statement: 'This fish can be identified by: Small, elongated body.', answer: true, fishId: 'longnose_dace' },
+  { statement: 'This fish can be identified by: Long snout that extends well past upper lip.', answer: true, fishId: 'longnose_dace' },
+  { statement: 'You might find this fish in swift rocky riffles.', answer: true, fishId: 'longnose_dace' }
 ];
 
 export default longnose_dace;

@@ -17,10 +17,11 @@ export const shortnose_gar: Fish = {
     'Spots mainly on rear fins and tail'
   ],
   keyFeature: 'Gar with shorter, broader snout and no spots on head',
-  habitat: ['Ohio River', 'large tributaries', 'quiet backwaters'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large tributaries'],
   size: '18-25 inches typical',
   funFact: 'Shortnose gar are less common than longnose gar in Ohio. The best way to tell them apart is the snout: shortnose gar have a snout that is less than twice the head length.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepisosteus%20platostomus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepisosteus+platostomus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Shortnose gar have a snout longer than longnose gar.', answer: false, fishId: 'shortnose_gar' }
+  { statement: 'A key ID clue for this fish is: Gar with shorter, broader snout and no spots on head.', answer: true, fishId: 'shortnose_gar' },
+  { statement: 'This fish can be identified by: Shorter, broader snout than longnose gar.', answer: true, fishId: 'shortnose_gar' },
+  { statement: 'This fish can be identified by: Diamond-shaped ganoid scales.', answer: true, fishId: 'shortnose_gar' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shortnose_gar' }
 ];
 
 export default shortnose_gar;

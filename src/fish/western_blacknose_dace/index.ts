@@ -17,10 +17,11 @@ export const western_blacknose_dace: Fish = {
     'Breeding males develop rusty-orange on sides and fins'
   ],
   keyFeature: 'Small dace with bold dark stripe from snout to tail and tiny mouth barbel',
-  habitat: ['Rocky riffles of small streams', 'very common in Ohio'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of small streams', 'very common in Ohio', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Western blacknose dace are one of the most common fish in small Ohio streams. The tiny barbel at the corner of the mouth helps distinguish them from similar small minnows.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Rhinichthys%20obtusus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Rhinichthys+obtusus' }
   ],
@@ -32,6 +33,11 @@ export const featureOptions: FeatureOption = {
   wrong: ['Long snout overhanging mouth', 'Two dark lateral stripes with red belly', 'Deep golden body with belly keel'],
 };
 
-export const trueFalseQuestions: TrueFalseQuestion[] = [];
+export const trueFalseQuestions: TrueFalseQuestion[] = [
+  { statement: 'A key ID clue for this fish is: Small dace with bold dark stripe from snout to tail and tiny mouth barbel.', answer: true, fishId: 'western_blacknose_dace' },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'western_blacknose_dace' },
+  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'western_blacknose_dace' },
+  { statement: 'You might find this fish in rocky riffles of small streams.', answer: true, fishId: 'western_blacknose_dace' }
+];
 
 export default western_blacknose_dace;

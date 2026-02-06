@@ -16,10 +16,11 @@ export const yellow_perch: Fish = {
     'Small mouth, no canine teeth'
   ],
   keyFeature: 'Golden-yellow body with dark vertical bars',
-  habitat: ['Lake Erie', 'inland lakes', 'prefers cool clear water'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)', 'inland lakes', 'prefers cool clear water'],
   size: '7-12 inches typical',
   funFact: 'Lake Erie is known as the "Walleye Capital of the World" but yellow perch are equally beloved. A Lake Erie perch fry is an Ohio tradition!',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia: Yellow perch', url: 'https://en.wikipedia.org/wiki/Yellow_perch' },
     { label: 'DFO Canada species profile', url: 'https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/yellowperch-perchaude-eng.html' },
     { label: 'Animal Diversity Web: Perca flavescens', url: 'https://animaldiversity.org/accounts/Perca_flavescens/' }
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Yellow perch have horizontal stripes on their body.', answer: false, fishId: 'yellow_perch' }
+  { statement: 'A key ID clue for this fish is: Golden-yellow body with dark vertical bars.', answer: true, fishId: 'yellow_perch' },
+  { statement: 'This fish can be identified by: Bright golden-yellow body.', answer: true, fishId: 'yellow_perch' },
+  { statement: 'This fish can be identified by: 6-8 dark vertical bars on sides.', answer: true, fishId: 'yellow_perch' },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'yellow_perch' }
 ];
 
 export default yellow_perch;

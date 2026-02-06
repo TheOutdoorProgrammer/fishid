@@ -17,10 +17,11 @@ export const blackside_darter: Fish = {
     'Moderately robust body'
   ],
   keyFeature: 'Olive darter with row of dark oval blotches along side',
-  habitat: ['Pools and runs of streams with rocky or gravelly bottoms'],
+  habitat: ['Ohio creeks and small rivers', 'Pools and runs of streams with rocky or gravelly bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-4 inches typical',
   funFact: 'Blackside darters are one of the most common Percina darters in Ohio. Their row of oval blotches is distinctive, though the blotches sometimes merge into a continuous band.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20maculata' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+maculata' }
   ],
@@ -32,6 +33,11 @@ export const featureOptions: FeatureOption = {
   wrong: ['Pig-like snout with alternating bar lengths', 'Blue and orange vertical bars', 'Nearly transparent body buried in sand'],
 };
 
-export const trueFalseQuestions: TrueFalseQuestion[] = [];
+export const trueFalseQuestions: TrueFalseQuestion[] = [
+  { statement: 'A key ID clue for this fish is: Olive darter with row of dark oval blotches along side.', answer: true, fishId: 'blackside_darter' },
+  { statement: 'This fish can be identified by: Row of dark oval blotches along sides.', answer: true, fishId: 'blackside_darter' },
+  { statement: 'This fish can be identified by: Olive-brown body.', answer: true, fishId: 'blackside_darter' },
+  { statement: 'You might find this fish in pools and runs of streams with rocky or gravelly bottoms.', answer: true, fishId: 'blackside_darter' }
+];
 
 export default blackside_darter;

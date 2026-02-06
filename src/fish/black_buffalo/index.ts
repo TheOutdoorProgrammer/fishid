@@ -17,10 +17,11 @@ export const black_buffalo: Fish = {
     'Long dorsal fin'
   ],
   keyFeature: 'Darkest buffalo species with thicker, more cylindrical body',
-  habitat: ['Large rivers', 'deep pools', 'Ohio River system'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Large rivers', 'deep pools', 'Ohio River system'],
   size: '18-26 inches typical',
   funFact: 'Black buffalo are the least common of the three buffalo species in Ohio. They are darker and more cylindrical than their relatives and prefer deeper river pools.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ictiobus%20niger' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ictiobus+niger' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Black buffalo are the most common buffalo species in Ohio.', answer: false, fishId: 'black_buffalo' }
+  { statement: 'A key ID clue for this fish is: Darkest buffalo species with thicker, more cylindrical body.', answer: true, fishId: 'black_buffalo' },
+  { statement: 'This fish can be identified by: Deep body but less compressed than other buffalo.', answer: true, fishId: 'black_buffalo' },
+  { statement: 'This fish can be identified by: Dark olive to blackish color.', answer: true, fishId: 'black_buffalo' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'black_buffalo' }
 ];
 
 export default black_buffalo;

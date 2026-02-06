@@ -21,6 +21,7 @@ export const central_mudminnow: Fish = {
   size: '2-4 inches typical',
   funFact: 'Central mudminnows can survive being frozen in ice and can breathe air by gulping it at the surface. They can also survive buried in mud when ponds dry up.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Umbra%20limi' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Umbra+limi' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Central mudminnows can survive being frozen in ice.', answer: true, fishId: 'central_mudminnow' }
+  { statement: 'A key ID clue for this fish is: Small stout fish with rounded tail, dark tail-base bar, and air-breathing ability.', answer: true, fishId: 'central_mudminnow' },
+  { statement: 'This fish can be identified by: Small, stout body with rounded tail.', answer: true, fishId: 'central_mudminnow' },
+  { statement: 'This fish can be identified by: Dark brown to olive with faint bars or mottling.', answer: true, fishId: 'central_mudminnow' },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'central_mudminnow' }
 ];
 
 export default central_mudminnow;

@@ -17,10 +17,11 @@ export const brook_silverside: Fish = {
     'Two small dorsal fins set far back'
   ],
   keyFeature: 'Extremely slender translucent fish with bright silver stripe and beak-like snout',
-  habitat: ['Lake margins', 'slow streams', 'swims near surface in schools'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake margins', 'slow streams', 'swims near surface in schools'],
   size: '2-4 inches typical',
   funFact: 'Brook silversides are surface-dwelling fish that leap out of the water to escape predators. They are annual fish - most live only one year and die after spawning.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Labidesthes%20sicculus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Labidesthes+sicculus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brook silversides are annual fish that typically live only one year.', answer: true, fishId: 'brook_silverside' }
+  { statement: 'A key ID clue for this fish is: Extremely slender translucent fish with bright silver stripe and beak-like snout.', answer: true, fishId: 'brook_silverside' },
+  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'brook_silverside' },
+  { statement: 'This fish can be identified by: Bright silver lateral stripe.', answer: true, fishId: 'brook_silverside' },
+  { statement: 'You might find this fish in lake margins.', answer: true, fishId: 'brook_silverside' }
 ];
 
 export default brook_silverside;

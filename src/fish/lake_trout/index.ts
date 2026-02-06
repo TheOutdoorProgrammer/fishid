@@ -17,10 +17,11 @@ export const lake_trout: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Dark body with pale spots and deeply forked tail',
-  habitat: ['Deep, cold waters of Lake Erie', 'historically in deeper eastern basin'],
+  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Deep, cold waters of Lake Erie', 'historically in deeper eastern basin', 'lakes and reservoirs'],
   size: '18-30 inches typical in Lake Erie',
   funFact: 'Lake trout were nearly wiped out in Lake Erie by sea lamprey and overfishing. Restoration efforts have brought small populations back to the deeper parts of the lake.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Michigan DNR species page', url: 'https://www.michigan.gov/dnr/education/michigan-species/fish-species/lake-trout' },
     { label: 'DFO Canada species profile', url: 'https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/lake-trout-touladi-eng.html' },
     { label: 'USFWS species profile', url: 'https://www.fws.gov/species/lake-trout-salvelinus-namaycush' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Lake trout have a rounded tail like brook trout.', answer: false, fishId: 'lake_trout' }
+  { statement: 'A key ID clue for this fish is: Dark body with pale spots and deeply forked tail.', answer: true, fishId: 'lake_trout' },
+  { statement: 'This fish can be identified by: Dark gray-green body covered in pale spots.', answer: true, fishId: 'lake_trout' },
+  { statement: 'This fish can be identified by: Deeply forked tail (unique among chars).', answer: true, fishId: 'lake_trout' },
+  { statement: 'You might find this fish in deep, cold waters of lake erie.', answer: true, fishId: 'lake_trout' }
 ];
 
 export default lake_trout;

@@ -17,10 +17,11 @@ export const river_chub: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Very large robust minnow with barbel at mouth corner; males build huge nests',
-  habitat: ['Streams and rivers with gravel or rubble bottoms'],
+  habitat: ['Ohio creeks and small rivers', 'Streams and rivers with gravel or rubble bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '6-10 inches typical, can reach 12',
   funFact: 'River chub build the largest nests of any minnow - massive gravel mounds up to 3 feet across! These nests become community spawning sites used by many other species.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Nocomis%20micropogon' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Nocomis+micropogon' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'River chub build the largest nests of any minnow species.', answer: true, fishId: 'river_chub' }
+  { statement: 'A key ID clue for this fish is: Very large robust minnow with barbel at mouth corner; males build huge nests.', answer: true, fishId: 'river_chub' },
+  { statement: 'This fish can be identified by: Large, robust minnow (one of the biggest).', answer: true, fishId: 'river_chub' },
+  { statement: 'This fish can be identified by: Olive-brown body with large scales.', answer: true, fishId: 'river_chub' },
+  { statement: 'You might find this fish in streams and rivers with gravel or rubble bottoms.', answer: true, fishId: 'river_chub' }
 ];
 
 export default river_chub;

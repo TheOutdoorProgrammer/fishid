@@ -17,10 +17,11 @@ export const suckermouth_minnow: Fish = {
     'Flat belly adapted for bottom dwelling'
   ],
   keyFeature: 'Minnow with distinctive fleshy sucker-like mouth on bottom of head',
-  habitat: ['Riffles of streams with gravel or rocky bottoms'],
+  habitat: ['Ohio creeks and small rivers', 'Riffles of streams with gravel or rocky bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '3-4 inches typical',
   funFact: 'Suckermouth minnows are named for their fleshy, downward-facing mouth that resembles a sucker fish. They live on the stream bottom and use this mouth to scrape food from rocks.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Phenacobius%20mirabilis' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Phenacobius+mirabilis' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Suckermouth minnows have a fleshy sucker-like mouth.', answer: true, fishId: 'suckermouth_minnow' }
+  { statement: 'A key ID clue for this fish is: Minnow with distinctive fleshy sucker-like mouth on bottom of head.', answer: true, fishId: 'suckermouth_minnow' },
+  { statement: 'This fish can be identified by: Elongated body with flattened underside.', answer: true, fishId: 'suckermouth_minnow' },
+  { statement: 'This fish can be identified by: Fleshy sucker-like mouth on underside of head.', answer: true, fishId: 'suckermouth_minnow' },
+  { statement: 'You might find this fish in riffles of streams with gravel or rocky bottoms.', answer: true, fishId: 'suckermouth_minnow' }
 ];
 
 export default suckermouth_minnow;

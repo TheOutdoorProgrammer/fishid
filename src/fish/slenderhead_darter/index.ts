@@ -17,10 +17,11 @@ export const slenderhead_darter: Fish = {
     'Streamlined body shape'
   ],
   keyFeature: 'Darter with distinctly pointed, narrow head and small side blotches',
-  habitat: ['Riffles and runs of medium to large streams'],
+  habitat: ['Ohio creeks and small rivers', 'Riffles and runs of medium to large streams', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-3 inches typical',
   funFact: 'Slenderhead darters are named for their distinctly pointed, narrow head. They prefer larger streams than many darter species and are most common in western Ohio.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20phoxocephala' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+phoxocephala' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Slenderhead darters have a distinctly pointed narrow head.', answer: true, fishId: 'slenderhead_darter' }
+  { statement: 'A key ID clue for this fish is: Darter with distinctly pointed, narrow head and small side blotches.', answer: true, fishId: 'slenderhead_darter' },
+  { statement: 'This fish can be identified by: Pointed, slender head and snout.', answer: true, fishId: 'slenderhead_darter' },
+  { statement: 'This fish can be identified by: Row of small dark blotches on side.', answer: true, fishId: 'slenderhead_darter' },
+  { statement: 'You might find this fish in riffles and runs of medium to large streams.', answer: true, fishId: 'slenderhead_darter' }
 ];
 
 export default slenderhead_darter;

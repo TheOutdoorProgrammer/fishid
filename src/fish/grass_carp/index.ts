@@ -17,10 +17,11 @@ export const grass_carp: Fish = {
     'Olive-green body with silvery sides'
   ],
   keyFeature: 'Large elongated carp with dark-edged scales and no barbels',
-  habitat: ['Lakes', 'ponds', 'slow rivers', 'stocked for vegetation control'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Lakes'],
   size: '24-40 inches typical, can exceed 50 pounds',
   funFact: 'Grass carp eat their weight in vegetation daily! Triploid (sterile) grass carp are stocked in Ohio ponds to control aquatic weeds. Fertile grass carp are invasive and illegal to stock.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ctenopharyngodon%20idella' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ctenopharyngodon+idella' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Grass carp eat their weight in vegetation daily.', answer: true, fishId: 'grass_carp' }
+  { statement: 'A key ID clue for this fish is: Large elongated carp with dark-edged scales and no barbels.', answer: true, fishId: 'grass_carp' },
+  { statement: 'This fish can be identified by: Large, elongated torpedo-shaped body.', answer: true, fishId: 'grass_carp' },
+  { statement: 'This fish can be identified by: Large scales with dark edges.', answer: true, fishId: 'grass_carp' },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'grass_carp' }
 ];
 
 export default grass_carp;

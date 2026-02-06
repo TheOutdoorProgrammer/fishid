@@ -17,7 +17,7 @@ export const blue_catfish: Fish = {
     'Can grow very large (50+ pounds)'
   ],
   keyFeature: 'Blue-gray body with no spots, straight anal fin edge, deeply forked tail',
-  habitat: ['Large rivers', 'reservoirs', 'Lake Erie tributaries', 'prefers deep channels with current'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Large rivers'],
   size: '25-40 inches typical, can exceed 100 pounds',
   funFact: 'Blue catfish are the largest catfish species in North America and can live over 25 years. They were originally stocked in Ohio rivers and have spread to Lake Erie tributaries!',
   refs: [
@@ -34,8 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Blue catfish have dark spots like channel catfish.', answer: false, fishId: 'blue_catfish' },
-  { statement: 'Blue catfish have a straight-edged anal fin with 30-36 rays.', answer: true, fishId: 'blue_catfish' }
+  { statement: 'A key ID clue for this fish is: Blue-gray body with no spots, straight anal fin edge, deeply forked tail.', answer: true, fishId: 'blue_catfish' },
+  { statement: 'This fish can be identified by: Slate blue to grayish-blue body.', answer: true, fishId: 'blue_catfish' },
+  { statement: 'This fish can be identified by: NO dark spots (unlike channel catfish).', answer: true, fishId: 'blue_catfish' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'blue_catfish' }
 ];
 
 export default blue_catfish;

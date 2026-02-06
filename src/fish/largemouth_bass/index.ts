@@ -16,7 +16,7 @@ export const largemouth_bass: Fish = {
     'Larger mouth compared to smallmouth'
   ],
   keyFeature: 'Large mouth extending past eye, dark horizontal stripe',
-  habitat: ['Warm', 'weedy lakes', 'ponds', 'slow rivers'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Warm'],
   size: '12-20 inches typical',
   funFact: 'Largemouth bass are the most popular game fish in America. They can eat prey up to half their own body length!',
   refs: [
@@ -33,7 +33,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Largemouth bass have a jaw that extends past the eye.', answer: true, fishId: 'largemouth_bass' }
+  { statement: 'A key ID clue for this fish is: Large mouth extending past eye, dark horizontal stripe.', answer: true, fishId: 'largemouth_bass' },
+  { statement: 'This fish can be identified by: Green to olive body with lighter belly.', answer: true, fishId: 'largemouth_bass' },
+  { statement: 'This fish can be identified by: Dark lateral stripe (horizontal band).', answer: true, fishId: 'largemouth_bass' },
+  { statement: 'You might find this fish in warm.', answer: true, fishId: 'largemouth_bass' }
 ];
 
 export default largemouth_bass;

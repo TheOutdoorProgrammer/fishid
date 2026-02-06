@@ -17,10 +17,11 @@ export const redear_sunfish: Fish = {
     'Feeds on snails (hence nickname)'
   ],
   keyFeature: 'Sunfish with red/orange margin on short ear flap - the shellcracker',
-  habitat: ['Ponds and lakes with sandy or muddy bottoms'],
+  habitat: ['Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Ponds and lakes with sandy or muddy bottoms', 'lakes and reservoirs'],
   size: '7-10 inches typical, can reach 12+',
   funFact: 'Redear sunfish are nicknamed "shellcrackers" because they use special teeth in their throat to crush snail shells. They grow larger than most other sunfish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Virginia DWR species profile', url: 'https://dwr.virginia.gov/wildlife/information/redear-sunfish/' },
     { label: 'North Carolina Wildlife Resources Commission', url: 'https://www.ncwildlife.gov/species/redear-sunfish' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=390' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Redear sunfish are nicknamed "shellcrackers" because they eat snails.', answer: true, fishId: 'redear_sunfish' }
+  { statement: 'A key ID clue for this fish is: Sunfish with red/orange margin on short ear flap - the shellcracker.', answer: true, fishId: 'redear_sunfish' },
+  { statement: 'This fish can be identified by: Deep body, similar shape to bluegill.', answer: true, fishId: 'redear_sunfish' },
+  { statement: 'This fish can be identified by: Short ear flap with bright red or orange border.', answer: true, fishId: 'redear_sunfish' },
+  { statement: 'You might find this fish in ponds and lakes with sandy or muddy bottoms.', answer: true, fishId: 'redear_sunfish' }
 ];
 
 export default redear_sunfish;

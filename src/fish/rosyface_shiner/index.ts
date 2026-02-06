@@ -17,10 +17,11 @@ export const rosyface_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Slender shiner whose breeding males have bright rosy-red head and face',
-  habitat: ['Rocky riffles of clear streams', 'sensitive to pollution'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of clear streams', 'sensitive to pollution', 'clear streams and rivers'],
   size: '2-4 inches typical',
   funFact: 'Rosyface shiners are excellent water quality indicators - they need clean, clear, well-oxygenated streams to survive. Breeding males develop a stunning rosy-red head.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20rubellus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+rubellus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Rosyface shiners can tolerate polluted water.', answer: false, fishId: 'rosyface_shiner' }
+  { statement: 'A key ID clue for this fish is: Slender shiner whose breeding males have bright rosy-red head and face.', answer: true, fishId: 'rosyface_shiner' },
+  { statement: 'This fish can be identified by: Slender, streamlined body.', answer: true, fishId: 'rosyface_shiner' },
+  { statement: 'This fish can be identified by: Silver with olive back.', answer: true, fishId: 'rosyface_shiner' },
+  { statement: 'You might find this fish in rocky riffles of clear streams.', answer: true, fishId: 'rosyface_shiner' }
 ];
 
 export default rosyface_shiner;

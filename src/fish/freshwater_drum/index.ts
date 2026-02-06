@@ -17,7 +17,7 @@ export const freshwater_drum: Fish = {
     'Large otoliths (ear bones) called "lucky stones"'
   ],
   keyFeature: 'Deep silver body, humped back, rounded tail, downturned mouth',
-  habitat: ['Lake Erie', 'large rivers', 'reservoirs', 'bottom dweller'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)'],
   size: '12-20 inches typical',
   funFact: 'Freshwater drum can make a drumming sound by vibrating muscles against their swim bladder - that\'s how they got their name! Their ear bones ("lucky stones") are smooth, round, and often collected.',
   refs: [
@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Freshwater drum can make a drumming sound with their swim bladder.', answer: true, fishId: 'freshwater_drum' }
+  { statement: 'A key ID clue for this fish is: Deep silver body, humped back, rounded tail, downturned mouth.', answer: true, fishId: 'freshwater_drum' },
+  { statement: 'This fish can be identified by: Deep, humped body shape.', answer: true, fishId: 'freshwater_drum' },
+  { statement: 'This fish can be identified by: Silver-gray coloring.', answer: true, fishId: 'freshwater_drum' },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'freshwater_drum' }
 ];
 
 export default freshwater_drum;

@@ -17,10 +17,11 @@ export const hornyhead_chub: Fish = {
     'Subterminal mouth with small barbel at corner'
   ],
   keyFeature: 'Robust minnow with red-orange spot behind eye; breeding males have head tubercles',
-  habitat: ['Pools of clear streams over gravel', 'moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Pools of clear streams over gravel', 'moderate current', 'clear streams and rivers'],
   size: '5-8 inches typical',
   funFact: 'Hornyhead chub males build large gravel nests and develop impressive horn-like tubercles on their heads during spawning. Many other minnow species use their nests to spawn.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Nocomis%20biguttatus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Nocomis+biguttatus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Hornyhead chub males develop horn-like tubercles on their head.', answer: true, fishId: 'hornyhead_chub' }
+  { statement: 'A key ID clue for this fish is: Robust minnow with red-orange spot behind eye; breeding males have head tubercles.', answer: true, fishId: 'hornyhead_chub' },
+  { statement: 'This fish can be identified by: Large, robust minnow.', answer: true, fishId: 'hornyhead_chub' },
+  { statement: 'This fish can be identified by: Red-orange spot behind eye.', answer: true, fishId: 'hornyhead_chub' },
+  { statement: 'You might find this fish in pools of clear streams over gravel.', answer: true, fishId: 'hornyhead_chub' }
 ];
 
 export default hornyhead_chub;

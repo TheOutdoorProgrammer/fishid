@@ -17,10 +17,11 @@ export const silver_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silvery redhorse with distinctive V-shaped lower lip',
-  habitat: ['Large streams', 'rivers with moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Large streams', 'rivers with moderate current', 'clear streams and rivers'],
   size: '15-22 inches typical',
   funFact: 'Silver redhorse can be identified by their unique V-shaped lower lip, which distinguishes them from other redhorse species that have straighter or U-shaped lips.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20anisurum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+anisurum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Silver redhorse have a V-shaped lower lip.', answer: true, fishId: 'silver_redhorse' }
+  { statement: 'A key ID clue for this fish is: Silvery redhorse with distinctive V-shaped lower lip.', answer: true, fishId: 'silver_redhorse' },
+  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'silver_redhorse' },
+  { statement: 'This fish can be identified by: Large scales.', answer: true, fishId: 'silver_redhorse' },
+  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'silver_redhorse' }
 ];
 
 export default silver_redhorse;

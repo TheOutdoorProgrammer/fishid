@@ -17,10 +17,11 @@ export const bluntnose_minnow: Fish = {
     'Subterminal mouth'
   ],
   keyFeature: 'Small minnow with dark lateral stripe, blunt snout, and spot at tail base',
-  habitat: ['Streams', 'rivers', 'lake margins', 'extremely common in Ohio'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Streams', 'rivers', 'lake margins'],
   size: '2-4 inches typical',
   funFact: 'Bluntnose minnows are arguably the most common fish in Ohio streams. Males guard eggs that are laid on the undersides of flat rocks.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pimephales%20notatus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pimephales+notatus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Bluntnose minnows are rare and hard to find in Ohio.', answer: false, fishId: 'bluntnose_minnow' }
+  { statement: 'A key ID clue for this fish is: Small minnow with dark lateral stripe, blunt snout, and spot at tail base.', answer: true, fishId: 'bluntnose_minnow' },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'bluntnose_minnow' },
+  { statement: 'This fish can be identified by: Blunt, rounded snout overhanging mouth.', answer: true, fishId: 'bluntnose_minnow' },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'bluntnose_minnow' }
 ];
 
 export default bluntnose_minnow;

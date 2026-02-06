@@ -17,10 +17,11 @@ export const creek_chubsucker: Fish = {
     'Dorsal fin with rounded edge'
   ],
   keyFeature: 'Small round-tailed sucker with no lateral line; young have dark stripe',
-  habitat: ['Small streams and headwaters with sand or gravel bottoms'],
+  habitat: ['Ohio creeks and small rivers', 'Small streams and headwaters with sand or gravel bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '6-10 inches typical',
   funFact: 'Creek chubsuckers are unusual among suckers because they have a rounded tail instead of a forked one. Young fish look completely different from adults with their bold stripe.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Erimyzon%20oblongus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Erimyzon+oblongus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Creek chubsucker have a deeply forked tail.', answer: false, fishId: 'creek_chubsucker' }
+  { statement: 'A key ID clue for this fish is: Small round-tailed sucker with no lateral line; young have dark stripe.', answer: true, fishId: 'creek_chubsucker' },
+  { statement: 'This fish can be identified by: Small, chubby sucker with no lateral line.', answer: true, fishId: 'creek_chubsucker' },
+  { statement: 'This fish can be identified by: Olive-green to brown body.', answer: true, fishId: 'creek_chubsucker' },
+  { statement: 'You might find this fish in small streams and headwaters with sand or gravel bottoms.', answer: true, fishId: 'creek_chubsucker' }
 ];
 
 export default creek_chubsucker;

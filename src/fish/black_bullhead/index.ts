@@ -17,10 +17,11 @@ export const black_bullhead: Fish = {
     'Pectoral spine smooth (no sharp barbs)'
   ],
   keyFeature: 'Dark-bodied bullhead with pale bar at tail base and smooth pectoral spine',
-  habitat: ['Ponds', 'lakes', 'ditches', 'extremely tolerant of poor conditions'],
+  habitat: ['Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds', 'lakes', 'ditches'],
   size: '7-12 inches typical',
   funFact: 'Black bullhead are the hardiest of all bullheads. They can survive in water so muddy and oxygen-poor that virtually no other fish can live there.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=730' },
     { label: 'Oklahoma Department of Wildlife Conservation', url: 'https://www.wildlifedepartment.com/wildlife/field-guide/fish/black-bullhead-catfish' },
     { label: 'New York DEC SWAP species account (PDF)', url: 'https://extapps.dec.ny.gov/fs/programs/dfw/SWAP2025/Freshwater%20Fish/blackbullhead.pdf' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Black bullhead have a pale bar or crescent at the base of their tail.', answer: true, fishId: 'black_bullhead' }
+  { statement: 'A key ID clue for this fish is: Dark-bodied bullhead with pale bar at tail base and smooth pectoral spine.', answer: true, fishId: 'black_bullhead' },
+  { statement: 'This fish can be identified by: Dark olive to black body.', answer: true, fishId: 'black_bullhead' },
+  { statement: 'This fish can be identified by: Dark chin barbels (black or dark gray).', answer: true, fishId: 'black_bullhead' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'black_bullhead' }
 ];
 
 export default black_bullhead;

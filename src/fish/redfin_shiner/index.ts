@@ -17,10 +17,11 @@ export const redfin_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Deep-bodied steel-blue shiner with bright red fins on breeding males',
-  habitat: ['Quiet pools of streams', 'backwaters', 'pond edges'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Quiet pools of streams'],
   size: '2-3 inches typical',
   funFact: 'Redfin shiners lay their eggs in the nests of sunfish and other species, letting the host fish guard their eggs for them - a behavior called nest parasitism.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lythrurus%20umbratilis' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lythrurus+umbratilis' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Redfin shiners lay their eggs in sunfish nests.', answer: true, fishId: 'redfin_shiner' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied steel-blue shiner with bright red fins on breeding males.', answer: true, fishId: 'redfin_shiner' },
+  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'redfin_shiner' },
+  { statement: 'This fish can be identified by: Steel-blue back and upper sides.', answer: true, fishId: 'redfin_shiner' },
+  { statement: 'You might find this fish in quiet pools of streams.', answer: true, fishId: 'redfin_shiner' }
 ];
 
 export default redfin_shiner;

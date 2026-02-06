@@ -17,10 +17,11 @@ export const highfin_carpsucker: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silver carpsucker with exceptionally tall dorsal fin and nipple on lower lip',
-  habitat: ['Large rivers with moderate current', 'pools'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Large rivers with moderate current', 'pools', 'clear streams and rivers'],
   size: '12-18 inches typical',
   funFact: 'Highfin carpsuckers have the tallest dorsal fin of the carpsucker group. They can be distinguished from quillback by a small nipple-like projection on the lower lip.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carpiodes%20velifer' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carpiodes+velifer' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Highfin carpsuckers have the same fin height as quillback.', answer: false, fishId: 'highfin_carpsucker' }
+  { statement: 'A key ID clue for this fish is: Silver carpsucker with exceptionally tall dorsal fin and nipple on lower lip.', answer: true, fishId: 'highfin_carpsucker' },
+  { statement: 'This fish can be identified by: Deep, compressed silver body.', answer: true, fishId: 'highfin_carpsucker' },
+  { statement: 'This fish can be identified by: Very tall dorsal fin (first rays extremely elongated).', answer: true, fishId: 'highfin_carpsucker' },
+  { statement: 'You might find this fish in large rivers with moderate current.', answer: true, fishId: 'highfin_carpsucker' }
 ];
 
 export default highfin_carpsucker;

@@ -17,10 +17,11 @@ export const stonecat: Fish = {
     'Venomous pectoral spine'
   ],
   keyFeature: 'Small catfish with adipose fin fused to rounded tail and yellow-brown color',
-  habitat: ['Rocky riffles in streams', 'rivers', 'hides under flat rocks'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles in streams', 'rivers', 'hides under flat rocks'],
   size: '5-8 inches typical',
   funFact: 'Stonecats have a mildly venomous spine in their pectoral fins that can cause a painful sting like a bee sting. They are the largest of the madtom catfish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=745' },
     { label: 'NatureServe Explorer', url: 'https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.101382/Noturus_flavus' },
     { label: 'Animal Diversity Web', url: 'https://animaldiversity.org/accounts/Noturus_flavus/' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Stonecat madtoms have a venomous pectoral spine.', answer: true, fishId: 'stonecat' }
+  { statement: 'A key ID clue for this fish is: Small catfish with adipose fin fused to rounded tail and yellow-brown color.', answer: true, fishId: 'stonecat' },
+  { statement: 'This fish can be identified by: Small, slender catfish.', answer: true, fishId: 'stonecat' },
+  { statement: 'This fish can be identified by: Yellowish-brown to gray body.', answer: true, fishId: 'stonecat' },
+  { statement: 'You might find this fish in rocky riffles in streams.', answer: true, fishId: 'stonecat' }
 ];
 
 export default stonecat;

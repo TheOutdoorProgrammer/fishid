@@ -17,10 +17,11 @@ export const brown_bullhead: Fish = {
     'Chin barbels dark, not white'
   ],
   keyFeature: 'Brown mottled bullhead with dark (not white) chin barbels',
-  habitat: ['Ponds', 'lakes', 'slow streams', 'tolerates low oxygen'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds', 'lakes'],
   size: '8-14 inches typical',
   funFact: 'Brown bullhead can survive in incredibly harsh conditions including low oxygen and high temperatures. They are the bullhead species most often found in Lake Erie.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=734' },
     { label: 'Connecticut DEEP freshwater fishes', url: 'https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/brown-bullhead' },
     { label: 'Missouri Dept. of Conservation field guide', url: 'https://mdc.mo.gov/discover-nature/field-guide/brown-bullhead' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brown bullhead have white chin barbels like yellow bullhead.', answer: false, fishId: 'brown_bullhead' }
+  { statement: 'A key ID clue for this fish is: Brown mottled bullhead with dark (not white) chin barbels.', answer: true, fishId: 'brown_bullhead' },
+  { statement: 'This fish can be identified by: Dark brown to olive body, often mottled.', answer: true, fishId: 'brown_bullhead' },
+  { statement: 'This fish can be identified by: Dark-colored chin barbels (brown or gray).', answer: true, fishId: 'brown_bullhead' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'brown_bullhead' }
 ];
 
 export default brown_bullhead;

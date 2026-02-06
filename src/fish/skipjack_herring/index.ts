@@ -17,10 +17,11 @@ export const skipjack_herring: Fish = {
     'Serrated belly (scutes like shad)'
   ],
   keyFeature: 'Silver herring with projecting lower jaw and no shoulder spot',
-  habitat: ['Ohio River', 'large tributaries', 'open water near surface'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large tributaries', 'open water near surface'],
   size: '12-16 inches typical',
   funFact: 'Skipjack herring are named for their habit of leaping out of the water while feeding. They are excellent cut bait for catching catfish and are found mainly in the Ohio River.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Alosa%20chrysochloris' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Alosa+chrysochloris' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Skipjack herring are named for their habit of leaping from the water.', answer: true, fishId: 'skipjack_herring' }
+  { statement: 'A key ID clue for this fish is: Silver herring with projecting lower jaw and no shoulder spot.', answer: true, fishId: 'skipjack_herring' },
+  { statement: 'This fish can be identified by: Elongated, compressed silver body.', answer: true, fishId: 'skipjack_herring' },
+  { statement: 'This fish can be identified by: Bluish-green back with brilliant silver sides.', answer: true, fishId: 'skipjack_herring' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'skipjack_herring' }
 ];
 
 export default skipjack_herring;

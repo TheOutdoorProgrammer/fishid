@@ -17,10 +17,11 @@ export const gilt_darter: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Golden-orange darter with broad dark bars and blue-green breast (males)',
-  habitat: ['Fast rocky riffles of clean rivers', 'endangered in Ohio'],
+  habitat: ['Ohio creeks and small rivers', 'Fast rocky riffles of clean rivers', 'endangered in Ohio', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Gilt darters are one of Ohio\'s most endangered fish species. They require pristine rocky river habitat and are indicators of excellent water quality.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20evides' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+evides' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Gilt darters are common throughout Ohio.', answer: false, fishId: 'gilt_darter' }
+  { statement: 'A key ID clue for this fish is: Golden-orange darter with broad dark bars and blue-green breast (males).', answer: true, fishId: 'gilt_darter' },
+  { statement: 'This fish can be identified by: Broad dark vertical bars on golden-orange body.', answer: true, fishId: 'gilt_darter' },
+  { statement: 'This fish can be identified by: Bright orange-gold base color between bars.', answer: true, fishId: 'gilt_darter' },
+  { statement: 'You might find this fish in fast rocky riffles of clean rivers.', answer: true, fishId: 'gilt_darter' }
 ];
 
 export default gilt_darter;

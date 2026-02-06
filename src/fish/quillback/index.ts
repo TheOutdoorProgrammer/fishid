@@ -17,10 +17,11 @@ export const quillback: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Deep silver body with very long first dorsal ray (the quill)',
-  habitat: ['Rivers', 'lakes', 'reservoirs', 'slow to moderate current'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Rivers', 'lakes', 'reservoirs'],
   size: '15-22 inches typical',
   funFact: 'Quillback are often confused with carp, but they have no barbels and a small sucker mouth. The long first dorsal ray that gives them their name can be as long as the entire dorsal fin.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carpiodes%20cyprinus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carpiodes+cyprinus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Quillback have barbels near their mouth like common carp.', answer: false, fishId: 'quillback' }
+  { statement: 'A key ID clue for this fish is: Deep silver body with very long first dorsal ray (the quill).', answer: true, fishId: 'quillback' },
+  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'quillback' },
+  { statement: 'This fish can be identified by: First ray of dorsal fin extremely long (like a quill).', answer: true, fishId: 'quillback' },
+  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'quillback' }
 ];
 
 export default quillback;

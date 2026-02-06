@@ -17,7 +17,7 @@ export const bluegill: Fish = {
     'Small mouth'
   ],
   keyFeature: 'Deep body, dark ear flap, orange breast',
-  habitat: ['Ponds', 'Lakes', 'Slow streams', 'Near vegetation'],
+  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds'],
   size: '6-10 inches typical',
   funFact: 'Bluegill are one of the best fish for beginners to catch. Male bluegill guard their nests aggressively and will bite almost anything!',
   refs: [
@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Bluegill have a distinctive dark ear flap.', answer: true, fishId: 'bluegill' }
+  { statement: 'A key ID clue for this fish is: Deep body, dark ear flap, orange breast.', answer: true, fishId: 'bluegill' },
+  { statement: 'This fish can be identified by: Deep, compressed (tall) body shape.', answer: true, fishId: 'bluegill' },
+  { statement: 'This fish can be identified by: Dark blue-black ear flap (opercular flap).', answer: true, fishId: 'bluegill' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'bluegill' }
 ];
 
 export default bluegill;

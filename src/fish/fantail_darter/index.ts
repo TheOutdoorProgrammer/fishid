@@ -17,10 +17,11 @@ export const fantail_darter: Fish = {
     'Brown-olive color provides camouflage'
   ],
   keyFeature: 'Brown darter with fan-shaped tail and fleshy knobs on dorsal spines (males)',
-  habitat: ['Rocky riffles of small to medium streams', 'very common'],
+  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of small to medium streams', 'very common', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Fantail darters get fleshy knobs on the tips of their dorsal spines during breeding. Males guard eggs laid on the undersides of flat rocks, doing "push-ups" to fan water over them.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20flabellare' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+flabellare' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Fantail darters get fleshy knobs on their dorsal spines during breeding.', answer: true, fishId: 'fantail_darter' }
+  { statement: 'A key ID clue for this fish is: Brown darter with fan-shaped tail and fleshy knobs on dorsal spines (males).', answer: true, fishId: 'fantail_darter' },
+  { statement: 'This fish can be identified by: Fan-shaped tail (rounded, not forked).', answer: true, fishId: 'fantail_darter' },
+  { statement: 'This fish can be identified by: Brown to olive body with dark bars and mottling.', answer: true, fishId: 'fantail_darter' },
+  { statement: 'You might find this fish in rocky riffles of small to medium streams.', answer: true, fishId: 'fantail_darter' }
 ];
 
 export default fantail_darter;

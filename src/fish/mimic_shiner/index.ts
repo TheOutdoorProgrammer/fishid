@@ -17,10 +17,11 @@ export const mimic_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Plain silver shiner that closely resembles several other shiner species',
-  habitat: ['Lakes and quiet pools of streams over sand or silt'],
+  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lakes and quiet pools of streams over sand or silt', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-3 inches typical',
   funFact: 'Mimic shiners get their name because they look so much like other shiner species that even experts have trouble telling them apart without microscopic examination.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Notropis%20volucellus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Notropis+volucellus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Mimic shiners are easy to distinguish from other shiner species.', answer: false, fishId: 'mimic_shiner' }
+  { statement: 'A key ID clue for this fish is: Plain silver shiner that closely resembles several other shiner species.', answer: true, fishId: 'mimic_shiner' },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'mimic_shiner' },
+  { statement: 'This fish can be identified by: Pale silver-olive color.', answer: true, fishId: 'mimic_shiner' },
+  { statement: 'You might find this fish in lakes and quiet pools of streams over sand or silt.', answer: true, fishId: 'mimic_shiner' }
 ];
 
 export default mimic_shiner;

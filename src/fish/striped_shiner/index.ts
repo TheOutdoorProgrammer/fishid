@@ -17,10 +17,11 @@ export const striped_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Large shiner with crescent scale marks; breeding males have pink body and blue head',
-  habitat: ['Pools of small to medium streams over gravel'],
+  habitat: ['Ohio creeks and small rivers', 'Pools of small to medium streams over gravel', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '4-7 inches typical',
   funFact: 'Striped shiners are among the most beautiful minnows when spawning. Males develop a stunning combination of pink body, blue head, and orange fins.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Luxilus%20chrysocephalus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Luxilus+chrysocephalus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Striped shiners develop pink body and blue head during breeding.', answer: true, fishId: 'striped_shiner' }
+  { statement: 'A key ID clue for this fish is: Large shiner with crescent scale marks; breeding males have pink body and blue head.', answer: true, fishId: 'striped_shiner' },
+  { statement: 'This fish can be identified by: Large, deep-bodied shiner.', answer: true, fishId: 'striped_shiner' },
+  { statement: 'This fish can be identified by: Dark crescent-shaped markings on scales creating striped look.', answer: true, fishId: 'striped_shiner' },
+  { statement: 'You might find this fish in pools of small to medium streams over gravel.', answer: true, fishId: 'striped_shiner' }
 ];
 
 export default striped_shiner;

@@ -17,10 +17,11 @@ export const northern_hog_sucker: Fish = {
     'Often rests on stream bottom with pectoral fins spread'
   ],
   keyFeature: 'Boxy concave head with dark saddle marks and widely spaced eyes',
-  habitat: ['Clear, rocky riffles of streams and rivers'],
+  habitat: ['Ohio creeks and small rivers', 'Clear, rocky riffles of streams and rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '8-14 inches typical',
   funFact: 'Northern hog suckers use their large fleshy lips to vacuum invertebrates from between rocks. Their boxy head shape is unlike any other Ohio fish and makes them easy to identify.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hypentelium%20nigricans' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hypentelium+nigricans' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Northern hog sucker have a flat, concave head with widely spaced eyes.', answer: true, fishId: 'northern_hog_sucker' }
+  { statement: 'A key ID clue for this fish is: Boxy concave head with dark saddle marks and widely spaced eyes.', answer: true, fishId: 'northern_hog_sucker' },
+  { statement: 'This fish can be identified by: Large, concave head (squared-off/boxy look).', answer: true, fishId: 'northern_hog_sucker' },
+  { statement: 'This fish can be identified by: Dark saddle marks across back (3-4 saddles).', answer: true, fishId: 'northern_hog_sucker' },
+  { statement: 'You might find this fish in clear, rocky riffles of streams and rivers.', answer: true, fishId: 'northern_hog_sucker' }
 ];
 
 export default northern_hog_sucker;
