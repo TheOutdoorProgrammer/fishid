@@ -30,7 +30,7 @@ export default function FishDetailScreen({ fishId, onNavigate }: FishDetailScree
   }
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col pb-20">
       <div className="flex items-center gap-3 mb-4">
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1">
