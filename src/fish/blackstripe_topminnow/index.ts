@@ -21,6 +21,7 @@ export const blackstripe_topminnow: Fish = {
   size: '2-3 inches typical',
   funFact: 'Blackstripe topminnows spend their lives at the water surface, using their upturned mouths to feed on insects that land on the water. They are sometimes called "top minnows" for this reason.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Fundulus%20notatus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Fundulus+notatus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Blackstripe topminnows live on the bottom of streams.', answer: false, fishId: 'blackstripe_topminnow' }
+  { statement: 'A key ID clue for this fish is: Surface fish with bold dark stripe, flat head, and upturned mouth.', answer: true, fishId: 'blackstripe_topminnow' },
+  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'blackstripe_topminnow' },
+  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'blackstripe_topminnow' },
+  { statement: 'You might find this fish in quiet pools.', answer: true, fishId: 'blackstripe_topminnow' }
 ];
 
 export default blackstripe_topminnow;

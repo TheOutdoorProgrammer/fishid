@@ -17,10 +17,11 @@ export const chinook_salmon: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Large salmon with black spots on both tail lobes and dark gum line',
-  habitat: ['Lake Erie open waters', 'spawns in tributaries'],
+  habitat: ['Lake Erie open waters', 'spawns in tributaries', 'lakes and reservoirs'],
   size: '24-36 inches typical in Lake Erie',
   funFact: 'Chinook (king) salmon are the largest Pacific salmon species, originally from the Pacific Northwest. They are stocked in Lake Erie and provide an exciting fall fishery.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Oncorhynchus%20tshawytscha' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Oncorhynchus+tshawytscha' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Chinook salmon have a dark/black gum line.', answer: true, fishId: 'chinook_salmon' }
+  { statement: 'A key ID clue for this fish is: Large salmon with black spots on both tail lobes and dark gum line.', answer: true, fishId: 'chinook_salmon' },
+  { statement: 'This fish can be identified by: Large, streamlined silver body.', answer: true, fishId: 'chinook_salmon' },
+  { statement: 'This fish can be identified by: Black spots on back AND both lobes of tail.', answer: true, fishId: 'chinook_salmon' },
+  { statement: 'You might find this fish in lake erie open waters.', answer: true, fishId: 'chinook_salmon' }
 ];
 
 export default chinook_salmon;

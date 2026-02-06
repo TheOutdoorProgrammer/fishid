@@ -21,6 +21,7 @@ export const orangespotted_sunfish: Fish = {
   size: '3-5 inches typical',
   funFact: 'Orangespotted sunfish are one of the smallest sunfish in Ohio. They are often overlooked but are surprisingly beautiful, especially breeding males.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Illinois DNR Wild About Fishes', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsunfish/waforangespottedsunfish.html' },
     { label: 'Outdoor Alabama species page', url: 'https://www.outdooralabama.com/bream/orangespotted-sunfish' },
     { label: 'USFWS species media', url: 'https://www.fws.gov/media/orange-spotted-sunfish-0' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Orangespotted sunfish are one of the largest sunfish in Ohio.', answer: false, fishId: 'orangespotted_sunfish' }
+  { statement: 'A key ID clue for this fish is: Small sunfish covered in orange spots with long dark ear flap.', answer: true, fishId: 'orangespotted_sunfish' },
+  { statement: 'This fish can be identified by: Small, compressed body.', answer: true, fishId: 'orangespotted_sunfish' },
+  { statement: 'This fish can be identified by: Olive with orange or reddish spots on sides.', answer: true, fishId: 'orangespotted_sunfish' },
+  { statement: 'You might find this fish in slow streams.', answer: true, fishId: 'orangespotted_sunfish' }
 ];
 
 export default orangespotted_sunfish;

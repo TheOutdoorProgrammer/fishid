@@ -21,6 +21,7 @@ export const rock_bass: Fish = {
   size: '6-10 inches typical',
   funFact: 'Rock bass have bright red eyes that make them easy to identify. They are sometimes called "redeyes" or "goggle-eyes" and are closely related to smallmouth bass.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'North Carolina Wildlife Resources Commission', url: 'https://www.ncwildlife.gov/species/rock-bass' },
     { label: 'USFWS species profile', url: 'https://www.fws.gov/species/rock-bass-ambloplites-rupestris' },
     { label: 'Outdoor Alabama species page', url: 'https://www.outdooralabama.com/bream/rock-bass' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Rock bass have six anal fin spines instead of the usual three.', answer: true, fishId: 'rock_bass' }
+  { statement: 'A key ID clue for this fish is: Red eye, stocky body with six anal spines and dark spots in rows.', answer: true, fishId: 'rock_bass' },
+  { statement: 'This fish can be identified by: Stocky body, less compressed than sunfish.', answer: true, fishId: 'rock_bass' },
+  { statement: 'This fish can be identified by: Bright red eye.', answer: true, fishId: 'rock_bass' },
+  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'rock_bass' }
 ];
 
 export default rock_bass;

@@ -14,16 +14,12 @@ export const sea_lamprey: Fish = {
     'Single nostril on top of head',
   ],
   keyFeature: 'Circular tooth-filled sucker mouth with 7 gill openings (jawless parasite)',
-  habitat: [
-    'Great Lakes (adult/parasitic phase in lakes)',
-    'parasitic on large fish in open water',
-    'spawning migrations into tributary streams',
-    'larvae burrow in soft stream sediments',
-  ],
+  habitat: ['Great Lakes (adult/parasitic phase in lakes)', 'parasitic on large fish in open water', 'spawning migrations into tributary streams', 'larvae burrow in soft stream sediments'],
   size: '12–24 inches typical',
   funFact:
     'In the Great Lakes, sea lamprey attach to fish with a suction-cup mouth and feed on blood and body fluids. Control programs focus on streams where larvae develop.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Great Lakes Fishery Commission: Sea lamprey', url: 'https://www.glfc.org/sea-lamprey.php' },
     { label: 'USFWS species profile: Sea lamprey', url: 'https://www.fws.gov/species/sea-lamprey-petromyzon-marinus' },
     { label: 'Michigan Invasive Species: Sea lamprey', url: 'https://www.michigan.gov/invasives/id-report/fish/sea-lamprey' },

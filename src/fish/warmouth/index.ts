@@ -21,6 +21,7 @@ export const warmouth: Fish = {
   size: '5-8 inches typical',
   funFact: 'Warmouth are often confused with rock bass but have a larger mouth and distinctive facial markings. They prefer muddier, more stagnant water than most sunfish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'North Carolina Wildlife Resources Commission', url: 'https://www.ncwildlife.gov/species/warmouth' },
     { label: 'Kentucky Fish & Wildlife', url: 'https://fw.ky.gov/Fish/pages/warmouth.aspx' },
     { label: 'Texas Parks & Wildlife species account', url: 'https://tpwd.texas.gov/huntwild/wild/species/war/' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Warmouth have teeth on their tongue.', answer: true, fishId: 'warmouth' }
+  { statement: 'A key ID clue for this fish is: Thick-bodied sunfish with large mouth and dark streaks from red eye.', answer: true, fishId: 'warmouth' },
+  { statement: 'This fish can be identified by: Thick, robust body.', answer: true, fishId: 'warmouth' },
+  { statement: 'This fish can be identified by: Large mouth for a sunfish (extends to middle of eye).', answer: true, fishId: 'warmouth' },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'warmouth' }
 ];
 
 export default warmouth;

@@ -17,10 +17,11 @@ export const golden_redhorse: Fish = {
     'Round cross-section body'
   ],
   keyFeature: 'Golden-olive sucker with bright red-orange tail fin',
-  habitat: ['Streams and rivers with moderate current over gravel'],
+  habitat: ['Streams and rivers with moderate current over gravel', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '12-18 inches typical',
   funFact: 'Golden redhorse are the most common redhorse species in Ohio. Their orange-red tail fin makes them one of the more attractive sucker species.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20erythrurum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+erythrurum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Golden redhorse have bright red-orange tail fins.', answer: true, fishId: 'golden_redhorse' }
+  { statement: 'A key ID clue for this fish is: Golden-olive sucker with bright red-orange tail fin.', answer: true, fishId: 'golden_redhorse' },
+  { statement: 'This fish can be identified by: Golden-olive body color.', answer: true, fishId: 'golden_redhorse' },
+  { statement: 'This fish can be identified by: Distinctly red or orange tail fin.', answer: true, fishId: 'golden_redhorse' },
+  { statement: 'You might find this fish in streams and rivers with moderate current over gravel.', answer: true, fishId: 'golden_redhorse' }
 ];
 
 export default golden_redhorse;

@@ -17,10 +17,11 @@ export const european_rudd: Fish = {
     'Similar to golden shiner but with red fins'
   ],
   keyFeature: 'Golden-bodied minnow with bright red-orange fins and red eye',
-  habitat: ['Lake Erie', 'tributaries', 'invasive from Europe'],
+  habitat: ['Great Lakes (including Lake Erie)', 'tributaries', 'invasive from Europe'],
   size: '8-12 inches typical',
   funFact: 'European rudd were illegally introduced and are now invasive in parts of Ohio. They look similar to golden shiners but are easily identified by their bright red-orange fins.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Scardinius%20erythrophthalmus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Scardinius+erythrophthalmus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'European rudd have bright red-orange fins.', answer: true, fishId: 'european_rudd' }
+  { statement: 'A key ID clue for this fish is: Golden-bodied minnow with bright red-orange fins and red eye.', answer: true, fishId: 'european_rudd' },
+  { statement: 'This fish can be identified by: Deep, compressed golden body.', answer: true, fishId: 'european_rudd' },
+  { statement: 'This fish can be identified by: Bright red-orange fins.', answer: true, fishId: 'european_rudd' },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'european_rudd' }
 ];
 
 export default european_rudd;

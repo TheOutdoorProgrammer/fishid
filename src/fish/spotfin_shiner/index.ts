@@ -21,6 +21,7 @@ export const spotfin_shiner: Fish = {
   size: '3-4 inches typical',
   funFact: 'Spotfin shiners get their name from the dark blotch on the back of the dorsal fin. Breeding males develop brilliant blue coloring that rivals any tropical fish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cyprinella%20spiloptera' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cyprinella+spiloptera' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Spotfin shiners have a dark blotch on the rear of the dorsal fin.', answer: true, fishId: 'spotfin_shiner' }
+  { statement: 'A key ID clue for this fish is: Steel-blue shiner with distinctive dark blotch on back of dorsal fin.', answer: true, fishId: 'spotfin_shiner' },
+  { statement: 'This fish can be identified by: Steel-blue sheen on back and sides.', answer: true, fishId: 'spotfin_shiner' },
+  { statement: 'This fish can be identified by: Dark blotch on rear of dorsal fin.', answer: true, fishId: 'spotfin_shiner' },
+  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'spotfin_shiner' }
 ];
 
 export default spotfin_shiner;

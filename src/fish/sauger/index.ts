@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Sauger have a white tip on their tail just like walleye.', answer: false, fishId: 'sauger' }
+  { statement: 'A key ID clue for this fish is: Like a walleye but darker, spotted dorsal, NO white tail tip.', answer: true, fishId: 'sauger' },
+  { statement: 'This fish can be identified by: Similar to walleye but smaller and darker.', answer: true, fishId: 'sauger' },
+  { statement: 'This fish can be identified by: Distinct dark spots/blotches on dorsal fin.', answer: true, fishId: 'sauger' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'sauger' }
 ];
 
 export default sauger;

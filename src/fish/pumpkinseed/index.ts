@@ -21,6 +21,7 @@ export const pumpkinseed: Fish = {
   size: '5-8 inches typical',
   funFact: 'Pumpkinseed are arguably the most colorful freshwater fish in Ohio. The bright red spot on their ear flap is the easiest way to tell them from bluegill.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'DFO Canada species profile', url: 'https://www.dfo-mpo.gc.ca/species-especes/profiles-profils/pumpkinseed-crapetsoleil-eng.html' },
     { label: 'Illinois DNR Wild About Fishes', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsunfish/wafpumpkinseed.html' },
     { label: 'Wisconsin DNR species overview (PDF)', url: 'https://dnr.wisconsin.gov/sites/default/files/topic/Fishing/Species_pumpkinseed.pdf' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Pumpkinseed have a bright red or orange spot on the tip of their ear flap.', answer: true, fishId: 'pumpkinseed' }
+  { statement: 'A key ID clue for this fish is: Colorful sunfish with red/orange spot on ear flap and wavy facial lines.', answer: true, fishId: 'pumpkinseed' },
+  { statement: 'This fish can be identified by: Deep, compressed body with vibrant colors.', answer: true, fishId: 'pumpkinseed' },
+  { statement: 'This fish can be identified by: Wavy blue and orange lines on cheeks.', answer: true, fishId: 'pumpkinseed' },
+  { statement: 'You might find this fish in clear ponds.', answer: true, fishId: 'pumpkinseed' }
 ];
 
 export default pumpkinseed;

@@ -21,6 +21,7 @@ export const common_carp: Fish = {
   size: '18-30 inches typical, can exceed 40',
   funFact: 'Carp are actually an invasive species from Asia, introduced to the US in the 1800s. In Europe, they\'re a prized sport fish. A large carp in Lake Erie can weigh over 30 pounds!',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?speciesID=4' },
     { label: 'FishBase summary', url: 'https://fishbase.se/summary/Cyprinus-carpio.html' },
     { label: 'USFWS: Common carp', url: 'https://www.fws.gov/media/common-carp-3' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Common carp have barbels near their mouth.', answer: true, fishId: 'common_carp' }
+  { statement: 'A key ID clue for this fish is: Large golden-bronze body with big scales and mouth barbels.', answer: true, fishId: 'common_carp' },
+  { statement: 'This fish can be identified by: Large, thick body with big scales.', answer: true, fishId: 'common_carp' },
+  { statement: 'This fish can be identified by: Golden-bronze to olive color.', answer: true, fishId: 'common_carp' },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'common_carp' }
 ];
 
 export default common_carp;

@@ -16,10 +16,11 @@ export const brown_trout: Fish = {
     'No strong pink stripe like rainbow/steelhead'
   ],
   keyFeature: 'Golden-brown body with red/orange spots (often with pale halos)',
-  habitat: ['Lake Erie', 'cold tributaries', 'also stocked in some Ohio waters'],
+  habitat: ['Great Lakes (including Lake Erie)', 'cold tributaries', 'also stocked in some Ohio waters'],
   size: '12-24 inches typical (can be larger in Lake Erie)',
   funFact: 'Brown trout are originally from Europe and were introduced to North America in the 1800s. They can become very wary and are often most active at dawn/dusk.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Illinois DNR: Brown Trout', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafsalmon/wafbrowntrout.html' },
     { label: 'Wikipedia: Brown trout', url: 'https://en.wikipedia.org/wiki/Brown_trout' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=931' }
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brown trout often have red or orange spots, sometimes with pale halos.', answer: true, fishId: 'brown_trout' }
+  { statement: 'A key ID clue for this fish is: Golden-brown body with red/orange spots (often with pale halos).', answer: true, fishId: 'brown_trout' },
+  { statement: 'This fish can be identified by: Golden-brown to olive body.', answer: true, fishId: 'brown_trout' },
+  { statement: 'This fish can be identified by: Black spots and red/orange spots with pale halos.', answer: true, fishId: 'brown_trout' },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'brown_trout' }
 ];
 
 export default brown_trout;

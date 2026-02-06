@@ -21,6 +21,7 @@ export const white_sucker: Fish = {
   size: '12-18 inches typical',
   funFact: 'White suckers are one of the first fish to make spawning runs in spring. They crowd into small streams by the hundreds, often before the ice is fully melted.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Catostomus%20commersonii' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Catostomus+commersonii' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'White sucker are one of the rarest fish in Ohio.', answer: false, fishId: 'white_sucker' }
+  { statement: 'A key ID clue for this fish is: Olive-brown cylindrical fish with downward sucker mouth and no barbels.', answer: true, fishId: 'white_sucker' },
+  { statement: 'This fish can be identified by: Cylindrical body, round in cross-section.', answer: true, fishId: 'white_sucker' },
+  { statement: 'This fish can be identified by: Downward-pointing sucker mouth with fleshy lips.', answer: true, fishId: 'white_sucker' },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'white_sucker' }
 ];
 
 export default white_sucker;

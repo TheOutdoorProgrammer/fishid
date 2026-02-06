@@ -17,10 +17,11 @@ export const spotted_bass: Fish = {
     'Connected dorsal fin'
   ],
   keyFeature: 'Rows of spots below lateral line with rough tooth patch on tongue',
-  habitat: ['Rocky streams', 'reservoirs in southern Ohio'],
+  habitat: ['Rocky streams', 'reservoirs in southern Ohio', 'clear streams and rivers'],
   size: '10-15 inches typical',
   funFact: 'Spotted bass look like a cross between largemouth and smallmouth. The rows of spots below the lateral line and the rough tongue patch are the best way to identify them.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Louisiana Dept. of Wildlife & Fisheries', url: 'https://www.wlf.louisiana.gov/species/detail/spotted-bass' },
     { label: 'Mississippi MDWFP Fish ID Guide', url: 'https://www.mdwfp.com/fishing-boating/fish-id-guide/spotted-bass' },
     { label: 'Bassmaster ID guide (PDF)', url: 'https://www.bassmaster.com/wp-content/uploads/2022/03/howtoidspottedbass_1.pdf' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Spotted bass have a smooth tongue patch.', answer: false, fishId: 'spotted_bass' }
+  { statement: 'A key ID clue for this fish is: Rows of spots below lateral line with rough tooth patch on tongue.', answer: true, fishId: 'spotted_bass' },
+  { statement: 'This fish can be identified by: Green to olive body.', answer: true, fishId: 'spotted_bass' },
+  { statement: 'This fish can be identified by: Rows of dark spots below lateral line.', answer: true, fishId: 'spotted_bass' },
+  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'spotted_bass' }
 ];
 
 export default spotted_bass;

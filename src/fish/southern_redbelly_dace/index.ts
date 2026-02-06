@@ -17,10 +17,11 @@ export const southern_redbelly_dace: Fish = {
     'Breeding males brilliantly colored red and yellow'
   ],
   keyFeature: 'Tiny minnow with two dark stripes and brilliant red belly',
-  habitat: ['Small headwater streams with cool', 'spring-fed water'],
+  habitat: ['Small headwater streams with cool', 'spring-fed water', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Southern redbelly dace are one of Ohio\'s most beautiful small fish. Breeding males have electric red bellies and bright yellow flanks that rival tropical fish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Chrosomus%20erythrogaster' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Chrosomus+erythrogaster' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Southern redbelly dace have bright red bellies during breeding.', answer: true, fishId: 'southern_redbelly_dace' }
+  { statement: 'A key ID clue for this fish is: Tiny minnow with two dark stripes and brilliant red belly.', answer: true, fishId: 'southern_redbelly_dace' },
+  { statement: 'This fish can be identified by: Very small with two dark lateral stripes.', answer: true, fishId: 'southern_redbelly_dace' },
+  { statement: 'This fish can be identified by: Bright red belly (especially breeding males).', answer: true, fishId: 'southern_redbelly_dace' },
+  { statement: 'You might find this fish in small headwater streams with cool.', answer: true, fishId: 'southern_redbelly_dace' }
 ];
 
 export default southern_redbelly_dace;

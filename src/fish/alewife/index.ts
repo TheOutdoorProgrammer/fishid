@@ -14,15 +14,12 @@ export const alewife: Fish = {
     'Forked tail',
   ],
   keyFeature: 'Large eye + single shoulder spot + serrated belly (scutes)',
-  habitat: [
-    'Great Lakes open waters (pelagic schools)',
-    'nearshore waters seasonally',
-    'introduced/invasive in several Great Lakes',
-  ],
+  habitat: ['Great Lakes open waters (pelagic schools)', 'nearshore waters seasonally', 'introduced/invasive in several Great Lakes'],
   size: '5–9 inches typical',
   funFact:
     'Alewife are an important forage fish for salmon and trout in the Great Lakes, and they have been associated with large die-offs that wash up on beaches.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USGS NAS factsheet: Alewife', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=490' },
     {
       label: 'USFWS (PDF): Ecological Risk Screening Summary — Alewife',

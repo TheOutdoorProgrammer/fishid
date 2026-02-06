@@ -17,10 +17,11 @@ export const river_redhorse: Fish = {
     'Can reach over 10 pounds'
   ],
   keyFeature: 'Large robust sucker with heavy molar-like pharyngeal teeth',
-  habitat: ['Large clean rivers with rocky bottoms and moderate current'],
+  habitat: ['Large clean rivers with rocky bottoms and moderate current', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '18-26 inches typical',
   funFact: 'River redhorse have massive molar-like teeth in their throat that they use to crush snail and mussel shells. They are one of the largest and most impressive sucker species.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20carinatum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+carinatum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'River redhorse have heavy molar-like pharyngeal teeth for crushing shells.', answer: true, fishId: 'river_redhorse' }
+  { statement: 'A key ID clue for this fish is: Large robust sucker with heavy molar-like pharyngeal teeth.', answer: true, fishId: 'river_redhorse' },
+  { statement: 'This fish can be identified by: Large, robust sucker.', answer: true, fishId: 'river_redhorse' },
+  { statement: 'This fish can be identified by: Heavy pharyngeal teeth (molar-like for crushing).', answer: true, fishId: 'river_redhorse' },
+  { statement: 'You might find this fish in large clean rivers with rocky bottoms and moderate current.', answer: true, fishId: 'river_redhorse' }
 ];
 
 export default river_redhorse;

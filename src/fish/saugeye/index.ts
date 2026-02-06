@@ -17,10 +17,11 @@ export const saugeye: Fish = {
     'Hybrid between walleye and sauger'
   ],
   keyFeature: 'Looks like walleye but with spotted dorsal fin and darker blotches',
-  habitat: ['Ohio reservoirs', 'lakes (heavily stocked by ODNR)'],
+  habitat: ['Ohio reservoirs', 'lakes (heavily stocked by ODNR)', 'lakes and reservoirs'],
   size: '15-22 inches typical',
   funFact: 'Saugeye are a man-made hybrid created by crossing walleye with sauger. Ohio stocks millions of saugeye every year because they grow fast and tolerate warmer, murkier water than pure walleye.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia: Saugeye', url: 'https://en.wikipedia.org/wiki/Saugeye' },
     { label: 'West Virginia DNR: Saugeye', url: 'https://wvdnr.gov/plants-animals/sportfish/saugeye/' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=829' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Saugeye are a hybrid between walleye and sauger.', answer: true, fishId: 'saugeye' }
+  { statement: 'A key ID clue for this fish is: Looks like walleye but with spotted dorsal fin and darker blotches.', answer: true, fishId: 'saugeye' },
+  { statement: 'This fish can be identified by: Olive-gold body (similar to walleye).', answer: true, fishId: 'saugeye' },
+  { statement: 'This fish can be identified by: Dark blotches/saddle marks on back.', answer: true, fishId: 'saugeye' },
+  { statement: 'You might find this fish in ohio reservoirs.', answer: true, fishId: 'saugeye' }
 ];
 
 export default saugeye;

@@ -21,6 +21,7 @@ export const brook_trout: Fish = {
   size: '6-10 inches typical in Ohio streams',
   funFact: 'Brook trout are actually a char, not a true trout. They are Ohio\'s only native salmonid and require the coldest, cleanest water of any Ohio fish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Virginia DWR species profile', url: 'https://dwr.virginia.gov/wildlife/information/brook-trout/' },
     { label: 'USFWS species profile', url: 'https://www.fws.gov/species/brook-trout-salvelinus-fontinalis' },
     { label: 'Chesapeake Bay Program field guide', url: 'https://www.chesapeakebay.net/discover/field-guide/entry/brook-trout' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brook trout are actually a char, not a true trout.', answer: true, fishId: 'brook_trout' }
+  { statement: 'A key ID clue for this fish is: Worm-like markings on back, red spots with blue halos, white-edged lower fins.', answer: true, fishId: 'brook_trout' },
+  { statement: 'This fish can be identified by: Dark green body with distinctive worm-like markings (vermiculations) on back.', answer: true, fishId: 'brook_trout' },
+  { statement: 'This fish can be identified by: Red spots with blue halos on sides.', answer: true, fishId: 'brook_trout' },
+  { statement: 'You might find this fish in cold.', answer: true, fishId: 'brook_trout' }
 ];
 
 export default brook_trout;

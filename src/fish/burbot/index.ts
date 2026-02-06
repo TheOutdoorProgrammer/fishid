@@ -17,10 +17,11 @@ export const burbot: Fish = {
     'Wide, flat head'
   ],
   keyFeature: 'Elongated eel-like body with single chin barbel and mottled pattern',
-  habitat: ['Deep cold waters of Lake Erie', 'nocturnal predator'],
+  habitat: ['Deep cold waters of Lake Erie', 'nocturnal predator', 'lakes and reservoirs'],
   size: '16-24 inches typical',
   funFact: 'Burbot are the only freshwater member of the cod family. They spawn under the ice in winter, making them one of the few fish that breed in the coldest months of the year!',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lota%20lota' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lota+lota' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Burbot are the only freshwater cod family member.', answer: true, fishId: 'burbot' }
+  { statement: 'A key ID clue for this fish is: Elongated eel-like body with single chin barbel and mottled pattern.', answer: true, fishId: 'burbot' },
+  { statement: 'This fish can be identified by: Elongated body with eel-like appearance.', answer: true, fishId: 'burbot' },
+  { statement: 'This fish can be identified by: Single barbel on chin.', answer: true, fishId: 'burbot' },
+  { statement: 'You might find this fish in deep cold waters of lake erie.', answer: true, fishId: 'burbot' }
 ];
 
 export default burbot;

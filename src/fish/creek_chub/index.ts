@@ -17,10 +17,11 @@ export const creek_chub: Fish = {
     'Olive-brown back with silver sides'
   ],
   keyFeature: 'Large minnow with dark spot at dorsal fin base and big mouth',
-  habitat: ['Small to medium streams', 'one of most common stream fish'],
+  habitat: ['Small to medium streams', 'one of most common stream fish', 'clear streams and rivers'],
   size: '5-8 inches typical, can reach 12',
   funFact: 'Creek chub males build nests by carrying stones in their mouths to create gravel mounds. A single nest mound can contain thousands of pebbles!',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Semotilus%20atromaculatus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Semotilus+atromaculatus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Creek chub males carry stones in their mouths to build nests.', answer: true, fishId: 'creek_chub' }
+  { statement: 'A key ID clue for this fish is: Large minnow with dark spot at dorsal fin base and big mouth.', answer: true, fishId: 'creek_chub' },
+  { statement: 'This fish can be identified by: Large minnow with robust body.', answer: true, fishId: 'creek_chub' },
+  { statement: 'This fish can be identified by: Dark spot at base of dorsal fin.', answer: true, fishId: 'creek_chub' },
+  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'creek_chub' }
 ];
 
 export default creek_chub;

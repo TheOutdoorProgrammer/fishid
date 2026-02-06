@@ -17,10 +17,11 @@ export const dusky_darter: Fish = {
     'Dark tearstain mark under eye'
   ],
   keyFeature: 'Olive darter with connected dark blotches forming band and tear mark under eye',
-  habitat: ['Rocky pools', 'gentle riffles of medium rivers'],
+  habitat: ['Rocky pools', 'gentle riffles of medium rivers', 'clear streams and rivers'],
   size: '3-4 inches typical',
   funFact: 'Dusky darters get their name from their dull, dusky coloration. They are most common in the Ohio River drainage and prefer slightly larger streams than many darters.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20sciera' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+sciera' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Dusky darters are brightly colored like rainbow darters.', answer: false, fishId: 'dusky_darter' }
+  { statement: 'A key ID clue for this fish is: Olive darter with connected dark blotches forming band and tear mark under eye.', answer: true, fishId: 'dusky_darter' },
+  { statement: 'This fish can be identified by: Row of fused or connected dark blotches along side.', answer: true, fishId: 'dusky_darter' },
+  { statement: 'This fish can be identified by: Dusky olive body.', answer: true, fishId: 'dusky_darter' },
+  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'dusky_darter' }
 ];
 
 export default dusky_darter;

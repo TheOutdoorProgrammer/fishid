@@ -17,10 +17,11 @@ export const shorthead_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Short head relative to body with bright red-orange fins and straight dorsal edge',
-  habitat: ['Large streams and rivers with rocky or gravelly bottoms'],
+  habitat: ['Large streams and rivers with rocky or gravelly bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '14-20 inches typical',
   funFact: 'Shorthead redhorse are common in Lake Erie tributaries. Their short head relative to body size helps distinguish them from other redhorse species.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20macrolepidotum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+macrolepidotum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Shorthead redhorse have a long head relative to their body.', answer: false, fishId: 'shorthead_redhorse' }
+  { statement: 'A key ID clue for this fish is: Short head relative to body with bright red-orange fins and straight dorsal edge.', answer: true, fishId: 'shorthead_redhorse' },
+  { statement: 'This fish can be identified by: Olive-gold body with red-orange tail and dorsal fin.', answer: true, fishId: 'shorthead_redhorse' },
+  { statement: 'This fish can be identified by: Relatively short head compared to body.', answer: true, fishId: 'shorthead_redhorse' },
+  { statement: 'You might find this fish in large streams and rivers with rocky or gravelly bottoms.', answer: true, fishId: 'shorthead_redhorse' }
 ];
 
 export default shorthead_redhorse;

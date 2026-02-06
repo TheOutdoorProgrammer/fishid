@@ -14,12 +14,7 @@ export const steelhead: Fish = {
     'Adipose fin present',
   ],
   keyFeature: 'Chrome-silver sides with black spots on the tail',
-  habitat: [
-    'Great Lakes (Lake Erie)',
-    'open lake waters (lake-run phase)',
-    'tributary rivers/streams during fall–spring spawning runs',
-    'cool, well-oxygenated flowing water (streams)',
-  ],
+  habitat: ['Great Lakes (Lake Erie)', 'open lake waters (lake-run phase)', 'tributary rivers/streams during fall–spring spawning runs', 'cool, well-oxygenated flowing water (streams)'],
   size: '20–30 inches typical',
   funFact:
     "Steelhead are the same species as rainbow trout—the term ‘steelhead’ refers to fish that migrate to a large lake or the ocean and return to streams to spawn. In Ohio, Lake Erie steelhead are supported by hatchery stocking.",

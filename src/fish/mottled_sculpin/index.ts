@@ -21,6 +21,7 @@ export const mottled_sculpin: Fish = {
   size: '3-4 inches typical',
   funFact: 'Mottled sculpin have no swim bladder so they always sink. They use their large pectoral fins to prop themselves on the stream bottom and dart between rocks to catch prey.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cottus%20bairdii' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cottus+bairdii' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Mottled sculpin have scales covering their body.', answer: false, fishId: 'mottled_sculpin' }
+  { statement: 'A key ID clue for this fish is: Wide flat head with fan-like pectoral fins and scaleless mottled body.', answer: true, fishId: 'mottled_sculpin' },
+  { statement: 'This fish can be identified by: Wide, flat head with fan-like pectoral fins.', answer: true, fishId: 'mottled_sculpin' },
+  { statement: 'This fish can be identified by: No scales (smooth skin).', answer: true, fishId: 'mottled_sculpin' },
+  { statement: 'You might find this fish in cold.', answer: true, fishId: 'mottled_sculpin' }
 ];
 
 export default mottled_sculpin;

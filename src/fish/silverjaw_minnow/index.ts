@@ -17,10 +17,11 @@ export const silverjaw_minnow: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Translucent minnow with visible silver chambers in head and jaw',
-  habitat: ['Sandy-bottomed streams', 'pools'],
+  habitat: ['Sandy-bottomed streams', 'pools', 'clear streams and rivers'],
   size: '2-4 inches typical',
   funFact: 'Silverjaw minnows have unique enlarged head canals visible as silvery chambers through their translucent skin. No other minnow has this distinctive feature.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ericymba%20buccata' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ericymba+buccata' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Silverjaw minnows have visible silver chambers in their head.', answer: true, fishId: 'silverjaw_minnow' }
+  { statement: 'A key ID clue for this fish is: Translucent minnow with visible silver chambers in head and jaw.', answer: true, fishId: 'silverjaw_minnow' },
+  { statement: 'This fish can be identified by: Translucent body.', answer: true, fishId: 'silverjaw_minnow' },
+  { statement: 'This fish can be identified by: Visible silvery chambers in lower jaw and snout.', answer: true, fishId: 'silverjaw_minnow' },
+  { statement: 'You might find this fish in sandy-bottomed streams.', answer: true, fishId: 'silverjaw_minnow' }
 ];
 
 export default silverjaw_minnow;

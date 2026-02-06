@@ -17,10 +17,11 @@ export const mooneye: Fish = {
     'Distinct keel along belly'
   ],
   keyFeature: 'Large-eyed silver fish with dorsal fin starting ahead of anal fin',
-  habitat: ['Large rivers', 'Lake Erie', 'prefers clear water with current'],
+  habitat: ['Large rivers', 'Great Lakes (including Lake Erie)', 'prefers clear water with current'],
   size: '10-14 inches typical',
   funFact: 'Mooneyes are named for their huge, reflective eyes. They are often confused with shad but lack the serrated belly and have a more streamlined body.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hiodon%20tergisus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hiodon+tergisus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Mooneye have an adipose fin like trout.', answer: false, fishId: 'mooneye' }
+  { statement: 'A key ID clue for this fish is: Large-eyed silver fish with dorsal fin starting ahead of anal fin.', answer: true, fishId: 'mooneye' },
+  { statement: 'This fish can be identified by: Laterally compressed silver body.', answer: true, fishId: 'mooneye' },
+  { statement: 'This fish can be identified by: Very large eye with golden iris.', answer: true, fishId: 'mooneye' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'mooneye' }
 ];
 
 export default mooneye;

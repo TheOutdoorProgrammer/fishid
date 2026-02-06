@@ -21,6 +21,7 @@ export const bowfin: Fish = {
   size: '18-24 inches typical, can exceed 30',
   funFact: 'Bowfin are living fossils dating back 150 million years. They can breathe air using their swim bladder and survive in water too oxygen-poor for most fish. Males guard their young.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Amia%20calva' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Amia+calva' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Bowfin cannot breathe air.', answer: false, fishId: 'bowfin' }
+  { statement: 'A key ID clue for this fish is: Long dorsal fin nearly reaching round tail, with dark spot at tail base (males).', answer: true, fishId: 'bowfin' },
+  { statement: 'This fish can be identified by: Long dorsal fin extending most of body length.', answer: true, fishId: 'bowfin' },
+  { statement: 'This fish can be identified by: Rounded tail fin (not forked).', answer: true, fishId: 'bowfin' },
+  { statement: 'You might find this fish in weedy lakes.', answer: true, fishId: 'bowfin' }
 ];
 
 export default bowfin;

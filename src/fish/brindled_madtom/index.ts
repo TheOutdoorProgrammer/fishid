@@ -17,10 +17,11 @@ export const brindled_madtom: Fish = {
     'Mildly venomous pectoral spines'
   ],
   keyFeature: 'Small catfish with four dark saddle marks and banded tail pattern',
-  habitat: ['Riffles of clear streams with rocky or gravelly bottoms'],
+  habitat: ['Riffles of clear streams with rocky or gravelly bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '2-4 inches typical',
   funFact: 'Brindled madtoms are state-listed as species of concern in some areas. Like all madtoms, they have a venomous pectoral spine used for defense.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Missouri Dept. of Conservation field guide', url: 'https://mdc.mo.gov/discover-nature/field-guide/brindled-madtom' },
     { label: 'Illinois DNR Wild About Fishes', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/wafbrindledmadtom.html' },
     { label: 'Kentucky Fish & Wildlife', url: 'https://fw.ky.gov/Fish/Pages/Brindled-Madtom.aspx' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brindled madtoms have four dark saddle markings on their back.', answer: true, fishId: 'brindled_madtom' }
+  { statement: 'A key ID clue for this fish is: Small catfish with four dark saddle marks and banded tail pattern.', answer: true, fishId: 'brindled_madtom' },
+  { statement: 'This fish can be identified by: Small catfish with dark saddle markings.', answer: true, fishId: 'brindled_madtom' },
+  { statement: 'This fish can be identified by: Four dark saddle blotches on back.', answer: true, fishId: 'brindled_madtom' },
+  { statement: 'You might find this fish in riffles of clear streams with rocky or gravelly bottoms.', answer: true, fishId: 'brindled_madtom' }
 ];
 
 export default brindled_madtom;

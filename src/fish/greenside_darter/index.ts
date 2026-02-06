@@ -17,10 +17,11 @@ export const greenside_darter: Fish = {
     'Sturdy body for a darter'
   ],
   keyFeature: 'Largest darter with green body and U/V-shaped dark marks on sides',
-  habitat: ['Rocky riffles of clear streams with moderate current'],
+  habitat: ['Rocky riffles of clear streams with moderate current', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '3-5 inches typical, can reach 6',
   funFact: 'Greenside darters are the largest darter species in Ohio. They actually wrap their eggs around plant stems and green algae filaments on rocks, which is unusual for darters.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20blennioides' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+blennioides' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Greenside darters are the smallest darter in Ohio.', answer: false, fishId: 'greenside_darter' }
+  { statement: 'A key ID clue for this fish is: Largest darter with green body and U/V-shaped dark marks on sides.', answer: true, fishId: 'greenside_darter' },
+  { statement: 'This fish can be identified by: Largest Ohio darter (can reach 6 inches).', answer: true, fishId: 'greenside_darter' },
+  { statement: 'This fish can be identified by: Green to olive body with U or V-shaped dark bars on sides.', answer: true, fishId: 'greenside_darter' },
+  { statement: 'You might find this fish in rocky riffles of clear streams with moderate current.', answer: true, fishId: 'greenside_darter' }
 ];
 
 export default greenside_darter;

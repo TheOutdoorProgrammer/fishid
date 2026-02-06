@@ -21,6 +21,7 @@ export const smallmouth_redhorse: Fish = {
   size: '10-16 inches typical',
   funFact: 'Smallmouth redhorse have the smallest mouth of any redhorse species. Their falcate (deeply curved) dorsal fin is a good identification feature.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20breviceps' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+breviceps' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Smallmouth redhorse have the smallest mouth of any redhorse species.', answer: true, fishId: 'smallmouth_redhorse' }
+  { statement: 'A key ID clue for this fish is: Small-mouthed sucker with falcate dorsal fin and short U-shaped lower lip.', answer: true, fishId: 'smallmouth_redhorse' },
+  { statement: 'This fish can be identified by: Small mouth even for a sucker.', answer: true, fishId: 'smallmouth_redhorse' },
+  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'smallmouth_redhorse' },
+  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'smallmouth_redhorse' }
 ];
 
 export default smallmouth_redhorse;

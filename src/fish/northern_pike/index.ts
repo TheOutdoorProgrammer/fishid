@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Northern pike have light spots on a dark body.', answer: true, fishId: 'northern_pike' }
+  { statement: 'A key ID clue for this fish is: Elongated body, duck-bill snout, light spots on dark background.', answer: true, fishId: 'northern_pike' },
+  { statement: 'This fish can be identified by: Long, torpedo-shaped body.', answer: true, fishId: 'northern_pike' },
+  { statement: 'This fish can be identified by: Dark green with light bean-shaped spots.', answer: true, fishId: 'northern_pike' },
+  { statement: 'You might find this fish in weedy lakes.', answer: true, fishId: 'northern_pike' }
 ];
 
 export default northern_pike;

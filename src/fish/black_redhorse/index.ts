@@ -21,6 +21,7 @@ export const black_redhorse: Fish = {
   size: '12-18 inches typical',
   funFact: 'Black redhorse get their name not from their body color but from their dark-edged scales and dusky fins. They prefer cleaner water than many other sucker species.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20duquesnei' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+duquesnei' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Black redhorse have bright red fins.', answer: false, fishId: 'black_redhorse' }
+  { statement: 'A key ID clue for this fish is: Dark-edged scales creating cross-hatch pattern and dusky (not red) fins.', answer: true, fishId: 'black_redhorse' },
+  { statement: 'This fish can be identified by: Olive to dark bronze body.', answer: true, fishId: 'black_redhorse' },
+  { statement: 'This fish can be identified by: Dark-edged scales giving a cross-hatched look.', answer: true, fishId: 'black_redhorse' },
+  { statement: 'You might find this fish in clear streams.', answer: true, fishId: 'black_redhorse' }
 ];
 
 export default black_redhorse;

@@ -21,6 +21,7 @@ export const round_goby: Fish = {
   size: '4-7 inches typical',
   funFact: 'Round gobies arrived in Lake Erie in ship ballast water from the Black Sea region in the 1990s. They compete with native fish but also provide food for smallmouth bass and walleye.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Neogobius%20melanostomus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Neogobius+melanostomus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Round goby are native to Lake Erie.', answer: false, fishId: 'round_goby' }
+  { statement: 'A key ID clue for this fish is: Small bottom fish with fused pelvic suction disc and black spot on first dorsal.', answer: true, fishId: 'round_goby' },
+  { statement: 'This fish can be identified by: Small, bottom-dwelling body.', answer: true, fishId: 'round_goby' },
+  { statement: 'This fish can be identified by: Fused pelvic fins forming a suction disc.', answer: true, fishId: 'round_goby' },
+  { statement: 'You might find this fish in lake erie rocky areas.', answer: true, fishId: 'round_goby' }
 ];
 
 export default round_goby;

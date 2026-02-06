@@ -21,6 +21,7 @@ export const fathead_minnow: Fish = {
   size: '2-3 inches typical',
   funFact: 'Fathead minnows are extremely popular bait and feeder fish. Breeding males develop a dark spongy fat pad on their heads and tubercles, looking completely different from females.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Pimephales%20promelas' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Pimephales+promelas' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Fathead minnow breeding males develop a spongy fat pad on their head.', answer: true, fishId: 'fathead_minnow' }
+  { statement: 'A key ID clue for this fish is: Small stout minnow with blunt head; breeding males have dark fat pad on head.', answer: true, fishId: 'fathead_minnow' },
+  { statement: 'This fish can be identified by: Small, stout body.', answer: true, fishId: 'fathead_minnow' },
+  { statement: 'This fish can be identified by: Blunt, rounded head.', answer: true, fishId: 'fathead_minnow' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'fathead_minnow' }
 ];
 
 export default fathead_minnow;

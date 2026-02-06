@@ -21,6 +21,7 @@ export const brook_stickleback: Fish = {
   size: '1.5-2.5 inches typical',
   funFact: 'Brook stickleback males build elaborate nests from plant material glued together with kidney secretions. They aggressively guard the nest and fan eggs with their fins to keep them oxygenated.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Culaea%20inconstans' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Culaea+inconstans' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Brook stickleback males build nests from plant material glued with kidney secretions.', answer: true, fishId: 'brook_stickleback' }
+  { statement: 'A key ID clue for this fish is: Tiny scaleless fish with 4-6 isolated spines in front of dorsal fin.', answer: true, fishId: 'brook_stickleback' },
+  { statement: 'This fish can be identified by: Very small fish with 4-6 free dorsal spines.', answer: true, fishId: 'brook_stickleback' },
+  { statement: 'This fish can be identified by: No scales - smooth or with bony plates.', answer: true, fishId: 'brook_stickleback' },
+  { statement: 'You might find this fish in cool streams.', answer: true, fishId: 'brook_stickleback' }
 ];
 
 export default brook_stickleback;

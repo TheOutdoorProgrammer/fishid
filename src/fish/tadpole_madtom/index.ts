@@ -21,6 +21,7 @@ export const tadpole_madtom: Fish = {
   size: '2-4 inches typical',
   funFact: 'Tadpole madtoms are one of the smallest catfish in Ohio. They get their name from their resemblance to a tadpole and are mostly nocturnal.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Missouri Dept. of Conservation field guide', url: 'https://mdc.mo.gov/discover-nature/field-guide/tadpole-madtom' },
     { label: 'Illinois DNR Wild About Fishes', url: 'https://dnr.illinois.gov/education/wildaboutpages/wildaboutfishes/wafbullhead/waftadpolemadtom.html' },
     { label: 'Florida Museum fish account', url: 'https://www.floridamuseum.ufl.edu/fish/catfish/ictaluridae/tadpole-madtom/' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Tadpole madtoms are one of the largest catfish in Ohio.', answer: false, fishId: 'tadpole_madtom' }
+  { statement: 'A key ID clue for this fish is: Tiny dark catfish with chubby tadpole shape and connected adipose fin.', answer: true, fishId: 'tadpole_madtom' },
+  { statement: 'This fish can be identified by: Tiny, dark-colored catfish.', answer: true, fishId: 'tadpole_madtom' },
+  { statement: 'This fish can be identified by: Chubby tadpole-like body shape.', answer: true, fishId: 'tadpole_madtom' },
+  { statement: 'You might find this fish in muddy-bottomed ponds.', answer: true, fishId: 'tadpole_madtom' }
 ];
 
 export default tadpole_madtom;

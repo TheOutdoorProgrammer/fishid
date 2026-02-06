@@ -21,6 +21,7 @@ export const banded_killifish: Fish = {
   size: '2-4 inches typical',
   funFact: 'Banded killifish are common along the sandy shores of Lake Erie. Despite their name, they are peaceful fish - "killifish" comes from the Dutch word "kilde" meaning small creek.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Fundulus%20diaphanus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Fundulus+diaphanus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Banded killifish got their name because they kill other fish.', answer: false, fishId: 'banded_killifish' }
+  { statement: 'A key ID clue for this fish is: Small surface fish with many thin vertical bars and flat head.', answer: true, fishId: 'banded_killifish' },
+  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'banded_killifish' },
+  { statement: 'This fish can be identified by: Multiple thin dark vertical bars on sides.', answer: true, fishId: 'banded_killifish' },
+  { statement: 'You might find this fish in sandy lake shores.', answer: true, fishId: 'banded_killifish' }
 ];
 
 export default banded_killifish;

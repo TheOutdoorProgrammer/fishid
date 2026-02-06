@@ -21,6 +21,7 @@ export const logperch: Fish = {
   size: '4-6 inches typical',
   funFact: 'Logperch use their distinctive conical snout to flip over small rocks and pebbles to find insect larvae underneath. Their alternating bar pattern is unique among darters.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20caprodes' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+caprodes' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Logperch use their pig-like snout to flip over pebbles.', answer: true, fishId: 'logperch' }
+  { statement: 'A key ID clue for this fish is: Large darter with pig-like snout and alternating long/short vertical bars.', answer: true, fishId: 'logperch' },
+  { statement: 'This fish can be identified by: Largest darter commonly found in Ohio (up to 7 inches).', answer: true, fishId: 'logperch' },
+  { statement: 'This fish can be identified by: Alternating long and short vertical bars on sides.', answer: true, fishId: 'logperch' },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'logperch' }
 ];
 
 export default logperch;

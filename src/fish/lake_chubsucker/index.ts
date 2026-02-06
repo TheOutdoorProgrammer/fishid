@@ -21,6 +21,7 @@ export const lake_chubsucker: Fish = {
   size: '8-12 inches typical',
   funFact: 'Lake chubsuckers are becoming increasingly rare in Ohio and are considered a species of concern. They prefer clear, vegetated glacial lakes.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Erimyzon%20sucetta' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Erimyzon+sucetta' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Lake chubsucker have a deeply forked tail.', answer: false, fishId: 'lake_chubsucker' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied round-tailed sucker without lateral line, prefers lakes.', answer: true, fishId: 'lake_chubsucker' },
+  { statement: 'This fish can be identified by: Deeper body than creek chubsucker.', answer: true, fishId: 'lake_chubsucker' },
+  { statement: 'This fish can be identified by: Olive-green to bronze body.', answer: true, fishId: 'lake_chubsucker' },
+  { statement: 'You might find this fish in glacial lakes.', answer: true, fishId: 'lake_chubsucker' }
 ];
 
 export default lake_chubsucker;

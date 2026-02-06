@@ -17,10 +17,11 @@ export const central_stoneroller: Fish = {
     'Subterminal mouth'
   ],
   keyFeature: 'Round snout with hard scraping ridge on lower jaw for eating algae',
-  habitat: ['Rocky riffles of streams', 'very common in Ohio'],
+  habitat: ['Rocky riffles of streams', 'very common in Ohio', 'clear streams and rivers'],
   size: '4-7 inches typical',
   funFact: 'Central stonerollers are ecosystem engineers! They scrape algae off rocks, creating clean feeding areas used by other fish. Breeding males develop impressive horny tubercles on their heads.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Campostoma%20anomalum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Campostoma+anomalum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Central stoneroller minnows scrape algae off rocks with a hard jaw ridge.', answer: true, fishId: 'central_stoneroller' }
+  { statement: 'A key ID clue for this fish is: Round snout with hard scraping ridge on lower jaw for eating algae.', answer: true, fishId: 'central_stoneroller' },
+  { statement: 'This fish can be identified by: Rounded snout overhanging mouth.', answer: true, fishId: 'central_stoneroller' },
+  { statement: 'This fish can be identified by: Hard cartilaginous ridge on lower jaw for scraping algae.', answer: true, fishId: 'central_stoneroller' },
+  { statement: 'You might find this fish in rocky riffles of streams.', answer: true, fishId: 'central_stoneroller' }
 ];
 
 export default central_stoneroller;

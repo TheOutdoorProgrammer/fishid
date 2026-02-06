@@ -17,10 +17,11 @@ export const variegate_darter: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Robust darter with four saddle marks and alternating blue-green and orange bars',
-  habitat: ['Large rocky riffles of clean rivers in eastern Ohio'],
+  habitat: ['Large rocky riffles of clean rivers in eastern Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '3-4 inches typical',
   funFact: 'Variegate darters are found primarily in the upper Ohio River drainage. They are one of the more colorful darter species and require clean, rocky rivers.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20variatum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+variatum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Variegate darters have four distinct saddle marks on their back.', answer: true, fishId: 'variegate_darter' }
+  { statement: 'A key ID clue for this fish is: Robust darter with four saddle marks and alternating blue-green and orange bars.', answer: true, fishId: 'variegate_darter' },
+  { statement: 'This fish can be identified by: Four dark saddle marks across back.', answer: true, fishId: 'variegate_darter' },
+  { statement: 'This fish can be identified by: Alternating bars of blue-green and orange-red on sides.', answer: true, fishId: 'variegate_darter' },
+  { statement: 'You might find this fish in large rocky riffles of clean rivers in eastern ohio.', answer: true, fishId: 'variegate_darter' }
 ];
 
 export default variegate_darter;

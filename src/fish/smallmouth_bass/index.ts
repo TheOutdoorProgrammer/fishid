@@ -13,15 +13,12 @@ export const smallmouth_bass: Fish = {
     'Connected dorsal fin with a shallow notch',
   ],
   keyFeature: 'Jaw ends at the eye (not past it) with a bronze body',
-  habitat: [
-    'clear, rocky streams and rivers',
-    'gravel/cobble bottoms (common spawning substrate)',
-    'rocky shorelines in lakes (including the Great Lakes)',
-  ],
+  habitat: ['clear, rocky streams and rivers', 'gravel/cobble bottoms (common spawning substrate)', 'rocky shorelines in lakes (including the Great Lakes)'],
   size: '12–18 inches typical',
   funFact:
     'Smallmouth bass often favor clear water and rocky habitat, where they feed heavily on crayfish and small fish.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     {
       label: 'USFWS species profile: Smallmouth bass',
       url: 'https://www.fws.gov/species/smallmouth-bass-micropterus-dolomieui',

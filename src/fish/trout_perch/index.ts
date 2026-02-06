@@ -17,10 +17,11 @@ export const trout_perch: Fish = {
     'Silver-olive coloring'
   ],
   keyFeature: 'Small fish combining trout features (adipose fin) and perch features (spiny fins)',
-  habitat: ['Lake Erie', 'large rivers', 'deep sandy or gravelly bottoms'],
+  habitat: ['Great Lakes (including Lake Erie)', 'large rivers', 'deep sandy or gravelly bottoms'],
   size: '3-5 inches typical',
   funFact: 'Trout-perch are named because they combine features of both trout (adipose fin) and perch (spiny fin rays). They are mostly nocturnal and are seldom seen by anglers.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percopsis%20omiscomaycus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percopsis+omiscomaycus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Trout-perch have both an adipose fin and spiny fin rays.', answer: true, fishId: 'trout_perch' }
+  { statement: 'A key ID clue for this fish is: Small fish combining trout features (adipose fin) and perch features (spiny fins).', answer: true, fishId: 'trout_perch' },
+  { statement: 'This fish can be identified by: Small, semi-translucent body.', answer: true, fishId: 'trout_perch' },
+  { statement: 'This fish can be identified by: Adipose fin present (trout-like feature).', answer: true, fishId: 'trout_perch' },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'trout_perch' }
 ];
 
 export default trout_perch;

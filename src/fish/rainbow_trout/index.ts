@@ -34,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Rainbow trout lack an adipose fin.', answer: false, fishId: 'rainbow_trout' }
+  { statement: 'A key ID clue for this fish is: Prominent pink-red lateral stripe with spots everywhere.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'This fish can be identified by: Streamlined body.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'This fish can be identified by: Pink-red stripe along lateral line.', answer: true, fishId: 'rainbow_trout' },
+  { statement: 'You might find this fish in cold streams.', answer: true, fishId: 'rainbow_trout' }
 ];
 
 export default rainbow_trout;

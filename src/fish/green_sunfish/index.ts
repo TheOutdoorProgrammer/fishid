@@ -21,6 +21,7 @@ export const green_sunfish: Fish = {
   size: '4-8 inches typical',
   funFact: 'Green sunfish are one of the toughest panfish - they can survive in muddy, low-oxygen water where other sunfish cannot. They readily hybridize with bluegill.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Virginia DWR species profile', url: 'https://dwr.virginia.gov/wildlife/information/green-sunfish/' },
     { label: 'Mississippi MDWFP Fish ID Guide', url: 'https://www.mdwfp.com/fishing-boating/fish-id-guide/green-sunfish' },
     { label: 'Outdoor Alabama species page', url: 'https://www.outdooralabama.com/bream/green-sunfish' }
@@ -34,7 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Green sunfish have a small mouth like bluegill.', answer: false, fishId: 'green_sunfish' }
+  { statement: 'A key ID clue for this fish is: Stocky sunfish with large mouth and blue-green facial streaks.', answer: true, fishId: 'green_sunfish' },
+  { statement: 'This fish can be identified by: Stocky, thick body for a sunfish.', answer: true, fishId: 'green_sunfish' },
+  { statement: 'This fish can be identified by: Dark olive-green to blue-green color.', answer: true, fishId: 'green_sunfish' },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'green_sunfish' }
 ];
 
 export default green_sunfish;

@@ -21,6 +21,7 @@ export const goldfish: Fish = {
   size: '6-12 inches typical in wild, can reach 16+',
   funFact: 'Wild goldfish in Ohio are NOT the bright orange of pet stores. They revert to dark olive-bronze coloring within a generation. Released pet goldfish have established invasive populations in Ohio waters.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Carassius%20auratus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Carassius+auratus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Wild goldfish in Ohio are bright orange like pet store fish.', answer: false, fishId: 'goldfish' }
+  { statement: 'A key ID clue for this fish is: Carp-like fish without barbels; wild ones are dark olive (not pet-store gold).', answer: true, fishId: 'goldfish' },
+  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'goldfish' },
+  { statement: 'This fish can be identified by: Gold to olive body (wild-type are dark).', answer: true, fishId: 'goldfish' },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'goldfish' }
 ];
 
 export default goldfish;

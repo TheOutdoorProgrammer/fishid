@@ -21,6 +21,7 @@ export const white_catfish: Fish = {
   size: '10-18 inches typical',
   funFact: 'White catfish are sometimes confused with channel catfish but lack the dark spots and have a less deeply forked tail. They are near the edge of their range in Ohio.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Missouri Dept. of Conservation field guide', url: 'https://mdc.mo.gov/discover-nature/field-guide/white-catfish' },
     { label: 'Connecticut DEEP freshwater fishes', url: 'https://portal.ct.gov/deep/fishing/freshwater/freshwater-fishes-of-connecticut/white-catfish' },
     { label: 'USGS NAS factsheet', url: 'https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=729' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'White catfish have deeply forked tails like channel catfish.', answer: false, fishId: 'white_catfish' }
+  { statement: 'A key ID clue for this fish is: Blue-white catfish with moderately forked tail and white chin barbels.', answer: true, fishId: 'white_catfish' },
+  { statement: 'This fish can be identified by: Blue-gray to white body.', answer: true, fishId: 'white_catfish' },
+  { statement: 'This fish can be identified by: Moderately forked tail (less forked than channel cat).', answer: true, fishId: 'white_catfish' },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'white_catfish' }
 ];
 
 export default white_catfish;

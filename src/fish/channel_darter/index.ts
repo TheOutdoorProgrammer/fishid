@@ -17,10 +17,11 @@ export const channel_darter: Fish = {
     'Premaxilla protractile (unique among Percina)'
   ],
   keyFeature: 'Small slender darter with X-shaped blotches and large head',
-  habitat: ['Sandy or gravelly channels of medium to large rivers'],
+  habitat: ['Sandy or gravelly channels of medium to large rivers', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '1.5-2.5 inches typical',
   funFact: 'Channel darters are named for their preference for the main channel of rivers. They are one of the smaller Percina darters and can be challenging to identify.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Percina%20copelandi' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Percina+copelandi' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Channel darters prefer the main channel of rivers.', answer: true, fishId: 'channel_darter' }
+  { statement: 'A key ID clue for this fish is: Small slender darter with X-shaped blotches and large head.', answer: true, fishId: 'channel_darter' },
+  { statement: 'This fish can be identified by: Small, slender darter.', answer: true, fishId: 'channel_darter' },
+  { statement: 'This fish can be identified by: Row of X-shaped or oval blotches on sides.', answer: true, fishId: 'channel_darter' },
+  { statement: 'You might find this fish in sandy or gravelly channels of medium to large rivers.', answer: true, fishId: 'channel_darter' }
 ];
 
 export default channel_darter;

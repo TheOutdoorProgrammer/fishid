@@ -17,10 +17,11 @@ export const scarlet_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Shiner with breeding males showing brilliant scarlet-red coloring',
-  habitat: ['Pools of medium streams in southern Ohio'],
+  habitat: ['Pools of medium streams in southern Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
   size: '3-4 inches typical',
   funFact: 'Scarlet shiners are named for the stunning scarlet-red color that breeding males develop. They are most common in streams of southeastern Ohio.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lythrurus%20fasciolaris' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lythrurus+fasciolaris' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Scarlet shiner breeding males develop brilliant scarlet-red coloring.', answer: true, fishId: 'scarlet_shiner' }
+  { statement: 'A key ID clue for this fish is: Shiner with breeding males showing brilliant scarlet-red coloring.', answer: true, fishId: 'scarlet_shiner' },
+  { statement: 'This fish can be identified by: Moderately deep body.', answer: true, fishId: 'scarlet_shiner' },
+  { statement: 'This fish can be identified by: Olive back with silver sides.', answer: true, fishId: 'scarlet_shiner' },
+  { statement: 'You might find this fish in pools of medium streams in southern ohio.', answer: true, fishId: 'scarlet_shiner' }
 ];
 
 export default scarlet_shiner;

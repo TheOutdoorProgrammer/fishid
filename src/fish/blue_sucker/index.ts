@@ -17,10 +17,11 @@ export const blue_sucker: Fish = {
     'Deeply forked tail'
   ],
   keyFeature: 'Elongated blue-gray sucker with small head and sickle-shaped dorsal fin',
-  habitat: ['Large rivers with swift current over rocky bottoms', 'Ohio River'],
+  habitat: ['Large rivers with swift current over rocky bottoms', 'Ohio River', 'clear streams and rivers'],
   size: '20-30 inches typical',
   funFact: 'Blue suckers are the most streamlined of all suckers, adapted for life in fast current. They are threatened or endangered in many states due to dam construction.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Cycleptus%20elongatus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Cycleptus+elongatus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Blue sucker have the typical deep body shape of most suckers.', answer: false, fishId: 'blue_sucker' }
+  { statement: 'A key ID clue for this fish is: Elongated blue-gray sucker with small head and sickle-shaped dorsal fin.', answer: true, fishId: 'blue_sucker' },
+  { statement: 'This fish can be identified by: Elongated, streamlined body (unusual for a sucker).', answer: true, fishId: 'blue_sucker' },
+  { statement: 'This fish can be identified by: Blue-gray to dark blue body color.', answer: true, fishId: 'blue_sucker' },
+  { statement: 'You might find this fish in large rivers with swift current over rocky bottoms.', answer: true, fishId: 'blue_sucker' }
 ];
 
 export default blue_sucker;

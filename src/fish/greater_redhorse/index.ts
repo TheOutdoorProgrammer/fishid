@@ -17,10 +17,11 @@ export const greater_redhorse: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Very large sucker with extremely thick plicate lips and large scales',
-  habitat: ['Large clean rivers', 'uncommon in Ohio'],
+  habitat: ['Large clean rivers', 'uncommon in Ohio', 'clear streams and rivers'],
   size: '18-28 inches typical',
   funFact: 'Greater redhorse are one of the rarest sucker species in Ohio. They require clean rivers with good water quality and are indicators of stream health.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Moxostoma%20valenciennesi' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Moxostoma+valenciennesi' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Greater redhorse are one of the most common suckers in Ohio.', answer: false, fishId: 'greater_redhorse' }
+  { statement: 'A key ID clue for this fish is: Very large sucker with extremely thick plicate lips and large scales.', answer: true, fishId: 'greater_redhorse' },
+  { statement: 'This fish can be identified by: Very large sucker species.', answer: true, fishId: 'greater_redhorse' },
+  { statement: 'This fish can be identified by: Olive-gold body with large scales.', answer: true, fishId: 'greater_redhorse' },
+  { statement: 'You might find this fish in large clean rivers.', answer: true, fishId: 'greater_redhorse' }
 ];
 
 export default greater_redhorse;

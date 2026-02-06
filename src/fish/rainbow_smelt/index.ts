@@ -17,10 +17,11 @@ export const rainbow_smelt: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Small silvery fish with iridescent sheen, large teeth, and adipose fin',
-  habitat: ['Deep open waters of Lake Erie', 'comes to shore to spawn'],
+  habitat: ['Deep open waters of Lake Erie', 'comes to shore to spawn', 'lakes and reservoirs'],
   size: '6-8 inches typical',
   funFact: 'Rainbow smelt smell like cucumbers when freshly caught! They are an invasive forage fish in Lake Erie that provide food for walleye, trout, and other predators.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Osmerus%20mordax' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Osmerus+mordax' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Rainbow smelt smell like cucumbers when freshly caught.', answer: true, fishId: 'rainbow_smelt' }
+  { statement: 'A key ID clue for this fish is: Small silvery fish with iridescent sheen, large teeth, and adipose fin.', answer: true, fishId: 'rainbow_smelt' },
+  { statement: 'This fish can be identified by: Small, slender, elongated body.', answer: true, fishId: 'rainbow_smelt' },
+  { statement: 'This fish can be identified by: Translucent silver-green coloring.', answer: true, fishId: 'rainbow_smelt' },
+  { statement: 'You might find this fish in deep open waters of lake erie.', answer: true, fishId: 'rainbow_smelt' }
 ];
 
 export default rainbow_smelt;

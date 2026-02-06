@@ -21,6 +21,7 @@ export const johnny_darter: Fish = {
   size: '2-3 inches typical',
   funFact: 'Johnny darters are the most common and widespread darter in Ohio. Males turn jet black during breeding season and guard eggs laid upside-down on rock surfaces.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20nigrum' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+nigrum' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Johnny darters are one of the rarest darters in Ohio.', answer: false, fishId: 'johnny_darter' }
+  { statement: 'A key ID clue for this fish is: Pale darter with distinctive W- and X-shaped dark markings on sides.', answer: true, fishId: 'johnny_darter' },
+  { statement: 'This fish can be identified by: Small, pale body with dark W- and X-shaped markings.', answer: true, fishId: 'johnny_darter' },
+  { statement: 'This fish can be identified by: Translucent to straw-colored base.', answer: true, fishId: 'johnny_darter' },
+  { statement: 'You might find this fish in sandy.', answer: true, fishId: 'johnny_darter' }
 ];
 
 export default johnny_darter;

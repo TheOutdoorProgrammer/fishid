@@ -21,6 +21,7 @@ export const grass_pickerel: Fish = {
   size: '6-10 inches typical, rarely exceeds 12',
   funFact: 'Grass pickerel are the smallest member of the pike family in Ohio. Despite their tiny size, they are fierce little predators that ambush prey from weed beds.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'USFWS species media', url: 'https://www.fws.gov/media/grass-pickerel-0' },
     { label: 'North American Native Fishes Association (PDF)', url: 'https://www.nanfa.org/ac/grass-pickerel.pdf' },
     { label: 'COSEWIC status report (Canada)', url: 'https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/grass-pickerel.html' },
@@ -35,7 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Grass pickerel have fully scaled cheeks and gill covers.', answer: true, fishId: 'grass_pickerel' }
+  { statement: 'A key ID clue for this fish is: Smallest pike family member with dark tear-drop under eye and fully scaled cheeks.', answer: true, fishId: 'grass_pickerel' },
+  { statement: 'This fish can be identified by: Small, torpedo-shaped body (smallest pike).', answer: true, fishId: 'grass_pickerel' },
+  { statement: 'This fish can be identified by: Fully scaled cheeks and gill covers.', answer: true, fishId: 'grass_pickerel' },
+  { statement: 'You might find this fish in quiet.', answer: true, fishId: 'grass_pickerel' }
 ];
 
 export default grass_pickerel;

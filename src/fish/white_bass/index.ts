@@ -13,11 +13,7 @@ export const white_bass: Fish = {
     'Stripes are thin and run lengthwise',
   ],
   keyFeature: 'Silver body with thin dark horizontal stripes (schooling fish)',
-  habitat: [
-    'large lakes and reservoirs',
-    'open-water schooling areas',
-    'rivers and tributaries during spring spawning runs',
-  ],
+  habitat: ['large lakes and reservoirs', 'open-water schooling areas', 'rivers and tributaries during spring spawning runs'],
   size: '10–15 inches typical',
   funFact:
     'White bass often form large schools and can make noticeable spawning runs up rivers and tributaries in spring.',

@@ -21,6 +21,7 @@ export const longnose_gar: Fish = {
   size: '24-36 inches typical, can exceed 5 feet',
   funFact: 'Longnose gar are living fossils that have remained virtually unchanged for 100 million years. Their diamond-shaped scales are so hard that Native Americans used them as arrowheads!',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Lepisosteus%20osseus' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Lepisosteus+osseus' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Longnose gar have remained virtually unchanged for 100 million years.', answer: true, fishId: 'longnose_gar' }
+  { statement: 'A key ID clue for this fish is: Extremely long, narrow snout and diamond-shaped armored scales.', answer: true, fishId: 'longnose_gar' },
+  { statement: 'This fish can be identified by: Very long, narrow snout (twice head length).', answer: true, fishId: 'longnose_gar' },
+  { statement: 'This fish can be identified by: Diamond-shaped ganoid (armored) scales.', answer: true, fishId: 'longnose_gar' },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'longnose_gar' }
 ];
 
 export default longnose_gar;

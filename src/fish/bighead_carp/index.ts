@@ -17,10 +17,11 @@ export const bighead_carp: Fish = {
     'Gray-brown with dark blotches'
   ],
   keyFeature: 'Enormous head with low-set eyes and dark mottled body pattern',
-  habitat: ['Ohio River system', 'invasive Asian carp'],
+  habitat: ['Ohio River system', 'invasive Asian carp', 'clear streams and rivers'],
   size: '30-48 inches typical, can exceed 100 pounds',
   funFact: 'Bighead carp are filter feeders that can consume 20% of their body weight in plankton daily, directly competing with native fish. They are one of the biggest threats to Great Lakes ecosystems.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Hypophthalmichthys%20nobilis' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Hypophthalmichthys+nobilis' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Bighead carp can consume 20% of their body weight in plankton daily.', answer: true, fishId: 'bighead_carp' }
+  { statement: 'A key ID clue for this fish is: Enormous head with low-set eyes and dark mottled body pattern.', answer: true, fishId: 'bighead_carp' },
+  { statement: 'This fish can be identified by: Very large head relative to body.', answer: true, fishId: 'bighead_carp' },
+  { statement: 'This fish can be identified by: Eyes set low on head.', answer: true, fishId: 'bighead_carp' },
+  { statement: 'You might find this fish in ohio river system.', answer: true, fishId: 'bighead_carp' }
 ];
 
 export default bighead_carp;

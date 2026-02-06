@@ -17,10 +17,11 @@ export const banded_darter: Fish = {
     'Rounded pectoral fins'
   ],
   keyFeature: 'Small green darter with bold, evenly spaced vertical bars',
-  habitat: ['Rocky riffles', 'runs of clear streams'],
+  habitat: ['Rocky riffles', 'runs of clear streams', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Banded darters are named for their very distinct, evenly spaced vertical bars. They are one of the easier darters to identify because the bars are so bold and regular.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Etheostoma%20zonale' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Etheostoma+zonale' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Banded darters have irregularly spaced vertical bars.', answer: false, fishId: 'banded_darter' }
+  { statement: 'A key ID clue for this fish is: Small green darter with bold, evenly spaced vertical bars.', answer: true, fishId: 'banded_darter' },
+  { statement: 'This fish can be identified by: Small body with distinct vertical bars.', answer: true, fishId: 'banded_darter' },
+  { statement: 'This fish can be identified by: Green to olive body with 8-12 dark vertical bars.', answer: true, fishId: 'banded_darter' },
+  { statement: 'You might find this fish in rocky riffles.', answer: true, fishId: 'banded_darter' }
 ];
 
 export default banded_darter;

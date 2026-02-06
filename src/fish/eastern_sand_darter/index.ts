@@ -17,10 +17,11 @@ export const eastern_sand_darter: Fish = {
     'Two widely separated dorsal fins'
   ],
   keyFeature: 'Nearly transparent darter that buries in sand with only eyes exposed',
-  habitat: ['Sandy-bottomed pools', 'runs of clean streams'],
+  habitat: ['Sandy-bottomed pools', 'runs of clean streams', 'clear streams and rivers'],
   size: '2-3 inches typical',
   funFact: 'Eastern sand darters are almost invisible when buried in sand with just their eyes poking out. They are translucent enough to see their internal organs! Listed as threatened in Ohio.',
   refs: [
+    { label: 'ODNR Sport Fish of Ohio Field Guide (PDF)', url: 'https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/backyard-wildlife/Sport%20Fish%20of%20Ohio%20Field%20Guide%20pub334.pdf' },
     { label: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Special:Search?search=Ammocrypta%20pellucida' },
     { label: 'FishBase', url: 'https://fishbase.se/search.php?search=Ammocrypta+pellucida' }
   ],
@@ -33,7 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'Eastern sand darters bury themselves in sand with only their eyes exposed.', answer: true, fishId: 'eastern_sand_darter' }
+  { statement: 'A key ID clue for this fish is: Nearly transparent darter that buries in sand with only eyes exposed.', answer: true, fishId: 'eastern_sand_darter' },
+  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'eastern_sand_darter' },
+  { statement: 'This fish can be identified by: Nearly transparent/translucent body.', answer: true, fishId: 'eastern_sand_darter' },
+  { statement: 'You might find this fish in sandy-bottomed pools.', answer: true, fishId: 'eastern_sand_darter' }
 ];
 
 export default eastern_sand_darter;
