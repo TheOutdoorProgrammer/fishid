@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import { QuizQuestion } from '@/types';
 import { useGameStore, LESSONS } from '@/store/gameStore';
-import { beep } from '@/lib/sounds';
+// Sounds removed (silent UX)
+
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import ProgressBar from '@/components/ui/ProgressBar';
@@ -40,10 +41,8 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
   const currentQuestion = questions[currentIndex];
   const progress = (currentIndex / questions.length) * 100;
 
-  const playSound = (type: 'ok' | 'bad' | 'warn') => {
-    if (settings.sound) {
-      beep(type);
-    }
+  const playSound = (_type: 'ok' | 'bad' | 'warn') => {
+    // Sounds removed (silent UX)
   };
 
   const showToast = (message: string) => {

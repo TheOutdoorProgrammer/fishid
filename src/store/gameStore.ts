@@ -133,7 +133,7 @@ const createDefaultState = (): GameState => ({
   bestStreak: 0,
   lastPractice: null,
   dailyXP: {},
-  settings: { sound: true, allowSkipUnlock: false },
+  settings: { sound: false, allowSkipUnlock: false },
   lessons: LESSONS.reduce(
     (acc, l) => {
       acc[l.id] = {
