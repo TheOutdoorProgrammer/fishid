@@ -42,7 +42,7 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
         <div className="flex justify-between items-start mb-4">
           <div>
             <h2 className="text-sm font-bold text-blue uppercase tracking-wider mb-1">
-              Daily Goal
+              Today's Goal
             </h2>
             <div className="flex items-baseline gap-2">
               <span className="text-3xl font-black text-text">{todayXP}</span>
