@@ -42,19 +42,24 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
     return getRandomFishImage(fish.image);
   }, [fish]);
 
+  const scrollToTop = () => {
+    const main = document.getElementById('main-scroll');
+    if (main) main.scrollTo(0, 0);
+  };
+
   const handleNext = () => {
     if (isLast) {
       onNavigate('quiz', { lessonId });
     } else {
       setCurrentIndex((prev) => prev + 1);
-      window.scrollTo(0, 0);
+      scrollToTop();
     }
   };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prev) => prev - 1);
-      window.scrollTo(0, 0);
+      scrollToTop();
     }
   };
 
