@@ -27,6 +27,10 @@ export function usePWAInstall() {
       document.referrer.includes('android-app://');
 
     setIsInstalled(bypass || isStandalone);
+    if (bypass) {
+      setIsInstallable(false);
+      setDeferredPrompt(null);
+    }
 
     // Detect iOS for manual install instructions
     const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
@@ -34,6 +38,9 @@ export function usePWAInstall() {
 
     // Listen for install prompt (Chrome/Android)
     const handleBeforeInstall = (e: Event) => {
+      // If bypass is enabled, keep the app usable in a normal tab.
+      if (bypass) return;
+
       e.preventDefault();
       setDeferredPrompt(e as BeforeInstallPromptEvent);
       setIsInstallable(true);
