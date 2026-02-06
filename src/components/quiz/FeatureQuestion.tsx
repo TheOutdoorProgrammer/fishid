@@ -22,8 +22,7 @@ export default function FeatureQuestion({
 
   return (
     <div className="flex flex-col gap-4">
-      <Card className="flex flex-col items-center gap-3 p-5">
-        <h3 className="text-lg font-bold text-center text-text/90">Which feature best identifies:</h3>
+      <Card className="flex flex-col items-center gap-2 p-5">
         <div className="text-2xl font-black text-white text-center leading-tight">{fish?.name}</div>
         <div className="text-sm italic text-white/60 text-center">{fish?.scientific}</div>
       </Card>
