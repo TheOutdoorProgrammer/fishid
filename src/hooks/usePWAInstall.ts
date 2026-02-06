@@ -16,13 +16,17 @@ export function usePWAInstall() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
+    // Optional bypass for testing / screenshots (kept intentionally)
+    const params = new URLSearchParams(window.location.search);
+    const bypass = params.get('bypass') === 'true';
+
     // Check if already running as installed PWA
-    const isStandalone = 
+    const isStandalone =
       window.matchMedia('(display-mode: standalone)').matches ||
       (window.navigator as any).standalone === true || // iOS Safari
       document.referrer.includes('android-app://');
 
-    setIsInstalled(isStandalone);
+    setIsInstalled(bypass || isStandalone);
 
     // Detect iOS for manual install instructions
     const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
