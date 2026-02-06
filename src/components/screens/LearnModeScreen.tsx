@@ -47,12 +47,14 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
       onNavigate('quiz', { lessonId });
     } else {
       setCurrentIndex((prev) => prev + 1);
+      window.scrollTo(0, 0);
     }
   };
 
   const handlePrev = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prev) => prev - 1);
+      window.scrollTo(0, 0);
     }
   };
 

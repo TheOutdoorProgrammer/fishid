@@ -20,7 +20,6 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
     lessons,
     fishStats,
     settings,
-    toggleSound,
     toggleSkipUnlock,
     resetProgress,
     exportProgress,
@@ -148,25 +147,6 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
       <div className="space-y-4">
         <h3 className="text-lg font-bold text-white/80 px-1">Settings</h3>
         <Card className="space-y-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-sm">
-                🔊
-              </div>
-              <span className="font-medium">Sound Effects</span>
-            </div>
-            <button
-              onClick={toggleSound}
-              className={`w-12 h-7 rounded-full transition-colors relative ${settings.sound ? 'bg-green-500' : 'bg-white/10'}`}
-            >
-              <div
-                className={`absolute top-1 w-5 h-5 rounded-full bg-white transition-transform ${settings.sound ? 'left-6' : 'left-1'}`}
-              />
-            </button>
-          </div>
-
-          <div className="h-px bg-white/5" />
-
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-sm">

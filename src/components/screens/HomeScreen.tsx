@@ -6,14 +6,14 @@ import { todayStr } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import ProgressBar from '@/components/ui/ProgressBar';
-import { Trophy, Flame, BookOpen, Volume2, VolumeX } from 'lucide-react';
+import { Trophy, Flame, BookOpen } from 'lucide-react';
 
 interface HomeScreenProps {
   onNavigate: (screen: string) => void;
 }
 
 export default function HomeScreen({ onNavigate }: HomeScreenProps) {
-  const { xp, streak, bestStreak, lessons, dailyXP, toggleSound, settings } = useGameStore();
+  const { xp, streak, bestStreak, lessons, dailyXP } = useGameStore();
 
   const today = todayStr();
   const todayXP = dailyXP[today] || 0;
@@ -37,14 +37,6 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
               <span className="text-sm font-bold text-text/50">/ {goal} XP</span>
             </div>
           </div>
-          <Button
-            variant="ghost"
-            onClick={toggleSound}
-            className="!p-2 h-10 w-10 rounded-full text-text/50 hover:text-text"
-            title="Toggle sound"
-          >
-            {settings.sound ? <Volume2 size={20} /> : <VolumeX size={20} />}
-          </Button>
         </div>
 
         <ProgressBar progress={goalProgress} className="mb-8" />
