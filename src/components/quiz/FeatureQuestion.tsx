@@ -1,9 +1,8 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import React from 'react';
 import { FeatureQuestion as FeatureQuestionType } from '@/types';
 import Card from '@/components/ui/Card';
-import { getRandomFishImage } from '@/lib/utils';
 import { FISH } from '@/fish';
 
 interface FeatureQuestionProps {
@@ -20,25 +19,13 @@ export default function FeatureQuestion({
   userAnswer,
 }: FeatureQuestionProps) {
   const fish = FISH[question.fishId];
-  const imageSrc = useMemo(() => getRandomFishImage(fish?.image || [], question.fishId), [fish, question.fishId]);
 
   return (
     <div className="flex flex-col gap-4">
       <Card className="flex flex-col items-center gap-3 p-5">
-        <h3 className="text-lg font-bold text-center text-text/90">Which feature belongs to:</h3>
-        <div className="flex flex-col items-center">
-          <img
-            src={imageSrc}
-            alt="Target fish"
-            className="h-24 w-auto object-contain drop-shadow-sm mb-2"
-          />
-          {/* We might want to show the fish name if it's not clear from context, 
-              but usually 'prompt' contains the text. 
-              Checking the type definition, 'prompt' is the question string.
-              However, for Feature questions, often the prompt is specific. 
-              Let's stick to the design where we show options.
-          */}
-        </div>
+        <h3 className="text-lg font-bold text-center text-text/90">Which feature best identifies:</h3>
+        <div className="text-2xl font-black text-white text-center leading-tight">{fish?.name}</div>
+        <div className="text-sm italic text-white/60 text-center">{fish?.scientific}</div>
       </Card>
 
       <div className="grid grid-cols-1 gap-3">
