@@ -1,16 +1,21 @@
 import type { NextConfig } from 'next';
 import withPWA from '@ducanh2912/next-pwa';
 
-const isGitHubPages = process.env.GITHUB_ACTIONS === 'true';
-const basePath = isGitHubPages ? '/fishid' : '';
+// For custom domains (e.g. fishid.theoutdoorprogrammer.com), you typically want to serve
+// from the *root* (no basePath). If you ever need to serve from a sub-path again
+// (e.g. /fishid on github.io), set NEXT_PUBLIC_BASE_PATH=/fishid at build time.
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const assetPrefix = basePath ? `${basePath}/` : '';
 
 const nextConfig: NextConfig = {
   turbopack: {},
   // Use 'export' for static site (GitHub Pages), 'standalone' for Docker
   output: 'export',
-  // GitHub Pages deploys to /fishid/ subdirectory
   basePath,
-  assetPrefix: isGitHubPages ? '/fishid/' : '',
+  assetPrefix,
+  // GitHub Pages serves static files; this also helps with refresh/deep-link behavior.
+  trailingSlash: true,
+
   // Disable image optimization for static export
   images: {
     unoptimized: true,
