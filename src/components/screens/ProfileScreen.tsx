@@ -227,7 +227,20 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-          {FISH_IDS.map((id) => {
+          {[...FISH_IDS]
+            .sort((a, b) => {
+              const sa = fishStats[a] || { correct: 0 };
+              const sb = fishStats[b] || { correct: 0 };
+              const da = (sa.correct || 0) > 0;
+              const db = (sb.correct || 0) > 0;
+              if (da !== db) return da ? -1 : 1;
+
+              // Within each group, sort alphabetically
+              const na = (FISH[a]?.name || a).toLowerCase();
+              const nb = (FISH[b]?.name || b).toLowerCase();
+              return na.localeCompare(nb);
+            })
+            .map((id) => {
             const fish = FISH[id];
             const stats = fishStats[id] || { seen: 0, correct: 0 };
             const isDiscovered = stats.correct > 0;
