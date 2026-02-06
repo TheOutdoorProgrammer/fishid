@@ -303,16 +303,17 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
 
       {selectedFish && (
         <div
-          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4"
+          className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm overflow-y-auto"
           onClick={() => setSelectedFishId(null)}
         >
-          <div
-            className="w-full max-w-lg"
-            onClick={(e) => {
-              e.stopPropagation();
-            }}
-          >
-            <Card className="relative overflow-hidden !p-0 border-white/10 bg-panel">
+          <div className="min-h-full flex items-start justify-center p-4 py-8">
+            <div
+              className="w-full max-w-lg"
+              onClick={(e) => {
+                e.stopPropagation();
+              }}
+            >
+              <Card className="relative overflow-hidden !p-0 border-white/10 bg-panel max-h-[90vh] flex flex-col">
               <div className="relative h-64 w-full bg-black/20 shrink-0">
                 {selectedFishImage ? (
                   <img
@@ -326,11 +327,11 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
                   </div>
                 )}
 
-                <div className="absolute top-3 right-3">
+                <div className="fixed top-4 right-4 z-50">
                   <Button
                     variant="ghost"
                     onClick={() => setSelectedFishId(null)}
-                    className="!p-2 min-h-0 h-9 w-9 rounded-full bg-black/40 hover:bg-black/60"
+                    className="!p-2 min-h-0 h-10 w-10 rounded-full bg-black/50 hover:bg-black/70 border border-white/10"
                   >
                     ✕
                   </Button>
@@ -346,7 +347,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
                 </div>
               </div>
 
-              <div className="p-5 pt-4 max-h-[60vh] overflow-y-auto">
+              <div className="p-5 pt-4 flex-1 overflow-y-auto">
                 <div className="space-y-6 text-sm">
                   <div className="bg-white/5 p-4 rounded-xl border border-white/5 mb-2">
                     <div className="flex items-center gap-2 mb-2 text-blue-300">
@@ -420,6 +421,7 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
             </Card>
           </div>
         </div>
+      </div>
       )}
     </div>
   );
