@@ -13,8 +13,8 @@ export default function AppLayout({ children, currentScreen, onNavigate }: AppLa
   return (
     <div className="h-screen w-full bg-bg text-text overflow-hidden flex flex-col">
       <TopBar />
-      <main className="flex-1 overflow-y-auto w-full flex justify-center pt-[calc(70px+env(safe-area-inset-top,0px))] pb-[calc(90px+env(safe-area-inset-bottom,0px))] scroll-smooth">
-        <div className="w-full max-w-[600px] px-4 py-6 animate-in fade-in duration-300">
+      <main className="flex-1 overflow-y-auto w-full pt-[calc(70px+env(safe-area-inset-top,0px))] scroll-smooth">
+        <div className="w-full max-w-[600px] mx-auto px-4 pt-6 pb-6 animate-in fade-in duration-300">
           {children}
         </div>
       </main>

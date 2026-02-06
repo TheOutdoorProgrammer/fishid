@@ -15,7 +15,7 @@ export default function LearnScreen({ onNavigate }: LearnScreenProps) {
   const { lessons, toggleSkipUnlock, settings } = useGameStore();
 
   return (
-    <div className="space-y-6 pb-10">
+    <div className="space-y-6 pb-20">
       <Card className="relative overflow-hidden">
         <div className="flex justify-between items-start relative z-10">
           <div className="flex gap-4">

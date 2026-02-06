@@ -25,7 +25,7 @@ export default function HomeScreen({ onNavigate }: HomeScreenProps) {
   const overallProgress = totalLessons > 0 ? (completedLessons / totalLessons) * 100 : 0;
 
   return (
-    <div className="space-y-6 max-w-md mx-auto">
+    <div className="space-y-6 max-w-md mx-auto pb-20">
       <Card className="relative overflow-hidden">
         <div className="flex justify-between items-start mb-4">
           <div>

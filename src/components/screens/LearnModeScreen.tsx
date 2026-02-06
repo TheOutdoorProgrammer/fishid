@@ -56,7 +56,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
   };
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="flex flex-col">
       <div className="flex items-center gap-3 mb-4">
         <div className="flex-1">
           <div className="flex items-center gap-2 mb-1">
@@ -161,7 +161,7 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
         </Card>
       )}
 
-      <div className="flex gap-4 mt-4">
+      <div className="flex gap-4 mt-4 mb-20">
         <Button variant="ghost" onClick={handlePrev} disabled={currentIndex === 0} className="w-14">
           ◀
         </Button>

@@ -123,21 +123,21 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
     else if (score >= 60) stars = 1;
 
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 pt-[calc(1.5rem+env(safe-area-inset-top,0px))] pb-[calc(1.5rem+env(safe-area-inset-bottom,0px))] gap-6 animate-in fade-in zoom-in duration-300">
-        <div className="text-center space-y-2">
-          <h2 className="text-3xl font-black text-white">Quiz Complete!</h2>
-          <p className="text-muted">Great job!</p>
+      <div className="min-h-[70vh] flex flex-col items-center justify-center gap-4 animate-in fade-in zoom-in duration-300">
+        <div className="text-center space-y-1">
+          <h2 className="text-2xl font-black text-white">Quiz Complete!</h2>
+          <p className="text-sm text-muted">Great job!</p>
         </div>
 
-        <Card className="w-full max-w-sm flex flex-col items-center gap-6" padding>
+        <Card className="w-full max-w-sm flex flex-col items-center gap-4" padding>
           <div className="text-center">
-            <div className="text-6xl font-black bg-gradient-to-br from-green-400 to-emerald-600 bg-clip-text text-transparent">
+            <div className="text-5xl font-black bg-gradient-to-br from-green-400 to-emerald-600 bg-clip-text text-transparent">
               {score}%
             </div>
             <div className="text-sm font-bold text-muted mt-1">ACCURACY</div>
           </div>
 
-          <StarRating stars={stars} className="scale-150 gap-2" />
+          <StarRating stars={stars} className="scale-125" />
 
           <div className="w-full bg-white/5 rounded-xl p-4 flex justify-between items-center border border-white/5">
             <span className="font-bold text-muted">XP Earned</span>
@@ -153,8 +153,8 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
   }
 
   return (
-    <div className="flex flex-col min-h-screen max-w-xl mx-auto p-4 pt-[calc(1rem+env(safe-area-inset-top,0px))] pb-[calc(1rem+env(safe-area-inset-bottom,0px))] gap-6">
-      <div className="flex items-center gap-4">
+    <div className="flex flex-col pb-20 -mt-2">
+      <div className="flex items-center gap-4 mb-2">
         <Button
           variant="ghost"
           className="!p-2 min-h-0 aspect-square rounded-full border-0 bg-panel"
@@ -170,12 +170,12 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
         </div>
       </div>
 
-      <div className="text-center py-2">
+      <div className="text-center mb-2">
         <h2 className="text-xl font-bold text-white leading-relaxed">{currentQuestion.prompt}</h2>
       </div>
 
-      <div className="flex-1 flex flex-col min-h-0">
-        <div className="flex-1 overflow-y-auto hide-scrollbar">
+      <div className="flex flex-col mb-2">
+        <div>
           {currentQuestion.type === 'identify' && (
             <IdentifyQuestion
               question={currentQuestion}
@@ -219,7 +219,7 @@ export default function QuizScreen({ questions, lessonId, onExit }: QuizScreenPr
         </div>
       </div>
 
-      <div className="pt-2 mt-auto">
+      <div className="pt-2">
         {showFeedback && (
           <Button
             onClick={handleNext}
