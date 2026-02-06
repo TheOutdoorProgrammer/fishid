@@ -6,6 +6,7 @@ import { FISH } from '@/fish';
 import { getRandomFishImage } from '@/lib/utils';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
+import { RefreshCw } from 'lucide-react';
 
 interface ProfileScreenProps {
   onNavigate?: (screen: string) => void;
@@ -27,6 +28,35 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
   } = useGameStore();
 
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [isUpdating, setIsUpdating] = React.useState(false);
+
+  const forceUpdate = async () => {
+    setIsUpdating(true);
+    try {
+      // Unregister service worker
+      if ('serviceWorker' in navigator) {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        for (const registration of registrations) {
+          await registration.unregister();
+        }
+      }
+      
+      // Clear all caches
+      if ('caches' in window) {
+        const cacheNames = await caches.keys();
+        for (const cacheName of cacheNames) {
+          await caches.delete(cacheName);
+        }
+      }
+      
+      // Reload the page
+      window.location.reload();
+    } catch (error) {
+      console.error('Error forcing update:', error);
+      // Reload anyway
+      window.location.reload();
+    }
+  };
 
   const handleExport = () => {
     const json = exportProgress();
@@ -168,6 +198,21 @@ export default function ProfileScreen({ onNavigate }: ProfileScreenProps) {
             style={{ display: 'none' }}
             onChange={handleFileChange}
           />
+        </Card>
+      </div>
+
+      <div className="space-y-4">
+        <h3 className="text-lg font-bold text-white/80 px-1">App</h3>
+        <Card>
+          <Button
+            variant="ghost"
+            onClick={forceUpdate}
+            disabled={isUpdating}
+            className="w-full flex items-center justify-center gap-2"
+          >
+            <RefreshCw size={16} className={isUpdating ? 'animate-spin' : ''} />
+            {isUpdating ? 'Updating...' : 'Check for Updates'}
+          </Button>
         </Card>
       </div>
 
