@@ -91,11 +91,20 @@ export function qIdentify(pool: Fish[], used: UsedTracker): IdentifyQuestion {
   const answer = pickUnused(pool, used.fish, ALL_FISH);
   used.fish.add(answer.id);
 
-  const choices = new Set<string>([answer.id]);
+  // Use the current quiz pool for distractors when possible (makes lesson quizzes harder).
+  const poolIds = Array.from(new Set(pool.map((f) => f.id)));
   const allIds = Object.keys(FISH_BY_ID);
-  const maxChoices = Math.min(4, allIds.length);
+  const distractorSource = poolIds.length >= 4 ? poolIds : allIds;
+
+  const choices = new Set<string>([answer.id]);
+  const maxChoices = Math.min(4, distractorSource.length);
 
   while (choices.size < maxChoices) {
+    choices.add(distractorSource[Math.floor(Math.random() * distractorSource.length)]);
+  }
+
+  // If we still don’t have enough options (tiny pools), top up from global list.
+  while (choices.size < Math.min(4, allIds.length)) {
     choices.add(allIds[Math.floor(Math.random() * allIds.length)]);
   }
 
@@ -117,8 +126,30 @@ export function qFeature(pool: Fish[], used: UsedTracker): FeatureQuestion {
   const fish = pickUnused(pool, used.fish, ALL_FISH);
   used.fish.add(fish.id);
 
-  const optionsData = getFeatureOptions(fish);
-  const options = shuffle([optionsData.correct, ...optionsData.wrong]).map((option) => ({
+  // Vary the "correct" feature so repeat questions don't always use the same line.
+  const candidateCorrect = shuffle(
+    Array.from(new Set([fish.keyFeature, ...(fish.features || [])])).filter(Boolean)
+  )[0];
+
+  // Pull wrong features from other fish (prefer the current pool so it's harder / more relevant).
+  const sourceFish = pool.length ? pool : ALL_FISH;
+  const wrongCandidates = sourceFish
+    .filter((f) => f.id !== fish.id)
+    .flatMap((f) => [f.keyFeature, ...(f.features || [])])
+    .filter((f) => Boolean(f) && f !== candidateCorrect);
+
+  const wrong = Array.from(new Set(shuffle(wrongCandidates))).slice(0, 3);
+
+  // Fallback to existing per-fish options if needed.
+  if (wrong.length < 3) {
+    const optionsData = getFeatureOptions(fish);
+    for (const w of optionsData.wrong) {
+      if (w !== candidateCorrect && !wrong.includes(w)) wrong.push(w);
+      if (wrong.length >= 3) break;
+    }
+  }
+
+  const options = shuffle([candidateCorrect, ...wrong]).map((option) => ({
     label: option,
     value: option,
   }));
@@ -128,7 +159,7 @@ export function qFeature(pool: Fish[], used: UsedTracker): FeatureQuestion {
     prompt: `Which feature best identifies ${fish.name}?`,
     fishId: fish.id,
     options,
-    correct: optionsData.correct,
+    correct: candidateCorrect,
   };
 }
 
