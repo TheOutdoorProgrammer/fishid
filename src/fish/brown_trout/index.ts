@@ -16,7 +16,7 @@ export const brown_trout: Fish = {
     'No strong pink stripe like rainbow/steelhead'
   ],
   keyFeature: 'Golden-brown body with red/orange spots (often with pale halos)',
-  habitat: ['Lake Erie and cold tributaries; also stocked in some Ohio waters'],
+  habitat: ['Lake Erie', 'cold tributaries', 'also stocked in some Ohio waters'],
   size: '12-24 inches typical (can be larger in Lake Erie)',
   funFact: 'Brown trout are originally from Europe and were introduced to North America in the 1800s. They can become very wary and are often most active at dawn/dusk.',
   refs: [

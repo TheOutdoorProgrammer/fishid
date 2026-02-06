@@ -17,7 +17,7 @@ export const hybrid_striped_bass: Fish = {
     'Separated dorsal fins'
   ],
   keyFeature: 'Like white bass but larger with broken/offset horizontal stripes',
-  habitat: ['Large reservoirs where stocked; open water'],
+  habitat: ['Large reservoirs where stocked', 'open water'],
   size: '15-20 inches typical, can exceed 10 pounds',
   funFact: 'Hybrid striped bass (wipers) are a cross between white bass and saltwater striped bass. They fight incredibly hard and are stocked in many Ohio reservoirs.',
   refs: [

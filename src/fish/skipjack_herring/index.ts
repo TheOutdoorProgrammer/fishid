@@ -17,7 +17,7 @@ export const skipjack_herring: Fish = {
     'Serrated belly (scutes like shad)'
   ],
   keyFeature: 'Silver herring with projecting lower jaw and no shoulder spot',
-  habitat: ['Ohio River and large tributaries; open water near surface'],
+  habitat: ['Ohio River', 'large tributaries', 'open water near surface'],
   size: '12-16 inches typical',
   funFact: 'Skipjack herring are named for their habit of leaping out of the water while feeding. They are excellent cut bait for catching catfish and are found mainly in the Ohio River.',
   refs: [

@@ -17,7 +17,7 @@ export const freshwater_drum: Fish = {
     'Large otoliths (ear bones) called "lucky stones"'
   ],
   keyFeature: 'Deep silver body, humped back, rounded tail, downturned mouth',
-  habitat: ['Lake Erie, large rivers, reservoirs; bottom dweller'],
+  habitat: ['Lake Erie', 'large rivers', 'reservoirs', 'bottom dweller'],
   size: '12-20 inches typical',
   funFact: 'Freshwater drum can make a drumming sound by vibrating muscles against their swim bladder - that\'s how they got their name! Their ear bones ("lucky stones") are smooth, round, and often collected.',
   refs: [

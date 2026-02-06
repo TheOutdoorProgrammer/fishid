@@ -17,7 +17,7 @@ export const blackstripe_topminnow: Fish = {
     'Rounded tail'
   ],
   keyFeature: 'Surface fish with bold dark stripe, flat head, and upturned mouth',
-  habitat: ['Quiet pools, backwaters, stream edges; lives at water surface'],
+  habitat: ['Quiet pools', 'backwaters', 'stream edges', 'lives at water surface'],
   size: '2-3 inches typical',
   funFact: 'Blackstripe topminnows spend their lives at the water surface, using their upturned mouths to feed on insects that land on the water. They are sometimes called "top minnows" for this reason.',
   refs: [

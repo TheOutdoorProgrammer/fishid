@@ -16,7 +16,7 @@ export const smallmouth_bass: Fish = {
     'Connected dorsal fin with shallow notch'
   ],
   keyFeature: 'Bronze color, jaw ends at the eye, red eye',
-  habitat: ['Rocky lakes, clear streams and rivers, Lake Erie'],
+  habitat: ['Rocky lakes', 'clear streams', 'rivers', 'Lake Erie'],
   size: '12-18 inches typical',
   funFact: 'Pound for pound, smallmouth bass are considered the hardest-fighting freshwater fish. They\'re nicknamed "bronzebacks" for their color.',
   refs: [

@@ -17,7 +17,7 @@ export const rainbow_darter: Fish = {
     'Fan-shaped pectoral fins for perching on rocks'
   ],
   keyFeature: 'Stunningly colorful with alternating blue and orange vertical bars (males)',
-  habitat: ['Rocky riffles of clear streams; very common in Ohio'],
+  habitat: ['Rocky riffles of clear streams', 'very common in Ohio'],
   size: '2-3 inches typical',
   funFact: 'Rainbow darters are considered one of the most beautiful freshwater fish in North America. Breeding males look like tiny tropical fish with their vivid blue and orange barring.',
   refs: [

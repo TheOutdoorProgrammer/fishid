@@ -16,7 +16,7 @@ export const largemouth_bass: Fish = {
     'Larger mouth compared to smallmouth'
   ],
   keyFeature: 'Large mouth extending past eye, dark horizontal stripe',
-  habitat: ['Warm, weedy lakes and ponds, slow rivers'],
+  habitat: ['Warm', 'weedy lakes', 'ponds', 'slow rivers'],
   size: '12-20 inches typical',
   funFact: 'Largemouth bass are the most popular game fish in America. They can eat prey up to half their own body length!',
   refs: [

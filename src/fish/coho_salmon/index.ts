@@ -17,7 +17,7 @@ export const coho_salmon: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Silver salmon with spots only on upper tail lobe and white gum line',
-  habitat: ['Lake Erie; spawns in tributaries in fall'],
+  habitat: ['Lake Erie', 'spawns in tributaries in fall'],
   size: '20-28 inches typical',
   funFact: 'Coho salmon can be distinguished from chinook by checking the gum line: coho have white gums, chinook have black. Coho were once common in Lake Erie but numbers have declined.',
   refs: [

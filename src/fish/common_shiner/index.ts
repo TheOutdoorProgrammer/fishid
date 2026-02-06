@@ -17,7 +17,7 @@ export const common_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Silver minnow with large visible scales; breeding males turn rosy pink',
-  habitat: ['Small to medium streams, often in pools with moderate current'],
+  habitat: ['Small to medium streams', 'often in pools with moderate current'],
   size: '4-7 inches typical',
   funFact: 'Common shiners are one of the showiest minnows when breeding. Males develop brilliant rosy-pink bodies and build nests in gravel over which many other minnow species also spawn.',
   refs: [

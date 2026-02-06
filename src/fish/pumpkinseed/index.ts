@@ -17,7 +17,7 @@ export const pumpkinseed: Fish = {
     'Small mouth, not extending past front of eye'
   ],
   keyFeature: 'Colorful sunfish with red/orange spot on ear flap and wavy facial lines',
-  habitat: ['Clear ponds and lakes with vegetation, slow streams'],
+  habitat: ['Clear ponds', 'lakes with vegetation', 'slow streams'],
   size: '5-8 inches typical',
   funFact: 'Pumpkinseed are arguably the most colorful freshwater fish in Ohio. The bright red spot on their ear flap is the easiest way to tell them from bluegill.',
   refs: [

@@ -17,7 +17,7 @@ export const gizzard_shad: Fish = {
     'Deeply forked tail'
   ],
   keyFeature: 'Silver deep body with trailing dorsal filament and dark shoulder spot',
-  habitat: ['Lakes, reservoirs, rivers; extremely abundant in Ohio'],
+  habitat: ['Lakes', 'reservoirs', 'rivers', 'extremely abundant in Ohio'],
   size: '8-14 inches typical',
   funFact: 'Gizzard shad are the most abundant fish in many Ohio lakes. They have a gizzard-like stomach that grinds food, just like a bird. They are critical forage for game fish.',
   refs: [

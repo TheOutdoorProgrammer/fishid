@@ -17,7 +17,7 @@ export const sand_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Small pale straw-colored minnow with faint zig-zag lateral stripe',
-  habitat: ['Sandy pools and runs of streams; also lake margins'],
+  habitat: ['Sandy pools', 'runs of streams', 'also lake margins'],
   size: '2-3 inches typical',
   funFact: 'Sand shiners are named for their preference for sandy-bottomed habitats. They are one of the most widespread minnow species in the central United States.',
   refs: [

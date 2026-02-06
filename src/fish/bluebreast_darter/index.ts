@@ -17,7 +17,7 @@ export const bluebreast_darter: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Stunning darter with bright blue breast and red-orange side markings',
-  habitat: ['Fast rocky riffles of clear rivers; clean water indicator'],
+  habitat: ['Fast rocky riffles of clear rivers', 'clean water indicator'],
   size: '2-4 inches typical',
   funFact: 'Bluebreast darters are one of Ohio\'s most beautiful fish. They require very clean water and are listed as a species of concern in Ohio.',
   refs: [

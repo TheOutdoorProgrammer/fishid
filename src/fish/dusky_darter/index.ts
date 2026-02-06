@@ -17,7 +17,7 @@ export const dusky_darter: Fish = {
     'Dark tearstain mark under eye'
   ],
   keyFeature: 'Olive darter with connected dark blotches forming band and tear mark under eye',
-  habitat: ['Rocky pools and gentle riffles of medium rivers'],
+  habitat: ['Rocky pools', 'gentle riffles of medium rivers'],
   size: '3-4 inches typical',
   funFact: 'Dusky darters get their name from their dull, dusky coloration. They are most common in the Ohio River drainage and prefer slightly larger streams than many darters.',
   refs: [

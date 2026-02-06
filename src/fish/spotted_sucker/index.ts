@@ -17,7 +17,7 @@ export const spotted_sucker: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Sucker with parallel rows of dark spots, one at base of each scale',
-  habitat: ['Pools of clear streams and rivers over sand or gravel'],
+  habitat: ['Pools of clear streams', 'rivers over sand or gravel'],
   size: '10-16 inches typical',
   funFact: 'Spotted suckers are one of the easiest suckers to identify because of their distinctive rows of spots. The spots are actually at the base of each scale, creating neat parallel lines.',
   refs: [

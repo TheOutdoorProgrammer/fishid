@@ -16,7 +16,7 @@ export const yellow_perch: Fish = {
     'Small mouth, no canine teeth'
   ],
   keyFeature: 'Golden-yellow body with dark vertical bars',
-  habitat: ['Lake Erie, inland lakes, prefers cool clear water'],
+  habitat: ['Lake Erie', 'inland lakes', 'prefers cool clear water'],
   size: '7-12 inches typical',
   funFact: 'Lake Erie is known as the "Walleye Capital of the World" but yellow perch are equally beloved. A Lake Erie perch fry is an Ohio tradition!',
   refs: [

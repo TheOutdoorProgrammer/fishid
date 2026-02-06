@@ -17,7 +17,7 @@ export const central_stoneroller: Fish = {
     'Subterminal mouth'
   ],
   keyFeature: 'Round snout with hard scraping ridge on lower jaw for eating algae',
-  habitat: ['Rocky riffles of streams; very common in Ohio'],
+  habitat: ['Rocky riffles of streams', 'very common in Ohio'],
   size: '4-7 inches typical',
   funFact: 'Central stonerollers are ecosystem engineers! They scrape algae off rocks, creating clean feeding areas used by other fish. Breeding males develop impressive horny tubercles on their heads.',
   refs: [

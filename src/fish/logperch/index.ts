@@ -17,7 +17,7 @@ export const logperch: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Large darter with pig-like snout and alternating long/short vertical bars',
-  habitat: ['Lakes, rivers, and streams with gravel or sandy bottoms'],
+  habitat: ['Lakes', 'rivers', 'and streams with gravel or sandy bottoms'],
   size: '4-6 inches typical',
   funFact: 'Logperch use their distinctive conical snout to flip over small rocks and pebbles to find insect larvae underneath. Their alternating bar pattern is unique among darters.',
   refs: [

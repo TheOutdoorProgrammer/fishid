@@ -17,7 +17,7 @@ export const sea_lamprey: Fish = {
     'Single nostril on top of head'
   ],
   keyFeature: 'Eel-like jawless parasite with circular tooth-filled sucker mouth and 7 gill holes',
-  habitat: ['Lake Erie; attaches to and parasitizes large fish'],
+  habitat: ['Lake Erie', 'attaches to', 'parasitizes large fish'],
   size: '12-24 inches typical',
   funFact: 'Sea lamprey nearly destroyed the Lake Erie fishery in the mid-1900s. They attach to fish with their sucker mouths and drain the body fluids. Control programs now keep them in check.',
   refs: [

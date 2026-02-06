@@ -16,7 +16,7 @@ export const walleye: Fish = {
     'Sharp canine teeth'
   ],
   keyFeature: 'Large glassy eyes and white-tipped lower tail',
-  habitat: ['Lake Erie, large reservoirs, rivers with rocky bottoms'],
+  habitat: ['Lake Erie', 'large reservoirs', 'rivers with rocky bottoms'],
   size: '15-25 inches typical, up to 30+',
   funFact: 'Walleye are named for their pearlescent eyes, which reflect light like a cat\'s eyes. They are Ohio\'s most prized game fish and the official state fish of Ohio... wait, that\'s actually not true - but they should be!',
   refs: [

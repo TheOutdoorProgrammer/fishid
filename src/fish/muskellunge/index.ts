@@ -17,7 +17,7 @@ export const muskellunge: Fish = {
     'Tail fin more pointed than pike'
   ],
   keyFeature: 'Dark markings on light body (opposite of pike), pointed tail',
-  habitat: ['Large lakes, rivers with clear water; Lake Erie, inland reservoirs'],
+  habitat: ['Large lakes', 'rivers with clear water', 'Lake Erie', 'inland reservoirs'],
   size: '30-48 inches typical, Ohio record over 50 inches',
   funFact: 'Muskies are called "the fish of 10,000 casts" because they\'re notoriously difficult to catch. They\'re the largest member of the pike family.',
   refs: [

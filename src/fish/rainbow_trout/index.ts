@@ -17,7 +17,7 @@ export const rainbow_trout: Fish = {
     'White-tipped fins'
   ],
   keyFeature: 'Prominent pink-red lateral stripe with spots everywhere',
-  habitat: ['Cold streams, stocked in Ohio lakes and ponds'],
+  habitat: ['Cold streams', 'stocked in Ohio lakes', 'ponds'],
   size: '10-16 inches typical (stream fish)',
   funFact: 'Rainbow trout and steelhead are the same species! Stream-resident fish are called rainbow trout, while those that migrate to Lake Erie are called steelhead.',
   refs: [

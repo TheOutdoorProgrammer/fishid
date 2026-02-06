@@ -17,7 +17,7 @@ export const grass_carp: Fish = {
     'Olive-green body with silvery sides'
   ],
   keyFeature: 'Large elongated carp with dark-edged scales and no barbels',
-  habitat: ['Lakes, ponds, slow rivers; stocked for vegetation control'],
+  habitat: ['Lakes', 'ponds', 'slow rivers', 'stocked for vegetation control'],
   size: '24-40 inches typical, can exceed 50 pounds',
   funFact: 'Grass carp eat their weight in vegetation daily! Triploid (sterile) grass carp are stocked in Ohio ponds to control aquatic weeds. Fertile grass carp are invasive and illegal to stock.',
   refs: [

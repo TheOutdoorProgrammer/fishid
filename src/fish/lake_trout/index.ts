@@ -17,7 +17,7 @@ export const lake_trout: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Dark body with pale spots and deeply forked tail',
-  habitat: ['Deep, cold waters of Lake Erie; historically in deeper eastern basin'],
+  habitat: ['Deep, cold waters of Lake Erie', 'historically in deeper eastern basin'],
   size: '18-30 inches typical in Lake Erie',
   funFact: 'Lake trout were nearly wiped out in Lake Erie by sea lamprey and overfishing. Restoration efforts have brought small populations back to the deeper parts of the lake.',
   refs: [

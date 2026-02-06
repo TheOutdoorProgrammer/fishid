@@ -17,7 +17,7 @@ export const black_bullhead: Fish = {
     'Pectoral spine smooth (no sharp barbs)'
   ],
   keyFeature: 'Dark-bodied bullhead with pale bar at tail base and smooth pectoral spine',
-  habitat: ['Ponds, lakes, ditches; extremely tolerant of poor conditions'],
+  habitat: ['Ponds', 'lakes', 'ditches', 'extremely tolerant of poor conditions'],
   size: '7-12 inches typical',
   funFact: 'Black bullhead are the hardiest of all bullheads. They can survive in water so muddy and oxygen-poor that virtually no other fish can live there.',
   refs: [

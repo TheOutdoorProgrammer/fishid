@@ -17,7 +17,7 @@ export const hornyhead_chub: Fish = {
     'Subterminal mouth with small barbel at corner'
   ],
   keyFeature: 'Robust minnow with red-orange spot behind eye; breeding males have head tubercles',
-  habitat: ['Pools of clear streams over gravel; moderate current'],
+  habitat: ['Pools of clear streams over gravel', 'moderate current'],
   size: '5-8 inches typical',
   funFact: 'Hornyhead chub males build large gravel nests and develop impressive horn-like tubercles on their heads during spawning. Many other minnow species use their nests to spawn.',
   refs: [

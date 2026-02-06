@@ -17,7 +17,7 @@ export const grass_pickerel: Fish = {
     'Dorsal fin set far back'
   ],
   keyFeature: 'Smallest pike family member with dark tear-drop under eye and fully scaled cheeks',
-  habitat: ['Quiet, weedy streams, pond edges, ditches, and marshes'],
+  habitat: ['Quiet', 'weedy streams', 'pond edges', 'ditches', 'and marshes'],
   size: '6-10 inches typical, rarely exceeds 12',
   funFact: 'Grass pickerel are the smallest member of the pike family in Ohio. Despite their tiny size, they are fierce little predators that ambush prey from weed beds.',
   refs: [

@@ -17,7 +17,7 @@ export const longnose_gar: Fish = {
     'Can breathe air using swim bladder'
   ],
   keyFeature: 'Extremely long, narrow snout and diamond-shaped armored scales',
-  habitat: ['Large rivers, lakes, and reservoirs; sluggish backwaters'],
+  habitat: ['Large rivers', 'lakes', 'and reservoirs', 'sluggish backwaters'],
   size: '24-36 inches typical, can exceed 5 feet',
   funFact: 'Longnose gar are living fossils that have remained virtually unchanged for 100 million years. Their diamond-shaped scales are so hard that Native Americans used them as arrowheads!',
   refs: [
