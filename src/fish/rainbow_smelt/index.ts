@@ -17,7 +17,7 @@ export const rainbow_smelt: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Small silvery fish with iridescent sheen, large teeth, and adipose fin',
-  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Deep open waters of Lake Erie', 'comes to shore to spawn', 'lakes and reservoirs'],
+  habitat: ['Lake Erie', 'lakes', 'reservoirs', 'tributaries'],
   size: '6-8 inches typical',
   funFact: 'Rainbow smelt smell like cucumbers when freshly caught! They are an invasive forage fish in Lake Erie that provide food for walleye, trout, and other predators.',
   refs: [

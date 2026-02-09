@@ -17,7 +17,7 @@ export const yellow_bullhead: Fish = {
     'Adipose fin present'
   ],
   keyFeature: 'Yellow-brown bullhead with distinctive white chin barbels',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds'],
+  habitat: ['backwaters', 'creeks', 'lakes', 'ponds', 'reservoirs', 'rivers'],
   size: '8-14 inches typical',
   funFact: 'Yellow bullhead are the most common bullhead in Ohio. The easiest way to tell bullheads apart is by their chin barbels: yellow bullheads have white or cream barbels.',
   refs: [

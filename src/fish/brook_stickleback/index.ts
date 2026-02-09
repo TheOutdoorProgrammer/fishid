@@ -17,7 +17,7 @@ export const brook_stickleback: Fish = {
     'Large eye relative to body size'
   ],
   keyFeature: 'Tiny scaleless fish with 4-6 isolated spines in front of dorsal fin',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Cool streams', 'springs', 'bog pools with vegetation'],
+  habitat: ['backwaters', 'bogs', 'cold streams', 'creeks', 'rivers', 'springs'],
   size: '1.5-2.5 inches typical',
   funFact: 'Brook stickleback males build elaborate nests from plant material glued together with kidney secretions. They aggressively guard the nest and fan eggs with their fins to keep them oxygenated.',
   refs: [

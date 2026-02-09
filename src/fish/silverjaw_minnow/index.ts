@@ -17,7 +17,7 @@ export const silverjaw_minnow: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Translucent minnow with visible silver chambers in head and jaw',
-  habitat: ['Ohio creeks and small rivers', 'Sandy-bottomed streams', 'pools', 'clear streams and rivers'],
+  habitat: ['creeks', 'pools', 'rivers', 'streams'],
   size: '2-4 inches typical',
   funFact: 'Silverjaw minnows have unique enlarged head canals visible as silvery chambers through their translucent skin. No other minnow has this distinctive feature.',
   refs: [

@@ -17,7 +17,7 @@ export const saugeye: Fish = {
     'Hybrid between walleye and sauger'
   ],
   keyFeature: 'Looks like walleye but with spotted dorsal fin and darker blotches',
-  habitat: ['Ohio inland lakes and reservoirs', 'Ohio reservoirs', 'lakes (heavily stocked by ODNR)', 'lakes and reservoirs'],
+  habitat: ['lakes', 'reservoirs', 'stocked lakes'],
   size: '15-22 inches typical',
   funFact: 'Saugeye are a man-made hybrid created by crossing walleye with sauger. Ohio stocks millions of saugeye every year because they grow fast and tolerate warmer, murkier water than pure walleye.',
   refs: [

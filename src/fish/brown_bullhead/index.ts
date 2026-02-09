@@ -17,7 +17,7 @@ export const brown_bullhead: Fish = {
     'Chin barbels dark, not white'
   ],
   keyFeature: 'Brown mottled bullhead with dark (not white) chin barbels',
-  habitat: ['Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds', 'lakes'],
+  habitat: ['creeks', 'lakes', 'ponds', 'reservoirs', 'rivers'],
   size: '8-14 inches typical',
   funFact: 'Brown bullhead can survive in incredibly harsh conditions including low oxygen and high temperatures. They are the bullhead species most often found in Lake Erie.',
   refs: [

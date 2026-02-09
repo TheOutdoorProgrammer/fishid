@@ -17,7 +17,7 @@ export const northern_studfish: Fish = {
     'Larger than other killifish'
   ],
   keyFeature: 'Large killifish with rows of red-brown spots; breeding males turn vivid blue',
-  habitat: ['Ohio creeks and small rivers', 'Clear rocky streams in southeastern Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'rocky streams', 'streams'],
   size: '4-6 inches typical',
   funFact: 'Northern studfish are one of Ohio\'s most colorful fish when in breeding dress. Males develop an electric blue body covered in red-orange spots.',
   refs: [

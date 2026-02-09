@@ -17,7 +17,7 @@ export const central_mudminnow: Fish = {
     'No adipose fin'
   ],
   keyFeature: 'Small stout fish with rounded tail, dark tail-base bar, and air-breathing ability',
-  habitat: ['Swamps', 'bogs', 'heavily vegetated ditches', 'can survive in mud'],
+  habitat: ['bogs', 'ditches', 'swamps'],
   size: '2-4 inches typical',
   funFact: 'Central mudminnows can survive being frozen in ice and can breathe air by gulping it at the surface. They can also survive buried in mud when ponds dry up.',
   refs: [

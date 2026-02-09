@@ -17,7 +17,7 @@ export const spotfin_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Steel-blue shiner with distinctive dark blotch on back of dorsal fin',
-  habitat: ['Ohio creeks and small rivers', 'Rocky pools', 'runs of streams', 'moderate to large streams'],
+  habitat: ['creeks', 'rivers', 'rocky pools', 'streams'],
   size: '3-4 inches typical',
   funFact: 'Spotfin shiners get their name from the dark blotch on the back of the dorsal fin. Breeding males develop brilliant blue coloring that rivals any tropical fish.',
   refs: [

@@ -17,7 +17,7 @@ export const bluegill: Fish = {
     'Small mouth'
   ],
   keyFeature: 'Deep body, dark ear flap, orange breast',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Ponds'],
+  habitat: ['backwaters', 'creeks', 'lakes', 'ponds', 'reservoirs', 'rivers'],
   size: '6-10 inches typical',
   funFact: 'Bluegill are one of the best fish for beginners to catch. Male bluegill guard their nests aggressively and will bite almost anything!',
   refs: [

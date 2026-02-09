@@ -17,7 +17,7 @@ export const johnny_darter: Fish = {
     'Very common - found in almost every Ohio stream'
   ],
   keyFeature: 'Pale darter with distinctive W- and X-shaped dark markings on sides',
-  habitat: ['Ohio creeks and small rivers', 'Sandy', 'silty pools of streams', 'very tolerant', 'widespread'],
+  habitat: ['creeks', 'pools', 'rivers'],
   size: '2-3 inches typical',
   funFact: 'Johnny darters are the most common and widespread darter in Ohio. Males turn jet black during breeding season and guard eggs laid upside-down on rock surfaces.',
   refs: [

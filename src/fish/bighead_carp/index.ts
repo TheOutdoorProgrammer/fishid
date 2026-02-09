@@ -17,7 +17,7 @@ export const bighead_carp: Fish = {
     'Gray-brown with dark blotches'
   ],
   keyFeature: 'Enormous head with low-set eyes and dark mottled body pattern',
-  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River system', 'invasive Asian carp', 'clear streams and rivers'],
+  habitat: ['Ohio River', 'creeks', 'rivers', 'streams', 'tributaries'],
   size: '30-48 inches typical, can exceed 100 pounds',
   funFact: 'Bighead carp are filter feeders that can consume 20% of their body weight in plankton daily, directly competing with native fish. They are one of the biggest threats to Great Lakes ecosystems.',
   refs: [

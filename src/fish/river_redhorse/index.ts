@@ -17,7 +17,7 @@ export const river_redhorse: Fish = {
     'Can reach over 10 pounds'
   ],
   keyFeature: 'Large robust sucker with heavy molar-like pharyngeal teeth',
-  habitat: ['Ohio creeks and small rivers', 'Large clean rivers with rocky bottoms and moderate current', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'rocky rivers', 'streams'],
   size: '18-26 inches typical',
   funFact: 'River redhorse have massive molar-like teeth in their throat that they use to crush snail and mussel shells. They are one of the largest and most impressive sucker species.',
   refs: [

@@ -17,7 +17,7 @@ export const gilt_darter: Fish = {
     'Two dorsal fins'
   ],
   keyFeature: 'Golden-orange darter with broad dark bars and blue-green breast (males)',
-  habitat: ['Ohio creeks and small rivers', 'Fast rocky riffles of clean rivers', 'endangered in Ohio', 'clear streams and rivers'],
+  habitat: ['creeks', 'rivers', 'rocky rivers', 'streams'],
   size: '2-3 inches typical',
   funFact: 'Gilt darters are one of Ohio\'s most endangered fish species. They require pristine rocky river habitat and are indicators of excellent water quality.',
   refs: [

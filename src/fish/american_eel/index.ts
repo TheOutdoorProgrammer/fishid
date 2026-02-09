@@ -17,7 +17,7 @@ export const american_eel: Fish = {
     'Small pectoral fins, no pelvic fins'
   ],
   keyFeature: 'Snake-like body with continuous fin around tail and projecting lower jaw',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Rivers', 'streams'],
+  habitat: ['Lake Erie', 'creeks', 'lakes', 'reservoirs', 'rivers', 'streams', 'tributaries'],
   size: '18-36 inches typical',
   funFact: 'American eels make one of nature\'s most incredible migrations. They are born in the Sargasso Sea (mid-Atlantic), swim to Ohio\'s rivers to grow up, then swim back to the ocean to spawn and die!',
   refs: [

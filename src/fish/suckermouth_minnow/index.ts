@@ -17,7 +17,7 @@ export const suckermouth_minnow: Fish = {
     'Flat belly adapted for bottom dwelling'
   ],
   keyFeature: 'Minnow with distinctive fleshy sucker-like mouth on bottom of head',
-  habitat: ['Ohio creeks and small rivers', 'Riffles of streams with gravel or rocky bottoms', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'rocky streams', 'streams'],
   size: '3-4 inches typical',
   funFact: 'Suckermouth minnows are named for their fleshy, downward-facing mouth that resembles a sucker fish. They live on the stream bottom and use this mouth to scrape food from rocks.',
   refs: [

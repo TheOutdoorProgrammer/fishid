@@ -17,7 +17,7 @@ export const redside_dace: Fish = {
     'Very large mouth for a minnow (extending past eye)'
   ],
   keyFeature: 'Elongated minnow with large upturned mouth and vivid red side stripe',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Cool', 'clear headwater streams with overhanging vegetation', 'clear streams and rivers'],
+  habitat: ['backwaters', 'creeks', 'rivers', 'streams'],
   size: '3-5 inches typical',
   funFact: 'Redside dace are aerial feeders that leap out of the water to catch insects! Their large mouth is adapted for surface and airborne feeding. They are threatened in Ohio.',
   refs: [

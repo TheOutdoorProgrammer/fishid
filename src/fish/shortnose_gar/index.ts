@@ -17,7 +17,7 @@ export const shortnose_gar: Fish = {
     'Spots mainly on rear fins and tail'
   ],
   keyFeature: 'Gar with shorter, broader snout and no spots on head',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large tributaries'],
+  habitat: ['Ohio River', 'backwaters', 'creeks', 'rivers', 'tributaries'],
   size: '18-25 inches typical',
   funFact: 'Shortnose gar are less common than longnose gar in Ohio. The best way to tell them apart is the snout: shortnose gar have a snout that is less than twice the head length.',
   refs: [

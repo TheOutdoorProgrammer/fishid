@@ -17,7 +17,7 @@ export const greenside_darter: Fish = {
     'Sturdy body for a darter'
   ],
   keyFeature: 'Largest darter with green body and U/V-shaped dark marks on sides',
-  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of clear streams with moderate current', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'rocky streams', 'streams'],
   size: '3-5 inches typical, can reach 6',
   funFact: 'Greenside darters are the largest darter species in Ohio. They actually wrap their eggs around plant stems and green algae filaments on rocks, which is unusual for darters.',
   refs: [

@@ -17,7 +17,7 @@ export const orangespotted_sunfish: Fish = {
     'Very small mouth'
   ],
   keyFeature: 'Small sunfish covered in orange spots with long dark ear flap',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Slow streams', 'backwaters', 'ditches'],
+  habitat: ['backwaters', 'creeks', 'ditches', 'rivers', 'streams'],
   size: '3-5 inches typical',
   funFact: 'Orangespotted sunfish are one of the smallest sunfish in Ohio. They are often overlooked but are surprisingly beautiful, especially breeding males.',
   refs: [

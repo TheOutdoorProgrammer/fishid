@@ -17,7 +17,7 @@ export const round_goby: Fish = {
     'Males turn jet black during spawning'
   ],
   keyFeature: 'Small bottom fish with fused pelvic suction disc and black spot on first dorsal',
-  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Lake Erie rocky areas', 'now spreading to tributaries', 'invasive from Black Sea'],
+  habitat: ['Lake Erie', 'lakes', 'reservoirs', 'tributaries'],
   size: '4-7 inches typical',
   funFact: 'Round gobies arrived in Lake Erie in ship ballast water from the Black Sea region in the 1990s. They compete with native fish but also provide food for smallmouth bass and walleye.',
   refs: [

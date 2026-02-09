@@ -17,7 +17,7 @@ export const blue_sucker: Fish = {
     'Deeply forked tail'
   ],
   keyFeature: 'Elongated blue-gray sucker with small head and sickle-shaped dorsal fin',
-  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Large rivers with swift current over rocky bottoms', 'Ohio River', 'clear streams and rivers'],
+  habitat: ['Ohio River', 'creeks', 'rivers', 'rocky rivers', 'streams', 'tributaries'],
   size: '20-30 inches typical',
   funFact: 'Blue suckers are the most streamlined of all suckers, adapted for life in fast current. They are threatened or endangered in many states due to dam construction.',
   refs: [

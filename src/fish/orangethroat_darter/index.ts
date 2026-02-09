@@ -17,7 +17,7 @@ export const orangethroat_darter: Fish = {
     'Distinct orange throat patch'
   ],
   keyFeature: 'Small darter with bright orange throat and blue-orange barring',
-  habitat: ['Ohio creeks and small rivers', 'Rocky riffles of small to medium streams in western Ohio', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'rocky streams', 'streams'],
   size: '2-3 inches typical',
   funFact: 'Orangethroat darters look similar to rainbow darters but are generally found in different streams. The bright orange throat is the key difference.',
   refs: [

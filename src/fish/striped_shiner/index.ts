@@ -17,7 +17,7 @@ export const striped_shiner: Fish = {
     'Forked tail'
   ],
   keyFeature: 'Large shiner with crescent scale marks; breeding males have pink body and blue head',
-  habitat: ['Ohio creeks and small rivers', 'Pools of small to medium streams over gravel', 'clear streams and rivers', 'riffles, runs, and pools'],
+  habitat: ['creeks', 'rivers', 'streams'],
   size: '4-7 inches typical',
   funFact: 'Striped shiners are among the most beautiful minnows when spawning. Males develop a stunning combination of pink body, blue head, and orange fins.',
   refs: [

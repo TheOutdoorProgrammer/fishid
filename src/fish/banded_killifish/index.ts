@@ -17,7 +17,7 @@ export const banded_killifish: Fish = {
     'Body more compressed than topminnow'
   ],
   keyFeature: 'Small surface fish with many thin vertical bars and flat head',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Sandy lake shores', 'quiet streams', 'found near surface'],
+  habitat: ['creeks', 'lakes', 'reservoirs', 'rivers', 'streams'],
   size: '2-4 inches typical',
   funFact: 'Banded killifish are common along the sandy shores of Lake Erie. Despite their name, they are peaceful fish - "killifish" comes from the Dutch word "kilde" meaning small creek.',
   refs: [

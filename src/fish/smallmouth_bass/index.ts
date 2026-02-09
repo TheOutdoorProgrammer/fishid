@@ -13,7 +13,7 @@ export const smallmouth_bass: Fish = {
     'Connected dorsal fin with a shallow notch',
   ],
   keyFeature: 'Jaw ends at the eye (not past it) with a bronze body',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'clear, rocky streams and rivers', 'gravel/cobble bottoms (common spawning substrate)'],
+  habitat: ['Lake Erie', 'creeks', 'lakes', 'reservoirs', 'rivers', 'rocky rivers', 'rocky streams', 'tributaries'],
   size: '12–18 inches typical',
   funFact:
     'Smallmouth bass often favor clear water and rocky habitat, where they feed heavily on crayfish and small fish.',

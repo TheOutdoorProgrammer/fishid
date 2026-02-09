@@ -14,7 +14,7 @@ export const sea_lamprey: Fish = {
     'Single nostril on top of head',
   ],
   keyFeature: 'Circular tooth-filled sucker mouth with 7 gill openings (jawless parasite)',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (adult/parasitic phase in lakes)', 'parasitic on large fish in open water'],
+  habitat: ['Great Lakes', 'Lake Erie', 'creeks', 'lakes', 'reservoirs', 'rivers', 'tributaries'],
   size: '12–24 inches typical',
   funFact:
     'In the Great Lakes, sea lamprey attach to fish with a suction-cup mouth and feed on blood and body fluids. Control programs focus on streams where larvae develop.',

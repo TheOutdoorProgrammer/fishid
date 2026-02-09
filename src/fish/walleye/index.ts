@@ -13,7 +13,7 @@ export const walleye: Fish = {
     'Sharp canine teeth',
   ],
   keyFeature: 'Large glassy eyes with a white-tipped lower tail lobe',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)', 'large lakes and reservoirs'],
+  habitat: ['Great Lakes', 'Lake Erie', 'creeks', 'lakes', 'reservoirs', 'rivers', 'tributaries'],
   size: '15–25 inches typical, up to 30+ inches',
   funFact:
     'Walleye are named for their reflective eyes, which help them see well in low light. In Lake Erie, adults move to rocky reefs and shoals to spawn in spring.',

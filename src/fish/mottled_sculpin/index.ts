@@ -17,7 +17,7 @@ export const mottled_sculpin: Fish = {
     'No swim bladder (always sinks to bottom)'
   ],
   keyFeature: 'Wide flat head with fan-like pectoral fins and scaleless mottled body',
-  habitat: ['Ohio creeks and small rivers', 'Cold', 'rocky streams with clean water', 'under stones'],
+  habitat: ['creeks', 'rivers', 'rocky streams'],
   size: '3-4 inches typical',
   funFact: 'Mottled sculpin have no swim bladder so they always sink. They use their large pectoral fins to prop themselves on the stream bottom and dart between rocks to catch prey.',
   refs: [

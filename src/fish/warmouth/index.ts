@@ -17,7 +17,7 @@ export const warmouth: Fish = {
     'Teeth on tongue'
   ],
   keyFeature: 'Thick-bodied sunfish with large mouth and dark streaks from red eye',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio farm ponds and small lakes', 'Ohio inland lakes and reservoirs', 'Swamps', 'backwaters'],
+  habitat: ['backwaters', 'lakes', 'ponds', 'reservoirs', 'swamps'],
   size: '5-8 inches typical',
   funFact: 'Warmouth are often confused with rock bass but have a larger mouth and distinctive facial markings. They prefer muddier, more stagnant water than most sunfish.',
   refs: [

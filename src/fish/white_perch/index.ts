@@ -17,7 +17,7 @@ export const white_perch: Fish = {
     'Separated dorsal fins'
   ],
   keyFeature: 'Silver body like white bass but WITHOUT horizontal stripes',
-  habitat: ['Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)', 'tributaries', 'invasive species'],
+  habitat: ['Great Lakes', 'Lake Erie', 'lakes', 'reservoirs', 'tributaries'],
   size: '8-12 inches typical',
   funFact: 'White perch are actually invasive in Lake Erie, having arrived through canals from the Atlantic coast. Despite the name, they are not true perch but members of the temperate bass family.',
   refs: [

@@ -17,7 +17,7 @@ export const pirate_perch: Fish = {
     'No lateral line'
   ],
   keyFeature: 'Dark small fish with unique forward-migrating anus positioned under throat',
-  habitat: ['weedy bays and backwaters (Ohio lakes)', 'Ohio creeks and small rivers', 'Swamps', 'backwaters', 'quiet streams with heavy vegetation'],
+  habitat: ['backwaters', 'creeks', 'rivers', 'swamps', 'weedy streams'],
   size: '3-5 inches typical',
   funFact: 'Pirate perch have one of the weirdest features in the fish world: as they mature, their anus migrates forward from the normal position to underneath the throat! Scientists still debate why.',
   refs: [

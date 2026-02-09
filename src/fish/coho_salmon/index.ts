@@ -13,7 +13,7 @@ export const coho_salmon: Fish = {
     'Males often develop a hooked jaw (kype) when spawning',
   ],
   keyFeature: 'Light gum line and tail spotting mainly on the upper lobe (vs. chinook)',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (introduced/stocked populations)', 'open lake waters'],
+  habitat: ['Great Lakes', 'Lake Erie', 'creeks', 'lakes', 'reservoirs', 'rivers', 'tributaries'],
   size: '20–28 inches typical',
   funFact:
     'Coho are often identified by checking the gum line and tail spots (compared with chinook). They are native to the Pacific, but have been introduced to the Great Lakes.',

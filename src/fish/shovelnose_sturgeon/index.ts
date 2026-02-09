@@ -17,7 +17,7 @@ export const shovelnose_sturgeon: Fish = {
     'Smaller than lake sturgeon'
   ],
   keyFeature: 'Flat shovel-shaped snout with fringed barbels and bony-plated tail stalk',
-  habitat: ['Ohio creeks and small rivers', 'Ohio River and large tributaries', 'Ohio River', 'large tributaries', 'sandy or gravelly channels'],
+  habitat: ['Ohio River', 'creeks', 'rivers', 'tributaries'],
   size: '18-30 inches typical',
   funFact: 'Shovelnose sturgeon are the most abundant sturgeon in the Ohio River system. Unlike lake sturgeon, they are still relatively common. Their flat snout helps them feed in current.',
   refs: [

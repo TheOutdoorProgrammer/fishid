@@ -17,7 +17,7 @@ export const emerald_shiner: Fish = {
     'Compressed body shape'
   ],
   keyFeature: 'Slender translucent silver minnow with emerald-green sheen on back',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Ohio River and large tributaries', 'Lake Erie and tributaries (Ohio)', 'Great Lakes (including Lake Erie)'],
+  habitat: ['Great Lakes', 'Lake Erie', 'Ohio River', 'creeks', 'lakes', 'reservoirs', 'rivers', 'tributaries'],
   size: '2-4 inches typical',
   funFact: 'Emerald shiners are the most important forage fish in Lake Erie, forming massive schools that feed walleye, perch, and other game fish. They are also top-tier live bait.',
   refs: [

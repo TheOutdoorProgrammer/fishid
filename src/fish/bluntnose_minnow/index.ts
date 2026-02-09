@@ -17,7 +17,7 @@ export const bluntnose_minnow: Fish = {
     'Subterminal mouth'
   ],
   keyFeature: 'Small minnow with dark lateral stripe, blunt snout, and spot at tail base',
-  habitat: ['Ohio creeks and small rivers', 'Ohio inland lakes and reservoirs', 'Streams', 'rivers', 'lake margins'],
+  habitat: ['creeks', 'lakes', 'reservoirs', 'rivers', 'streams'],
   size: '2-4 inches typical',
   funFact: 'Bluntnose minnows are arguably the most common fish in Ohio streams. Males guard eggs that are laid on the undersides of flat rocks.',
   refs: [
