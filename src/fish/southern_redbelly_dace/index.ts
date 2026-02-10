@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Tiny minnow with two dark stripes and brilliant red belly.', answer: true, fishId: 'southern_redbelly_dace' },
-  { statement: 'This fish can be identified by: Very small with two dark lateral stripes.', answer: true, fishId: 'southern_redbelly_dace' },
-  { statement: 'This fish can be identified by: Bright red belly (especially breeding males).', answer: true, fishId: 'southern_redbelly_dace' },
-  { statement: 'You might find this fish in small headwater streams with cool.', answer: true, fishId: 'southern_redbelly_dace' }
+  { statement: 'A key ID clue for this fish is: Tiny minnow with two dark stripes and brilliant red belly.', answer: true, fishId: 'southern_redbelly_dace', showImage: true },
+  { statement: 'This fish can be identified by: Very small with two dark lateral stripes.', answer: true, fishId: 'southern_redbelly_dace', showImage: true },
+  { statement: 'This fish can be identified by: Bright red belly (especially breeding males).', answer: true, fishId: 'southern_redbelly_dace', showImage: true },
+  { statement: 'You might find this fish in small headwater streams with cool.', answer: true, fishId: 'southern_redbelly_dace', showImage: true }
 ];
 
 export default southern_redbelly_dace;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small pale straw-colored minnow with faint zig-zag lateral stripe.', answer: true, fishId: 'sand_shiner' },
-  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'sand_shiner' },
-  { statement: 'This fish can be identified by: Pale straw to olive color.', answer: true, fishId: 'sand_shiner' },
-  { statement: 'You might find this fish in sandy pools.', answer: true, fishId: 'sand_shiner' }
+  { statement: 'A key ID clue for this fish is: Small pale straw-colored minnow with faint zig-zag lateral stripe.', answer: true, fishId: 'sand_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'sand_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Pale straw to olive color.', answer: true, fishId: 'sand_shiner', showImage: true },
+  { statement: 'You might find this fish in sandy pools.', answer: true, fishId: 'sand_shiner', showImage: true }
 ];
 
 export default sand_shiner;

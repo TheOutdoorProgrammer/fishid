@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Slender darter with many narrow dark bars; breeding males turn blue-orange.', answer: true, fishId: 'iowa_darter' },
-  { statement: 'This fish can be identified by: Slender body with 9-12 dark vertical bars.', answer: true, fishId: 'iowa_darter' },
-  { statement: 'This fish can be identified by: Olive to brown body.', answer: true, fishId: 'iowa_darter' },
-  { statement: 'You might find this fish in quiet.', answer: true, fishId: 'iowa_darter' }
+  { statement: 'A key ID clue for this fish is: Slender darter with many narrow dark bars; breeding males turn blue-orange.', answer: true, fishId: 'iowa_darter', showImage: true },
+  { statement: 'This fish can be identified by: Slender body with 9-12 dark vertical bars.', answer: true, fishId: 'iowa_darter', showImage: true },
+  { statement: 'This fish can be identified by: Olive to brown body.', answer: true, fishId: 'iowa_darter', showImage: true },
+  { statement: 'You might find this fish in quiet.', answer: true, fishId: 'iowa_darter', showImage: true }
 ];
 
 export default iowa_darter;

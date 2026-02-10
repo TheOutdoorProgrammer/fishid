@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small fish combining trout features (adipose fin) and perch features (spiny fins).', answer: true, fishId: 'trout_perch' },
-  { statement: 'This fish can be identified by: Small, semi-translucent body.', answer: true, fishId: 'trout_perch' },
-  { statement: 'This fish can be identified by: Adipose fin present (trout-like feature).', answer: true, fishId: 'trout_perch' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'trout_perch' }
+  { statement: 'A key ID clue for this fish is: Small fish combining trout features (adipose fin) and perch features (spiny fins).', answer: true, fishId: 'trout_perch', showImage: true },
+  { statement: 'This fish can be identified by: Small, semi-translucent body.', answer: true, fishId: 'trout_perch', showImage: true },
+  { statement: 'This fish can be identified by: Adipose fin present (trout-like feature).', answer: true, fishId: 'trout_perch', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'trout_perch', showImage: true }
 ];
 
 export default trout_perch;

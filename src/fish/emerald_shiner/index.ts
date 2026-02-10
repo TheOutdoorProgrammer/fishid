@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Slender translucent silver minnow with emerald-green sheen on back.', answer: true, fishId: 'emerald_shiner' },
-  { statement: 'This fish can be identified by: Slender, streamlined body.', answer: true, fishId: 'emerald_shiner' },
-  { statement: 'This fish can be identified by: Bright silver with emerald-green sheen on back.', answer: true, fishId: 'emerald_shiner' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'emerald_shiner' }
+  { statement: 'A key ID clue for this fish is: Slender translucent silver minnow with emerald-green sheen on back.', answer: true, fishId: 'emerald_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Slender, streamlined body.', answer: true, fishId: 'emerald_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Bright silver with emerald-green sheen on back.', answer: true, fishId: 'emerald_shiner', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'emerald_shiner', showImage: true }
 ];
 
 export default emerald_shiner;

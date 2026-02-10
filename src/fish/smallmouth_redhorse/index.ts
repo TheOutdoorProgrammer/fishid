@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small-mouthed sucker with falcate dorsal fin and short U-shaped lower lip.', answer: true, fishId: 'smallmouth_redhorse' },
-  { statement: 'This fish can be identified by: Small mouth even for a sucker.', answer: true, fishId: 'smallmouth_redhorse' },
-  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'smallmouth_redhorse' },
-  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'smallmouth_redhorse' }
+  { statement: 'A key ID clue for this fish is: Small-mouthed sucker with falcate dorsal fin and short U-shaped lower lip.', answer: true, fishId: 'smallmouth_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Small mouth even for a sucker.', answer: true, fishId: 'smallmouth_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'smallmouth_redhorse', showImage: true },
+  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'smallmouth_redhorse', showImage: true }
 ];
 
 export default smallmouth_redhorse;

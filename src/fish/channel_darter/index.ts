@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small slender darter with X-shaped blotches and large head.', answer: true, fishId: 'channel_darter' },
-  { statement: 'This fish can be identified by: Small, slender darter.', answer: true, fishId: 'channel_darter' },
-  { statement: 'This fish can be identified by: Row of X-shaped or oval blotches on sides.', answer: true, fishId: 'channel_darter' },
-  { statement: 'You might find this fish in sandy or gravelly channels of medium to large rivers.', answer: true, fishId: 'channel_darter' }
+  { statement: 'A key ID clue for this fish is: Small slender darter with X-shaped blotches and large head.', answer: true, fishId: 'channel_darter', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender darter.', answer: true, fishId: 'channel_darter', showImage: true },
+  { statement: 'This fish can be identified by: Row of X-shaped or oval blotches on sides.', answer: true, fishId: 'channel_darter', showImage: true },
+  { statement: 'You might find this fish in sandy or gravelly channels of medium to large rivers.', answer: true, fishId: 'channel_darter', showImage: true }
 ];
 
 export default channel_darter;

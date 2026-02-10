@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small dace with bold dark stripe from snout to tail and tiny mouth barbel.', answer: true, fishId: 'western_blacknose_dace' },
-  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'western_blacknose_dace' },
-  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'western_blacknose_dace' },
-  { statement: 'You might find this fish in rocky riffles of small streams.', answer: true, fishId: 'western_blacknose_dace' }
+  { statement: 'A key ID clue for this fish is: Small dace with bold dark stripe from snout to tail and tiny mouth barbel.', answer: true, fishId: 'western_blacknose_dace', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'western_blacknose_dace', showImage: true },
+  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'western_blacknose_dace', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of small streams.', answer: true, fishId: 'western_blacknose_dace', showImage: true }
 ];
 
 export default western_blacknose_dace;

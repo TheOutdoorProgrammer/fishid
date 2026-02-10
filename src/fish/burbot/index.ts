@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Elongated eel-like body with single chin barbel and mottled pattern.', answer: true, fishId: 'burbot' },
-  { statement: 'This fish can be identified by: Elongated body with eel-like appearance.', answer: true, fishId: 'burbot' },
-  { statement: 'This fish can be identified by: Single barbel on chin.', answer: true, fishId: 'burbot' },
-  { statement: 'You might find this fish in deep cold waters of lake erie.', answer: true, fishId: 'burbot' }
+  { statement: 'A key ID clue for this fish is: Elongated eel-like body with single chin barbel and mottled pattern.', answer: true, fishId: 'burbot', showImage: true },
+  { statement: 'This fish can be identified by: Elongated body with eel-like appearance.', answer: true, fishId: 'burbot', showImage: true },
+  { statement: 'This fish can be identified by: Single barbel on chin.', answer: true, fishId: 'burbot', showImage: true },
+  { statement: 'You might find this fish in deep cold waters of lake erie.', answer: true, fishId: 'burbot', showImage: true }
 ];
 
 export default burbot;

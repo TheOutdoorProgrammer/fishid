@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small minnow with dark lateral stripe, blunt snout, and spot at tail base.', answer: true, fishId: 'bluntnose_minnow' },
-  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'bluntnose_minnow' },
-  { statement: 'This fish can be identified by: Blunt, rounded snout overhanging mouth.', answer: true, fishId: 'bluntnose_minnow' },
-  { statement: 'You might find this fish in streams.', answer: true, fishId: 'bluntnose_minnow' }
+  { statement: 'A key ID clue for this fish is: Small minnow with dark lateral stripe, blunt snout, and spot at tail base.', answer: true, fishId: 'bluntnose_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'bluntnose_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Blunt, rounded snout overhanging mouth.', answer: true, fishId: 'bluntnose_minnow', showImage: true },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'bluntnose_minnow', showImage: true }
 ];
 
 export default bluntnose_minnow;

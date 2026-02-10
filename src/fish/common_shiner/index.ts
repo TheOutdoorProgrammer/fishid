@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silver minnow with large visible scales; breeding males turn rosy pink.', answer: true, fishId: 'common_shiner' },
-  { statement: 'This fish can be identified by: Moderately deep, compressed body.', answer: true, fishId: 'common_shiner' },
-  { statement: 'This fish can be identified by: Silver body with olive back.', answer: true, fishId: 'common_shiner' },
-  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'common_shiner' }
+  { statement: 'A key ID clue for this fish is: Silver minnow with large visible scales; breeding males turn rosy pink.', answer: true, fishId: 'common_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Moderately deep, compressed body.', answer: true, fishId: 'common_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Silver body with olive back.', answer: true, fishId: 'common_shiner', showImage: true },
+  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'common_shiner', showImage: true }
 ];
 
 export default common_shiner;

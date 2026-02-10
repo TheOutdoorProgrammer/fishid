@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Enormous head with low-set eyes and dark mottled body pattern.', answer: true, fishId: 'bighead_carp' },
-  { statement: 'This fish can be identified by: Very large head relative to body.', answer: true, fishId: 'bighead_carp' },
-  { statement: 'This fish can be identified by: Eyes set low on head.', answer: true, fishId: 'bighead_carp' },
-  { statement: 'You might find this fish in ohio river system.', answer: true, fishId: 'bighead_carp' }
+  { statement: 'A key ID clue for this fish is: Enormous head with low-set eyes and dark mottled body pattern.', answer: true, fishId: 'bighead_carp', showImage: true },
+  { statement: 'This fish can be identified by: Very large head relative to body.', answer: true, fishId: 'bighead_carp', showImage: true },
+  { statement: 'This fish can be identified by: Eyes set low on head.', answer: true, fishId: 'bighead_carp', showImage: true },
+  { statement: 'You might find this fish in ohio river system.', answer: true, fishId: 'bighead_carp', showImage: true }
 ];
 
 export default bighead_carp;

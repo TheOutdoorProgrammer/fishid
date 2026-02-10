@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Golden-olive sucker with bright red-orange tail fin.', answer: true, fishId: 'golden_redhorse' },
-  { statement: 'This fish can be identified by: Golden-olive body color.', answer: true, fishId: 'golden_redhorse' },
-  { statement: 'This fish can be identified by: Distinctly red or orange tail fin.', answer: true, fishId: 'golden_redhorse' },
-  { statement: 'You might find this fish in streams and rivers with moderate current over gravel.', answer: true, fishId: 'golden_redhorse' }
+  { statement: 'A key ID clue for this fish is: Golden-olive sucker with bright red-orange tail fin.', answer: true, fishId: 'golden_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Golden-olive body color.', answer: true, fishId: 'golden_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Distinctly red or orange tail fin.', answer: true, fishId: 'golden_redhorse', showImage: true },
+  { statement: 'You might find this fish in streams and rivers with moderate current over gravel.', answer: true, fishId: 'golden_redhorse', showImage: true }
 ];
 
 export default golden_redhorse;

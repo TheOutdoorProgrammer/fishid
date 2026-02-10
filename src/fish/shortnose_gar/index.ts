@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Gar with shorter, broader snout and no spots on head.', answer: true, fishId: 'shortnose_gar' },
-  { statement: 'This fish can be identified by: Shorter, broader snout than longnose gar.', answer: true, fishId: 'shortnose_gar' },
-  { statement: 'This fish can be identified by: Diamond-shaped ganoid scales.', answer: true, fishId: 'shortnose_gar' },
-  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shortnose_gar' }
+  { statement: 'A key ID clue for this fish is: Gar with shorter, broader snout and no spots on head.', answer: true, fishId: 'shortnose_gar', showImage: true },
+  { statement: 'This fish can be identified by: Shorter, broader snout than longnose gar.', answer: true, fishId: 'shortnose_gar', showImage: true },
+  { statement: 'This fish can be identified by: Diamond-shaped ganoid scales.', answer: true, fishId: 'shortnose_gar', showImage: true },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shortnose_gar', showImage: true }
 ];
 
 export default shortnose_gar;

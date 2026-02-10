@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Forked tail with barbels and dark spots.', answer: true, fishId: 'channel_catfish' },
-  { statement: 'This fish can be identified by: Blue-gray to olive body.', answer: true, fishId: 'channel_catfish' },
-  { statement: 'This fish can be identified by: Scattered dark spots (especially when young).', answer: true, fishId: 'channel_catfish' },
-  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'channel_catfish' }
+  { statement: 'A key ID clue for this fish is: Forked tail with barbels and dark spots.', answer: true, fishId: 'channel_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Blue-gray to olive body.', answer: true, fishId: 'channel_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Scattered dark spots (especially when young).', answer: true, fishId: 'channel_catfish', showImage: true },
+  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'channel_catfish', showImage: true }
 ];
 
 export default channel_catfish;

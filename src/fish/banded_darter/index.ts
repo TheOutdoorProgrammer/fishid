@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small green darter with bold, evenly spaced vertical bars.', answer: true, fishId: 'banded_darter' },
-  { statement: 'This fish can be identified by: Small body with distinct vertical bars.', answer: true, fishId: 'banded_darter' },
-  { statement: 'This fish can be identified by: Green to olive body with 8-12 dark vertical bars.', answer: true, fishId: 'banded_darter' },
-  { statement: 'You might find this fish in rocky riffles.', answer: true, fishId: 'banded_darter' }
+  { statement: 'A key ID clue for this fish is: Small green darter with bold, evenly spaced vertical bars.', answer: true, fishId: 'banded_darter', showImage: true },
+  { statement: 'This fish can be identified by: Small body with distinct vertical bars.', answer: true, fishId: 'banded_darter', showImage: true },
+  { statement: 'This fish can be identified by: Green to olive body with 8-12 dark vertical bars.', answer: true, fishId: 'banded_darter', showImage: true },
+  { statement: 'You might find this fish in rocky riffles.', answer: true, fishId: 'banded_darter', showImage: true }
 ];
 
 export default banded_darter;

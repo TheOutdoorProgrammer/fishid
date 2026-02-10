@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Extremely long, narrow snout and diamond-shaped armored scales.', answer: true, fishId: 'longnose_gar' },
-  { statement: 'This fish can be identified by: Very long, narrow snout (twice head length).', answer: true, fishId: 'longnose_gar' },
-  { statement: 'This fish can be identified by: Diamond-shaped ganoid (armored) scales.', answer: true, fishId: 'longnose_gar' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'longnose_gar' }
+  { statement: 'A key ID clue for this fish is: Extremely long, narrow snout and diamond-shaped armored scales.', answer: true, fishId: 'longnose_gar', showImage: true },
+  { statement: 'This fish can be identified by: Very long, narrow snout (twice head length).', answer: true, fishId: 'longnose_gar', showImage: true },
+  { statement: 'This fish can be identified by: Diamond-shaped ganoid (armored) scales.', answer: true, fishId: 'longnose_gar', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'longnose_gar', showImage: true }
 ];
 
 export default longnose_gar;

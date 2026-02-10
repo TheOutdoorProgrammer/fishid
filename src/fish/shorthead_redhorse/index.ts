@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Short head relative to body with bright red-orange fins and straight dorsal edge.', answer: true, fishId: 'shorthead_redhorse' },
-  { statement: 'This fish can be identified by: Olive-gold body with red-orange tail and dorsal fin.', answer: true, fishId: 'shorthead_redhorse' },
-  { statement: 'This fish can be identified by: Relatively short head compared to body.', answer: true, fishId: 'shorthead_redhorse' },
-  { statement: 'You might find this fish in large streams and rivers with rocky or gravelly bottoms.', answer: true, fishId: 'shorthead_redhorse' }
+  { statement: 'A key ID clue for this fish is: Short head relative to body with bright red-orange fins and straight dorsal edge.', answer: true, fishId: 'shorthead_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Olive-gold body with red-orange tail and dorsal fin.', answer: true, fishId: 'shorthead_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Relatively short head compared to body.', answer: true, fishId: 'shorthead_redhorse', showImage: true },
+  { statement: 'You might find this fish in large streams and rivers with rocky or gravelly bottoms.', answer: true, fishId: 'shorthead_redhorse', showImage: true }
 ];
 
 export default shorthead_redhorse;

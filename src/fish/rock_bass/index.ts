@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Red eye, stocky body with six anal spines and dark spots in rows.', answer: true, fishId: 'rock_bass' },
-  { statement: 'This fish can be identified by: Stocky body, less compressed than sunfish.', answer: true, fishId: 'rock_bass' },
-  { statement: 'This fish can be identified by: Bright red eye.', answer: true, fishId: 'rock_bass' },
-  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'rock_bass' }
+  { statement: 'A key ID clue for this fish is: Red eye, stocky body with six anal spines and dark spots in rows.', answer: true, fishId: 'rock_bass', showImage: true },
+  { statement: 'This fish can be identified by: Stocky body, less compressed than sunfish.', answer: true, fishId: 'rock_bass', showImage: true },
+  { statement: 'This fish can be identified by: Bright red eye.', answer: true, fishId: 'rock_bass', showImage: true },
+  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'rock_bass', showImage: true }
 ];
 
 export default rock_bass;

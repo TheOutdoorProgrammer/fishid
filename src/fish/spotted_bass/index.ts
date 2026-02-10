@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Rows of spots below lateral line with rough tooth patch on tongue.', answer: true, fishId: 'spotted_bass' },
-  { statement: 'This fish can be identified by: Green to olive body.', answer: true, fishId: 'spotted_bass' },
-  { statement: 'This fish can be identified by: Rows of dark spots below lateral line.', answer: true, fishId: 'spotted_bass' },
-  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'spotted_bass' }
+  { statement: 'A key ID clue for this fish is: Rows of spots below lateral line with rough tooth patch on tongue.', answer: true, fishId: 'spotted_bass', showImage: true },
+  { statement: 'This fish can be identified by: Green to olive body.', answer: true, fishId: 'spotted_bass', showImage: true },
+  { statement: 'This fish can be identified by: Rows of dark spots below lateral line.', answer: true, fishId: 'spotted_bass', showImage: true },
+  { statement: 'You might find this fish in rocky streams.', answer: true, fishId: 'spotted_bass', showImage: true }
 ];
 
 export default spotted_bass;

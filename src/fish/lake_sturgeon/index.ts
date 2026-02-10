@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large armored fish with bony plates, four barbels, and shark-like tail.', answer: true, fishId: 'lake_sturgeon' },
-  { statement: 'This fish can be identified by: Large, torpedo-shaped body with bony plates (scutes).', answer: true, fishId: 'lake_sturgeon' },
-  { statement: 'This fish can be identified by: Four barbels in front of mouth on underside of snout.', answer: true, fishId: 'lake_sturgeon' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'lake_sturgeon' }
+  { statement: 'A key ID clue for this fish is: Large armored fish with bony plates, four barbels, and shark-like tail.', answer: true, fishId: 'lake_sturgeon', showImage: true },
+  { statement: 'This fish can be identified by: Large, torpedo-shaped body with bony plates (scutes).', answer: true, fishId: 'lake_sturgeon', showImage: true },
+  { statement: 'This fish can be identified by: Four barbels in front of mouth on underside of snout.', answer: true, fishId: 'lake_sturgeon', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'lake_sturgeon', showImage: true }
 ];
 
 export default lake_sturgeon;

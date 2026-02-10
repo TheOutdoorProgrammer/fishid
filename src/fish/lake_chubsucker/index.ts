@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep-bodied round-tailed sucker without lateral line, prefers lakes.', answer: true, fishId: 'lake_chubsucker' },
-  { statement: 'This fish can be identified by: Deeper body than creek chubsucker.', answer: true, fishId: 'lake_chubsucker' },
-  { statement: 'This fish can be identified by: Olive-green to bronze body.', answer: true, fishId: 'lake_chubsucker' },
-  { statement: 'You might find this fish in glacial lakes.', answer: true, fishId: 'lake_chubsucker' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied round-tailed sucker without lateral line, prefers lakes.', answer: true, fishId: 'lake_chubsucker', showImage: true },
+  { statement: 'This fish can be identified by: Deeper body than creek chubsucker.', answer: true, fishId: 'lake_chubsucker', showImage: true },
+  { statement: 'This fish can be identified by: Olive-green to bronze body.', answer: true, fishId: 'lake_chubsucker', showImage: true },
+  { statement: 'You might find this fish in glacial lakes.', answer: true, fishId: 'lake_chubsucker', showImage: true }
 ];
 
 export default lake_chubsucker;

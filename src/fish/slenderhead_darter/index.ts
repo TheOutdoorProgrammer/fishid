@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Darter with distinctly pointed, narrow head and small side blotches.', answer: true, fishId: 'slenderhead_darter' },
-  { statement: 'This fish can be identified by: Pointed, slender head and snout.', answer: true, fishId: 'slenderhead_darter' },
-  { statement: 'This fish can be identified by: Row of small dark blotches on side.', answer: true, fishId: 'slenderhead_darter' },
-  { statement: 'You might find this fish in riffles and runs of medium to large streams.', answer: true, fishId: 'slenderhead_darter' }
+  { statement: 'A key ID clue for this fish is: Darter with distinctly pointed, narrow head and small side blotches.', answer: true, fishId: 'slenderhead_darter', showImage: true },
+  { statement: 'This fish can be identified by: Pointed, slender head and snout.', answer: true, fishId: 'slenderhead_darter', showImage: true },
+  { statement: 'This fish can be identified by: Row of small dark blotches on side.', answer: true, fishId: 'slenderhead_darter', showImage: true },
+  { statement: 'You might find this fish in riffles and runs of medium to large streams.', answer: true, fishId: 'slenderhead_darter', showImage: true }
 ];
 
 export default slenderhead_darter;

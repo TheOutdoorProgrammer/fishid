@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Like white bass but larger with broken/offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass' },
-  { statement: 'This fish can be identified by: Silver body with broken or offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass' },
-  { statement: 'This fish can be identified by: Deep body, deeper than white bass.', answer: true, fishId: 'hybrid_striped_bass' },
-  { statement: 'You might find this fish in large reservoirs where stocked.', answer: true, fishId: 'hybrid_striped_bass' }
+  { statement: 'A key ID clue for this fish is: Like white bass but larger with broken/offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass', showImage: true },
+  { statement: 'This fish can be identified by: Silver body with broken or offset horizontal stripes.', answer: true, fishId: 'hybrid_striped_bass', showImage: true },
+  { statement: 'This fish can be identified by: Deep body, deeper than white bass.', answer: true, fishId: 'hybrid_striped_bass', showImage: true },
+  { statement: 'You might find this fish in large reservoirs where stocked.', answer: true, fishId: 'hybrid_striped_bass', showImage: true }
 ];
 
 export default hybrid_striped_bass;

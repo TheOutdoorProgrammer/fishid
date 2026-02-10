@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Thick-bodied sunfish with large mouth and dark streaks from red eye.', answer: true, fishId: 'warmouth' },
-  { statement: 'This fish can be identified by: Thick, robust body.', answer: true, fishId: 'warmouth' },
-  { statement: 'This fish can be identified by: Large mouth for a sunfish (extends to middle of eye).', answer: true, fishId: 'warmouth' },
-  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'warmouth' }
+  { statement: 'A key ID clue for this fish is: Thick-bodied sunfish with large mouth and dark streaks from red eye.', answer: true, fishId: 'warmouth', showImage: true },
+  { statement: 'This fish can be identified by: Thick, robust body.', answer: true, fishId: 'warmouth', showImage: true },
+  { statement: 'This fish can be identified by: Large mouth for a sunfish (extends to middle of eye).', answer: true, fishId: 'warmouth', showImage: true },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'warmouth', showImage: true }
 ];
 
 export default warmouth;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Elongated blue-gray sucker with small head and sickle-shaped dorsal fin.', answer: true, fishId: 'blue_sucker' },
-  { statement: 'This fish can be identified by: Elongated, streamlined body (unusual for a sucker).', answer: true, fishId: 'blue_sucker' },
-  { statement: 'This fish can be identified by: Blue-gray to dark blue body color.', answer: true, fishId: 'blue_sucker' },
-  { statement: 'You might find this fish in large rivers with swift current over rocky bottoms.', answer: true, fishId: 'blue_sucker' }
+  { statement: 'A key ID clue for this fish is: Elongated blue-gray sucker with small head and sickle-shaped dorsal fin.', answer: true, fishId: 'blue_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Elongated, streamlined body (unusual for a sucker).', answer: true, fishId: 'blue_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Blue-gray to dark blue body color.', answer: true, fishId: 'blue_sucker', showImage: true },
+  { statement: 'You might find this fish in large rivers with swift current over rocky bottoms.', answer: true, fishId: 'blue_sucker', showImage: true }
 ];
 
 export default blue_sucker;

@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Colorful sunfish with red/orange spot on ear flap and wavy facial lines.', answer: true, fishId: 'pumpkinseed' },
-  { statement: 'This fish can be identified by: Deep, compressed body with vibrant colors.', answer: true, fishId: 'pumpkinseed' },
-  { statement: 'This fish can be identified by: Wavy blue and orange lines on cheeks.', answer: true, fishId: 'pumpkinseed' },
-  { statement: 'You might find this fish in clear ponds.', answer: true, fishId: 'pumpkinseed' }
+  { statement: 'A key ID clue for this fish is: Colorful sunfish with red/orange spot on ear flap and wavy facial lines.', answer: true, fishId: 'pumpkinseed', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed body with vibrant colors.', answer: true, fishId: 'pumpkinseed', showImage: true },
+  { statement: 'This fish can be identified by: Wavy blue and orange lines on cheeks.', answer: true, fishId: 'pumpkinseed', showImage: true },
+  { statement: 'You might find this fish in clear ponds.', answer: true, fishId: 'pumpkinseed', showImage: true }
 ];
 
 export default pumpkinseed;

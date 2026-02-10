@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Dark body with pale spots and deeply forked tail.', answer: true, fishId: 'lake_trout' },
-  { statement: 'This fish can be identified by: Dark gray-green body covered in pale spots.', answer: true, fishId: 'lake_trout' },
-  { statement: 'This fish can be identified by: Deeply forked tail (unique among chars).', answer: true, fishId: 'lake_trout' },
-  { statement: 'You might find this fish in deep, cold waters of lake erie.', answer: true, fishId: 'lake_trout' }
+  { statement: 'A key ID clue for this fish is: Dark body with pale spots and deeply forked tail.', answer: true, fishId: 'lake_trout', showImage: true },
+  { statement: 'This fish can be identified by: Dark gray-green body covered in pale spots.', answer: true, fishId: 'lake_trout', showImage: true },
+  { statement: 'This fish can be identified by: Deeply forked tail (unique among chars).', answer: true, fishId: 'lake_trout', showImage: true },
+  { statement: 'You might find this fish in deep, cold waters of lake erie.', answer: true, fishId: 'lake_trout', showImage: true }
 ];
 
 export default lake_trout;

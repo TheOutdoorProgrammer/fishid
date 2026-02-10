@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Flat shovel-shaped snout with fringed barbels and bony-plated tail stalk.', answer: true, fishId: 'shovelnose_sturgeon' },
-  { statement: 'This fish can be identified by: Flattened, shovel-shaped snout.', answer: true, fishId: 'shovelnose_sturgeon' },
-  { statement: 'This fish can be identified by: Four fringed barbels under snout.', answer: true, fishId: 'shovelnose_sturgeon' },
-  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shovelnose_sturgeon' }
+  { statement: 'A key ID clue for this fish is: Flat shovel-shaped snout with fringed barbels and bony-plated tail stalk.', answer: true, fishId: 'shovelnose_sturgeon', showImage: true },
+  { statement: 'This fish can be identified by: Flattened, shovel-shaped snout.', answer: true, fishId: 'shovelnose_sturgeon', showImage: true },
+  { statement: 'This fish can be identified by: Four fringed barbels under snout.', answer: true, fishId: 'shovelnose_sturgeon', showImage: true },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'shovelnose_sturgeon', showImage: true }
 ];
 
 export default shovelnose_sturgeon;

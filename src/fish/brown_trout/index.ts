@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Golden-brown body with red/orange spots (often with pale halos).', answer: true, fishId: 'brown_trout' },
-  { statement: 'This fish can be identified by: Golden-brown to olive body.', answer: true, fishId: 'brown_trout' },
-  { statement: 'This fish can be identified by: Black spots and red/orange spots with pale halos.', answer: true, fishId: 'brown_trout' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'brown_trout' }
+  { statement: 'A key ID clue for this fish is: Golden-brown body with red/orange spots (often with pale halos).', answer: true, fishId: 'brown_trout', showImage: true },
+  { statement: 'This fish can be identified by: Golden-brown to olive body.', answer: true, fishId: 'brown_trout', showImage: true },
+  { statement: 'This fish can be identified by: Black spots and red/orange spots with pale halos.', answer: true, fishId: 'brown_trout', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'brown_trout', showImage: true }
 ];
 
 export default brown_trout;

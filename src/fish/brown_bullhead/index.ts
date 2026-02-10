@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Brown mottled bullhead with dark (not white) chin barbels.', answer: true, fishId: 'brown_bullhead' },
-  { statement: 'This fish can be identified by: Dark brown to olive body, often mottled.', answer: true, fishId: 'brown_bullhead' },
-  { statement: 'This fish can be identified by: Dark-colored chin barbels (brown or gray).', answer: true, fishId: 'brown_bullhead' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'brown_bullhead' }
+  { statement: 'A key ID clue for this fish is: Brown mottled bullhead with dark (not white) chin barbels.', answer: true, fishId: 'brown_bullhead', showImage: true },
+  { statement: 'This fish can be identified by: Dark brown to olive body, often mottled.', answer: true, fishId: 'brown_bullhead', showImage: true },
+  { statement: 'This fish can be identified by: Dark-colored chin barbels (brown or gray).', answer: true, fishId: 'brown_bullhead', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'brown_bullhead', showImage: true }
 ];
 
 export default brown_bullhead;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large salmon with black spots on both tail lobes and dark gum line.', answer: true, fishId: 'chinook_salmon' },
-  { statement: 'This fish can be identified by: Large, streamlined silver body.', answer: true, fishId: 'chinook_salmon' },
-  { statement: 'This fish can be identified by: Black spots on back AND both lobes of tail.', answer: true, fishId: 'chinook_salmon' },
-  { statement: 'You might find this fish in lake erie open waters.', answer: true, fishId: 'chinook_salmon' }
+  { statement: 'A key ID clue for this fish is: Large salmon with black spots on both tail lobes and dark gum line.', answer: true, fishId: 'chinook_salmon', showImage: true },
+  { statement: 'This fish can be identified by: Large, streamlined silver body.', answer: true, fishId: 'chinook_salmon', showImage: true },
+  { statement: 'This fish can be identified by: Black spots on back AND both lobes of tail.', answer: true, fishId: 'chinook_salmon', showImage: true },
+  { statement: 'You might find this fish in lake erie open waters.', answer: true, fishId: 'chinook_salmon', showImage: true }
 ];
 
 export default chinook_salmon;

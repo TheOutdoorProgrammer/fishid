@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Very large robust minnow with barbel at mouth corner; males build huge nests.', answer: true, fishId: 'river_chub' },
-  { statement: 'This fish can be identified by: Large, robust minnow (one of the biggest).', answer: true, fishId: 'river_chub' },
-  { statement: 'This fish can be identified by: Olive-brown body with large scales.', answer: true, fishId: 'river_chub' },
-  { statement: 'You might find this fish in streams and rivers with gravel or rubble bottoms.', answer: true, fishId: 'river_chub' }
+  { statement: 'A key ID clue for this fish is: Very large robust minnow with barbel at mouth corner; males build huge nests.', answer: true, fishId: 'river_chub', showImage: true },
+  { statement: 'This fish can be identified by: Large, robust minnow (one of the biggest).', answer: true, fishId: 'river_chub', showImage: true },
+  { statement: 'This fish can be identified by: Olive-brown body with large scales.', answer: true, fishId: 'river_chub', showImage: true },
+  { statement: 'You might find this fish in streams and rivers with gravel or rubble bottoms.', answer: true, fishId: 'river_chub', showImage: true }
 ];
 
 export default river_chub;

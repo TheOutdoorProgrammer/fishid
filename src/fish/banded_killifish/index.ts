@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small surface fish with many thin vertical bars and flat head.', answer: true, fishId: 'banded_killifish' },
-  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'banded_killifish' },
-  { statement: 'This fish can be identified by: Multiple thin dark vertical bars on sides.', answer: true, fishId: 'banded_killifish' },
-  { statement: 'You might find this fish in sandy lake shores.', answer: true, fishId: 'banded_killifish' }
+  { statement: 'A key ID clue for this fish is: Small surface fish with many thin vertical bars and flat head.', answer: true, fishId: 'banded_killifish', showImage: true },
+  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'banded_killifish', showImage: true },
+  { statement: 'This fish can be identified by: Multiple thin dark vertical bars on sides.', answer: true, fishId: 'banded_killifish', showImage: true },
+  { statement: 'You might find this fish in sandy lake shores.', answer: true, fishId: 'banded_killifish', showImage: true }
 ];
 
 export default banded_killifish;

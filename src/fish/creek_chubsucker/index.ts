@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small round-tailed sucker with no lateral line; young have dark stripe.', answer: true, fishId: 'creek_chubsucker' },
-  { statement: 'This fish can be identified by: Small, chubby sucker with no lateral line.', answer: true, fishId: 'creek_chubsucker' },
-  { statement: 'This fish can be identified by: Olive-green to brown body.', answer: true, fishId: 'creek_chubsucker' },
-  { statement: 'You might find this fish in small streams and headwaters with sand or gravel bottoms.', answer: true, fishId: 'creek_chubsucker' }
+  { statement: 'A key ID clue for this fish is: Small round-tailed sucker with no lateral line; young have dark stripe.', answer: true, fishId: 'creek_chubsucker', showImage: true },
+  { statement: 'This fish can be identified by: Small, chubby sucker with no lateral line.', answer: true, fishId: 'creek_chubsucker', showImage: true },
+  { statement: 'This fish can be identified by: Olive-green to brown body.', answer: true, fishId: 'creek_chubsucker', showImage: true },
+  { statement: 'You might find this fish in small streams and headwaters with sand or gravel bottoms.', answer: true, fishId: 'creek_chubsucker', showImage: true }
 ];
 
 export default creek_chubsucker;

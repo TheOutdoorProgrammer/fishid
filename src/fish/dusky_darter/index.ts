@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Olive darter with connected dark blotches forming band and tear mark under eye.', answer: true, fishId: 'dusky_darter' },
-  { statement: 'This fish can be identified by: Row of fused or connected dark blotches along side.', answer: true, fishId: 'dusky_darter' },
-  { statement: 'This fish can be identified by: Dusky olive body.', answer: true, fishId: 'dusky_darter' },
-  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'dusky_darter' }
+  { statement: 'A key ID clue for this fish is: Olive darter with connected dark blotches forming band and tear mark under eye.', answer: true, fishId: 'dusky_darter', showImage: true },
+  { statement: 'This fish can be identified by: Row of fused or connected dark blotches along side.', answer: true, fishId: 'dusky_darter', showImage: true },
+  { statement: 'This fish can be identified by: Dusky olive body.', answer: true, fishId: 'dusky_darter', showImage: true },
+  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'dusky_darter', showImage: true }
 ];
 
 export default dusky_darter;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Pale darter with distinctive W- and X-shaped dark markings on sides.', answer: true, fishId: 'johnny_darter' },
-  { statement: 'This fish can be identified by: Small, pale body with dark W- and X-shaped markings.', answer: true, fishId: 'johnny_darter' },
-  { statement: 'This fish can be identified by: Translucent to straw-colored base.', answer: true, fishId: 'johnny_darter' },
-  { statement: 'You might find this fish in sandy.', answer: true, fishId: 'johnny_darter' }
+  { statement: 'A key ID clue for this fish is: Pale darter with distinctive W- and X-shaped dark markings on sides.', answer: true, fishId: 'johnny_darter', showImage: true },
+  { statement: 'This fish can be identified by: Small, pale body with dark W- and X-shaped markings.', answer: true, fishId: 'johnny_darter', showImage: true },
+  { statement: 'This fish can be identified by: Translucent to straw-colored base.', answer: true, fishId: 'johnny_darter', showImage: true },
+  { statement: 'You might find this fish in sandy.', answer: true, fishId: 'johnny_darter', showImage: true }
 ];
 
 export default johnny_darter;

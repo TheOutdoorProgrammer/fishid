@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silvery redhorse with distinctive V-shaped lower lip.', answer: true, fishId: 'silver_redhorse' },
-  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'silver_redhorse' },
-  { statement: 'This fish can be identified by: Large scales.', answer: true, fishId: 'silver_redhorse' },
-  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'silver_redhorse' }
+  { statement: 'A key ID clue for this fish is: Silvery redhorse with distinctive V-shaped lower lip.', answer: true, fishId: 'silver_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Silver to olive body.', answer: true, fishId: 'silver_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Large scales.', answer: true, fishId: 'silver_redhorse', showImage: true },
+  { statement: 'You might find this fish in large streams.', answer: true, fishId: 'silver_redhorse', showImage: true }
 ];
 
 export default silver_redhorse;

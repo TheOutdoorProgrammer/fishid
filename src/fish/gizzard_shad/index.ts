@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silver deep body with trailing dorsal filament and dark shoulder spot.', answer: true, fishId: 'gizzard_shad' },
-  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'gizzard_shad' },
-  { statement: 'This fish can be identified by: Last ray of dorsal fin extended into long filament.', answer: true, fishId: 'gizzard_shad' },
-  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'gizzard_shad' }
+  { statement: 'A key ID clue for this fish is: Silver deep body with trailing dorsal filament and dark shoulder spot.', answer: true, fishId: 'gizzard_shad', showImage: true },
+  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'gizzard_shad', showImage: true },
+  { statement: 'This fish can be identified by: Last ray of dorsal fin extended into long filament.', answer: true, fishId: 'gizzard_shad', showImage: true },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'gizzard_shad', showImage: true }
 ];
 
 export default gizzard_shad;

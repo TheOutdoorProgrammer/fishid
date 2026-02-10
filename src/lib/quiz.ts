@@ -286,6 +286,7 @@ export function qTrueFalse(pool: Fish[], used: UsedTracker): QuizTrueFalseQuesti
       { label: 'False', value: false },
     ],
     correct: selected.answer,
+    showImage: selected.showImage,
   };
 }
 
@@ -432,6 +433,7 @@ function buildFallbackTrueFalse(pool: Fish[], used: UsedTracker): FishTrueFalseQ
     statement,
     answer: useTrue,
     fishId: fish.id,
+    showImage: true, // Fallback questions reference "this fish" so they need the image
   };
 }
 

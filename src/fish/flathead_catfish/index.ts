@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Flat wide head, mottled brown/yellow, square tail (not forked).', answer: true, fishId: 'flathead_catfish' },
-  { statement: 'This fish can be identified by: Flat, wide head (distinctive!).', answer: true, fishId: 'flathead_catfish' },
-  { statement: 'This fish can be identified by: Mottled brown and yellow coloring.', answer: true, fishId: 'flathead_catfish' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'flathead_catfish' }
+  { statement: 'A key ID clue for this fish is: Flat wide head, mottled brown/yellow, square tail (not forked).', answer: true, fishId: 'flathead_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Flat, wide head (distinctive!).', answer: true, fishId: 'flathead_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Mottled brown and yellow coloring.', answer: true, fishId: 'flathead_catfish', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'flathead_catfish', showImage: true }
 ];
 
 export default flathead_catfish;

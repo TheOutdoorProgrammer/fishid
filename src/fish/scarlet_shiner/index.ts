@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Shiner with breeding males showing brilliant scarlet-red coloring.', answer: true, fishId: 'scarlet_shiner' },
-  { statement: 'This fish can be identified by: Moderately deep body.', answer: true, fishId: 'scarlet_shiner' },
-  { statement: 'This fish can be identified by: Olive back with silver sides.', answer: true, fishId: 'scarlet_shiner' },
-  { statement: 'You might find this fish in pools of medium streams in southern ohio.', answer: true, fishId: 'scarlet_shiner' }
+  { statement: 'A key ID clue for this fish is: Shiner with breeding males showing brilliant scarlet-red coloring.', answer: true, fishId: 'scarlet_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Moderately deep body.', answer: true, fishId: 'scarlet_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Olive back with silver sides.', answer: true, fishId: 'scarlet_shiner', showImage: true },
+  { statement: 'You might find this fish in pools of medium streams in southern ohio.', answer: true, fishId: 'scarlet_shiner', showImage: true }
 ];
 
 export default scarlet_shiner;

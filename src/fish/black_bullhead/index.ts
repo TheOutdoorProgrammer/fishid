@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Dark-bodied bullhead with pale bar at tail base and smooth pectoral spine.', answer: true, fishId: 'black_bullhead' },
-  { statement: 'This fish can be identified by: Dark olive to black body.', answer: true, fishId: 'black_bullhead' },
-  { statement: 'This fish can be identified by: Dark chin barbels (black or dark gray).', answer: true, fishId: 'black_bullhead' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'black_bullhead' }
+  { statement: 'A key ID clue for this fish is: Dark-bodied bullhead with pale bar at tail base and smooth pectoral spine.', answer: true, fishId: 'black_bullhead', showImage: true },
+  { statement: 'This fish can be identified by: Dark olive to black body.', answer: true, fishId: 'black_bullhead', showImage: true },
+  { statement: 'This fish can be identified by: Dark chin barbels (black or dark gray).', answer: true, fishId: 'black_bullhead', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'black_bullhead', showImage: true }
 ];
 
 export default black_bullhead;

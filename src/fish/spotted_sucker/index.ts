@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Sucker with parallel rows of dark spots, one at base of each scale.', answer: true, fishId: 'spotted_sucker' },
-  { statement: 'This fish can be identified by: Olive-brown body with rows of dark spots.', answer: true, fishId: 'spotted_sucker' },
-  { statement: 'This fish can be identified by: Each scale has a dark spot at its base creating parallel rows.', answer: true, fishId: 'spotted_sucker' },
-  { statement: 'You might find this fish in pools of clear streams.', answer: true, fishId: 'spotted_sucker' }
+  { statement: 'A key ID clue for this fish is: Sucker with parallel rows of dark spots, one at base of each scale.', answer: true, fishId: 'spotted_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Olive-brown body with rows of dark spots.', answer: true, fishId: 'spotted_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Each scale has a dark spot at its base creating parallel rows.', answer: true, fishId: 'spotted_sucker', showImage: true },
+  { statement: 'You might find this fish in pools of clear streams.', answer: true, fishId: 'spotted_sucker', showImage: true }
 ];
 
 export default spotted_sucker;

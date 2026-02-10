@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large elongated carp with dark-edged scales and no barbels.', answer: true, fishId: 'grass_carp' },
-  { statement: 'This fish can be identified by: Large, elongated torpedo-shaped body.', answer: true, fishId: 'grass_carp' },
-  { statement: 'This fish can be identified by: Large scales with dark edges.', answer: true, fishId: 'grass_carp' },
-  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'grass_carp' }
+  { statement: 'A key ID clue for this fish is: Large elongated carp with dark-edged scales and no barbels.', answer: true, fishId: 'grass_carp', showImage: true },
+  { statement: 'This fish can be identified by: Large, elongated torpedo-shaped body.', answer: true, fishId: 'grass_carp', showImage: true },
+  { statement: 'This fish can be identified by: Large scales with dark edges.', answer: true, fishId: 'grass_carp', showImage: true },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'grass_carp', showImage: true }
 ];
 
 export default grass_carp;

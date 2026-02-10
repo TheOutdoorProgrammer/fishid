@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large darter with pig-like snout and alternating long/short vertical bars.', answer: true, fishId: 'logperch' },
-  { statement: 'This fish can be identified by: Largest darter commonly found in Ohio (up to 7 inches).', answer: true, fishId: 'logperch' },
-  { statement: 'This fish can be identified by: Alternating long and short vertical bars on sides.', answer: true, fishId: 'logperch' },
-  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'logperch' }
+  { statement: 'A key ID clue for this fish is: Large darter with pig-like snout and alternating long/short vertical bars.', answer: true, fishId: 'logperch', showImage: true },
+  { statement: 'This fish can be identified by: Largest darter commonly found in Ohio (up to 7 inches).', answer: true, fishId: 'logperch', showImage: true },
+  { statement: 'This fish can be identified by: Alternating long and short vertical bars on sides.', answer: true, fishId: 'logperch', showImage: true },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'logperch', showImage: true }
 ];
 
 export default logperch;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Surface fish with bold dark stripe, flat head, and upturned mouth.', answer: true, fishId: 'blackstripe_topminnow' },
-  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'blackstripe_topminnow' },
-  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'blackstripe_topminnow' },
-  { statement: 'You might find this fish in quiet pools.', answer: true, fishId: 'blackstripe_topminnow' }
+  { statement: 'A key ID clue for this fish is: Surface fish with bold dark stripe, flat head, and upturned mouth.', answer: true, fishId: 'blackstripe_topminnow', showImage: true },
+  { statement: 'This fish can be identified by: Small surface-dwelling fish.', answer: true, fishId: 'blackstripe_topminnow', showImage: true },
+  { statement: 'This fish can be identified by: Bold dark lateral stripe from snout to tail.', answer: true, fishId: 'blackstripe_topminnow', showImage: true },
+  { statement: 'You might find this fish in quiet pools.', answer: true, fishId: 'blackstripe_topminnow', showImage: true }
 ];
 
 export default blackstripe_topminnow;

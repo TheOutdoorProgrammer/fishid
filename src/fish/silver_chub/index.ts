@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Slender silver minnow with small barbel and large eye.', answer: true, fishId: 'silver_chub' },
-  { statement: 'This fish can be identified by: Slender, elongated body.', answer: true, fishId: 'silver_chub' },
-  { statement: 'This fish can be identified by: Silver body with large eye.', answer: true, fishId: 'silver_chub' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'silver_chub' }
+  { statement: 'A key ID clue for this fish is: Slender silver minnow with small barbel and large eye.', answer: true, fishId: 'silver_chub', showImage: true },
+  { statement: 'This fish can be identified by: Slender, elongated body.', answer: true, fishId: 'silver_chub', showImage: true },
+  { statement: 'This fish can be identified by: Silver body with large eye.', answer: true, fishId: 'silver_chub', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'silver_chub', showImage: true }
 ];
 
 export default silver_chub;

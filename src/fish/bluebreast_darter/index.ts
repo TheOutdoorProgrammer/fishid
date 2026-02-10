@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Stunning darter with bright blue breast and red-orange side markings.', answer: true, fishId: 'bluebreast_darter' },
-  { statement: 'This fish can be identified by: Breeding males with brilliant blue breast and belly.', answer: true, fishId: 'bluebreast_darter' },
-  { statement: 'This fish can be identified by: Red-orange spots or bars on sides.', answer: true, fishId: 'bluebreast_darter' },
-  { statement: 'You might find this fish in fast rocky riffles of clear rivers.', answer: true, fishId: 'bluebreast_darter' }
+  { statement: 'A key ID clue for this fish is: Stunning darter with bright blue breast and red-orange side markings.', answer: true, fishId: 'bluebreast_darter', showImage: true },
+  { statement: 'This fish can be identified by: Breeding males with brilliant blue breast and belly.', answer: true, fishId: 'bluebreast_darter', showImage: true },
+  { statement: 'This fish can be identified by: Red-orange spots or bars on sides.', answer: true, fishId: 'bluebreast_darter', showImage: true },
+  { statement: 'You might find this fish in fast rocky riffles of clear rivers.', answer: true, fishId: 'bluebreast_darter', showImage: true }
 ];
 
 export default bluebreast_darter;

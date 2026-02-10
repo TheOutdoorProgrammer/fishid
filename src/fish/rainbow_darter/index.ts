@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Stunningly colorful with alternating blue and orange vertical bars (males).', answer: true, fishId: 'rainbow_darter' },
-  { statement: 'This fish can be identified by: Breeding males brilliantly colored with blue and orange bars.', answer: true, fishId: 'rainbow_darter' },
-  { statement: 'This fish can be identified by: Alternating blue and orange-red vertical bars on sides.', answer: true, fishId: 'rainbow_darter' },
-  { statement: 'You might find this fish in rocky riffles of clear streams.', answer: true, fishId: 'rainbow_darter' }
+  { statement: 'A key ID clue for this fish is: Stunningly colorful with alternating blue and orange vertical bars (males).', answer: true, fishId: 'rainbow_darter', showImage: true },
+  { statement: 'This fish can be identified by: Breeding males brilliantly colored with blue and orange bars.', answer: true, fishId: 'rainbow_darter', showImage: true },
+  { statement: 'This fish can be identified by: Alternating blue and orange-red vertical bars on sides.', answer: true, fishId: 'rainbow_darter', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of clear streams.', answer: true, fishId: 'rainbow_darter', showImage: true }
 ];
 
 export default rainbow_darter;

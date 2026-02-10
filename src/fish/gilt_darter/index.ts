@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Golden-orange darter with broad dark bars and blue-green breast (males).', answer: true, fishId: 'gilt_darter' },
-  { statement: 'This fish can be identified by: Broad dark vertical bars on golden-orange body.', answer: true, fishId: 'gilt_darter' },
-  { statement: 'This fish can be identified by: Bright orange-gold base color between bars.', answer: true, fishId: 'gilt_darter' },
-  { statement: 'You might find this fish in fast rocky riffles of clean rivers.', answer: true, fishId: 'gilt_darter' }
+  { statement: 'A key ID clue for this fish is: Golden-orange darter with broad dark bars and blue-green breast (males).', answer: true, fishId: 'gilt_darter', showImage: true },
+  { statement: 'This fish can be identified by: Broad dark vertical bars on golden-orange body.', answer: true, fishId: 'gilt_darter', showImage: true },
+  { statement: 'This fish can be identified by: Bright orange-gold base color between bars.', answer: true, fishId: 'gilt_darter', showImage: true },
+  { statement: 'You might find this fish in fast rocky riffles of clean rivers.', answer: true, fishId: 'gilt_darter', showImage: true }
 ];
 
 export default gilt_darter;

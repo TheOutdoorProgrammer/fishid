@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small catfish with four dark saddle marks and banded tail pattern.', answer: true, fishId: 'brindled_madtom' },
-  { statement: 'This fish can be identified by: Small catfish with dark saddle markings.', answer: true, fishId: 'brindled_madtom' },
-  { statement: 'This fish can be identified by: Four dark saddle blotches on back.', answer: true, fishId: 'brindled_madtom' },
-  { statement: 'You might find this fish in riffles of clear streams with rocky or gravelly bottoms.', answer: true, fishId: 'brindled_madtom' }
+  { statement: 'A key ID clue for this fish is: Small catfish with four dark saddle marks and banded tail pattern.', answer: true, fishId: 'brindled_madtom', showImage: true },
+  { statement: 'This fish can be identified by: Small catfish with dark saddle markings.', answer: true, fishId: 'brindled_madtom', showImage: true },
+  { statement: 'This fish can be identified by: Four dark saddle blotches on back.', answer: true, fishId: 'brindled_madtom', showImage: true },
+  { statement: 'You might find this fish in riffles of clear streams with rocky or gravelly bottoms.', answer: true, fishId: 'brindled_madtom', showImage: true }
 ];
 
 export default brindled_madtom;

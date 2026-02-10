@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Stocky sunfish with large mouth and blue-green facial streaks.', answer: true, fishId: 'green_sunfish' },
-  { statement: 'This fish can be identified by: Stocky, thick body for a sunfish.', answer: true, fishId: 'green_sunfish' },
-  { statement: 'This fish can be identified by: Dark olive-green to blue-green color.', answer: true, fishId: 'green_sunfish' },
-  { statement: 'You might find this fish in streams.', answer: true, fishId: 'green_sunfish' }
+  { statement: 'A key ID clue for this fish is: Stocky sunfish with large mouth and blue-green facial streaks.', answer: true, fishId: 'green_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Stocky, thick body for a sunfish.', answer: true, fishId: 'green_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Dark olive-green to blue-green color.', answer: true, fishId: 'green_sunfish', showImage: true },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'green_sunfish', showImage: true }
 ];
 
 export default green_sunfish;

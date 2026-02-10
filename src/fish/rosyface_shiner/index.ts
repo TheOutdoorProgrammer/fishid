@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Slender shiner whose breeding males have bright rosy-red head and face.', answer: true, fishId: 'rosyface_shiner' },
-  { statement: 'This fish can be identified by: Slender, streamlined body.', answer: true, fishId: 'rosyface_shiner' },
-  { statement: 'This fish can be identified by: Silver with olive back.', answer: true, fishId: 'rosyface_shiner' },
-  { statement: 'You might find this fish in rocky riffles of clear streams.', answer: true, fishId: 'rosyface_shiner' }
+  { statement: 'A key ID clue for this fish is: Slender shiner whose breeding males have bright rosy-red head and face.', answer: true, fishId: 'rosyface_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Slender, streamlined body.', answer: true, fishId: 'rosyface_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Silver with olive back.', answer: true, fishId: 'rosyface_shiner', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of clear streams.', answer: true, fishId: 'rosyface_shiner', showImage: true }
 ];
 
 export default rosyface_shiner;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Very large sucker with extremely thick plicate lips and large scales.', answer: true, fishId: 'greater_redhorse' },
-  { statement: 'This fish can be identified by: Very large sucker species.', answer: true, fishId: 'greater_redhorse' },
-  { statement: 'This fish can be identified by: Olive-gold body with large scales.', answer: true, fishId: 'greater_redhorse' },
-  { statement: 'You might find this fish in large clean rivers.', answer: true, fishId: 'greater_redhorse' }
+  { statement: 'A key ID clue for this fish is: Very large sucker with extremely thick plicate lips and large scales.', answer: true, fishId: 'greater_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Very large sucker species.', answer: true, fishId: 'greater_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Olive-gold body with large scales.', answer: true, fishId: 'greater_redhorse', showImage: true },
+  { statement: 'You might find this fish in large clean rivers.', answer: true, fishId: 'greater_redhorse', showImage: true }
 ];
 
 export default greater_redhorse;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Round snout with hard scraping ridge on lower jaw for eating algae.', answer: true, fishId: 'central_stoneroller' },
-  { statement: 'This fish can be identified by: Rounded snout overhanging mouth.', answer: true, fishId: 'central_stoneroller' },
-  { statement: 'This fish can be identified by: Hard cartilaginous ridge on lower jaw for scraping algae.', answer: true, fishId: 'central_stoneroller' },
-  { statement: 'You might find this fish in rocky riffles of streams.', answer: true, fishId: 'central_stoneroller' }
+  { statement: 'A key ID clue for this fish is: Round snout with hard scraping ridge on lower jaw for eating algae.', answer: true, fishId: 'central_stoneroller', showImage: true },
+  { statement: 'This fish can be identified by: Rounded snout overhanging mouth.', answer: true, fishId: 'central_stoneroller', showImage: true },
+  { statement: 'This fish can be identified by: Hard cartilaginous ridge on lower jaw for scraping algae.', answer: true, fishId: 'central_stoneroller', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of streams.', answer: true, fishId: 'central_stoneroller', showImage: true }
 ];
 
 export default central_stoneroller;

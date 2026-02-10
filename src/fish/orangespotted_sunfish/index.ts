@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small sunfish covered in orange spots with long dark ear flap.', answer: true, fishId: 'orangespotted_sunfish' },
-  { statement: 'This fish can be identified by: Small, compressed body.', answer: true, fishId: 'orangespotted_sunfish' },
-  { statement: 'This fish can be identified by: Olive with orange or reddish spots on sides.', answer: true, fishId: 'orangespotted_sunfish' },
-  { statement: 'You might find this fish in slow streams.', answer: true, fishId: 'orangespotted_sunfish' }
+  { statement: 'A key ID clue for this fish is: Small sunfish covered in orange spots with long dark ear flap.', answer: true, fishId: 'orangespotted_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Small, compressed body.', answer: true, fishId: 'orangespotted_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Olive with orange or reddish spots on sides.', answer: true, fishId: 'orangespotted_sunfish', showImage: true },
+  { statement: 'You might find this fish in slow streams.', answer: true, fishId: 'orangespotted_sunfish', showImage: true }
 ];
 
 export default orangespotted_sunfish;

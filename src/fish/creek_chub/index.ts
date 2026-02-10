@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large minnow with dark spot at dorsal fin base and big mouth.', answer: true, fishId: 'creek_chub' },
-  { statement: 'This fish can be identified by: Large minnow with robust body.', answer: true, fishId: 'creek_chub' },
-  { statement: 'This fish can be identified by: Dark spot at base of dorsal fin.', answer: true, fishId: 'creek_chub' },
-  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'creek_chub' }
+  { statement: 'A key ID clue for this fish is: Large minnow with dark spot at dorsal fin base and big mouth.', answer: true, fishId: 'creek_chub', showImage: true },
+  { statement: 'This fish can be identified by: Large minnow with robust body.', answer: true, fishId: 'creek_chub', showImage: true },
+  { statement: 'This fish can be identified by: Dark spot at base of dorsal fin.', answer: true, fishId: 'creek_chub', showImage: true },
+  { statement: 'You might find this fish in small to medium streams.', answer: true, fishId: 'creek_chub', showImage: true }
 ];
 
 export default creek_chub;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large-eyed silver fish with dorsal fin starting ahead of anal fin.', answer: true, fishId: 'mooneye' },
-  { statement: 'This fish can be identified by: Laterally compressed silver body.', answer: true, fishId: 'mooneye' },
-  { statement: 'This fish can be identified by: Very large eye with golden iris.', answer: true, fishId: 'mooneye' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'mooneye' }
+  { statement: 'A key ID clue for this fish is: Large-eyed silver fish with dorsal fin starting ahead of anal fin.', answer: true, fishId: 'mooneye', showImage: true },
+  { statement: 'This fish can be identified by: Laterally compressed silver body.', answer: true, fishId: 'mooneye', showImage: true },
+  { statement: 'This fish can be identified by: Very large eye with golden iris.', answer: true, fishId: 'mooneye', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'mooneye', showImage: true }
 ];
 
 export default mooneye;

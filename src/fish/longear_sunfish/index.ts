@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Extremely long ear flap with white border and bright orange belly.', answer: true, fishId: 'longear_sunfish' },
-  { statement: 'This fish can be identified by: Very long, flexible ear flap (opercular flap).', answer: true, fishId: 'longear_sunfish' },
-  { statement: 'This fish can be identified by: Bright orange-red breast and belly.', answer: true, fishId: 'longear_sunfish' },
-  { statement: 'You might find this fish in clear streams and small rivers over gravel or rock.', answer: true, fishId: 'longear_sunfish' }
+  { statement: 'A key ID clue for this fish is: Extremely long ear flap with white border and bright orange belly.', answer: true, fishId: 'longear_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Very long, flexible ear flap (opercular flap).', answer: true, fishId: 'longear_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Bright orange-red breast and belly.', answer: true, fishId: 'longear_sunfish', showImage: true },
+  { statement: 'You might find this fish in clear streams and small rivers over gravel or rock.', answer: true, fishId: 'longear_sunfish', showImage: true }
 ];
 
 export default longear_sunfish;

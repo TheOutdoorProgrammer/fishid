@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Plain silver shiner that closely resembles several other shiner species.', answer: true, fishId: 'mimic_shiner' },
-  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'mimic_shiner' },
-  { statement: 'This fish can be identified by: Pale silver-olive color.', answer: true, fishId: 'mimic_shiner' },
-  { statement: 'You might find this fish in lakes and quiet pools of streams over sand or silt.', answer: true, fishId: 'mimic_shiner' }
+  { statement: 'A key ID clue for this fish is: Plain silver shiner that closely resembles several other shiner species.', answer: true, fishId: 'mimic_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender body.', answer: true, fishId: 'mimic_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Pale silver-olive color.', answer: true, fishId: 'mimic_shiner', showImage: true },
+  { statement: 'You might find this fish in lakes and quiet pools of streams over sand or silt.', answer: true, fishId: 'mimic_shiner', showImage: true }
 ];
 
 export default mimic_shiner;

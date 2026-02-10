@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Golden-bodied minnow with bright red-orange fins and red eye.', answer: true, fishId: 'european_rudd' },
-  { statement: 'This fish can be identified by: Deep, compressed golden body.', answer: true, fishId: 'european_rudd' },
-  { statement: 'This fish can be identified by: Bright red-orange fins.', answer: true, fishId: 'european_rudd' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'european_rudd' }
+  { statement: 'A key ID clue for this fish is: Golden-bodied minnow with bright red-orange fins and red eye.', answer: true, fishId: 'european_rudd', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed golden body.', answer: true, fishId: 'european_rudd', showImage: true },
+  { statement: 'This fish can be identified by: Bright red-orange fins.', answer: true, fishId: 'european_rudd', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'european_rudd', showImage: true }
 ];
 
 export default european_rudd;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Elongated dace with distinctly long snout overhanging mouth.', answer: true, fishId: 'longnose_dace' },
-  { statement: 'This fish can be identified by: Small, elongated body.', answer: true, fishId: 'longnose_dace' },
-  { statement: 'This fish can be identified by: Long snout that extends well past upper lip.', answer: true, fishId: 'longnose_dace' },
-  { statement: 'You might find this fish in swift rocky riffles.', answer: true, fishId: 'longnose_dace' }
+  { statement: 'A key ID clue for this fish is: Elongated dace with distinctly long snout overhanging mouth.', answer: true, fishId: 'longnose_dace', showImage: true },
+  { statement: 'This fish can be identified by: Small, elongated body.', answer: true, fishId: 'longnose_dace', showImage: true },
+  { statement: 'This fish can be identified by: Long snout that extends well past upper lip.', answer: true, fishId: 'longnose_dace', showImage: true },
+  { statement: 'You might find this fish in swift rocky riffles.', answer: true, fishId: 'longnose_dace', showImage: true }
 ];
 
 export default longnose_dace;

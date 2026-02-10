@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small stout minnow with blunt head; breeding males have dark fat pad on head.', answer: true, fishId: 'fathead_minnow' },
-  { statement: 'This fish can be identified by: Small, stout body.', answer: true, fishId: 'fathead_minnow' },
-  { statement: 'This fish can be identified by: Blunt, rounded head.', answer: true, fishId: 'fathead_minnow' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'fathead_minnow' }
+  { statement: 'A key ID clue for this fish is: Small stout minnow with blunt head; breeding males have dark fat pad on head.', answer: true, fishId: 'fathead_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Small, stout body.', answer: true, fishId: 'fathead_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Blunt, rounded head.', answer: true, fishId: 'fathead_minnow', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'fathead_minnow', showImage: true }
 ];
 
 export default fathead_minnow;

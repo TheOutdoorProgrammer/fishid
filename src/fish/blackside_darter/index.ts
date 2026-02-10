@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Olive darter with row of dark oval blotches along side.', answer: true, fishId: 'blackside_darter' },
-  { statement: 'This fish can be identified by: Row of dark oval blotches along sides.', answer: true, fishId: 'blackside_darter' },
-  { statement: 'This fish can be identified by: Olive-brown body.', answer: true, fishId: 'blackside_darter' },
-  { statement: 'You might find this fish in pools and runs of streams with rocky or gravelly bottoms.', answer: true, fishId: 'blackside_darter' }
+  { statement: 'A key ID clue for this fish is: Olive darter with row of dark oval blotches along side.', answer: true, fishId: 'blackside_darter', showImage: true },
+  { statement: 'This fish can be identified by: Row of dark oval blotches along sides.', answer: true, fishId: 'blackside_darter', showImage: true },
+  { statement: 'This fish can be identified by: Olive-brown body.', answer: true, fishId: 'blackside_darter', showImage: true },
+  { statement: 'You might find this fish in pools and runs of streams with rocky or gravelly bottoms.', answer: true, fishId: 'blackside_darter', showImage: true }
 ];
 
 export default blackside_darter;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Wide flat head with fan-like pectoral fins and scaleless mottled body.', answer: true, fishId: 'mottled_sculpin' },
-  { statement: 'This fish can be identified by: Wide, flat head with fan-like pectoral fins.', answer: true, fishId: 'mottled_sculpin' },
-  { statement: 'This fish can be identified by: No scales (smooth skin).', answer: true, fishId: 'mottled_sculpin' },
-  { statement: 'You might find this fish in cold.', answer: true, fishId: 'mottled_sculpin' }
+  { statement: 'A key ID clue for this fish is: Wide flat head with fan-like pectoral fins and scaleless mottled body.', answer: true, fishId: 'mottled_sculpin', showImage: true },
+  { statement: 'This fish can be identified by: Wide, flat head with fan-like pectoral fins.', answer: true, fishId: 'mottled_sculpin', showImage: true },
+  { statement: 'This fish can be identified by: No scales (smooth skin).', answer: true, fishId: 'mottled_sculpin', showImage: true },
+  { statement: 'You might find this fish in cold.', answer: true, fishId: 'mottled_sculpin', showImage: true }
 ];
 
 export default mottled_sculpin;

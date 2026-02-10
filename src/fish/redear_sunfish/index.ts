@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Sunfish with red/orange margin on short ear flap - the shellcracker.', answer: true, fishId: 'redear_sunfish' },
-  { statement: 'This fish can be identified by: Deep body, similar shape to bluegill.', answer: true, fishId: 'redear_sunfish' },
-  { statement: 'This fish can be identified by: Short ear flap with bright red or orange border.', answer: true, fishId: 'redear_sunfish' },
-  { statement: 'You might find this fish in ponds and lakes with sandy or muddy bottoms.', answer: true, fishId: 'redear_sunfish' }
+  { statement: 'A key ID clue for this fish is: Sunfish with red/orange margin on short ear flap - the shellcracker.', answer: true, fishId: 'redear_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Deep body, similar shape to bluegill.', answer: true, fishId: 'redear_sunfish', showImage: true },
+  { statement: 'This fish can be identified by: Short ear flap with bright red or orange border.', answer: true, fishId: 'redear_sunfish', showImage: true },
+  { statement: 'You might find this fish in ponds and lakes with sandy or muddy bottoms.', answer: true, fishId: 'redear_sunfish', showImage: true }
 ];
 
 export default redear_sunfish;

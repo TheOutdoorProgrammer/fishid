@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small darter with bright orange throat and blue-orange barring.', answer: true, fishId: 'orangethroat_darter' },
-  { statement: 'This fish can be identified by: Small with alternating blue and orange bars.', answer: true, fishId: 'orangethroat_darter' },
-  { statement: 'This fish can be identified by: Bright orange throat and breast on breeding males.', answer: true, fishId: 'orangethroat_darter' },
-  { statement: 'You might find this fish in rocky riffles of small to medium streams in western ohio.', answer: true, fishId: 'orangethroat_darter' }
+  { statement: 'A key ID clue for this fish is: Small darter with bright orange throat and blue-orange barring.', answer: true, fishId: 'orangethroat_darter', showImage: true },
+  { statement: 'This fish can be identified by: Small with alternating blue and orange bars.', answer: true, fishId: 'orangethroat_darter', showImage: true },
+  { statement: 'This fish can be identified by: Bright orange throat and breast on breeding males.', answer: true, fishId: 'orangethroat_darter', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of small to medium streams in western ohio.', answer: true, fishId: 'orangethroat_darter', showImage: true }
 ];
 
 export default orangethroat_darter;

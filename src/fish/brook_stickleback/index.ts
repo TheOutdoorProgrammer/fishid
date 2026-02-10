@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Tiny scaleless fish with 4-6 isolated spines in front of dorsal fin.', answer: true, fishId: 'brook_stickleback' },
-  { statement: 'This fish can be identified by: Very small fish with 4-6 free dorsal spines.', answer: true, fishId: 'brook_stickleback' },
-  { statement: 'This fish can be identified by: No scales - smooth or with bony plates.', answer: true, fishId: 'brook_stickleback' },
-  { statement: 'You might find this fish in cool streams.', answer: true, fishId: 'brook_stickleback' }
+  { statement: 'A key ID clue for this fish is: Tiny scaleless fish with 4-6 isolated spines in front of dorsal fin.', answer: true, fishId: 'brook_stickleback', showImage: true },
+  { statement: 'This fish can be identified by: Very small fish with 4-6 free dorsal spines.', answer: true, fishId: 'brook_stickleback', showImage: true },
+  { statement: 'This fish can be identified by: No scales - smooth or with bony plates.', answer: true, fishId: 'brook_stickleback', showImage: true },
+  { statement: 'You might find this fish in cool streams.', answer: true, fishId: 'brook_stickleback', showImage: true }
 ];
 
 export default brook_stickleback;

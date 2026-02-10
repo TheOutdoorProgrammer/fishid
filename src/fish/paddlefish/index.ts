@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Unmistakable long paddle-shaped snout and smooth shark-like body.', answer: true, fishId: 'paddlefish' },
-  { statement: 'This fish can be identified by: Extremely long, paddle-shaped rostrum (snout).', answer: true, fishId: 'paddlefish' },
-  { statement: 'This fish can be identified by: Shark-like body shape with heterocercal tail.', answer: true, fishId: 'paddlefish' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'paddlefish' }
+  { statement: 'A key ID clue for this fish is: Unmistakable long paddle-shaped snout and smooth shark-like body.', answer: true, fishId: 'paddlefish', showImage: true },
+  { statement: 'This fish can be identified by: Extremely long, paddle-shaped rostrum (snout).', answer: true, fishId: 'paddlefish', showImage: true },
+  { statement: 'This fish can be identified by: Shark-like body shape with heterocercal tail.', answer: true, fishId: 'paddlefish', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'paddlefish', showImage: true }
 ];
 
 export default paddlefish;

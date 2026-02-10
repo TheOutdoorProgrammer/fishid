@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silver body like white bass but WITHOUT horizontal stripes.', answer: true, fishId: 'white_perch' },
-  { statement: 'This fish can be identified by: Silver-green body with no distinct stripes.', answer: true, fishId: 'white_perch' },
-  { statement: 'This fish can be identified by: Deep, compressed body shape.', answer: true, fishId: 'white_perch' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'white_perch' }
+  { statement: 'A key ID clue for this fish is: Silver body like white bass but WITHOUT horizontal stripes.', answer: true, fishId: 'white_perch', showImage: true },
+  { statement: 'This fish can be identified by: Silver-green body with no distinct stripes.', answer: true, fishId: 'white_perch', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed body shape.', answer: true, fishId: 'white_perch', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'white_perch', showImage: true }
 ];
 
 export default white_perch;

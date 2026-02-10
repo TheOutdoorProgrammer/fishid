@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Elongated minnow with large upturned mouth and vivid red side stripe.', answer: true, fishId: 'redside_dace' },
-  { statement: 'This fish can be identified by: Elongated, streamlined body.', answer: true, fishId: 'redside_dace' },
-  { statement: 'This fish can be identified by: Vivid red stripe along side (breeding males).', answer: true, fishId: 'redside_dace' },
-  { statement: 'You might find this fish in cool.', answer: true, fishId: 'redside_dace' }
+  { statement: 'A key ID clue for this fish is: Elongated minnow with large upturned mouth and vivid red side stripe.', answer: true, fishId: 'redside_dace', showImage: true },
+  { statement: 'This fish can be identified by: Elongated, streamlined body.', answer: true, fishId: 'redside_dace', showImage: true },
+  { statement: 'This fish can be identified by: Vivid red stripe along side (breeding males).', answer: true, fishId: 'redside_dace', showImage: true },
+  { statement: 'You might find this fish in cool.', answer: true, fishId: 'redside_dace', showImage: true }
 ];
 
 export default redside_dace;

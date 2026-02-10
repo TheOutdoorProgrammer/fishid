@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silvery body with vertical dark bars, 5-6 dorsal spines.', answer: true, fishId: 'white_crappie' },
-  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'white_crappie' },
-  { statement: 'This fish can be identified by: Silvery-green with dark VERTICAL bars.', answer: true, fishId: 'white_crappie' },
-  { statement: 'You might find this fish in murky lakes.', answer: true, fishId: 'white_crappie' }
+  { statement: 'A key ID clue for this fish is: Silvery body with vertical dark bars, 5-6 dorsal spines.', answer: true, fishId: 'white_crappie', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'white_crappie', showImage: true },
+  { statement: 'This fish can be identified by: Silvery-green with dark VERTICAL bars.', answer: true, fishId: 'white_crappie', showImage: true },
+  { statement: 'You might find this fish in murky lakes.', answer: true, fishId: 'white_crappie', showImage: true }
 ];
 
 export default white_crappie;

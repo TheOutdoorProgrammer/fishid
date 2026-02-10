@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Snake-like body with continuous fin around tail and projecting lower jaw.', answer: true, fishId: 'american_eel' },
-  { statement: 'This fish can be identified by: Snake-like elongated body.', answer: true, fishId: 'american_eel' },
-  { statement: 'This fish can be identified by: Continuous fin running along back, around tail, and under body.', answer: true, fishId: 'american_eel' },
-  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'american_eel' }
+  { statement: 'A key ID clue for this fish is: Snake-like body with continuous fin around tail and projecting lower jaw.', answer: true, fishId: 'american_eel', showImage: true },
+  { statement: 'This fish can be identified by: Snake-like elongated body.', answer: true, fishId: 'american_eel', showImage: true },
+  { statement: 'This fish can be identified by: Continuous fin running along back, around tail, and under body.', answer: true, fishId: 'american_eel', showImage: true },
+  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'american_eel', showImage: true }
 ];
 
 export default american_eel;

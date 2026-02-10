@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Robust darter with four saddle marks and alternating blue-green and orange bars.', answer: true, fishId: 'variegate_darter' },
-  { statement: 'This fish can be identified by: Four dark saddle marks across back.', answer: true, fishId: 'variegate_darter' },
-  { statement: 'This fish can be identified by: Alternating bars of blue-green and orange-red on sides.', answer: true, fishId: 'variegate_darter' },
-  { statement: 'You might find this fish in large rocky riffles of clean rivers in eastern ohio.', answer: true, fishId: 'variegate_darter' }
+  { statement: 'A key ID clue for this fish is: Robust darter with four saddle marks and alternating blue-green and orange bars.', answer: true, fishId: 'variegate_darter', showImage: true },
+  { statement: 'This fish can be identified by: Four dark saddle marks across back.', answer: true, fishId: 'variegate_darter', showImage: true },
+  { statement: 'This fish can be identified by: Alternating bars of blue-green and orange-red on sides.', answer: true, fishId: 'variegate_darter', showImage: true },
+  { statement: 'You might find this fish in large rocky riffles of clean rivers in eastern ohio.', answer: true, fishId: 'variegate_darter', showImage: true }
 ];
 
 export default variegate_darter;

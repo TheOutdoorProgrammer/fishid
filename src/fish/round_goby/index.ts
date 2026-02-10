@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small bottom fish with fused pelvic suction disc and black spot on first dorsal.', answer: true, fishId: 'round_goby' },
-  { statement: 'This fish can be identified by: Small, bottom-dwelling body.', answer: true, fishId: 'round_goby' },
-  { statement: 'This fish can be identified by: Fused pelvic fins forming a suction disc.', answer: true, fishId: 'round_goby' },
-  { statement: 'You might find this fish in lake erie rocky areas.', answer: true, fishId: 'round_goby' }
+  { statement: 'A key ID clue for this fish is: Small bottom fish with fused pelvic suction disc and black spot on first dorsal.', answer: true, fishId: 'round_goby', showImage: true },
+  { statement: 'This fish can be identified by: Small, bottom-dwelling body.', answer: true, fishId: 'round_goby', showImage: true },
+  { statement: 'This fish can be identified by: Fused pelvic fins forming a suction disc.', answer: true, fishId: 'round_goby', showImage: true },
+  { statement: 'You might find this fish in lake erie rocky areas.', answer: true, fishId: 'round_goby', showImage: true }
 ];
 
 export default round_goby;

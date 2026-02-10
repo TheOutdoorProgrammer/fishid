@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Darkest buffalo species with thicker, more cylindrical body.', answer: true, fishId: 'black_buffalo' },
-  { statement: 'This fish can be identified by: Deep body but less compressed than other buffalo.', answer: true, fishId: 'black_buffalo' },
-  { statement: 'This fish can be identified by: Dark olive to blackish color.', answer: true, fishId: 'black_buffalo' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'black_buffalo' }
+  { statement: 'A key ID clue for this fish is: Darkest buffalo species with thicker, more cylindrical body.', answer: true, fishId: 'black_buffalo', showImage: true },
+  { statement: 'This fish can be identified by: Deep body but less compressed than other buffalo.', answer: true, fishId: 'black_buffalo', showImage: true },
+  { statement: 'This fish can be identified by: Dark olive to blackish color.', answer: true, fishId: 'black_buffalo', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'black_buffalo', showImage: true }
 ];
 
 export default black_buffalo;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large shiner with crescent scale marks; breeding males have pink body and blue head.', answer: true, fishId: 'striped_shiner' },
-  { statement: 'This fish can be identified by: Large, deep-bodied shiner.', answer: true, fishId: 'striped_shiner' },
-  { statement: 'This fish can be identified by: Dark crescent-shaped markings on scales creating striped look.', answer: true, fishId: 'striped_shiner' },
-  { statement: 'You might find this fish in pools of small to medium streams over gravel.', answer: true, fishId: 'striped_shiner' }
+  { statement: 'A key ID clue for this fish is: Large shiner with crescent scale marks; breeding males have pink body and blue head.', answer: true, fishId: 'striped_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Large, deep-bodied shiner.', answer: true, fishId: 'striped_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Dark crescent-shaped markings on scales creating striped look.', answer: true, fishId: 'striped_shiner', showImage: true },
+  { statement: 'You might find this fish in pools of small to medium streams over gravel.', answer: true, fishId: 'striped_shiner', showImage: true }
 ];
 
 export default striped_shiner;

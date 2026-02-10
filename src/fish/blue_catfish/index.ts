@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Blue-gray body with no spots, straight anal fin edge, deeply forked tail.', answer: true, fishId: 'blue_catfish' },
-  { statement: 'This fish can be identified by: Slate blue to grayish-blue body.', answer: true, fishId: 'blue_catfish' },
-  { statement: 'This fish can be identified by: NO dark spots (unlike channel catfish).', answer: true, fishId: 'blue_catfish' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'blue_catfish' }
+  { statement: 'A key ID clue for this fish is: Blue-gray body with no spots, straight anal fin edge, deeply forked tail.', answer: true, fishId: 'blue_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Slate blue to grayish-blue body.', answer: true, fishId: 'blue_catfish', showImage: true },
+  { statement: 'This fish can be identified by: NO dark spots (unlike channel catfish).', answer: true, fishId: 'blue_catfish', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'blue_catfish', showImage: true }
 ];
 
 export default blue_catfish;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large robust sucker with heavy molar-like pharyngeal teeth.', answer: true, fishId: 'river_redhorse' },
-  { statement: 'This fish can be identified by: Large, robust sucker.', answer: true, fishId: 'river_redhorse' },
-  { statement: 'This fish can be identified by: Heavy pharyngeal teeth (molar-like for crushing).', answer: true, fishId: 'river_redhorse' },
-  { statement: 'You might find this fish in large clean rivers with rocky bottoms and moderate current.', answer: true, fishId: 'river_redhorse' }
+  { statement: 'A key ID clue for this fish is: Large robust sucker with heavy molar-like pharyngeal teeth.', answer: true, fishId: 'river_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Large, robust sucker.', answer: true, fishId: 'river_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Heavy pharyngeal teeth (molar-like for crushing).', answer: true, fishId: 'river_redhorse', showImage: true },
+  { statement: 'You might find this fish in large clean rivers with rocky bottoms and moderate current.', answer: true, fishId: 'river_redhorse', showImage: true }
 ];
 
 export default river_redhorse;

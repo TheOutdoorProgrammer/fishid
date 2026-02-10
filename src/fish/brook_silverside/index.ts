@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Extremely slender translucent fish with bright silver stripe and beak-like snout.', answer: true, fishId: 'brook_silverside' },
-  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'brook_silverside' },
-  { statement: 'This fish can be identified by: Bright silver lateral stripe.', answer: true, fishId: 'brook_silverside' },
-  { statement: 'You might find this fish in lake margins.', answer: true, fishId: 'brook_silverside' }
+  { statement: 'A key ID clue for this fish is: Extremely slender translucent fish with bright silver stripe and beak-like snout.', answer: true, fishId: 'brook_silverside', showImage: true },
+  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'brook_silverside', showImage: true },
+  { statement: 'This fish can be identified by: Bright silver lateral stripe.', answer: true, fishId: 'brook_silverside', showImage: true },
+  { statement: 'You might find this fish in lake margins.', answer: true, fishId: 'brook_silverside', showImage: true }
 ];
 
 export default brook_silverside;

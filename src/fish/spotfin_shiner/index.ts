@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Steel-blue shiner with distinctive dark blotch on back of dorsal fin.', answer: true, fishId: 'spotfin_shiner' },
-  { statement: 'This fish can be identified by: Steel-blue sheen on back and sides.', answer: true, fishId: 'spotfin_shiner' },
-  { statement: 'This fish can be identified by: Dark blotch on rear of dorsal fin.', answer: true, fishId: 'spotfin_shiner' },
-  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'spotfin_shiner' }
+  { statement: 'A key ID clue for this fish is: Steel-blue shiner with distinctive dark blotch on back of dorsal fin.', answer: true, fishId: 'spotfin_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Steel-blue sheen on back and sides.', answer: true, fishId: 'spotfin_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Dark blotch on rear of dorsal fin.', answer: true, fishId: 'spotfin_shiner', showImage: true },
+  { statement: 'You might find this fish in rocky pools.', answer: true, fishId: 'spotfin_shiner', showImage: true }
 ];
 
 export default spotfin_shiner;

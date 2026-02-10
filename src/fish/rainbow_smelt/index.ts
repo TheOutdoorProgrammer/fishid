@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small silvery fish with iridescent sheen, large teeth, and adipose fin.', answer: true, fishId: 'rainbow_smelt' },
-  { statement: 'This fish can be identified by: Small, slender, elongated body.', answer: true, fishId: 'rainbow_smelt' },
-  { statement: 'This fish can be identified by: Translucent silver-green coloring.', answer: true, fishId: 'rainbow_smelt' },
-  { statement: 'You might find this fish in deep open waters of lake erie.', answer: true, fishId: 'rainbow_smelt' }
+  { statement: 'A key ID clue for this fish is: Small silvery fish with iridescent sheen, large teeth, and adipose fin.', answer: true, fishId: 'rainbow_smelt', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender, elongated body.', answer: true, fishId: 'rainbow_smelt', showImage: true },
+  { statement: 'This fish can be identified by: Translucent silver-green coloring.', answer: true, fishId: 'rainbow_smelt', showImage: true },
+  { statement: 'You might find this fish in deep open waters of lake erie.', answer: true, fishId: 'rainbow_smelt', showImage: true }
 ];
 
 export default rainbow_smelt;

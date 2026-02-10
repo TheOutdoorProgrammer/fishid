@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep body, dark ear flap, orange breast.', answer: true, fishId: 'bluegill' },
-  { statement: 'This fish can be identified by: Deep, compressed (tall) body shape.', answer: true, fishId: 'bluegill' },
-  { statement: 'This fish can be identified by: Dark blue-black ear flap (opercular flap).', answer: true, fishId: 'bluegill' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'bluegill' }
+  { statement: 'A key ID clue for this fish is: Deep body, dark ear flap, orange breast.', answer: true, fishId: 'bluegill', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed (tall) body shape.', answer: true, fishId: 'bluegill', showImage: true },
+  { statement: 'This fish can be identified by: Dark blue-black ear flap (opercular flap).', answer: true, fishId: 'bluegill', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'bluegill', showImage: true }
 ];
 
 export default bluegill;

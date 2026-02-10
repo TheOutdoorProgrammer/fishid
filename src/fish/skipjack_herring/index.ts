@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silver herring with projecting lower jaw and no shoulder spot.', answer: true, fishId: 'skipjack_herring' },
-  { statement: 'This fish can be identified by: Elongated, compressed silver body.', answer: true, fishId: 'skipjack_herring' },
-  { statement: 'This fish can be identified by: Bluish-green back with brilliant silver sides.', answer: true, fishId: 'skipjack_herring' },
-  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'skipjack_herring' }
+  { statement: 'A key ID clue for this fish is: Silver herring with projecting lower jaw and no shoulder spot.', answer: true, fishId: 'skipjack_herring', showImage: true },
+  { statement: 'This fish can be identified by: Elongated, compressed silver body.', answer: true, fishId: 'skipjack_herring', showImage: true },
+  { statement: 'This fish can be identified by: Bluish-green back with brilliant silver sides.', answer: true, fishId: 'skipjack_herring', showImage: true },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'skipjack_herring', showImage: true }
 ];
 
 export default skipjack_herring;

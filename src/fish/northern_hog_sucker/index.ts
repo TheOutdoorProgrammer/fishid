@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Boxy concave head with dark saddle marks and widely spaced eyes.', answer: true, fishId: 'northern_hog_sucker' },
-  { statement: 'This fish can be identified by: Large, concave head (squared-off/boxy look).', answer: true, fishId: 'northern_hog_sucker' },
-  { statement: 'This fish can be identified by: Dark saddle marks across back (3-4 saddles).', answer: true, fishId: 'northern_hog_sucker' },
-  { statement: 'You might find this fish in clear, rocky riffles of streams and rivers.', answer: true, fishId: 'northern_hog_sucker' }
+  { statement: 'A key ID clue for this fish is: Boxy concave head with dark saddle marks and widely spaced eyes.', answer: true, fishId: 'northern_hog_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Large, concave head (squared-off/boxy look).', answer: true, fishId: 'northern_hog_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Dark saddle marks across back (3-4 saddles).', answer: true, fishId: 'northern_hog_sucker', showImage: true },
+  { statement: 'You might find this fish in clear, rocky riffles of streams and rivers.', answer: true, fishId: 'northern_hog_sucker', showImage: true }
 ];
 
 export default northern_hog_sucker;

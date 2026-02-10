@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Smallest pike family member with dark tear-drop under eye and fully scaled cheeks.', answer: true, fishId: 'grass_pickerel' },
-  { statement: 'This fish can be identified by: Small, torpedo-shaped body (smallest pike).', answer: true, fishId: 'grass_pickerel' },
-  { statement: 'This fish can be identified by: Fully scaled cheeks and gill covers.', answer: true, fishId: 'grass_pickerel' },
-  { statement: 'You might find this fish in quiet.', answer: true, fishId: 'grass_pickerel' }
+  { statement: 'A key ID clue for this fish is: Smallest pike family member with dark tear-drop under eye and fully scaled cheeks.', answer: true, fishId: 'grass_pickerel', showImage: true },
+  { statement: 'This fish can be identified by: Small, torpedo-shaped body (smallest pike).', answer: true, fishId: 'grass_pickerel', showImage: true },
+  { statement: 'This fish can be identified by: Fully scaled cheeks and gill covers.', answer: true, fishId: 'grass_pickerel', showImage: true },
+  { statement: 'You might find this fish in quiet.', answer: true, fishId: 'grass_pickerel', showImage: true }
 ];
 
 export default grass_pickerel;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Robust minnow with red-orange spot behind eye; breeding males have head tubercles.', answer: true, fishId: 'hornyhead_chub' },
-  { statement: 'This fish can be identified by: Large, robust minnow.', answer: true, fishId: 'hornyhead_chub' },
-  { statement: 'This fish can be identified by: Red-orange spot behind eye.', answer: true, fishId: 'hornyhead_chub' },
-  { statement: 'You might find this fish in pools of clear streams over gravel.', answer: true, fishId: 'hornyhead_chub' }
+  { statement: 'A key ID clue for this fish is: Robust minnow with red-orange spot behind eye; breeding males have head tubercles.', answer: true, fishId: 'hornyhead_chub', showImage: true },
+  { statement: 'This fish can be identified by: Large, robust minnow.', answer: true, fishId: 'hornyhead_chub', showImage: true },
+  { statement: 'This fish can be identified by: Red-orange spot behind eye.', answer: true, fishId: 'hornyhead_chub', showImage: true },
+  { statement: 'You might find this fish in pools of clear streams over gravel.', answer: true, fishId: 'hornyhead_chub', showImage: true }
 ];
 
 export default hornyhead_chub;

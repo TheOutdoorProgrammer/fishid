@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep-bodied buffalo with forward-facing large mouth and thin lips.', answer: true, fishId: 'bigmouth_buffalo' },
-  { statement: 'This fish can be identified by: Very deep, compressed body (hump-backed).', answer: true, fishId: 'bigmouth_buffalo' },
-  { statement: 'This fish can be identified by: Large terminal mouth (facing forward, not downward).', answer: true, fishId: 'bigmouth_buffalo' },
-  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'bigmouth_buffalo' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied buffalo with forward-facing large mouth and thin lips.', answer: true, fishId: 'bigmouth_buffalo', showImage: true },
+  { statement: 'This fish can be identified by: Very deep, compressed body (hump-backed).', answer: true, fishId: 'bigmouth_buffalo', showImage: true },
+  { statement: 'This fish can be identified by: Large terminal mouth (facing forward, not downward).', answer: true, fishId: 'bigmouth_buffalo', showImage: true },
+  { statement: 'You might find this fish in large rivers.', answer: true, fishId: 'bigmouth_buffalo', showImage: true }
 ];
 
 export default bigmouth_buffalo;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Translucent minnow with visible silver chambers in head and jaw.', answer: true, fishId: 'silverjaw_minnow' },
-  { statement: 'This fish can be identified by: Translucent body.', answer: true, fishId: 'silverjaw_minnow' },
-  { statement: 'This fish can be identified by: Visible silvery chambers in lower jaw and snout.', answer: true, fishId: 'silverjaw_minnow' },
-  { statement: 'You might find this fish in sandy-bottomed streams.', answer: true, fishId: 'silverjaw_minnow' }
+  { statement: 'A key ID clue for this fish is: Translucent minnow with visible silver chambers in head and jaw.', answer: true, fishId: 'silverjaw_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Translucent body.', answer: true, fishId: 'silverjaw_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Visible silvery chambers in lower jaw and snout.', answer: true, fishId: 'silverjaw_minnow', showImage: true },
+  { statement: 'You might find this fish in sandy-bottomed streams.', answer: true, fishId: 'silverjaw_minnow', showImage: true }
 ];
 
 export default silverjaw_minnow;

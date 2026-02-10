@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Olive-brown cylindrical fish with downward sucker mouth and no barbels.', answer: true, fishId: 'white_sucker' },
-  { statement: 'This fish can be identified by: Cylindrical body, round in cross-section.', answer: true, fishId: 'white_sucker' },
-  { statement: 'This fish can be identified by: Downward-pointing sucker mouth with fleshy lips.', answer: true, fishId: 'white_sucker' },
-  { statement: 'You might find this fish in streams.', answer: true, fishId: 'white_sucker' }
+  { statement: 'A key ID clue for this fish is: Olive-brown cylindrical fish with downward sucker mouth and no barbels.', answer: true, fishId: 'white_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Cylindrical body, round in cross-section.', answer: true, fishId: 'white_sucker', showImage: true },
+  { statement: 'This fish can be identified by: Downward-pointing sucker mouth with fleshy lips.', answer: true, fishId: 'white_sucker', showImage: true },
+  { statement: 'You might find this fish in streams.', answer: true, fishId: 'white_sucker', showImage: true }
 ];
 
 export default white_sucker;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Brown darter with fan-shaped tail and fleshy knobs on dorsal spines (males).', answer: true, fishId: 'fantail_darter' },
-  { statement: 'This fish can be identified by: Fan-shaped tail (rounded, not forked).', answer: true, fishId: 'fantail_darter' },
-  { statement: 'This fish can be identified by: Brown to olive body with dark bars and mottling.', answer: true, fishId: 'fantail_darter' },
-  { statement: 'You might find this fish in rocky riffles of small to medium streams.', answer: true, fishId: 'fantail_darter' }
+  { statement: 'A key ID clue for this fish is: Brown darter with fan-shaped tail and fleshy knobs on dorsal spines (males).', answer: true, fishId: 'fantail_darter', showImage: true },
+  { statement: 'This fish can be identified by: Fan-shaped tail (rounded, not forked).', answer: true, fishId: 'fantail_darter', showImage: true },
+  { statement: 'This fish can be identified by: Brown to olive body with dark bars and mottling.', answer: true, fishId: 'fantail_darter', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of small to medium streams.', answer: true, fishId: 'fantail_darter', showImage: true }
 ];
 
 export default fantail_darter;

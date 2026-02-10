@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Nearly transparent darter that buries in sand with only eyes exposed.', answer: true, fishId: 'eastern_sand_darter' },
-  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'eastern_sand_darter' },
-  { statement: 'This fish can be identified by: Nearly transparent/translucent body.', answer: true, fishId: 'eastern_sand_darter' },
-  { statement: 'You might find this fish in sandy-bottomed pools.', answer: true, fishId: 'eastern_sand_darter' }
+  { statement: 'A key ID clue for this fish is: Nearly transparent darter that buries in sand with only eyes exposed.', answer: true, fishId: 'eastern_sand_darter', showImage: true },
+  { statement: 'This fish can be identified by: Very slender, elongated body.', answer: true, fishId: 'eastern_sand_darter', showImage: true },
+  { statement: 'This fish can be identified by: Nearly transparent/translucent body.', answer: true, fishId: 'eastern_sand_darter', showImage: true },
+  { statement: 'You might find this fish in sandy-bottomed pools.', answer: true, fishId: 'eastern_sand_darter', showImage: true }
 ];
 
 export default eastern_sand_darter;

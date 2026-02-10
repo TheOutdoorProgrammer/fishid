@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Blue-white catfish with moderately forked tail and white chin barbels.', answer: true, fishId: 'white_catfish' },
-  { statement: 'This fish can be identified by: Blue-gray to white body.', answer: true, fishId: 'white_catfish' },
-  { statement: 'This fish can be identified by: Moderately forked tail (less forked than channel cat).', answer: true, fishId: 'white_catfish' },
-  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'white_catfish' }
+  { statement: 'A key ID clue for this fish is: Blue-white catfish with moderately forked tail and white chin barbels.', answer: true, fishId: 'white_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Blue-gray to white body.', answer: true, fishId: 'white_catfish', showImage: true },
+  { statement: 'This fish can be identified by: Moderately forked tail (less forked than channel cat).', answer: true, fishId: 'white_catfish', showImage: true },
+  { statement: 'You might find this fish in ohio river.', answer: true, fishId: 'white_catfish', showImage: true }
 ];
 
 export default white_catfish;

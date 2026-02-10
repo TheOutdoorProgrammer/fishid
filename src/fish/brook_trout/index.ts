@@ -36,10 +36,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Worm-like markings on back, red spots with blue halos, white-edged lower fins.', answer: true, fishId: 'brook_trout' },
-  { statement: 'This fish can be identified by: Dark green body with distinctive worm-like markings (vermiculations) on back.', answer: true, fishId: 'brook_trout' },
-  { statement: 'This fish can be identified by: Red spots with blue halos on sides.', answer: true, fishId: 'brook_trout' },
-  { statement: 'You might find this fish in cold.', answer: true, fishId: 'brook_trout' }
+  { statement: 'A key ID clue for this fish is: Worm-like markings on back, red spots with blue halos, white-edged lower fins.', answer: true, fishId: 'brook_trout', showImage: true },
+  { statement: 'This fish can be identified by: Dark green body with distinctive worm-like markings (vermiculations) on back.', answer: true, fishId: 'brook_trout', showImage: true },
+  { statement: 'This fish can be identified by: Red spots with blue halos on sides.', answer: true, fishId: 'brook_trout', showImage: true },
+  { statement: 'You might find this fish in cold.', answer: true, fishId: 'brook_trout', showImage: true }
 ];
 
 export default brook_trout;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Silver carpsucker with exceptionally tall dorsal fin and nipple on lower lip.', answer: true, fishId: 'highfin_carpsucker' },
-  { statement: 'This fish can be identified by: Deep, compressed silver body.', answer: true, fishId: 'highfin_carpsucker' },
-  { statement: 'This fish can be identified by: Very tall dorsal fin (first rays extremely elongated).', answer: true, fishId: 'highfin_carpsucker' },
-  { statement: 'You might find this fish in large rivers with moderate current.', answer: true, fishId: 'highfin_carpsucker' }
+  { statement: 'A key ID clue for this fish is: Silver carpsucker with exceptionally tall dorsal fin and nipple on lower lip.', answer: true, fishId: 'highfin_carpsucker', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed silver body.', answer: true, fishId: 'highfin_carpsucker', showImage: true },
+  { statement: 'This fish can be identified by: Very tall dorsal fin (first rays extremely elongated).', answer: true, fishId: 'highfin_carpsucker', showImage: true },
+  { statement: 'You might find this fish in large rivers with moderate current.', answer: true, fishId: 'highfin_carpsucker', showImage: true }
 ];
 
 export default highfin_carpsucker;

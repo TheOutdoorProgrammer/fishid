@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Carp-like fish without barbels; wild ones are dark olive (not pet-store gold).', answer: true, fishId: 'goldfish' },
-  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'goldfish' },
-  { statement: 'This fish can be identified by: Gold to olive body (wild-type are dark).', answer: true, fishId: 'goldfish' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'goldfish' }
+  { statement: 'A key ID clue for this fish is: Carp-like fish without barbels; wild ones are dark olive (not pet-store gold).', answer: true, fishId: 'goldfish', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'goldfish', showImage: true },
+  { statement: 'This fish can be identified by: Gold to olive body (wild-type are dark).', answer: true, fishId: 'goldfish', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'goldfish', showImage: true }
 ];
 
 export default goldfish;

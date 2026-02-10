@@ -33,10 +33,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large mouth extending past eye, dark horizontal stripe.', answer: true, fishId: 'largemouth_bass' },
-  { statement: 'This fish can be identified by: Green to olive body with lighter belly.', answer: true, fishId: 'largemouth_bass' },
-  { statement: 'This fish can be identified by: Dark lateral stripe (horizontal band).', answer: true, fishId: 'largemouth_bass' },
-  { statement: 'You might find this fish in warm.', answer: true, fishId: 'largemouth_bass' }
+  { statement: 'A key ID clue for this fish is: Large mouth extending past eye, dark horizontal stripe.', answer: true, fishId: 'largemouth_bass', showImage: true },
+  { statement: 'This fish can be identified by: Green to olive body with lighter belly.', answer: true, fishId: 'largemouth_bass', showImage: true },
+  { statement: 'This fish can be identified by: Dark lateral stripe (horizontal band).', answer: true, fishId: 'largemouth_bass', showImage: true },
+  { statement: 'You might find this fish in warm.', answer: true, fishId: 'largemouth_bass', showImage: true }
 ];
 
 export default largemouth_bass;

@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Tiny dark catfish with chubby tadpole shape and connected adipose fin.', answer: true, fishId: 'tadpole_madtom' },
-  { statement: 'This fish can be identified by: Tiny, dark-colored catfish.', answer: true, fishId: 'tadpole_madtom' },
-  { statement: 'This fish can be identified by: Chubby tadpole-like body shape.', answer: true, fishId: 'tadpole_madtom' },
-  { statement: 'You might find this fish in muddy-bottomed ponds.', answer: true, fishId: 'tadpole_madtom' }
+  { statement: 'A key ID clue for this fish is: Tiny dark catfish with chubby tadpole shape and connected adipose fin.', answer: true, fishId: 'tadpole_madtom', showImage: true },
+  { statement: 'This fish can be identified by: Tiny, dark-colored catfish.', answer: true, fishId: 'tadpole_madtom', showImage: true },
+  { statement: 'This fish can be identified by: Chubby tadpole-like body shape.', answer: true, fishId: 'tadpole_madtom', showImage: true },
+  { statement: 'You might find this fish in muddy-bottomed ponds.', answer: true, fishId: 'tadpole_madtom', showImage: true }
 ];
 
 export default tadpole_madtom;

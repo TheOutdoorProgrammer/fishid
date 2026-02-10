@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Golden-yellow body with dark vertical bars.', answer: true, fishId: 'yellow_perch' },
-  { statement: 'This fish can be identified by: Bright golden-yellow body.', answer: true, fishId: 'yellow_perch' },
-  { statement: 'This fish can be identified by: 6-8 dark vertical bars on sides.', answer: true, fishId: 'yellow_perch' },
-  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'yellow_perch' }
+  { statement: 'A key ID clue for this fish is: Golden-yellow body with dark vertical bars.', answer: true, fishId: 'yellow_perch', showImage: true },
+  { statement: 'This fish can be identified by: Bright golden-yellow body.', answer: true, fishId: 'yellow_perch', showImage: true },
+  { statement: 'This fish can be identified by: 6-8 dark vertical bars on sides.', answer: true, fishId: 'yellow_perch', showImage: true },
+  { statement: 'You might find this fish in great lakes (including lake erie).', answer: true, fishId: 'yellow_perch', showImage: true }
 ];
 
 export default yellow_perch;

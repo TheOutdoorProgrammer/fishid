@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Long dorsal fin nearly reaching round tail, with dark spot at tail base (males).', answer: true, fishId: 'bowfin' },
-  { statement: 'This fish can be identified by: Long dorsal fin extending most of body length.', answer: true, fishId: 'bowfin' },
-  { statement: 'This fish can be identified by: Rounded tail fin (not forked).', answer: true, fishId: 'bowfin' },
-  { statement: 'You might find this fish in weedy lakes.', answer: true, fishId: 'bowfin' }
+  { statement: 'A key ID clue for this fish is: Long dorsal fin nearly reaching round tail, with dark spot at tail base (males).', answer: true, fishId: 'bowfin', showImage: true },
+  { statement: 'This fish can be identified by: Long dorsal fin extending most of body length.', answer: true, fishId: 'bowfin', showImage: true },
+  { statement: 'This fish can be identified by: Rounded tail fin (not forked).', answer: true, fishId: 'bowfin', showImage: true },
+  { statement: 'You might find this fish in weedy lakes.', answer: true, fishId: 'bowfin', showImage: true }
 ];
 
 export default bowfin;

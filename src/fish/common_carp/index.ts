@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large golden-bronze body with big scales and mouth barbels.', answer: true, fishId: 'common_carp' },
-  { statement: 'This fish can be identified by: Large, thick body with big scales.', answer: true, fishId: 'common_carp' },
-  { statement: 'This fish can be identified by: Golden-bronze to olive color.', answer: true, fishId: 'common_carp' },
-  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'common_carp' }
+  { statement: 'A key ID clue for this fish is: Large golden-bronze body with big scales and mouth barbels.', answer: true, fishId: 'common_carp', showImage: true },
+  { statement: 'This fish can be identified by: Large, thick body with big scales.', answer: true, fishId: 'common_carp', showImage: true },
+  { statement: 'This fish can be identified by: Golden-bronze to olive color.', answer: true, fishId: 'common_carp', showImage: true },
+  { statement: 'You might find this fish in lakes.', answer: true, fishId: 'common_carp', showImage: true }
 ];
 
 export default common_carp;

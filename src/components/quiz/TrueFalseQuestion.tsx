@@ -1,8 +1,10 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { TrueFalseQuestion as TrueFalseQuestionType } from '@/types';
 import Card from '@/components/ui/Card';
+import { FISH } from '@/fish';
+import { getRandomFishImage } from '@/lib/utils';
 
 interface TrueFalseQuestionProps {
   question: TrueFalseQuestionType;
@@ -17,8 +19,23 @@ export default function TrueFalseQuestion({
   showFeedback,
   userAnswer,
 }: TrueFalseQuestionProps) {
+  const fish = question.showImage ? FISH[question.fishId] : null;
+  const imageSrc = useMemo(
+    () => (fish ? getRandomFishImage(fish.image || [], question.fishId) : null),
+    [fish, question.fishId]
+  );
+
   return (
     <div className="flex flex-col gap-6">
+      {imageSrc && (
+        <Card className="flex flex-col items-center justify-center p-6 min-h-[200px]">
+          <img
+            src={imageSrc}
+            alt="Fish in question"
+            className="max-h-[160px] w-auto object-contain drop-shadow-md"
+          />
+        </Card>
+      )}
       <Card className="flex flex-col items-center gap-4 p-6 min-h-[180px] justify-center">
         <p className="text-xl font-bold text-center leading-snug">{question.statement}</p>
       </Card>

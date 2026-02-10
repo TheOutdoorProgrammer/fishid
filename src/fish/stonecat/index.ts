@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small catfish with adipose fin fused to rounded tail and yellow-brown color.', answer: true, fishId: 'stonecat' },
-  { statement: 'This fish can be identified by: Small, slender catfish.', answer: true, fishId: 'stonecat' },
-  { statement: 'This fish can be identified by: Yellowish-brown to gray body.', answer: true, fishId: 'stonecat' },
-  { statement: 'You might find this fish in rocky riffles in streams.', answer: true, fishId: 'stonecat' }
+  { statement: 'A key ID clue for this fish is: Small catfish with adipose fin fused to rounded tail and yellow-brown color.', answer: true, fishId: 'stonecat', showImage: true },
+  { statement: 'This fish can be identified by: Small, slender catfish.', answer: true, fishId: 'stonecat', showImage: true },
+  { statement: 'This fish can be identified by: Yellowish-brown to gray body.', answer: true, fishId: 'stonecat', showImage: true },
+  { statement: 'You might find this fish in rocky riffles in streams.', answer: true, fishId: 'stonecat', showImage: true }
 ];
 
 export default stonecat;

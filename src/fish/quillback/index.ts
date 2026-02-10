@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep silver body with very long first dorsal ray (the quill).', answer: true, fishId: 'quillback' },
-  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'quillback' },
-  { statement: 'This fish can be identified by: First ray of dorsal fin extremely long (like a quill).', answer: true, fishId: 'quillback' },
-  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'quillback' }
+  { statement: 'A key ID clue for this fish is: Deep silver body with very long first dorsal ray (the quill).', answer: true, fishId: 'quillback', showImage: true },
+  { statement: 'This fish can be identified by: Deep, laterally compressed silver body.', answer: true, fishId: 'quillback', showImage: true },
+  { statement: 'This fish can be identified by: First ray of dorsal fin extremely long (like a quill).', answer: true, fishId: 'quillback', showImage: true },
+  { statement: 'You might find this fish in rivers.', answer: true, fishId: 'quillback', showImage: true }
 ];
 
 export default quillback;

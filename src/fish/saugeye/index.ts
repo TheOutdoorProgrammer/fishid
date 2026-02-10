@@ -35,10 +35,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Looks like walleye but with spotted dorsal fin and darker blotches.', answer: true, fishId: 'saugeye' },
-  { statement: 'This fish can be identified by: Olive-gold body (similar to walleye).', answer: true, fishId: 'saugeye' },
-  { statement: 'This fish can be identified by: Dark blotches/saddle marks on back.', answer: true, fishId: 'saugeye' },
-  { statement: 'You might find this fish in ohio reservoirs.', answer: true, fishId: 'saugeye' }
+  { statement: 'A key ID clue for this fish is: Looks like walleye but with spotted dorsal fin and darker blotches.', answer: true, fishId: 'saugeye', showImage: true },
+  { statement: 'This fish can be identified by: Olive-gold body (similar to walleye).', answer: true, fishId: 'saugeye', showImage: true },
+  { statement: 'This fish can be identified by: Dark blotches/saddle marks on back.', answer: true, fishId: 'saugeye', showImage: true },
+  { statement: 'You might find this fish in ohio reservoirs.', answer: true, fishId: 'saugeye', showImage: true }
 ];
 
 export default saugeye;

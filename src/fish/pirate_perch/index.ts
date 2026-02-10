@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Dark small fish with unique forward-migrating anus positioned under throat.', answer: true, fishId: 'pirate_perch' },
-  { statement: 'This fish can be identified by: Small, dark-bodied fish.', answer: true, fishId: 'pirate_perch' },
-  { statement: 'This fish can be identified by: Anus located under the throat in adults (unique!).', answer: true, fishId: 'pirate_perch' },
-  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'pirate_perch' }
+  { statement: 'A key ID clue for this fish is: Dark small fish with unique forward-migrating anus positioned under throat.', answer: true, fishId: 'pirate_perch', showImage: true },
+  { statement: 'This fish can be identified by: Small, dark-bodied fish.', answer: true, fishId: 'pirate_perch', showImage: true },
+  { statement: 'This fish can be identified by: Anus located under the throat in adults (unique!).', answer: true, fishId: 'pirate_perch', showImage: true },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'pirate_perch', showImage: true }
 ];
 
 export default pirate_perch;

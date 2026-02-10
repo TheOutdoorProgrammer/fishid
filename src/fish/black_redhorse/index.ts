@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Dark-edged scales creating cross-hatch pattern and dusky (not red) fins.', answer: true, fishId: 'black_redhorse' },
-  { statement: 'This fish can be identified by: Olive to dark bronze body.', answer: true, fishId: 'black_redhorse' },
-  { statement: 'This fish can be identified by: Dark-edged scales giving a cross-hatched look.', answer: true, fishId: 'black_redhorse' },
-  { statement: 'You might find this fish in clear streams.', answer: true, fishId: 'black_redhorse' }
+  { statement: 'A key ID clue for this fish is: Dark-edged scales creating cross-hatch pattern and dusky (not red) fins.', answer: true, fishId: 'black_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Olive to dark bronze body.', answer: true, fishId: 'black_redhorse', showImage: true },
+  { statement: 'This fish can be identified by: Dark-edged scales giving a cross-hatched look.', answer: true, fishId: 'black_redhorse', showImage: true },
+  { statement: 'You might find this fish in clear streams.', answer: true, fishId: 'black_redhorse', showImage: true }
 ];
 
 export default black_redhorse;

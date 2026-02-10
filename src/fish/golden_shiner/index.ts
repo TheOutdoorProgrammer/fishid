@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep-bodied golden minnow with strongly decurved lateral line and belly keel.', answer: true, fishId: 'golden_shiner' },
-  { statement: 'This fish can be identified by: Deep, laterally compressed body.', answer: true, fishId: 'golden_shiner' },
-  { statement: 'This fish can be identified by: Golden to olive coloring.', answer: true, fishId: 'golden_shiner' },
-  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'golden_shiner' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied golden minnow with strongly decurved lateral line and belly keel.', answer: true, fishId: 'golden_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Deep, laterally compressed body.', answer: true, fishId: 'golden_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Golden to olive coloring.', answer: true, fishId: 'golden_shiner', showImage: true },
+  { statement: 'You might find this fish in ponds.', answer: true, fishId: 'golden_shiner', showImage: true }
 ];
 
 export default golden_shiner;

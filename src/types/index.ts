@@ -72,6 +72,7 @@ export type TrueFalseQuestion = {
   statement: string;
   options: Array<{ label: string; value: boolean }>;
   correct: boolean;
+  showImage?: boolean;
 };
 
 /**

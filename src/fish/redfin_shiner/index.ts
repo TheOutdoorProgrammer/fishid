@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Deep-bodied steel-blue shiner with bright red fins on breeding males.', answer: true, fishId: 'redfin_shiner' },
-  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'redfin_shiner' },
-  { statement: 'This fish can be identified by: Steel-blue back and upper sides.', answer: true, fishId: 'redfin_shiner' },
-  { statement: 'You might find this fish in quiet pools of streams.', answer: true, fishId: 'redfin_shiner' }
+  { statement: 'A key ID clue for this fish is: Deep-bodied steel-blue shiner with bright red fins on breeding males.', answer: true, fishId: 'redfin_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Deep, compressed body.', answer: true, fishId: 'redfin_shiner', showImage: true },
+  { statement: 'This fish can be identified by: Steel-blue back and upper sides.', answer: true, fishId: 'redfin_shiner', showImage: true },
+  { statement: 'You might find this fish in quiet pools of streams.', answer: true, fishId: 'redfin_shiner', showImage: true }
 ];
 
 export default redfin_shiner;

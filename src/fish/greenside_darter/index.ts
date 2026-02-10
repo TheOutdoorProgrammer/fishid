@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Largest darter with green body and U/V-shaped dark marks on sides.', answer: true, fishId: 'greenside_darter' },
-  { statement: 'This fish can be identified by: Largest Ohio darter (can reach 6 inches).', answer: true, fishId: 'greenside_darter' },
-  { statement: 'This fish can be identified by: Green to olive body with U or V-shaped dark bars on sides.', answer: true, fishId: 'greenside_darter' },
-  { statement: 'You might find this fish in rocky riffles of clear streams with moderate current.', answer: true, fishId: 'greenside_darter' }
+  { statement: 'A key ID clue for this fish is: Largest darter with green body and U/V-shaped dark marks on sides.', answer: true, fishId: 'greenside_darter', showImage: true },
+  { statement: 'This fish can be identified by: Largest Ohio darter (can reach 6 inches).', answer: true, fishId: 'greenside_darter', showImage: true },
+  { statement: 'This fish can be identified by: Green to olive body with U or V-shaped dark bars on sides.', answer: true, fishId: 'greenside_darter', showImage: true },
+  { statement: 'You might find this fish in rocky riffles of clear streams with moderate current.', answer: true, fishId: 'greenside_darter', showImage: true }
 ];
 
 export default greenside_darter;

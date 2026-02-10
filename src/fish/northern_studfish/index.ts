@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large killifish with rows of red-brown spots; breeding males turn vivid blue.', answer: true, fishId: 'northern_studfish' },
-  { statement: 'This fish can be identified by: Elongated body with flat head.', answer: true, fishId: 'northern_studfish' },
-  { statement: 'This fish can be identified by: Rows of reddish-brown spots on olive body.', answer: true, fishId: 'northern_studfish' },
-  { statement: 'You might find this fish in clear rocky streams in southeastern ohio.', answer: true, fishId: 'northern_studfish' }
+  { statement: 'A key ID clue for this fish is: Large killifish with rows of red-brown spots; breeding males turn vivid blue.', answer: true, fishId: 'northern_studfish', showImage: true },
+  { statement: 'This fish can be identified by: Elongated body with flat head.', answer: true, fishId: 'northern_studfish', showImage: true },
+  { statement: 'This fish can be identified by: Rows of reddish-brown spots on olive body.', answer: true, fishId: 'northern_studfish', showImage: true },
+  { statement: 'You might find this fish in clear rocky streams in southeastern ohio.', answer: true, fishId: 'northern_studfish', showImage: true }
 ];
 
 export default northern_studfish;

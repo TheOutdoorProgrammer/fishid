@@ -33,4 +33,5 @@ export type TrueFalseQuestion = {
   statement: string;
   answer: boolean;
   fishId: string;
+  showImage?: boolean;
 };

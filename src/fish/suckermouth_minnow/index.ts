@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Minnow with distinctive fleshy sucker-like mouth on bottom of head.', answer: true, fishId: 'suckermouth_minnow' },
-  { statement: 'This fish can be identified by: Elongated body with flattened underside.', answer: true, fishId: 'suckermouth_minnow' },
-  { statement: 'This fish can be identified by: Fleshy sucker-like mouth on underside of head.', answer: true, fishId: 'suckermouth_minnow' },
-  { statement: 'You might find this fish in riffles of streams with gravel or rocky bottoms.', answer: true, fishId: 'suckermouth_minnow' }
+  { statement: 'A key ID clue for this fish is: Minnow with distinctive fleshy sucker-like mouth on bottom of head.', answer: true, fishId: 'suckermouth_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Elongated body with flattened underside.', answer: true, fishId: 'suckermouth_minnow', showImage: true },
+  { statement: 'This fish can be identified by: Fleshy sucker-like mouth on underside of head.', answer: true, fishId: 'suckermouth_minnow', showImage: true },
+  { statement: 'You might find this fish in riffles of streams with gravel or rocky bottoms.', answer: true, fishId: 'suckermouth_minnow', showImage: true }
 ];
 
 export default suckermouth_minnow;

@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Large silver carp with eyes set very low on head, below the mouth line.', answer: true, fishId: 'silver_carp_invasive' },
-  { statement: 'This fish can be identified by: Large, deep-bodied silver fish.', answer: true, fishId: 'silver_carp_invasive' },
-  { statement: 'This fish can be identified by: Eyes set very low on head (below mouth line).', answer: true, fishId: 'silver_carp_invasive' },
-  { statement: 'You might find this fish in ohio river system.', answer: true, fishId: 'silver_carp_invasive' }
+  { statement: 'A key ID clue for this fish is: Large silver carp with eyes set very low on head, below the mouth line.', answer: true, fishId: 'silver_carp_invasive', showImage: true },
+  { statement: 'This fish can be identified by: Large, deep-bodied silver fish.', answer: true, fishId: 'silver_carp_invasive', showImage: true },
+  { statement: 'This fish can be identified by: Eyes set very low on head (below mouth line).', answer: true, fishId: 'silver_carp_invasive', showImage: true },
+  { statement: 'You might find this fish in ohio river system.', answer: true, fishId: 'silver_carp_invasive', showImage: true }
 ];
 
 export default silver_carp_invasive;

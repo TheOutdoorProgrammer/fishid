@@ -34,10 +34,10 @@ export const featureOptions: FeatureOption = {
 };
 
 export const trueFalseQuestions: TrueFalseQuestion[] = [
-  { statement: 'A key ID clue for this fish is: Small stout fish with rounded tail, dark tail-base bar, and air-breathing ability.', answer: true, fishId: 'central_mudminnow' },
-  { statement: 'This fish can be identified by: Small, stout body with rounded tail.', answer: true, fishId: 'central_mudminnow' },
-  { statement: 'This fish can be identified by: Dark brown to olive with faint bars or mottling.', answer: true, fishId: 'central_mudminnow' },
-  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'central_mudminnow' }
+  { statement: 'A key ID clue for this fish is: Small stout fish with rounded tail, dark tail-base bar, and air-breathing ability.', answer: true, fishId: 'central_mudminnow', showImage: true },
+  { statement: 'This fish can be identified by: Small, stout body with rounded tail.', answer: true, fishId: 'central_mudminnow', showImage: true },
+  { statement: 'This fish can be identified by: Dark brown to olive with faint bars or mottling.', answer: true, fishId: 'central_mudminnow', showImage: true },
+  { statement: 'You might find this fish in swamps.', answer: true, fishId: 'central_mudminnow', showImage: true }
 ];
 
 export default central_mudminnow;
