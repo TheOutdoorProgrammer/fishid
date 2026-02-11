@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import AppLayout from '@/components/layout/AppLayout';
 import HomeScreen from '@/components/screens/HomeScreen';
 import InstallScreen from '@/components/screens/InstallScreen';

@@ -207,9 +207,8 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
           variant={isLast ? 'gold' : 'primary'}
           onClick={handleNext}
           className="flex-1"
-          disabled={isLast && !canQuiz}
         >
-          {isLast ? (canQuiz ? 'Start Quiz' : 'Out of Hearts') : 'Next Fish'}
+          {isLast ? (canQuiz ? 'Start Quiz' : 'Finish Lesson') : 'Next Fish'}
         </Button>
       </div>
     </div>
