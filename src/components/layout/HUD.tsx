@@ -5,11 +5,11 @@ import { useGameStore } from '@/store/gameStore';
 import { Heart, Star, Flame } from '../ui/icons';
 
 export default function HUD() {
-  const { hearts, heartsMax, lastHeartTs, xp, streak } = useGameStore();
+  const { hearts, heartsMax, lastHeartTs, xp, streak, regenHearts } = useGameStore();
   const [countdown, setCountdown] = useState('');
 
   useEffect(() => {
-    const HEART_REGEN_MS = 600000;
+    const HEART_REGEN_MS = 10 * 60 * 1000; // 10 minutes (matching gameStore.ts)
 
     const updateCountdown = () => {
       if (hearts >= heartsMax) {
@@ -19,6 +19,12 @@ export default function HUD() {
 
       const now = Date.now();
       const elapsed = now - lastHeartTs;
+
+      if (elapsed >= HEART_REGEN_MS) {
+        regenHearts();
+        return;
+      }
+
       const timeToNext = HEART_REGEN_MS - (elapsed % HEART_REGEN_MS);
       const minutes = Math.floor(timeToNext / 60000);
       const seconds = Math.floor((timeToNext % 60000) / 1000);

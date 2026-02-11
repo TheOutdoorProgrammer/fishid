@@ -13,7 +13,6 @@ import StarRating from '@/components/ui/StarRating';
 
 import IdentifyQuestion from './IdentifyQuestion';
 import FeatureQuestion from './FeatureQuestion';
-import HabitatQuestion from './HabitatQuestion';
 import TrueFalseQuestion from './TrueFalseQuestion';
 import MatchQuestion from './MatchQuestion';
 import SpotQuestion from './SpotQuestion';
@@ -26,7 +25,7 @@ interface QuizScreenProps {
 }
 
 export default function QuizScreen({ questions, lessonId, onExit, onRetry }: QuizScreenProps) {
-  const { addXP, spendHeart, settings, updateLesson, lessons, updateFishStats } = useGameStore();
+  const { addXP, spendHeart, hearts, settings, updateLesson, lessons, updateFishStats } = useGameStore();
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<Record<number, any>>({});
@@ -37,6 +36,13 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
   const [correctCount, setCorrectCount] = useState(0);
   const [xpEarned, setXpEarned] = useState(0);
   const [lessonBonusXp, setLessonBonusXp] = useState(0);
+
+  // If we lose all hearts mid-quiz, exit immediately.
+  useEffect(() => {
+    if (hearts <= 0 && !settings.allowSkipUnlock && !quizComplete) {
+      onExit();
+    }
+  }, [hearts, settings.allowSkipUnlock, quizComplete, onExit]);
 
   const currentQuestion = questions[currentIndex];
   const progress = (currentIndex / questions.length) * 100;
@@ -64,10 +70,6 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
         questionXp = 14;
         break;
       case 'feature':
-        isCorrect = answer === currentQuestion.correct;
-        questionXp = 12;
-        break;
-      case 'habitat':
         isCorrect = answer === currentQuestion.correct;
         questionXp = 12;
         break;
@@ -252,14 +254,6 @@ export default function QuizScreen({ questions, lessonId, onExit, onRetry }: Qui
           )}
           {currentQuestion.type === 'feature' && (
             <FeatureQuestion
-              question={currentQuestion}
-              onAnswer={handleAnswer}
-              showFeedback={showFeedback}
-              userAnswer={userAnswers[currentIndex]}
-            />
-          )}
-          {currentQuestion.type === 'habitat' && (
-            <HabitatQuestion
               question={currentQuestion}
               onAnswer={handleAnswer}
               showFeedback={showFeedback}

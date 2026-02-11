@@ -25,8 +25,15 @@ export default function App() {
   const [lastQuizParams, setLastQuizParams] = useState<any>(null);
   const [selectedFishId, setSelectedFishId] = useState<string | null>(null);
 
-  const { fishStats } = useGameStore();
+  const { fishStats, hearts, settings, regenHearts } = useGameStore();
   const { isInstalled } = usePWAInstall();
+
+  // Handle heart regeneration
+  useEffect(() => {
+    regenHearts();
+    const interval = setInterval(regenHearts, 30000); // Every 30 seconds
+    return () => clearInterval(interval);
+  }, [regenHearts]);
 
   // Gate: require install before using the app
   // isInstalled is null while checking, show loading
@@ -52,6 +59,11 @@ export default function App() {
     }
 
     if (screen === 'quiz') {
+      if (hearts <= 0 && !settings.allowSkipUnlock) {
+        // Don't navigate to quiz if no hearts
+        return;
+      }
+
       setLastQuizParams(params || null);
       let questions: QuizQuestion[] = [];
       let qLessonId: string | null = null;

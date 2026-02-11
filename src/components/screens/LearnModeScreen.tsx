@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { LESSONS } from '@/store/gameStore';
+import { useGameStore, LESSONS } from '@/store/gameStore';
 import { FISH } from '@/fish';
 import type { FishRef } from '@/fish/types';
 import { getRandomFishImage } from '@/lib/utils';
@@ -17,6 +17,7 @@ interface LearnModeScreenProps {
 }
 
 export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScreenProps) {
+  const { hearts, settings } = useGameStore();
   const lesson = LESSONS.find((l) => l.id === lessonId);
   const fishIds = lesson?.fish || [];
 
@@ -62,7 +63,11 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
 
   const handleNext = () => {
     if (isLast) {
-      onNavigate('quiz', { lessonId });
+      if (hearts > 0 || settings.allowSkipUnlock) {
+        onNavigate('quiz', { lessonId });
+      } else {
+        onNavigate('learn');
+      }
     } else {
       setCurrentIndex((prev) => prev + 1);
       scrollToTop();
@@ -75,6 +80,8 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
       scrollToTop();
     }
   };
+
+  const canQuiz = hearts > 0 || settings.allowSkipUnlock;
 
   return (
     <div className="flex flex-col">
@@ -196,8 +203,13 @@ export default function LearnModeScreen({ onNavigate, lessonId }: LearnModeScree
         <Button variant="ghost" onClick={handlePrev} disabled={currentIndex === 0} className="w-14">
           ◀
         </Button>
-        <Button variant={isLast ? 'gold' : 'primary'} onClick={handleNext} className="flex-1">
-          {isLast ? 'Start Quiz' : 'Next Fish'}
+        <Button
+          variant={isLast ? 'gold' : 'primary'}
+          onClick={handleNext}
+          className="flex-1"
+          disabled={isLast && !canQuiz}
+        >
+          {isLast ? (canQuiz ? 'Start Quiz' : 'Out of Hearts') : 'Next Fish'}
         </Button>
       </div>
     </div>

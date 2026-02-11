@@ -37,7 +37,7 @@ type QuizData = {
 
 const FISH_BY_ID = FISH as Record<string, Fish>;
 const ALL_FISH = Object.values(FISH_BY_ID);
-const QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'habitat', 'tf', 'match', 'spot'];
+const QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'tf', 'match', 'spot'];
 
 function containsFishName(text: string, fishName: string): boolean {
   const t = (text || '').toLowerCase();
@@ -61,7 +61,7 @@ const QUIZ_DATA = loadQuizData();
 
 // Lesson quizzes should focus on questions that actually test a specific fish.
 // (Match questions don’t map cleanly to a single fish for discovery/weak-spot tracking.)
-const LESSON_QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'habitat', 'tf', 'spot'];
+const LESSON_QUESTION_TYPES: QuizType[] = ['identify', 'feature', 'tf', 'spot'];
 
 export function buildLessonQuizQuestions(fishPool: Fish[], count: number): QuizQuestion[] {
   const pool = fishPool.length ? fishPool.slice() : ALL_FISH.slice();
@@ -74,8 +74,6 @@ export function buildLessonQuizQuestions(fishPool: Fish[], count: number): QuizQ
       questions.push(qIdentify(pool, used));
     } else if (type === 'feature') {
       questions.push(qFeature(pool, used));
-    } else if (type === 'habitat') {
-      questions.push(qHabitat(pool, used));
     } else if (type === 'tf') {
       questions.push(qTrueFalse(pool, used));
     } else {
@@ -97,8 +95,6 @@ export function buildQuizQuestions(fishPool: Fish[], count: number): QuizQuestio
       questions.push(qIdentify(pool, used));
     } else if (type === 'feature') {
       questions.push(qFeature(pool, used));
-    } else if (type === 'habitat') {
-      questions.push(qHabitat(pool, used));
     } else if (type === 'tf') {
       questions.push(qTrueFalse(pool, used));
     } else if (type === 'match') {
